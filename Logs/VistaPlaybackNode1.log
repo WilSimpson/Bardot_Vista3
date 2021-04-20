@@ -1,0 +1,34 @@
+- 20:57:19.000 INFO   : (@main:150) Mon Apr 19 20:57:19 2021
+- 20:57:19.000 INFO   : (@main:151) OS: Windows 10 (10.0), CPU: x86_64, Logical Cores: 12
+- 20:57:19.000 INFO   : (@`anonymous-namespace'::getThisExecutableDirPath:86) Path to executable: C:/Program Files (x86)/Chroma-Q/Vista3/VistaPlaybackNode.exe
+- 20:57:19.000 INFO   : (@Directory::getPath:848) QtPlugins path = C:/Program Files (x86)/Chroma-Q/Vista3/plugins
+- 20:57:19.000 INFO   : (@main:161) Starting C:/Program Files (x86)/Chroma-Q/Vista3/VistaPlaybackNode.exe
+- 20:57:19.000 INFO   : (@main:164) default plugin path: c:/Qt/Qt5.8.0/plugins
+- 20:57:19.016 INFO   : (@InitialiseHardwareInterfaceLibrary:10) Initializing Hardware Interface
+- 20:57:19.016 INFO   : (@BoostNetworkThread::run:54 ##188d7a8) starting
+- 20:57:19.016 INFO   : (@BoostNetworkThread::run:54 ##188d898) starting
+- 20:57:19.016 INFO   : (@USB::libusbInit:143) Initializing libusb...
+- 20:57:19.016 INFO   : (@UsbManager::UsbManager:154) Initializing USB Manager
+- 20:57:19.016 INFO   : (@DpuManager::initialiseLocalConfiguration:80) initializing
+- 20:57:19.016 INFO   : (@BoostNetworkThread::run:54 ##18bdda0) starting
+- 20:57:19.031 INFO   : (@getLocalHostUuid:41) Local hostID: 841cca3b
+- 20:57:19.031 INFO   : (@getLocalHostUuid:49) Local hostID: 841cca3b
+- 20:57:19.031 INFO   : (@DpuManager::initialiseLocalConfiguration:117) Available CPU capability: 12 host type: 0
+- 20:57:19.031 INFO   : (@TimecodeManager::TimecodeManager:71) 
+- 20:57:19.031 INFO   : (@InitialiseShowLibrary:163) Initializing show Library
+- 20:57:19.031 INFO   : (@Console::Console:71) (props) type 100 (Art-Net) vcID: b44d6a80 hwID: b44d6a80
+- 20:57:19.031 INFO   : (@Console::Console:71) (props) type 102 (sACN) vcID: 669aa062 hwID: 669aa062
+- 20:57:19.031 INFO   : (@Console::Console:71) (props) type 101 (Pathport) vcID: 4e55c8af hwID: 4e55c8af
+- 20:57:19.031 INFO   : (@Directory::getPath:858) Preferences path = C:\\Vista 3
+- 20:57:19.047 INFO   : (@ShowManager::ShowManager:128) 
+- 20:57:19.047 INFO   :NETWORK: (@PlaybackNodeManager::PlaybackNodeManager:252) VistaPlaybackNode_1: new instance
+- 20:57:19.047 INFO   : (@BoostNetworkThread::run:54 ##18a7118) starting
+- 20:57:19.047 INFO   : (@BoostNetworkThread::run:54 ##18a7088) starting
+- 20:57:19.047 INFO   : (@BoostNetworkThread::run:54 ##18a7028) starting
+- 20:57:19.047 INFO   : (@BoostNetworkThread::run:54 ##18a71d8) starting
+- 20:57:19.047 INFO   : (@BoostNetworkThread::run:54 ##18a71f0) starting
+- 20:57:19.047 INFO   : (@BoostNetworkThread::run:54 ##18d3750) starting
+- 20:57:19.047 INFO   : (@BoostNetworkThread::run:54 ##18d3798) starting
+- 20:57:19.047 INFO   : (@BoostNetworkThread::run:54 ##18d36a8) starting
+- 20:57:19.047 INFO   : (@Directory::getPath:746) Factory Resources path = C:/Program Files (x86)/Chroma-Q/Vista3
+- 20:57:19.047 INFO   : (@Directory::getPath:784) FactoryEffectLibrary path = C:/Program Files (x86)/Chroma-Q/Vista3/EffectLibrary

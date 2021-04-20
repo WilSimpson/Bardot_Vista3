@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<JXmlArchive>
+
+  <version>152</version>
+
+  <description>C:/Vista 3/Logs/VistaNetworkingConfiguration.xml</description>
+
+  <appMajor>3</appMajor>
+
+  <appMinor>3</appMinor>
+
+  <appRevision>21712</appRevision>
+
+  <compression>1</compression>
+
+  <archiveRevisions>
+    <size>55</size>
+    <x>381290</x>
+    <x>392871</x>
+    <x>2342646</x>
+    <x>3876428</x>
+    <x>8401247</x>
+    <x>9893724</x>
+    <x>13429243</x>
+    <x>20938420</x>
+    <x>26546308</x>
+    <x>27779797</x>
+    <x>28670234</x>
+    <x>29783875</x>
+    <x>29939870</x>
+    <x>32093939</x>
+    <x>32468553</x>
+    <x>33085353</x>
+    <x>37295883</x>
+    <x>39203493</x>
+    <x>39498383</x>
+    <x>39750045</x>
+    <x>48579819</x>
+    <x>49822871</x>
+    <x>52555323</x>
+    <x>63454231</x>
+    <x>64532972</x>
+    <x>64627098</x>
+    <x>65562356</x>
+    <x>76435281</x>
+    <x>76456622</x>
+    <x>80385722</x>
+    <x>87347798</x>
+    <x>88471254</x>
+    <x>94811111</x>
+    <x>96648562</x>
+    <x>98098098</x>
+    <x>98790987</x>
+    <x>145786214</x>
+    <x>153842879</x>
+    <x>177344285</x>
+    <x>218432226</x>
+    <x>234832458</x>
+    <x>282611586</x>
+    <x>499084733</x>
+    <x>621414578</x>
+    <x>653532616</x>
+    <x>712334721</x>
+    <x>747398329</x>
+    <x>814329786</x>
+    <x>823434720</x>
+    <x>845122782</x>
+    <x>923475945</x>
+    <x>928364193</x>
+    <x>944674231</x>
+    <x>1160122949</x>
+    <x>1982734647</x>
+  </archiveRevisions>
+
+  <nodeDetail>
+    <zeroConfVersion>21712</zeroConfVersion>
+    <hostName>local</hostName>
+    <nodeName>DESKTOP-6RVQOQ4</nodeName>
+    <nodeGroup>Vista</nodeGroup>
+    <id>2216479291</id>
+    <networkRole>1</networkRole>
+    <softwareVersion>3.3.21712</softwareVersion>
+    <zeroConfigPort>22121</zeroConfigPort>
+    <showControlPort>22123</showControlPort>
+    <dpuControlPort>22124</dpuControlPort>
+    <isShowSynchronised>0</isShowSynchronised>
+  </nodeDetail>
+
+</JXmlArchive>
