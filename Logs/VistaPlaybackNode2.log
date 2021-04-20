@@ -1,0 +1,171 @@
+- 20:57:19.000 INFO   : (@main:150) Mon Apr 19 20:57:19 2021
+- 20:57:19.000 INFO   : (@main:151) OS: Windows 10 (10.0), CPU: x86_64, Logical Cores: 12
+- 20:57:19.000 INFO   : (@`anonymous-namespace'::getThisExecutableDirPath:86) Path to executable: C:/Program Files (x86)/Chroma-Q/Vista3/VistaPlaybackNode.exe
+- 20:57:19.000 INFO   : (@Directory::getPath:848) QtPlugins path = C:/Program Files (x86)/Chroma-Q/Vista3/plugins
+- 20:57:19.016 INFO   : (@main:161) Starting C:/Program Files (x86)/Chroma-Q/Vista3/VistaPlaybackNode.exe
+- 20:57:19.016 INFO   : (@main:164) default plugin path: c:/Qt/Qt5.8.0/plugins
+- 20:57:19.016 INFO   : (@InitialiseHardwareInterfaceLibrary:10) Initializing Hardware Interface
+- 20:57:19.016 INFO   : (@BoostNetworkThread::run:54 ##17e0748) starting
+- 20:57:19.016 INFO   : (@BoostNetworkThread::run:54 ##17e04f0) starting
+- 20:57:19.016 INFO   : (@USB::libusbInit:143) Initializing libusb...
+- 20:57:19.016 INFO   : (@UsbManager::UsbManager:154) Initializing USB Manager
+- 20:57:19.032 INFO   : (@DpuManager::initialiseLocalConfiguration:80) initializing
+- 20:57:19.032 INFO   : (@BoostNetworkThread::run:54 ##17eee18) starting
+- 20:57:19.032 INFO   : (@getLocalHostUuid:41) Local hostID: 841cca3b
+- 20:57:19.032 INFO   : (@getLocalHostUuid:49) Local hostID: 841cca3b
+- 20:57:19.047 INFO   : (@DpuManager::initialiseLocalConfiguration:117) Available CPU capability: 12 host type: 0
+- 20:57:19.047 INFO   : (@TimecodeManager::TimecodeManager:71) 
+- 20:57:19.047 INFO   : (@InitialiseShowLibrary:163) Initializing show Library
+- 20:57:19.047 INFO   : (@Console::Console:71) (props) type 100 (Art-Net) vcID: b44d6a80 hwID: b44d6a80
+- 20:57:19.047 INFO   : (@Console::Console:71) (props) type 102 (sACN) vcID: 669aa062 hwID: 669aa062
+- 20:57:19.047 INFO   : (@Console::Console:71) (props) type 101 (Pathport) vcID: 4e55c8af hwID: 4e55c8af
+- 20:57:19.047 INFO   : (@Directory::getPath:858) Preferences path = C:\\Vista 3
+- 20:57:19.047 INFO   : (@ShowManager::ShowManager:128) 
+- 20:57:19.047 INFO   :NETWORK: (@PlaybackNodeManager::PlaybackNodeManager:252) VistaPlaybackNode_2: new instance
+- 20:57:19.047 INFO   : (@BoostNetworkThread::run:54 ##17f57e0) starting
+- 20:57:19.047 INFO   : (@BoostNetworkThread::run:54 ##17f5810) starting
+- 20:57:19.047 INFO   : (@BoostNetworkThread::run:54 ##17f5858) starting
+- 20:57:19.047 INFO   : (@BoostNetworkThread::run:54 ##17f5888) starting
+- 20:57:19.047 INFO   : (@BoostNetworkThread::run:54 ##17f58e8) starting
+- 20:57:19.047 INFO   : (@BoostNetworkThread::run:54 ##18248f8) starting
+- 20:57:19.047 INFO   : (@BoostNetworkThread::run:54 ##1824a78) starting
+- 20:57:19.047 INFO   : (@BoostNetworkThread::run:54 ##1824910) starting
+- 20:57:19.047 INFO   : (@Directory::getPath:746) Factory Resources path = C:/Program Files (x86)/Chroma-Q/Vista3
+- 20:57:19.047 INFO   : (@Directory::getPath:784) FactoryEffectLibrary path = C:/Program Files (x86)/Chroma-Q/Vista3/EffectLibrary
+- 20:57:19.094 INFO   : (@Directory::getPath:779) UserEffectLibrary path = C:\\Vista 3/Effects
+- 20:57:19.094 INFO   : (@BoostTcpConnection::connectToServer:32) host: 127.0.0.1, port: 22125
+- 20:57:19.094 INFO   : (@BoostTcpConnection::connectToServer:32) host: 127.0.0.1, port: 22002
+- 20:57:19.094 INFO2  :NETWORK: (@BoostTcpNetwork::socketConnected:191 ##1824910) VistaPlaybackNode_2: (+)Connection established.. local: 127.0.0.1:59889, remote: 127.0.0.1:22125
+- 20:57:19.094 INFO2  :NETWORK: (@BoostTcpNetwork::socketConnected:191 ##17e0748) VistaPlaybackNode_2: (+)Connection established.. local: 127.0.0.1:59890, remote: 127.0.0.1:22002
+- 20:57:19.094 INFO   :NETWORK: (@PlaybackNodeManager::nodeConnectedSlot:541) VistaPlaybackNode_2: 127.0.0.1 connected
+- 20:57:22.985 INFO   :NETWORK: (@PlaybackNodeManager::doAboutToSync:902) VistaPlaybackNode_2: Received ABOUT_TO_SYNC
+- 20:57:22.985 INFO   :NETWORK: (@PlaybackNodeManager::setSyncProgressState:2174) VistaPlaybackNode_2: Sync Progress State: AUX_ABOUT_TO_SYNC
+- 20:57:22.016 INFO   :NETWORK: (@PlaybackNodeManager::doDpuSync:789) VistaPlaybackNode_2: Received SHOW_SYNC
+- 20:57:22.016 INFO   :NETWORK: (@PlaybackNodeManager::setSyncProgressState:2174) VistaPlaybackNode_2: Sync Progress State: AUX_RECEIVED_SHOW_ABOUT_TO_DESERIALISE
+- 20:57:22.016 INFO   :NETWORK: (@ShowManager::prepareForShowReplacement:803) VistaPlaybackNode_2: prepareForShowReplacement: Auxiliary
+- 20:57:22.016 INFO   :NETWORK: (@ShowManager::prepareForShowReplacement:820) VistaPlaybackNode_2: Emitting disablePlayback()
+- 20:57:22.016 INFO   :NETWORK: (@ShowManager::prepareForShowReplacement:823) VistaPlaybackNode_2: Emitting showAboutToLoad()
+- 20:57:22.016 INFO1  :NETWORK: (@PlaybackNodeManager::showAboutToLoadSlot:497) VistaPlaybackNode_2: Emitting stateChangedSignal()
+- 20:57:22.032 INFO   : (@Console::Console:65) serialised
+- 20:57:22.032 INFO   : (@Console::Console:65) serialised
+- 20:57:22.032 INFO   : (@Console::Console:65) serialised
+- 20:57:22.032 INFO   : (@Console::Console:65) serialised
+- 20:57:22.032 INFO   : (@ScopedTimeLogger::~ScopedTimeLogger:26) Serialise a show took 15 ms.
+- 20:57:22.032 INFO   : (@Directory::getPath:751) UserFixtureLibrary path = C:\\Vista 3/Fixtures
+- 20:57:22.032 INFO   : (@Directory::getPath:863) UserFixtureArrangementLibrary path = C:\\Vista 3/Fixtures/CustomArrangements
+- 20:57:22.032 INFO   :NETWORK: (@PlaybackNodeManager::setSyncProgressState:2174) VistaPlaybackNode_2: Sync Progress State: AUX_SHOW_DESERIALISED
+- 20:57:22.032 INFO   :NETWORK: (@PlaybackNodeManager::dpuSyncAck:658) VistaPlaybackNode_2: Sending SHOW_SYNC_ACK from: 841cca3d
+- 20:57:22.032 INFO   :NETWORK: (@PlaybackNodeManager::setSyncProgressState:2174) VistaPlaybackNode_2: Sync Progress State: AUX_SENDING_SYNC_ACKNOWLEDGEMENT
+- 20:57:22.032 INFO   :NETWORK: (@PlaybackNodeManager::doDpuSyncAck:874) VistaPlaybackNode_2: Received SHOW_SYNC_ACK from: 841cca3d
+- 20:57:22.032 WARNING:NETWORK: (@PlaybackNodeManager::doDpuSyncAck:880) VistaPlaybackNode_2: Received SHOW_SYNC_ACK from unknown playback node: 841cca3d
+- 20:57:22.032 INFO   :NETWORK: (@PlaybackNodeManager::doDpuSyncAck:874) VistaPlaybackNode_2: Received SHOW_SYNC_ACK from: 841cca3b
+- 20:57:22.032 WARNING:NETWORK: (@PlaybackNodeManager::doDpuSyncAck:880) VistaPlaybackNode_2: Received SHOW_SYNC_ACK from unknown playback node: 841cca3b
+- 20:57:23.688 INFO   :NETWORK: (@PlaybackNodeManager::doDpuSyncComplete:710) VistaPlaybackNode_2: Received SHOW_SYNC_COMPLETE message from master
+- 20:57:23.688 INFO   :NETWORK: (@PlaybackNodeManager::setSyncProgressState:2174) VistaPlaybackNode_2: Sync Progress State: AUX_PERFORMING_POST_SYNC_TASKS
+- 20:57:23.688 INFO   :NETWORK: (@ShowManager::performPostShowSynchronisationTasks:1051) VistaPlaybackNode_2: Emitting initialisePlayback()
+- 20:57:23.703 INFO   :NETWORK: (@ShowManager::performPostShowSynchronisationTasks:1055) VistaPlaybackNode_2: Emitting showLoaded()
+- 20:57:23.703 INFO   :NETWORK: (@ShowManager::performPostShowSynchronisationTasks:1058) VistaPlaybackNode_2: Emitting showLoadedNotificationCompleted()
+- 20:57:23.703 INFO1  :NETWORK: (@PlaybackNodeManager::showLoadedNotificationCompletedSlot:516) VistaPlaybackNode_2: Emitting stateChangedSignal()
+- 20:57:23.703 INFO   :NETWORK: (@ShowManager::performPostShowSynchronisationTasks:1062) VistaPlaybackNode_2: Emitting enablePlayback()
+- 20:57:23.703 INFO   : (@logIntSet:489) PlaybackEngineCoordinator::setPlaybackUniverses: set contains 0 items: []
+- 20:57:23.703 INFO   :NETWORK: (@PlaybackNodeManager::setSyncProgressState:2174) VistaPlaybackNode_2: Sync Progress State: NO_SYNC_IN_PROGRESS
+- 20:57:23.719 WARNING: (@EffectRateController::resetAllPhasesToZero:105) current playback time 00:00:00
+- 20:57:23.719 INFO   : (@PlaybackEngine::doRefresh:266) New set of assigned fixtures follows:
+- 20:57:23.719 INFO   : (@PlaybackEngine::doRefresh:280) PlaybackEngine: Elapsed time between refreshes was: 0ms
+- 20:57:24.094 INFO1  :NETWORK: (@PlaybackNodeManager::checkTimeControllerFailover:2049) VistaPlaybackNode_2: isSynchronised changed to: 1
+- 20:57:25.485 INFO   : (@PlaybackNodeManager::processMessage_SetConfiguration:1164) (role:0)- empty universes
+- 20:57:25.485 INFO   : (@logIntSet:489) PlaybackEngineCoordinator::setPlaybackUniverses: set contains 0 items: []
+- 20:57:25.485 INFO   : (@PlaybackEngine::doRefresh:266) New set of assigned fixtures follows:
+- 20:57:38.391 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) patch fixtures (type 64)
+- 20:57:38.578 WARNING: (@FixtureStatusManager::doPanelDataRequest:472) Playback status missing for fixture 32
+- 20:57:39.891 WARNING: (@FixtureStatusManager::doPanelDataRequest:472) Playback status missing for fixture 32
+- 20:57:39.891 INFO   : (@PlaybackNodeManager::processMessage_SetConfiguration:1164) (role:0)- empty universes
+- 20:57:39.891 INFO   : (@logIntSet:489) PlaybackEngineCoordinator::setPlaybackUniverses: set contains 0 items: []
+- 20:57:39.922 INFO   : (@PlaybackEngine::doRefresh:266) New set of assigned fixtures follows:
+- 20:57:39.094 WARNING: (@FixtureStatusManager::doPanelDataRequest:472) Playback status missing for fixture 32
+- 20:57:40.907 WARNING: (@FixtureStatusManager::doPanelDataRequest:472) Playback status missing for fixture 32
+- 20:57:44.750 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) layout change (type 64)
+- 20:57:45.860 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) layout change (type 64)
+- 20:57:45.953 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) layout change (type 64)
+- 20:57:45.063 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) layout change (type 64)
+- 20:57:45.219 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) layout change (type 64)
+- 20:57:45.313 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) layout change (type 64)
+- 20:57:45.532 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) layout change (type 64)
+- 20:57:45.719 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) layout change (type 64)
+- 20:57:46.828 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) layout change (type 64)
+- 20:57:46.969 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) layout change (type 64)
+*** Message repeated 3 more times ***
+- 20:58:16.094 WARNING: (@FixtureStatusManager::doPanelDataRequest:472) Playback status missing for fixture 32
+- 20:58:30.344 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 20:58:30.344 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 20:58:30.360 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 20:58:30.360 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 20:58:30.360 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 20:58:30.360 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 20:58:30.360 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 20:58:30.360 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 20:58:30.375 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 20:58:30.375 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+*** Message repeated 5101 more times ***
+- 20:59:59.500 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) layout change (type 64)
+- 20:59:59.500 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) layout change (type 64)
+- 20:59:59.500 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) layout change (type 64)
+- 20:59:59.500 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) layout change (type 64)
+- 20:59:59.500 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) layout change (type 64)
+- 20:59:59.641 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) layout change (type 64)
+- 20:59:59.641 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) layout change (type 64)
+- 20:59:59.641 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) layout change (type 64)
+- 20:59:59.641 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) layout change (type 64)
+- 20:59:59.641 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) layout change (type 64)
+*** Message repeated 55 more times ***
+- 21:16:38.813 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 21:16:38.938 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 21:16:38.938 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 21:16:38.938 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 21:16:38.938 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 21:16:38.938 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 21:16:38.938 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 21:16:38.938 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 21:16:38.953 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 21:16:38.953 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+*** Message repeated 141 more times ***
+- 16:41:49.938 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) patch fixtures (type 64)
+- 16:41:49.453 INFO   : (@PlaybackNodeManager::processMessage_SetConfiguration:1164) (role:0)- empty universes
+- 16:41:49.453 INFO   : (@logIntSet:489) PlaybackEngineCoordinator::setPlaybackUniverses: set contains 0 items: []
+- 16:41:49.485 INFO   : (@PlaybackEngine::doRefresh:266) New set of assigned fixtures follows:
+- 16:41:59.063 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) layout change (type 64)
+- 16:41:59.063 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) layout change (type 64)
+- 16:41:59.266 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) layout change (type 64)
+- 16:41:59.266 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) layout change (type 64)
+- 16:41:59.360 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) layout change (type 64)
+- 16:41:59.360 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) layout change (type 64)
+- 16:41:59.485 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) layout change (type 64)
+- 16:41:59.485 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) layout change (type 64)
+- 16:41:59.594 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) layout change (type 64)
+- 16:41:59.594 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) layout change (type 64)
+*** Message repeated 12 more times ***
+- 16:42:02.610 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 16:42:02.688 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 16:42:02.703 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 16:42:02.703 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 16:42:02.703 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 16:42:02.703 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 16:42:02.703 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 16:42:02.703 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 16:42:02.703 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 16:42:02.719 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+*** Message repeated 335 more times ***
+- 16:44:28.828 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) delete fixtures (type 64)
+- 16:44:28.328 INFO   : (@PlaybackNodeManager::processMessage_SetConfiguration:1164) (role:0)- empty universes
+- 16:44:28.328 INFO   : (@logIntSet:489) PlaybackEngineCoordinator::setPlaybackUniverses: set contains 0 items: []
+- 16:44:28.344 INFO   : (@PlaybackEngine::doRefresh:266) New set of assigned fixtures follows:
+- 16:50:24.750 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) patch fixtures (type 64)
+- 16:50:24.250 INFO   : (@PlaybackNodeManager::processMessage_SetConfiguration:1164) (role:0)- empty universes
+- 16:50:24.250 INFO   : (@logIntSet:489) PlaybackEngineCoordinator::setPlaybackUniverses: set contains 0 items: []
+- 16:50:24.282 INFO   : (@PlaybackEngine::doRefresh:266) New set of assigned fixtures follows:
+- 17:05:26.250 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) patch fixtures (type 64)
+- 17:05:27.750 INFO   : (@PlaybackNodeManager::processMessage_SetConfiguration:1164) (role:0)- empty universes
+- 17:05:27.750 INFO   : (@logIntSet:489) PlaybackEngineCoordinator::setPlaybackUniverses: set contains 0 items: []
+- 17:05:27.766 INFO   : (@PlaybackEngine::doRefresh:266) New set of assigned fixtures follows:
+- 17:34:02.657 INFO   :NETWORK: (@PlaybackNodeManager::doShowSavedOnMain:742) VistaPlaybackNode_2: Received SHOW_SAVED_ON_MAIN message from master
+- 17:34:02.266 INFO   :NETWORK: (@PlaybackNodeManager::doShowSavedOnMain:742) VistaPlaybackNode_2: Received SHOW_SAVED_ON_MAIN message from master
