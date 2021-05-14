@@ -1,0 +1,692 @@
+- 21:08:53.000 INFO   : (@`anonymous-namespace'::getThisExecutableDirPath:86) Path to executable: C:/Program Files (x86)/Chroma-Q/Vista3/Vista_Crack.exe
+- 21:08:53.000 INFO   : (@Directory::getPath:848) QtPlugins path = C:/Program Files (x86)/Chroma-Q/Vista3/plugins
+- 21:08:53.000 INFO   : (@main:257) Qt Plugin Library Path: C:/Program Files (x86)/Chroma-Q/Vista3/plugins
+- 21:08:53.078 INFO   : (@main:283) Starting C:/Program Files (x86)/Chroma-Q/Vista3/Vista_Crack.exe
+- 21:08:53.078 INFO   : (@main:284) Current directory is:C:/Program Files (x86)/Chroma-Q/Vista3
+- 21:08:54.093 INFO   : (@ByronSplashScreen::setStatusText:59) Checking installation...
+- 21:08:54.125 INFO   : (@Directory::getPath:751) UserFixtureLibrary path = C:\Vista 3/Fixtures
+- 21:08:54.125 INFO   : (@Directory::getPath:779) UserEffectLibrary path = C:\Vista 3/Effects
+- 21:08:54.125 INFO   : (@Directory::getPath:793) ShowResources path = C:\Vista 3/ShowResources
+- 21:08:54.125 INFO   : (@Directory::getPath:798) UserIcons path = C:\Vista 3/ShowResources/Icons
+- 21:08:54.125 INFO   : (@Directory::getPath:818) UserThemes path = C:\Vista 3/Themes
+- 21:08:54.125 INFO   : (@Directory::getPath:808) Shows path = C:\Vista 3/Shows
+- 21:08:54.125 INFO   : (@Directory::getPath:813) Backups path = C:\Vista 3/Shows/_Backups
+- 21:08:54.125 INFO   : (@Directory::getPath:858) Preferences path = C:\Vista 3
+- 21:08:54.125 INFO   : (@Directory::getPath:863) UserFixtureArrangementLibrary path = C:\Vista 3/Fixtures/CustomArrangements
+- 21:08:54.125 INFO   : (@Directory::getPath:874) Crash reports path = C:/Users/King's Indian Defens/AppData/Local/Vista_Crack/CrashReports
+- 21:08:54.125 INFO   : (@Directory::getPath:879) Images path = C:\Vista 3/ShowResources/Images
+- 21:08:54.125 INFO   : (@Directory::getPath:884) Audio path = C:\Vista 3/ShowResources/Audio
+- 21:08:54.125 INFO   : (@Directory::getPath:889) Video path = C:\Vista 3/ShowResources/Video
+- 21:08:54.140 INFO   : (@ByronSplashScreen::setStatusText:59) Checking network...
+- 21:08:54.156 INFO   : (@main:409) Starting Vista, Version: Vista3 R3 build 21712 - bdf49d9dbe (built: Nov 11 2020 08:35:06))
+- 21:08:54.156 INFO   : (@main:410) Thu May 6 21:08:54 2021
+- 21:08:54.156 INFO   : (@main:411) OS: Windows 10 (10.0), CPU: x86_64, Logical Cores: 4
+- 21:08:54.156 INFO   : (@main:413) Network interfaces: 6
+- 21:08:54.156 INFO   : (@main:417) Network Interface: 18: Local Area Connection* 1 flags: 24, MAC: 00:21:6B:FE:29:D8 addresses: fe80::6816:b9e5:838c:a3e7%wireless_32769/ffff:ffff:ffff:ffff::/BC:, 169.254.163.231//BC:
+- 21:08:54.156 INFO   : (@main:417) Network Interface: 2: Local Area Connection* 11 flags: 24, MAC: 02:21:6B:FE:29:D7 addresses: fe80::9094:226b:5655:d09a%wireless_32770/ffff:ffff:ffff:ffff::/BC:, 169.254.208.154//BC:
+- 21:08:54.156 INFO   : (@main:417) Network Interface: 10: Ethernet flags: 27, MAC: 8C:EC:4B:23:DF:A9 addresses: fe80::496e:cb18:f459:45cf%ethernet_32769/ffff:ffff:ffff:ffff::/BC:, 192.168.1.3/255.255.255.0/BC:192.168.1.255
+- 21:08:54.156 INFO   : (@main:417) Network Interface: 3: Wi-Fi flags: 27, MAC: 00:21:6B:FE:29:D7 addresses: fe80::2159:d663:5100:577a%wireless_32768/ffff:ffff:ffff:ffff::/BC:, 10.0.0.6/255.255.255.0/BC:10.0.0.255
+- 21:08:54.156 INFO   : (@main:417) Network Interface: 9: Bluetooth Network Connection flags: 24, MAC: 00:21:6B:FE:29:DB addresses: fe80::f5d8:b74b:5045:8784%ethernet_32770/ffff:ffff:ffff:ffff::/BC:, 169.254.135.132//BC:
+- 21:08:54.156 INFO   : (@main:417) Network Interface: 1: Loopback Pseudo-Interface 1 flags: 2f, MAC:  addresses: ::1/ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff/BC:, 127.0.0.1//BC:
+- 21:08:54.296 INFO   : (@main:438) Network Routing Info: 
+===========================================================================
+Interface List
+ 18...00 21 6b fe 29 d8 ......Microsoft Wi-Fi Direct Virtual Adapter
+  2...02 21 6b fe 29 d7 ......Microsoft Wi-Fi Direct Virtual Adapter #2
+ 10...8c ec 4b 23 df a9 ......Realtek PCIe GBE Family Controller
+  3...00 21 6b fe 29 d7 ......Intel(R) Dual Band Wireless-AC 3165
+  9...00 21 6b fe 29 db ......Bluetooth Device (Personal Area Network)
+  1...........................Software Loopback Interface 1
+===========================================================================
+
+IPv4 Route Table
+===========================================================================
+Active Routes:
+Network Destination        Netmask          Gateway       Interface  Metric
+          0.0.0.0          0.0.0.0      192.168.1.1      192.168.1.3     35
+          0.0.0.0          0.0.0.0         10.0.0.1         10.0.0.6     55
+         10.0.0.0    255.255.255.0         On-link          10.0.0.6    311
+         10.0.0.6  255.255.255.255         On-link          10.0.0.6    311
+       10.0.0.255  255.255.255.255         On-link          10.0.0.6    311
+        127.0.0.0        255.0.0.0         On-link         127.0.0.1    331
+        127.0.0.1  255.255.255.255         On-link         127.0.0.1    331
+  127.255.255.255  255.255.255.255         On-link         127.0.0.1    331
+      192.168.1.0    255.255.255.0         On-link       192.168.1.3    291
+      192.168.1.3  255.255.255.255         On-link       192.168.1.3    291
+    192.168.1.255  255.255.255.255         On-link       192.168.1.3    291
+        224.0.0.0        240.0.0.0         On-link         127.0.0.1    331
+        224.0.0.0        240.0.0.0         On-link       192.168.1.3    291
+        224.0.0.0        240.0.0.0         On-link          10.0.0.6    311
+  255.255.255.255  255.255.255.255         On-link         127.0.0.1    331
+  255.255.255.255  255.255.255.255         On-link       192.168.1.3    291
+  255.255.255.255  255.255.255.255         On-link          10.0.0.6    311
+===========================================================================
+Persistent Routes:
+  None
+
+IPv6 Route Table
+===========================================================================
+Active Routes:
+ If Metric Network Destination      Gateway
+  1    331 ::1/128                  On-link
+ 10    291 fe80::/64                On-link
+  3    311 fe80::/64                On-link
+  3    311 fe80::2159:d663:5100:577a/128
+                                    On-link
+ 10    291 fe80::496e:cb18:f459:45cf/128
+                                    On-link
+  1    331 ff00::/8                 On-link
+ 10    291 ff00::/8                 On-link
+  3    311 ff00::/8                 On-link
+===========================================================================
+Persistent Routes:
+  None
+
+- 21:08:54.296 INFO   : (@ByronSplashScreen::setStatusText:59) Waiting for network...
+- 21:08:54.328 INFO   : (@waitForNetwork:254) Preferred network interface is:Ethernet
+- 21:08:54.328 INFO   : (@waitForNetwork:255) Ip address is:192.168.1.3
+- 21:08:54.328 INFO   : (@ByronSplashScreen::setStatusText:59) Initializing libraries...
+- 21:08:54.343 INFO   : (@BoostNetworkThread::run:54 ##4dff140) starting
+- 21:08:54.343 INFO   : (@BoostNetworkThread::run:54 ##4dfeff0) starting
+- 21:08:54.359 INFO   : (@Directory::getPath:746) Factory Resources path = C:/Program Files (x86)/Chroma-Q/Vista3
+- 21:08:54.359 INFO   : (@Directory::getPath:764) FactoryFixtureLibrary path = C:/Program Files (x86)/Chroma-Q/Vista3/FixtureTypeLibrary
+- 21:08:57.171 INFO   : (@FixtureTypeLibraryManager::addLibrary:165) Adding Fixture Library at C:/Program Files (x86)/Chroma-Q/Vista3/FixtureTypeLibrary
+- 21:08:57.187 INFO   : (@ImageInfo::registerDirectory:62) Registering Image directory: C:/Program Files (x86)/Chroma-Q/Vista3/FixtureTypeLibrary/Images
+- 21:08:57.187 INFO   : (@ImageInfo::registerDirectory:62) Registering Image directory: C:/Program Files (x86)/Chroma-Q/Vista3/FixtureTypeLibrary/Images/gobos
+- 21:08:57.187 INFO   : (@ImageInfo::registerDirectory:62) Registering Image directory: C:/Program Files (x86)/Chroma-Q/Vista3/FixtureTypeLibrary/Images/animations
+- 21:08:57.187 INFO   : (@ImageInfo::registerDirectory:62) Registering Image directory: 
+- 21:08:57.187 INFO   : (@ImageInfo::registerDirectory:62) Registering Image directory: C:/Program Files (x86)/Chroma-Q/Vista3/FixtureTypeLibrary/Images/effects
+- 21:08:57.187 INFO   : (@FixtureTypeLibraryManager::addLibrary:165) Adding Fixture Library at C:/Vista 3/Fixtures
+- 21:08:57.187 INFO   : (@ImageInfo::registerDirectory:62) Registering Image directory: C:/Vista 3/Fixtures/Images
+- 21:08:57.187 INFO   : (@ImageInfo::registerDirectory:62) Registering Image directory: 
+- 21:08:57.187 INFO   : (@ImageInfo::registerDirectory:62) Registering Image directory: 
+- 21:08:57.187 INFO   : (@ImageInfo::registerDirectory:62) Registering Image directory: 
+- 21:08:57.187 INFO   : (@ImageInfo::registerDirectory:62) Registering Image directory: 
+- 21:08:57.187 INFO   : (@InitialiseHardwareInterfaceLibrary:10) Initializing Hardware Interface
+- 21:08:57.203 INFO   : (@USB::libusbInit:143) Initializing libusb...
+- 21:08:57.203 INFO   : (@UsbManager::UsbManager:154) Initializing USB Manager
+- 21:08:57.203 INFO   : (@DpuManager::initialiseLocalConfiguration:80) initializing
+- 21:08:57.203 INFO   : (@BoostNetworkThread::run:54 ##9a9c048) starting
+- 21:08:57.203 INFO   : (@CopyProtectionManagerImpl::run:167 ##1b400540) starting
+- 21:08:57.312 INFO   : (@getLocalHostUuid:41) Local hostID: 434bfdc5
+- 21:08:57.312 INFO   : (@getLocalHostUuid:49) Local hostID: 434bfdc5
+- 21:08:57.359 INFO   : (@DpuManager::initialiseLocalConfiguration:117) Available CPU capability: 4 host type: 0
+- 21:08:57.359 INFO   : (@TimecodeManager::TimecodeManager:71) 
+- 21:08:57.359 INFO   : (@InitialiseAudioLibrary:15) InitializeAudioLibrary
+- 21:08:57.421 INFO   : (@InitialiseShowLibrary:163) Initializing show Library
+- 21:08:57.421 INFO   : (@Console::Console:71) (props) type 100 (Art-Net) vcID: b44d6a80 hwID: b44d6a80
+- 21:08:57.421 INFO   : (@Console::Console:71) (props) type 102 (sACN) vcID: 669aa062 hwID: 669aa062
+- 21:08:57.421 INFO   : (@Console::Console:71) (props) type 101 (Pathport) vcID: 4e55c8af hwID: 4e55c8af
+- 21:08:57.421 INFO   : (@ShowManager::ShowManager:128) 
+- 21:08:57.421 INFO   :NETWORK: (@PlaybackNodeManager::PlaybackNodeManager:252) (No Role): new instance
+- 21:08:57.421 INFO   : (@BoostNetworkThread::run:54 ##9f44a18) starting
+- 21:08:57.421 INFO   : (@BoostNetworkThread::run:54 ##9f447a8) starting
+- 21:08:57.421 INFO   : (@BoostNetworkThread::run:54 ##9f44be0) starting
+- 21:08:57.421 INFO   : (@BoostNetworkThread::run:54 ##9f44e80) starting
+- 21:08:57.421 INFO   : (@BoostNetworkThread::run:54 ##9f450f0) starting
+- 21:08:57.421 INFO2  :NETWORK: (@BoostTcpNetwork::listenToPort:152) (No Role): Listening on port: 22001
+- 21:08:57.421 INFO2  :NETWORK: (@BoostTcpNetwork::listenToPort:152) (No Role): Listening on port: 22002
+- 21:08:57.421 INFO2  :NETWORK: (@BoostTcpNetwork::listenToPort:152) (No Role): Listening on port: 22003
+- 21:08:57.421 INFO2  :NETWORK: (@BoostTcpNetwork::listenToPort:152) (No Role): Listening on port: 22004
+- 21:08:57.421 INFO1  :NETWORK: (@PlaybackNodeManager::heartBeatTimeoutSlot:1001) (No Role): Emitting stateChangedSignal()
+- 21:08:57.421 INFO   : (@BoostNetworkThread::run:54 ##9f467a0) starting
+- 21:08:57.421 INFO   : (@TimeController::TimeController:60) Refresh interval millis = 00:00:00.033000
+- 21:08:57.421 INFO   : (@BoostNetworkThread::run:54 ##9f46620) starting
+- 21:08:57.421 INFO   : (@BoostNetworkThread::run:54 ##9f467e8) starting
+- 21:08:57.437 INFO   : (@ByronSplashScreen::setStatusText:59) Loading theme...
+- 21:08:57.781 INFO   : (@Directory::getPath:823) FactoryThemes path = C:/Program Files (x86)/Chroma-Q/Vista3/Themes
+- 21:08:57.796 INFO   : (@ByronSplashScreen::setStatusText:59) Loading effects...
+- 21:08:57.812 INFO   : (@Directory::getPath:784) FactoryEffectLibrary path = C:/Program Files (x86)/Chroma-Q/Vista3/EffectLibrary
+- 21:08:58.062 INFO   : (@ByronSplashScreen::setStatusText:59) Initializing main window...
+- 21:08:58.171 INFO   : (@ByronSplashScreen::setStatusText:59) Initializing menus...
+- 21:08:58.203 INFO   : (@ByronSplashScreen::setStatusText:59) Initializing Editor...
+- 21:08:58.218 INFO   : (@ByronSplashScreen::setStatusText:59) Creating editor palettes...
+- 21:08:58.531 INFO   : (@ByronSplashScreen::setStatusText:59) Creating FX editor...
+- 21:08:58.578 INFO   : (@ByronSplashScreen::setStatusText:59) Creating editor palettes...done
+- 21:08:58.593 INFO   : (@ByronSplashScreen::setStatusText:59) Initializing menus and toolbars...
+- 21:08:58.593 INFO   : (@JDialog::JDialog:15) Dialog created - DateTimeEventDialog
+- 21:08:58.625 INFO   : (@JDialog::JDialog:15) Dialog created - JumpDialog
+- 21:08:58.640 INFO   : (@ByronSplashScreen::setStatusText:59) Initializing timeline...
+- 21:08:58.687 INFO   : (@ByronSplashScreen::setStatusText:59) Creating fixture chooser...
+- 21:08:58.718 INFO   : (@ByronSplashScreen::setStatusText:59) Creating timing widgets...
+- 21:08:58.734 INFO1  : (@SessionSettings::getSetting:84) SessionSettings::setting not found for:Extras2_version
+- 21:08:58.734 INFO1  : (@SessionSettings::getSetting:84) SessionSettings::setting not found for:Extras2_layout
+- 21:08:58.734 INFO   : (@ByronSplashScreen::setStatusText:59) Updating editor theme...
+- 21:08:58.765 INFO   : (@ByronSplashScreen::setStatusText:59) Initializing Patch...
+- 21:09:02.906 INFO   : (@ByronSplashScreen::setStatusText:59) Initializing User Configurable Window...
+- 21:09:02.921 INFO   : (@ByronSplashScreen::setStatusText:59) Initializing Playback...
+- 21:09:03.953 INFO   : (@ByronSplashScreen::setStatusText:59) Initializing Console...
+- 21:09:03.953 WARNING: (@IconCache::loadIcon:90) Missing any icon PNGs for console/
+- 21:09:03.968 WARNING: (@IconCache::loadIcon:90) Missing any icon PNGs for console/playAndRelease
+- 21:09:03.968 WARNING: (@IconCache::loadIcon:90) Missing any icon PNGs for console/chaseCrossfadePercent
+- 21:09:03.984 WARNING: (@IconCache::loadIcon:90) Missing any icon PNGs for console/resetPhase
+- 21:09:03.984 WARNING: (@IconCache::loadIcon:90) Missing any icon PNGs for console/resetRate
+- 21:09:03.984 WARNING: (@IconCache::loadIcon:90) Missing any icon PNGs for console/fxRateFader
+- 21:09:03.984 WARNING: (@IconCache::loadIcon:90) Missing any icon PNGs for console/fxSizeFader
+- 21:09:03.984 WARNING: (@IconCache::loadIcon:90) Missing any icon PNGs for console/fxRateAndSizeFader
+- 21:09:03.203 INFO   : (@ByronSplashScreen::setStatusText:59) Updating theme...
+- 21:09:03.218 INFO   : (@ByronSplashScreen::setStatusText:59) Restoring session...
+- 21:09:03.234 INFO   : (@TrackingBackupShowSyncWidget::TrackingBackupShowSyncWidget:24) Creating TrackingBackupShowSyncWidget
+- 21:09:03.234 INFO2  :NETWORK: (@BoostTcpNetwork::listenToPort:152) (No Role): Listening on port: 22125
+- 21:09:03.234 INFO2  :NETWORK: (@DpuProcessManager::destroyExistingProcesses:64) (No Role): Killing any lingering playback node processes
+- 21:09:03.250 INFO2  :NETWORK: (@DpuProcessManager::startupProcesses:77) (No Role): Starting 4 playback node processes
+- 21:09:05.250 INFO   : (@Directory::getPath:838) Playback node exe path = C:/Program Files (x86)/Chroma-Q/Vista3/VistaPlaybackNode.exe
+- 21:09:05.250 INFO   : (@DpuProcessManager::startupProcesses:118) Starting PlaybackNode C:/Program Files (x86)/Chroma-Q/Vista3/VistaPlaybackNode.exe with arguments:--playback-node=0 --parent-id=434bfdc5 --playback-power=0 --node-name=DESKTOP-6RVQOQ4-1
+- 21:09:05.390 INFO   : (@DpuProcessManager::startupProcesses:118) Starting PlaybackNode C:/Program Files (x86)/Chroma-Q/Vista3/VistaPlaybackNode.exe with arguments:--playback-node=1 --parent-id=434bfdc5 --playback-power=0 --node-name=DESKTOP-6RVQOQ4-2
+- 21:09:05.406 INFO   : (@DpuProcessManager::startupProcesses:118) Starting PlaybackNode C:/Program Files (x86)/Chroma-Q/Vista3/VistaPlaybackNode.exe with arguments:--playback-node=2 --parent-id=434bfdc5 --playback-power=0 --node-name=DESKTOP-6RVQOQ4-3
+- 21:09:05.421 INFO   : (@DpuProcessManager::startupProcesses:118) Starting PlaybackNode C:/Program Files (x86)/Chroma-Q/Vista3/VistaPlaybackNode.exe with arguments:--playback-node=3 --parent-id=434bfdc5 --playback-power=0 --node-name=DESKTOP-6RVQOQ4-4
+- 21:09:05.421 INFO   : (@ByronSplashScreen::setStatusText:59) Initializing vista network...
+- 21:09:05.453 INFO2  :NETWORK: (@BoostTcpNetwork::listenToPort:152) (No Role): Listening on port: 22123
+- 21:09:05.453 INFO   : (@BoostTcpConnection::connectToServer:32) host: 127.0.0.1, port: 22123
+- 21:09:05.453 INFO2  :NETWORK: (@BoostTcpNetwork::socketConnected:191 ##9f44a18) (No Role): (+)Connection established.. local: 127.0.0.1:53653, remote: 127.0.0.1:22123
+- 21:09:05.453 INFO2  :NETWORK: (@BoostTcpNetwork::socketConnected:191 ##4dfeff0) (No Role): (+)Connection established.. local: 127.0.0.1:22123, remote: 127.0.0.1:53653
+- 21:09:05.453 INFO2  :NETWORK: (@BoostTcpNetwork::listenToPort:152) (No Role): Listening on port: 22124
+- 21:09:05.453 INFO2  :NETWORK: (@BoostTcpNetwork::listenToPort:152) (No Role): Listening on port: 22121
+- 21:09:05.453 INFO   :NETWORK: (@ArtnetDeviceManager::startDiscovery:636) (No Role): Artnet discovery starting up: Vista Art-Net:2.0:DESKTOP-6RVQOQ4:434bfdc5, broadcast: 192.168.1.255
+- 21:09:05.468 INFO   :NETWORK: (@PlaybackNodeManager::nodeConnectedSlot:541) (No Role): 127.0.0.1 connected
+- 21:09:05.484 INFO   : (@ArtnetDeviceManager::Impl::run:351 ##1b2e88d8) starting
+- 21:09:05.734 INFO2  :NETWORK: (@BoostTcpNetwork::socketConnected:191 ##9f467e8) (No Role): (+)Connection established.. local: 127.0.0.1:22125, remote: 127.0.0.1:53654
+- 21:09:05.734 INFO2  :NETWORK: (@BoostTcpNetwork::socketConnected:191 ##9f450f0) (No Role): (+)Connection established.. local: 127.0.0.1:22001, remote: 127.0.0.1:53655
+- 21:09:05.734 INFO2  :NETWORK: (@BoostTcpNetwork::socketConnected:191 ##9f467e8) (No Role): (+)Connection established.. local: 127.0.0.1:22125, remote: 127.0.0.1:53656
+- 21:09:05.734 INFO2  :NETWORK: (@BoostTcpNetwork::socketConnected:191 ##9f450f0) (No Role): (+)Connection established.. local: 127.0.0.1:22003, remote: 127.0.0.1:53657
+- 21:09:05.750 INFO2  :NETWORK: (@BoostTcpNetwork::socketConnected:191 ##9f467e8) (No Role): (+)Connection established.. local: 127.0.0.1:22125, remote: 127.0.0.1:53658
+- 21:09:05.750 INFO2  :NETWORK: (@BoostTcpNetwork::socketConnected:191 ##9f450f0) (No Role): (+)Connection established.. local: 127.0.0.1:22004, remote: 127.0.0.1:53659
+- 21:09:05.750 INFO2  :NETWORK: (@BoostTcpNetwork::socketConnected:191 ##9f467e8) (No Role): (+)Connection established.. local: 127.0.0.1:22125, remote: 127.0.0.1:53660
+- 21:09:05.750 INFO2  :NETWORK: (@BoostTcpNetwork::socketConnected:191 ##9f450f0) (No Role): (+)Connection established.. local: 127.0.0.1:22002, remote: 127.0.0.1:53661
+- 21:09:06.125 INFO2  :NETWORK: (@waitForPlaybackNodesToConnect:248) (No Role): Total playback nodes connected: 4 of 4
+- 21:09:06.125 ERROR  : (@main:528) No playback nodes connected! Output will not be possible.
+- 21:09:06.125 INFO   : (@JDialog::JDialog:15) Dialog created - UD512 Firmware Update
+- 21:09:06.140 INFO   : (@JDialog::~JDialog:20) Dialog destroyed - UD512 Firmware Update
+- 21:09:06.140 INFO   : (@JDialog::JDialog:15) Dialog created - ChooseOpenOrNewShowDialog
+- 21:09:08.140 INFO   : (@JDialog::~JDialog:20) Dialog destroyed - ChooseOpenOrNewShowDialog
+- 21:09:08.140 INFO   : (@ShowManager::setShowFilePath:163) C:/Vista 3/Shows/Bardot Show 1.v3s
+- 21:09:08.140 INFO   : (@ShowManager::setShowFilePath:163) C:/Vista 3/Shows/Bardot Show 1.v3s
+- 21:09:08.140 INFO   : (@ShowManager::loadShowFile:323) Loading show file "C:/Vista 3/Shows/Bardot Show 1.v3s"
+- 21:09:08.140 INFO   :NETWORK: (@ShowManager::prepareForShowReplacement:803) (No Role): prepareForShowReplacement: Master
+- 21:09:08.140 INFO1  :NETWORK: (@ZeroConf::assignNodeAsNetworkMain:750) (No Role): Assigning a new network master: local (434bfdc5)
+- 21:09:08.156 INFO   : (@ByronMotherWidget::onTrackingBackupStateChanged:1357) auxiliary: 0
+- 21:09:08.156 INFO   : (@ByronMotherWidget::onTrackingBackupStateChanged:1358) show sync in progress: 0
+- 21:09:08.156 INFO   :NETWORK: (@ShowManager::prepareForShowReplacement:820) (Main): Emitting disablePlayback()
+- 21:09:08.156 INFO   :NETWORK: (@ShowManager::prepareForShowReplacement:823) (Main): Emitting showAboutToLoad()
+- 21:09:08.156 INFO1  :NETWORK: (@PlaybackNodeManager::showAboutToLoadSlot:497) (Main): Emitting stateChangedSignal()
+- 21:09:08.171 INFO1  :NETWORK: (@ZeroConf::assignNodeAsNetworkMain:750) (Main): Assigning a new network master: local (434bfdc5)
+- 21:09:08.171 INFO   :NETWORK: (@PlaybackNodeManager::setSyncProgressState:2174) (Main): Sync Progress State: MAIN_ABOUT_TO_SYNC
+- 21:09:08.171 INFO   :NETWORK: (@PlaybackNodeManager::aboutToSync:770) (Main): Sending ABOUT_TO_SYNC
+- 21:09:08.171 INFO   :NETWORK: (@PlaybackNodeManager::doAboutToSync:902) (Main): Received ABOUT_TO_SYNC
+- 21:09:08.171 INFO   : (@ShowManager::loadShowFile:350) Show Info: Saved on Thu May 6 15:18:25 2021, archive version 152, software history: 3.3.21712
+- 21:09:08.187 INFO   : (@Schedule::serialiseData:411) Schedule::serialiseData: fixtureCount = 23 groupCount = 7
+- 21:09:08.187 INFO1  : (@Show::serialiseShowItems:1092) Show::serialiseShowItems[Layout]: itemCount = 1
+- 21:09:08.187 INFO1  : (@Show::serialiseShowItems:1092) Show::serialiseShowItems[View Filter]: itemCount = 4
+- 21:09:08.187 INFO1  : (@Show::serialiseShowItems:1092) Show::serialiseShowItems[Sort]: itemCount = 5
+- 21:09:08.187 INFO1  : (@Show::serialiseShowItems:1092) Show::serialiseShowItems[Timing]: itemCount = 3
+- 21:09:08.187 INFO1  : (@Show::serialiseShowItems:1092) Show::serialiseShowItems[Preset]: itemCount = 0
+- 21:09:08.187 INFO1  : (@Show::serialiseShowItems:1092) Show::serialiseShowItems[Extract]: itemCount = 0
+- 21:09:08.187 INFO1  : (@Show::serialiseShowItems:1092) Show::serialiseShowItems[Cuelist]: itemCount = 4
+- 21:09:08.187 INFO1  : (@Show::serialiseShowItems:1092) Show::serialiseShowItems[Snapshot]: itemCount = 0
+- 21:09:08.203 INFO1  : (@Show::serialiseShowItems:1092) Show::serialiseShowItems[DateTime Event]: itemCount = 0
+- 21:09:08.203 INFO1  : (@Show::serialiseShowItems:1092) Show::serialiseShowItems[FX Master]: itemCount = 2
+- 21:09:08.203 INFO   : (@Console::Console:65) serialised
+- 21:09:08.203 INFO   : (@Console::Console:65) serialised
+- 21:09:08.203 INFO   : (@Console::Console:65) serialised
+- 21:09:08.203 INFO   : (@Console::Console:65) serialised
+- 21:09:08.203 INFO   : (@Console::Console:65) serialised
+- 21:09:08.203 INFO   : (@ScopedTimeLogger::~ScopedTimeLogger:26) Serialise a show took 30 ms.
+- 21:09:08.203 INFO   :NETWORK: (@ShowManager::loadShowFile:400) (Main): Emitting distributeShowToNetwork()
+- 21:09:08.203 INFO1  :NETWORK: (@PlaybackNodeManager::distributeShowToNetworkSlot:528) (Main): Emitting stateChangedSignal()
+- 21:09:08.203 INFO   :NETWORK: (@PlaybackNodeManager::setSyncProgressState:2174) (Main): Sync Progress State: MAIN_PREPARING_TO_SERIALISE_SHOW
+- 21:09:08.218 INFO   : (@ScopedTimeLogger::~ScopedTimeLogger:26) Serialise a show took 12 ms.
+- 21:09:08.218 INFO   :NETWORK: (@PlaybackNodeManager::setSyncProgressState:2174) (Main): Sync Progress State: MAIN_SHOW_SERIALISED
+- 21:09:08.218 INFO   : (@ShowManager::getRelativeShowFilePath:212) Show FilePath relative to 'Shows' directory: Bardot Show 1.v3s
+- 21:09:08.218 INFO   :NETWORK: (@PlaybackNodeManager::dpuSync:646) (Main): Sending SHOW_SYNC
+- 21:09:08.218 INFO   :NETWORK: (@PlaybackNodeManager::setSyncProgressState:2174) (Main): Sync Progress State: MAIN_SENDING_SHOW
+- 21:09:08.218 INFO   :NETWORK: (@PlaybackNodeManager::doDpuSync:789) (Main): Received SHOW_SYNC
+- 21:09:08.218 INFO   :NETWORK: (@PlaybackNodeManager::dpuSyncAck:658) (Main): Sending SHOW_SYNC_ACK from: 434bfdc5 (DESKTOP-6RVQOQ4-UI)
+- 21:09:08.218 INFO   :NETWORK: (@PlaybackNodeManager::setSyncProgressState:2174) (Main): Sync Progress State: AUX_SENDING_SYNC_ACKNOWLEDGEMENT
+- 21:09:08.218 INFO   :NETWORK: (@PlaybackNodeManager::doDpuSyncAck:874) (Main): Received SHOW_SYNC_ACK from: 434bfdc5 (DESKTOP-6RVQOQ4-UI)
+- 21:09:08.250 INFO   : (@ByronMotherWidget::onTrackingBackupStateChanged:1357) auxiliary: 0
+- 21:09:08.250 INFO   : (@ByronMotherWidget::onTrackingBackupStateChanged:1358) show sync in progress: 0
+- 21:09:08.250 INFO   : (@ByronMotherWidget::onTrackingBackupStateChanged:1357) auxiliary: 0
+- 21:09:08.250 INFO   : (@ByronMotherWidget::onTrackingBackupStateChanged:1358) show sync in progress: 0
+- 21:09:08.250 INFO   :NETWORK: (@PlaybackNodeManager::setSyncProgressState:2174) (Main): Sync Progress State: MAIN_RECEIVED_SYNC_ACKNOWLEDGEMENT
+- 21:09:08.250 INFO   :NETWORK: (@PlaybackNodeManager::dpuSyncComplete:676) (Main): Sending SHOW_SYNC_COMPLETE
+- 21:09:08.265 INFO   :NETWORK: (@PlaybackNodeManager::setSyncProgressState:2174) (Main): Sync Progress State: MAIN_PERFORMING_POST_SYNC_TASKS
+- 21:09:09.265 INFO   :NETWORK: (@ArtnetDeviceManager::startDiscovery:636) (Main): Artnet discovery starting up: Vista Art-Net:2.0:DESKTOP-6RVQOQ4:434bfdc5, broadcast: 192.168.1.255
+- 21:09:09.296 INFO   :NETWORK: (@ShowManager::performPostShowSynchronisationTasks:1051) (Main): Emitting initialisePlayback()
+- 21:09:09.296 INFO   : (@ArtnetDeviceManager::Impl::run:351 ##1b2e88d8) starting
+- 21:09:09.296 INFO   :NETWORK: (@ShowManager::performPostShowSynchronisationTasks:1055) (Main): Emitting showLoaded()
+- 21:09:09.296 INFO   : (@Directory::getPath:803) FactoryIcons path = C:/Program Files (x86)/Chroma-Q/Vista3/Icons
+- 21:09:09.500 INFO   : (@ByronMotherWidget::onTrackingBackupStateChanged:1357) auxiliary: 0
+- 21:09:09.500 INFO   : (@ByronMotherWidget::onTrackingBackupStateChanged:1358) show sync in progress: 0
+- 21:09:09.515 INFO   :NETWORK: (@ShowManager::performPostShowSynchronisationTasks:1058) (Main): Emitting showLoadedNotificationCompleted()
+- 21:09:09.515 INFO1  :NETWORK: (@PlaybackNodeManager::showLoadedNotificationCompletedSlot:516) (Main): Emitting stateChangedSignal()
+- 21:09:09.546 INFO   : (@UsbManager::rescanDevices:296) Finished rescan
+- 21:09:09.546 INFO   : (@ConsoleDriverManager::restoreDriverPool:649) Restoring Broadcast Art-Net (pseudo-)device, id b44d6a80
+- 21:09:09.546 INFO   : (@ConsoleManager::hardwareConnected:844) uuid:b44d6a80 type 100 (Art-Net)
+- 21:09:09.546 INFO   : (@ConsoleManager::onHardwareConnected:875) device UUID: b44d6a80 (type: 100 Art-Net) reconnected: 0
+- 21:09:09.578 INFO   : (@ConsoleDriverManager::restoreDriverPool:674) Restoring Pathport (pseudo-)device, id 4e55c8af
+- 21:09:09.578 INFO   : (@PathportDriver::PathportDriver:608) uuid:4e55c8af
+- 21:09:09.578 INFO   : (@ConsoleManager::hardwareConnected:844) uuid:4e55c8af type 101 (Pathport)
+- 21:09:09.578 INFO   : (@ConsoleManager::onHardwareConnected:875) device UUID: 4e55c8af (type: 101 Pathport) reconnected: 0
+- 21:09:09.609 INFO   : (@PathportDriver::Impl::run:479 ##a2069a8) starting
+- 21:09:09.609 INFO   : (@Vista1Impl::connectSender:993 ##a2069a8) Local IP set: 192.168.1.3
+- 21:09:09.625 INFO   : (@Vista1Impl::connectSender:993 ##a2069a8) Local IP set: 192.168.1.3
+- 21:09:09.640 INFO   : (@Vista1Impl::connectSender:993 ##a2069a8) Local IP set: 192.168.1.3
+- 21:09:09.796 INFO   : (@ConsoleDriverManager::restoreDriverPool:696) Restoring Streaming ACN (pseudo-)device, id 669aa062
+- 21:09:09.796 INFO   : (@ConsoleManager::hardwareConnected:844) uuid:669aa062 type 102 (sACN)
+- 21:09:09.796 INFO   : (@ConsoleManager::onHardwareConnected:875) device UUID: 669aa062 (type: 102 sACN) reconnected: 0
+- 21:09:09.843 INFO   : (@StreamingAcnDriver::Impl::run:109 ##d77fe18) starting
+- 21:09:09.906 INFO   :NETWORK: (@PlaybackNodeManager::doDpuSyncAck:874) (Main): Received SHOW_SYNC_ACK from: 434bfdc6
+- 21:09:09.906 WARNING:NETWORK: (@PlaybackNodeManager::doDpuSyncAck:880) (Main): Received SHOW_SYNC_ACK from unknown playback node: 434bfdc6
+- 21:09:09.906 INFO   :NETWORK: (@PlaybackNodeManager::doDpuSyncAck:874) (Main): Received SHOW_SYNC_ACK from: 434bfdc9
+- 21:09:09.906 WARNING:NETWORK: (@PlaybackNodeManager::doDpuSyncAck:880) (Main): Received SHOW_SYNC_ACK from unknown playback node: 434bfdc9
+- 21:09:09.906 INFO   :NETWORK: (@PlaybackNodeManager::doDpuSyncAck:874) (Main): Received SHOW_SYNC_ACK from: 434bfdc8
+- 21:09:09.906 WARNING:NETWORK: (@PlaybackNodeManager::doDpuSyncAck:880) (Main): Received SHOW_SYNC_ACK from unknown playback node: 434bfdc8
+- 21:09:09.906 INFO   :NETWORK: (@PlaybackNodeManager::doDpuSyncAck:874) (Main): Received SHOW_SYNC_ACK from: 434bfdc7
+- 21:09:09.906 WARNING:NETWORK: (@PlaybackNodeManager::doDpuSyncAck:880) (Main): Received SHOW_SYNC_ACK from unknown playback node: 434bfdc7
+- 21:09:10.968 INFO   : (@ByronMotherWidget::refreshDmxFiltersSlot:1577) Effective channels: 0
+- 21:09:10.171 INFO   : (@ByronMotherWidget::reallocatePlaybackUniversesNow:2830) Recreating Playback Universes
+- 21:09:10.171 INFO   : (@PlaybackNodeManager::redistributeFixturesToPlaybackNodes:1822) Ignoring non-playbackNode: 434bfdc5 (DESKTOP-6RVQOQ4-UI)
+- 21:09:10.171 WARNING: (@PlaybackNodeManager::redistributeFixturesToPlaybackNodes:1845) Host 434bfdc5 [192.168.1.3] does not have any playback nodes at the moment, excluding it
+- 21:09:10.171 WARNING: (@PlaybackNodeManager::redistributeFixturesToPlaybackNodes:1859) No hosts discovered yet
+- 21:09:10.171 INFO   : (@ByronMotherWidget::refreshDmxFiltersSlot:1577) Effective channels: 0
+- 21:09:10.187 INFO   : (@ConsoleManager::hardwareConnected:844) uuid:b44d6a80 type 100 (Art-Net)
+- 21:09:10.187 INFO   : (@ConsoleManager::onHardwareConnected:875) device UUID: b44d6a80 (type: 100 Art-Net) reconnected: 0
+- 21:09:10.187 WARNING: (@ArtnetConsoleDriver::doSendMessage:237) ArtnetConsoleDriver: START_SENDING_DMX
+- 21:09:10.203 INFO   : (@ConsoleManager::hardwareConnected:844) uuid:4e55c8af type 101 (Pathport)
+- 21:09:10.203 INFO   : (@ConsoleManager::onHardwareConnected:875) device UUID: 4e55c8af (type: 101 Pathport) reconnected: 0
+- 21:09:10.218 INFO   : (@ConsoleManager::hardwareConnected:844) uuid:669aa062 type 102 (sACN)
+- 21:09:10.218 INFO   : (@ConsoleManager::onHardwareConnected:875) device UUID: 669aa062 (type: 102 sACN) reconnected: 0
+- 21:09:10.234 INFO   : (@ByronMotherWidget::onTrackingBackupStateChanged:1357) auxiliary: 0
+- 21:09:10.234 INFO   : (@ByronMotherWidget::onTrackingBackupStateChanged:1358) show sync in progress: 0
+- 21:09:10.265 INFO1  : (@SessionSettings::getSetting:84) SessionSettings::setting not found for:Console_cw1IsJDW
+- 21:09:10.265 INFO1  : (@SessionSettings::getSetting:84) SessionSettings::setting not found for:Editor_MQP832ee798ConsoleUuid
+- 21:09:10.312 INFO1  : (@SessionSettings::getSetting:84) SessionSettings::setting not found for:Editor_MQP832ee798_layout
+- 21:09:10.312 INFO1  : (@SessionSettings::getSetting:84) SessionSettings::setting not found for:Editor_MQP832ee798_QP_1_cat
+- 21:09:10.312 INFO1  : (@SessionSettings::getSetting:84) SessionSettings::setting not found for:Editor_MQP832ee798_QP_1_page
+- 21:09:10.312 INFO1  : (@SessionSettings::getSetting:84) SessionSettings::setting not found for:Editor_MQP832ee798_QP_1_hasLayoutSettings
+- 21:09:10.312 INFO1  : (@SessionSettings::getSetting:84) SessionSettings::setting not found for:Editor_MQP832ee798_QP_1_vscroll
+- 21:09:10.312 INFO1  : (@SessionSettings::getSetting:84) SessionSettings::setting not found for:Editor_MQP832ee798_QP_1_hscroll
+- 21:09:10.312 INFO1  : (@SessionSettings::getSetting:84) SessionSettings::setting not found for:Editor_MQP832ee798_QP_2_cat
+- 21:09:10.312 INFO1  : (@SessionSettings::getSetting:84) SessionSettings::setting not found for:Editor_MQP832ee798_QP_2_page
+*** Message repeated 23 more times ***
+- 21:09:10.437 INFO   :NETWORK: (@ShowManager::performPostShowSynchronisationTasks:1062) (Main): Emitting enablePlayback()
+- 21:09:10.437 INFO   : (@TimeController::TimeController:60) Refresh interval millis = 00:00:00.033000
+- 21:09:10.437 INFO   : (@PlaybackEngineCoordinator::processShowControlMessage:502) processed effect reset phase
+- 21:09:10.437 INFO   :NETWORK: (@PlaybackNodeManager::setSyncProgressState:2174) (Main): Sync Progress State: NO_SYNC_IN_PROGRESS
+- 21:09:10.437 INFO   :NETWORK: (@PlaybackNodeManager::doDpuSyncComplete:724) (Main): Emitting showSyncIsComplete()
+- 21:09:10.437 INFO   : (@ScopedTimeLogger::~ScopedTimeLogger:26) converting show to binary took 2234 ms.
+- 21:09:10.453 INFO   : (@TimeController::run:98 ##731ef64) starting
+- 21:09:10.468 INFO   : (@AutoSaveThread::run:145 ##2b9f58c) starting
+- 21:09:10.484 INFO   : (@TimeController::run:140 ##731ef64) sending time advance msg with fx resync
+- 21:09:10.484 WARNING: (@EffectRateController::resetAllPhasesToZero:105 ##731ef64) current playback time 00:00:00
+- 21:09:10.500 INFO   : (@PlaybackEngine::doRefresh:280) PlaybackEngine: Elapsed time between refreshes was: 0ms
+- 21:09:10.734 INFO   : (@ByronMotherWidget::reallocatePlaybackUniversesNow:2830) Recreating Playback Universes
+- 21:09:10.734 INFO   : (@PlaybackNodeManager::redistributeFixturesToPlaybackNodes:1822) Ignoring non-playbackNode: 434bfdc5 (DESKTOP-6RVQOQ4-UI)
+- 21:09:10.734 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes - A  : dpuId=434bfdc5 pbnId=434bfdc6 (DESKTOP-6RVQOQ4-1) - newUni : set contains 1 items: [0]
+- 21:09:10.734 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes - A  : dpuId=434bfdc5 pbnId=434bfdc7 (DESKTOP-6RVQOQ4-2) - newUni : set contains 0 items: []
+- 21:09:10.734 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes - A  : dpuId=434bfdc5 pbnId=434bfdc8 (DESKTOP-6RVQOQ4-3) - newUni : set contains 0 items: []
+- 21:09:10.734 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes - A  : dpuId=434bfdc5 pbnId=434bfdc9 (DESKTOP-6RVQOQ4-4) - newUni : set contains 0 items: []
+- 21:09:10.734 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes: Distributing uni for playback engine 434bfdc6 (DESKTOP-6RVQOQ4-1) on hostID 434bfdc5 [192.168.1.3]: set contains 1 items: [0]
+- 21:09:10.734 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes: Distributing uni for playback engine 434bfdc7 (DESKTOP-6RVQOQ4-2) on hostID 434bfdc5 [192.168.1.3]: set contains 0 items: []
+- 21:09:10.734 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes: Distributing uni for playback engine 434bfdc8 (DESKTOP-6RVQOQ4-3) on hostID 434bfdc5 [192.168.1.3]: set contains 0 items: []
+- 21:09:10.734 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes: Distributing uni for playback engine 434bfdc9 (DESKTOP-6RVQOQ4-4) on hostID 434bfdc5 [192.168.1.3]: set contains 0 items: []
+- 21:09:10.734 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes - B  : dpuId=434bfdc5 pbnId=434bfdc6 (DESKTOP-6RVQOQ4-1) - newUni : set contains 1 items: [0]
+- 21:09:10.734 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes - B  : dpuId=434bfdc5 pbnId=434bfdc7 (DESKTOP-6RVQOQ4-2) - newUni : set contains 0 items: []
+*** Message repeated 6 more times ***
+- 21:09:10.734 INFO   : (@logAllocations:1737) Actual universe allocations are as follows:
+- 21:09:10.734 INFO   : (@logIntSet:489) 434bfdc6 (DESKTOP-6RVQOQ4-1): set contains 1 items: [0]
+- 21:09:10.734 INFO   : (@logAllocations:1742) Actual pool allocations are as follows:
+- 21:09:10.734 INFO   : (@logUuidSet:1726) 434bfdc6 (DESKTOP-6RVQOQ4-1): set contains 0 items: []
+- 21:09:10.734 INFO   : (@logUuidSet:1726) 434bfdc7 (DESKTOP-6RVQOQ4-2): set contains 0 items: []
+- 21:09:10.734 INFO   : (@logUuidSet:1726) 434bfdc8 (DESKTOP-6RVQOQ4-3): set contains 0 items: []
+- 21:09:10.734 INFO   : (@logUuidSet:1726) 434bfdc9 (DESKTOP-6RVQOQ4-4): set contains 0 items: []
+- 21:09:10.734 INFO   : (@PlaybackNodeManager::processMessage_SetConfiguration:1164) (role:1)- empty universes
+- 21:09:10.734 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes - END  : dpuId=434bfdc5 pbnId=434bfdc6 (DESKTOP-6RVQOQ4-1) - newUni : set contains 1 items: [0]
+- 21:09:10.734 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes - END  : dpuId=434bfdc5 pbnId=434bfdc7 (DESKTOP-6RVQOQ4-2) - newUni : set contains 0 items: []
+- 21:09:10.734 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes - END  : dpuId=434bfdc5 pbnId=434bfdc8 (DESKTOP-6RVQOQ4-3) - newUni : set contains 0 items: []
+- 21:09:10.734 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes - END  : dpuId=434bfdc5 pbnId=434bfdc9 (DESKTOP-6RVQOQ4-4) - newUni : set contains 0 items: []
+- 21:09:10.750 INFO   : (@ByronMotherWidget::refreshDmxFiltersSlot:1577) Effective channels: 0
+- 21:09:11.234 INFO   : (@ByronMotherWidget::reallocatePlaybackUniversesNow:2830) Recreating Playback Universes
+- 21:09:11.234 INFO   : (@PlaybackNodeManager::redistributeFixturesToPlaybackNodes:1822) Ignoring non-playbackNode: 434bfdc5 (DESKTOP-6RVQOQ4-UI)
+- 21:09:11.234 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes - A  : dpuId=434bfdc5 pbnId=434bfdc6 (DESKTOP-6RVQOQ4-1) - newUni : set contains 1 items: [0]
+- 21:09:11.234 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes - A  : dpuId=434bfdc5 pbnId=434bfdc7 (DESKTOP-6RVQOQ4-2) - newUni : set contains 0 items: []
+- 21:09:11.234 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes - A  : dpuId=434bfdc5 pbnId=434bfdc8 (DESKTOP-6RVQOQ4-3) - newUni : set contains 0 items: []
+- 21:09:11.234 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes - A  : dpuId=434bfdc5 pbnId=434bfdc9 (DESKTOP-6RVQOQ4-4) - newUni : set contains 0 items: []
+- 21:09:11.234 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes: Distributing uni for playback engine 434bfdc6 (DESKTOP-6RVQOQ4-1) on hostID 434bfdc5 [192.168.1.3]: set contains 1 items: [0]
+- 21:09:11.234 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes: Distributing uni for playback engine 434bfdc7 (DESKTOP-6RVQOQ4-2) on hostID 434bfdc5 [192.168.1.3]: set contains 0 items: []
+- 21:09:11.234 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes: Distributing uni for playback engine 434bfdc8 (DESKTOP-6RVQOQ4-3) on hostID 434bfdc5 [192.168.1.3]: set contains 0 items: []
+- 21:09:11.234 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes: Distributing uni for playback engine 434bfdc9 (DESKTOP-6RVQOQ4-4) on hostID 434bfdc5 [192.168.1.3]: set contains 0 items: []
+- 21:09:11.234 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes - B  : dpuId=434bfdc5 pbnId=434bfdc6 (DESKTOP-6RVQOQ4-1) - newUni : set contains 1 items: [0]
+- 21:09:11.234 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes - B  : dpuId=434bfdc5 pbnId=434bfdc7 (DESKTOP-6RVQOQ4-2) - newUni : set contains 0 items: []
+*** Message repeated 6 more times ***
+- 21:09:11.234 INFO   : (@logAllocations:1737) Actual universe allocations are as follows:
+- 21:09:11.234 INFO   : (@logIntSet:489) 434bfdc6 (DESKTOP-6RVQOQ4-1): set contains 1 items: [0]
+- 21:09:11.234 INFO   : (@logAllocations:1742) Actual pool allocations are as follows:
+- 21:09:11.234 INFO   : (@logUuidSet:1726) 434bfdc6 (DESKTOP-6RVQOQ4-1): set contains 0 items: []
+- 21:09:11.234 INFO   : (@logUuidSet:1726) 434bfdc7 (DESKTOP-6RVQOQ4-2): set contains 0 items: []
+- 21:09:11.234 INFO   : (@logUuidSet:1726) 434bfdc8 (DESKTOP-6RVQOQ4-3): set contains 0 items: []
+- 21:09:11.234 INFO   : (@logUuidSet:1726) 434bfdc9 (DESKTOP-6RVQOQ4-4): set contains 0 items: []
+- 21:09:11.234 INFO   : (@PlaybackNodeManager::processMessage_SetConfiguration:1164) (role:1)- empty universes
+- 21:09:11.234 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes - END  : dpuId=434bfdc5 pbnId=434bfdc6 (DESKTOP-6RVQOQ4-1) - newUni : set contains 1 items: [0]
+- 21:09:11.234 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes - END  : dpuId=434bfdc5 pbnId=434bfdc7 (DESKTOP-6RVQOQ4-2) - newUni : set contains 0 items: []
+- 21:09:11.234 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes - END  : dpuId=434bfdc5 pbnId=434bfdc8 (DESKTOP-6RVQOQ4-3) - newUni : set contains 0 items: []
+- 21:09:11.234 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes - END  : dpuId=434bfdc5 pbnId=434bfdc9 (DESKTOP-6RVQOQ4-4) - newUni : set contains 0 items: []
+- 21:09:11.234 INFO   : (@ByronMotherWidget::refreshDmxFiltersSlot:1577) Effective channels: 0
+- 21:09:15.656 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 21:09:15.703 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 21:09:15.718 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 21:09:15.718 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 21:09:15.718 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 21:09:15.718 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 21:09:15.734 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 21:09:15.750 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 21:09:15.750 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 21:09:15.765 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+*** Message repeated 438 more times ***
+- 21:09:25.593 INFO   : (@ByronApplication::onActionTriggered:164) Home
+- 21:09:25.593 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 21:09:49.828 INFO   :NETWORK: (@ArtnetDeviceManager::Impl::handleArtPollReply:286 ##1b2e88d8) (Main): Got the ArtPollReply (nodes discovered: 1, new: 1)
+- 21:09:49.828 INFO   :NETWORK: (@ArtnetDeviceManager::Impl::printArtnetNodeInfo:254 ##1b2e88d8) (Main): Discovered Art-Net node: sName: '192.168.1.7', lName: 'ArtNet To DMX' IP:192.168.1.7 ports: 4[128,128,128,128], UUID:c0a80107
+- 21:09:49.859 INFO   : (@UsbManager::rescanDevices:296) Finished rescan
+- 21:09:49.859 INFO   : (@ConsoleManager::hardwareConnected:844) uuid:c0a80107 type 100 (Art-Net)
+- 21:09:49.859 INFO   : (@ConsoleManager::onHardwareConnected:875) device UUID: c0a80107 (type: 100 Art-Net) reconnected: 0
+- 21:09:49.890 WARNING: (@ArtnetConsoleDriver::doSendMessage:237) ArtnetConsoleDriver: START_SENDING_DMX
+- 21:09:49.890 WARNING: (@ArtnetConsoleDriver::doSendMessage:237) ArtnetConsoleDriver: START_SENDING_DMX
+- 21:09:49.890 WARNING: (@ArtnetConsoleDriver::doSendMessage:237) ArtnetConsoleDriver: START_SENDING_DMX
+- 21:09:49.890 WARNING: (@ArtnetConsoleDriver::doSendMessage:237) ArtnetConsoleDriver: START_SENDING_DMX
+- 21:09:50.406 INFO   : (@ByronMotherWidget::reallocatePlaybackUniversesNow:2830) Recreating Playback Universes
+- 21:09:50.406 INFO   : (@PlaybackNodeManager::redistributeFixturesToPlaybackNodes:1822) Ignoring non-playbackNode: 434bfdc5 (DESKTOP-6RVQOQ4-UI)
+- 21:09:50.406 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes - A  : dpuId=434bfdc5 pbnId=434bfdc6 (DESKTOP-6RVQOQ4-1) - newUni : set contains 1 items: [0]
+- 21:09:50.406 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes - A  : dpuId=434bfdc5 pbnId=434bfdc7 (DESKTOP-6RVQOQ4-2) - newUni : set contains 0 items: []
+- 21:09:50.421 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes - A  : dpuId=434bfdc5 pbnId=434bfdc8 (DESKTOP-6RVQOQ4-3) - newUni : set contains 0 items: []
+- 21:09:50.421 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes - A  : dpuId=434bfdc5 pbnId=434bfdc9 (DESKTOP-6RVQOQ4-4) - newUni : set contains 0 items: []
+- 21:09:50.421 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes: Distributing uni for playback engine 434bfdc6 (DESKTOP-6RVQOQ4-1) on hostID 434bfdc5 [192.168.1.3]: set contains 1 items: [0]
+- 21:09:50.421 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes: Distributing uni for playback engine 434bfdc7 (DESKTOP-6RVQOQ4-2) on hostID 434bfdc5 [192.168.1.3]: set contains 0 items: []
+- 21:09:50.421 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes: Distributing uni for playback engine 434bfdc8 (DESKTOP-6RVQOQ4-3) on hostID 434bfdc5 [192.168.1.3]: set contains 0 items: []
+- 21:09:50.421 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes: Distributing uni for playback engine 434bfdc9 (DESKTOP-6RVQOQ4-4) on hostID 434bfdc5 [192.168.1.3]: set contains 0 items: []
+- 21:09:50.421 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes - B  : dpuId=434bfdc5 pbnId=434bfdc6 (DESKTOP-6RVQOQ4-1) - newUni : set contains 1 items: [0]
+- 21:09:50.421 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes - B  : dpuId=434bfdc5 pbnId=434bfdc7 (DESKTOP-6RVQOQ4-2) - newUni : set contains 0 items: []
+*** Message repeated 6 more times ***
+- 21:09:50.421 INFO   : (@logAllocations:1737) Actual universe allocations are as follows:
+- 21:09:50.421 INFO   : (@logIntSet:489) 434bfdc6 (DESKTOP-6RVQOQ4-1): set contains 1 items: [0]
+- 21:09:50.421 INFO   : (@logAllocations:1742) Actual pool allocations are as follows:
+- 21:09:50.421 INFO   : (@logUuidSet:1726) 434bfdc6 (DESKTOP-6RVQOQ4-1): set contains 0 items: []
+- 21:09:50.421 INFO   : (@logUuidSet:1726) 434bfdc7 (DESKTOP-6RVQOQ4-2): set contains 0 items: []
+- 21:09:50.421 INFO   : (@logUuidSet:1726) 434bfdc8 (DESKTOP-6RVQOQ4-3): set contains 0 items: []
+- 21:09:50.421 INFO   : (@logUuidSet:1726) 434bfdc9 (DESKTOP-6RVQOQ4-4): set contains 0 items: []
+- 21:09:50.421 INFO   : (@PlaybackNodeManager::processMessage_SetConfiguration:1164) (role:1)- empty universes
+- 21:09:50.421 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes - END  : dpuId=434bfdc5 pbnId=434bfdc6 (DESKTOP-6RVQOQ4-1) - newUni : set contains 1 items: [0]
+- 21:09:50.421 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes - END  : dpuId=434bfdc5 pbnId=434bfdc7 (DESKTOP-6RVQOQ4-2) - newUni : set contains 0 items: []
+- 21:09:50.421 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes - END  : dpuId=434bfdc5 pbnId=434bfdc8 (DESKTOP-6RVQOQ4-3) - newUni : set contains 0 items: []
+- 21:09:50.421 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes - END  : dpuId=434bfdc5 pbnId=434bfdc9 (DESKTOP-6RVQOQ4-4) - newUni : set contains 0 items: []
+- 21:09:50.437 INFO   : (@ByronMotherWidget::refreshDmxFiltersSlot:1577) Effective channels: 0
+- 21:09:50.921 INFO   : (@ByronMotherWidget::reallocatePlaybackUniversesNow:2830) Recreating Playback Universes
+- 21:09:50.921 INFO   : (@PlaybackNodeManager::redistributeFixturesToPlaybackNodes:1822) Ignoring non-playbackNode: 434bfdc5 (DESKTOP-6RVQOQ4-UI)
+- 21:09:50.921 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes - A  : dpuId=434bfdc5 pbnId=434bfdc6 (DESKTOP-6RVQOQ4-1) - newUni : set contains 1 items: [0]
+- 21:09:50.921 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes - A  : dpuId=434bfdc5 pbnId=434bfdc7 (DESKTOP-6RVQOQ4-2) - newUni : set contains 0 items: []
+- 21:09:50.921 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes - A  : dpuId=434bfdc5 pbnId=434bfdc8 (DESKTOP-6RVQOQ4-3) - newUni : set contains 0 items: []
+- 21:09:50.921 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes - A  : dpuId=434bfdc5 pbnId=434bfdc9 (DESKTOP-6RVQOQ4-4) - newUni : set contains 0 items: []
+- 21:09:50.921 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes: Distributing uni for playback engine 434bfdc6 (DESKTOP-6RVQOQ4-1) on hostID 434bfdc5 [192.168.1.3]: set contains 1 items: [0]
+- 21:09:50.921 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes: Distributing uni for playback engine 434bfdc7 (DESKTOP-6RVQOQ4-2) on hostID 434bfdc5 [192.168.1.3]: set contains 0 items: []
+- 21:09:50.921 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes: Distributing uni for playback engine 434bfdc8 (DESKTOP-6RVQOQ4-3) on hostID 434bfdc5 [192.168.1.3]: set contains 0 items: []
+- 21:09:50.921 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes: Distributing uni for playback engine 434bfdc9 (DESKTOP-6RVQOQ4-4) on hostID 434bfdc5 [192.168.1.3]: set contains 0 items: []
+- 21:09:50.921 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes - B  : dpuId=434bfdc5 pbnId=434bfdc6 (DESKTOP-6RVQOQ4-1) - newUni : set contains 1 items: [0]
+- 21:09:50.937 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes - B  : dpuId=434bfdc5 pbnId=434bfdc7 (DESKTOP-6RVQOQ4-2) - newUni : set contains 0 items: []
+*** Message repeated 6 more times ***
+- 21:09:51.937 INFO   : (@logAllocations:1737) Actual universe allocations are as follows:
+- 21:09:51.937 INFO   : (@logIntSet:489) 434bfdc6 (DESKTOP-6RVQOQ4-1): set contains 1 items: [0]
+- 21:09:51.937 INFO   : (@logAllocations:1742) Actual pool allocations are as follows:
+- 21:09:51.937 INFO   : (@logUuidSet:1726) 434bfdc6 (DESKTOP-6RVQOQ4-1): set contains 0 items: []
+- 21:09:51.937 INFO   : (@logUuidSet:1726) 434bfdc7 (DESKTOP-6RVQOQ4-2): set contains 0 items: []
+- 21:09:51.937 INFO   : (@logUuidSet:1726) 434bfdc8 (DESKTOP-6RVQOQ4-3): set contains 0 items: []
+- 21:09:51.937 INFO   : (@logUuidSet:1726) 434bfdc9 (DESKTOP-6RVQOQ4-4): set contains 0 items: []
+- 21:09:51.937 INFO   : (@PlaybackNodeManager::processMessage_SetConfiguration:1164) (role:1)- empty universes
+- 21:09:51.937 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes - END  : dpuId=434bfdc5 pbnId=434bfdc6 (DESKTOP-6RVQOQ4-1) - newUni : set contains 1 items: [0]
+- 21:09:51.937 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes - END  : dpuId=434bfdc5 pbnId=434bfdc7 (DESKTOP-6RVQOQ4-2) - newUni : set contains 0 items: []
+- 21:09:51.937 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes - END  : dpuId=434bfdc5 pbnId=434bfdc8 (DESKTOP-6RVQOQ4-3) - newUni : set contains 0 items: []
+- 21:09:51.937 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes - END  : dpuId=434bfdc5 pbnId=434bfdc9 (DESKTOP-6RVQOQ4-4) - newUni : set contains 0 items: []
+- 21:09:51.937 INFO   : (@ByronMotherWidget::refreshDmxFiltersSlot:1577) Effective channels: 0
+- 21:10:06.062 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 21:10:06.078 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 21:10:06.078 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 21:10:06.093 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 21:10:06.109 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 21:10:06.109 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 21:10:06.125 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 21:10:06.140 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 21:10:06.140 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 21:10:06.156 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+*** Message repeated 698 more times ***
+- 21:10:20.937 INFO   : (@ByronApplication::onActionTriggered:164) Undo change values
+- 21:10:20.421 INFO   : (@ByronApplication::onActionTriggered:164) Undo change values
+- 21:10:20.625 INFO   : (@ByronApplication::onActionTriggered:164) Undo change values
+- 21:10:21.984 INFO   : (@ByronApplication::onActionTriggered:164) Undo change values
+- 21:10:21.171 INFO   : (@ByronApplication::onActionTriggered:164) Undo change values
+- 21:10:21.515 INFO   : (@ByronApplication::onActionTriggered:164) Undo change values
+- 21:10:27.140 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 21:10:27.140 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 21:10:27.156 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 21:10:27.156 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 21:10:27.171 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 21:10:27.171 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 21:10:27.218 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 21:10:27.218 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 21:10:27.234 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 21:10:27.234 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+*** Message repeated 447 more times ***
+- 21:10:35.406 INFO   : (@ByronApplication::onActionTriggered:164) Home
+- 21:10:35.406 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 21:10:38.234 INFO   : (@ByronApplication::onActionTriggered:164) Release All Cuelists
+- 21:10:38.234 INFO   : (@PlaybackFunctions::releaseAll:995) type: 0
+- 21:10:39.468 INFO   : (@ByronApplication::onActionTriggered:164) Release All Cuelists
+- 21:10:39.468 INFO   : (@PlaybackFunctions::releaseAll:995) type: 0
+- 21:10:40.515 INFO   : (@ByronApplication::onActionTriggered:164) Clear / Close
+- 21:10:40.531 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) Clear (type 64)
+- 21:10:44.437 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 21:10:44.437 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 21:10:44.453 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 21:10:44.453 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 21:10:44.468 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 21:10:44.468 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 21:10:44.468 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 21:10:44.468 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 21:10:44.484 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 21:10:44.484 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+*** Message repeated 596 more times ***
+- 21:10:56.703 INFO   : (@ByronApplication::onActionTriggered:164) User Preferences...
+- 21:10:56.703 INFO   : (@JDialog::JDialog:15) Dialog created - UserPreferencesDialog
+- 21:11:01.437 INFO   : (@JDialog::~JDialog:20) Dialog destroyed - UserPreferencesDialog
+- 21:11:07.562 INFO   : (@ByronApplication::onActionTriggered:164) Connect Universes...
+- 21:11:07.562 INFO   : (@JDialog::JDialog:15) Dialog created - DmxConnectionsDialog
+- 21:11:07.593 INFO   : (@JDialog::JDialog:15) Dialog created - Add DMX Port
+- 21:11:17.421 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 21:11:17.421 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 21:11:17.437 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 21:11:17.437 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 21:11:17.437 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 21:11:17.437 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 21:11:17.453 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 21:11:17.453 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 21:11:17.453 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 21:11:17.453 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+*** Message repeated 560 more times ***
+- 21:11:24.234 INFO   : (@ByronApplication::onActionTriggered:164) Home
+- 21:11:24.234 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 21:12:14.890 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 21:12:14.890 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 21:12:14.906 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 21:12:14.906 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 21:12:14.906 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 21:12:14.906 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 21:12:14.921 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 21:12:14.921 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+*** Message repeated 930 more times ***
+- 21:12:28.015 INFO   : (@JDialog::JDialog:15) Dialog created - CloseClipDialog
+- 21:12:30.281 INFO   : (@PlaybackFunctions::skipToStep:704) 4 Cuelist [cue 0,0ms,Released]0
+- 21:12:30.281 INFO   : (@PlaybackFunctions::skipToStep:729) 4 Cuelist [cue 0,2000ms,Playing][at exit]
+- 21:12:30.281 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) revert changes (type 64)
+- 21:12:30.296 INFO   : (@JDialog::~JDialog:20) Dialog destroyed - CloseClipDialog
+- 21:12:32.656 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 21:12:32.671 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 21:12:32.671 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 21:12:32.687 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 21:12:32.687 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 21:12:32.703 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 21:12:32.703 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 21:12:32.718 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 21:12:32.718 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 21:12:32.718 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+*** Message repeated 374 more times ***
+- 21:12:53.265 INFO   : (@ClipPlayerManager::logPlaybackState:899) 4:Cuelist [cue 0,2000ms,Playing]
+- 21:13:14.203 INFO   : (@ByronMotherWidget::refreshDmxFiltersSlot:1577) Effective channels: 0
+- 21:13:21.937 INFO   : (@ByronMotherWidget::refreshDmxFiltersSlot:1577) Effective channels: 0
+- 21:14:08.390 INFO   : (@ClipPlayerManager::logPlaybackState:899) 4:Cuelist [cue 0,2000ms,Playing]
+- 21:14:10.484 INFO   : (@AutoSaveThread::trySave:238 ##2b9f58c) Autosave started
+- 21:14:10.500 INFO1  : (@Show::serialiseShowItems:1092 ##2b9f58c) Show::serialiseShowItems[Layout]: itemCount = 1
+- 21:14:10.500 INFO1  : (@Show::serialiseShowItems:1092 ##2b9f58c) Show::serialiseShowItems[View Filter]: itemCount = 4
+- 21:14:10.500 INFO1  : (@Show::serialiseShowItems:1092 ##2b9f58c) Show::serialiseShowItems[Sort]: itemCount = 5
+- 21:14:10.500 INFO1  : (@Show::serialiseShowItems:1092 ##2b9f58c) Show::serialiseShowItems[Timing]: itemCount = 3
+- 21:14:10.500 INFO1  : (@Show::serialiseShowItems:1092 ##2b9f58c) Show::serialiseShowItems[Preset]: itemCount = 0
+- 21:14:10.500 INFO1  : (@Show::serialiseShowItems:1092 ##2b9f58c) Show::serialiseShowItems[Extract]: itemCount = 0
+- 21:14:10.500 INFO1  : (@Show::serialiseShowItems:1092 ##2b9f58c) Show::serialiseShowItems[Cuelist]: itemCount = 4
+- 21:14:10.500 INFO1  : (@Show::serialiseShowItems:1092 ##2b9f58c) Show::serialiseShowItems[Snapshot]: itemCount = 0
+- 21:14:10.500 INFO1  : (@Show::serialiseShowItems:1092 ##2b9f58c) Show::serialiseShowItems[DateTime Event]: itemCount = 0
+- 21:14:10.515 INFO1  : (@Show::serialiseShowItems:1092 ##2b9f58c) Show::serialiseShowItems[FX Master]: itemCount = 2
+- 21:14:10.515 INFO   : (@ScopedTimeLogger::~ScopedTimeLogger:26 ##2b9f58c) Serialise a show took 34 ms.
+- 21:14:10.515 INFO   : (@AutoSaveThread::trySave:267 ##2b9f58c) AutoSave completed in 35 ms
+- 21:15:23.500 INFO   : (@ClipPlayerManager::logPlaybackState:899) 4:Cuelist [cue 0,2000ms,Playing]
+- 21:16:38.593 INFO   : (@ClipPlayerManager::logPlaybackState:899) 4:Cuelist [cue 0,2000ms,Playing]
+- 21:17:42.937 INFO   : (@ByronMotherWidget::refreshDmxFiltersSlot:1577) Effective channels: 0
+- 21:17:48.734 INFO   : (@ByronMotherWidget::refreshDmxFiltersSlot:1577) Effective channels: 0
+- 21:17:53.796 INFO   : (@ClipPlayerManager::logPlaybackState:899) 4:Cuelist [cue 0,2000ms,Playing]
+- 21:19:08.875 INFO   : (@ClipPlayerManager::logPlaybackState:899) 4:Cuelist [cue 0,2000ms,Playing]
+- 21:20:24.953 INFO   : (@ClipPlayerManager::logPlaybackState:899) 4:Cuelist [cue 0,2000ms,Playing]
+- 21:21:39.109 INFO   : (@ClipPlayerManager::logPlaybackState:899) 4:Cuelist [cue 0,2000ms,Playing]
+- 21:21:54.734 INFO   : (@ByronMotherWidget::refreshDmxFiltersSlot:1577) Effective channels: 0
+- 21:22:00.171 INFO   : (@ByronMotherWidget::refreshDmxFiltersSlot:1577) Effective channels: 0
+- 21:22:54.265 INFO   : (@ClipPlayerManager::logPlaybackState:899) 4:Cuelist [cue 0,2000ms,Playing]
+- 21:24:09.343 INFO   : (@ClipPlayerManager::logPlaybackState:899) 4:Cuelist [cue 0,2000ms,Playing]
+- 21:24:10.531 INFO   : (@AutoSaveThread::createBackupCopy:228 ##2b9f58c) Wrote backup file C:\Vista 3\Shows\_Backups/Autobackup__Bardot Show 1__2021-05-06_21-24.v3s
+- 21:25:24.406 INFO   : (@ClipPlayerManager::logPlaybackState:899) 4:Cuelist [cue 0,2000ms,Playing]
+- 21:26:29.171 INFO   : (@ByronMotherWidget::refreshDmxFiltersSlot:1577) Effective channels: 0
+- 21:26:35.640 INFO   : (@ByronMotherWidget::refreshDmxFiltersSlot:1577) Effective channels: 0
+- 21:26:39.546 INFO   : (@ClipPlayerManager::logPlaybackState:899) 4:Cuelist [cue 0,2000ms,Playing]
+- 21:27:54.687 INFO   : (@ClipPlayerManager::logPlaybackState:899) 4:Cuelist [cue 0,2000ms,Playing]
+- 21:29:09.828 INFO   : (@ClipPlayerManager::logPlaybackState:899) 4:Cuelist [cue 0,2000ms,Playing]
+- 21:30:24.875 INFO   : (@ClipPlayerManager::logPlaybackState:899) 4:Cuelist [cue 0,2000ms,Playing]
+- 21:30:55.640 INFO   : (@ByronMotherWidget::refreshDmxFiltersSlot:1577) Effective channels: 0
+- 21:31:00.734 INFO   : (@ByronMotherWidget::refreshDmxFiltersSlot:1577) Effective channels: 0
+- 21:31:40.000 INFO   : (@ClipPlayerManager::logPlaybackState:899) 4:Cuelist [cue 0,2000ms,Playing]
+- 21:32:55.156 INFO   : (@ClipPlayerManager::logPlaybackState:899) 4:Cuelist [cue 0,2000ms,Playing]
+- 21:34:10.312 INFO   : (@ClipPlayerManager::logPlaybackState:899) 4:Cuelist [cue 0,2000ms,Playing]
+- 21:35:03.734 INFO   : (@ByronMotherWidget::refreshDmxFiltersSlot:1577) Effective channels: 0
+- 21:35:10.421 INFO   : (@ByronMotherWidget::refreshDmxFiltersSlot:1577) Effective channels: 0
+- 21:35:25.484 INFO   : (@ClipPlayerManager::logPlaybackState:899) 4:Cuelist [cue 0,2000ms,Playing]
+- 21:36:40.546 INFO   : (@ClipPlayerManager::logPlaybackState:899) 4:Cuelist [cue 0,2000ms,Playing]
+- 21:37:55.734 INFO   : (@ClipPlayerManager::logPlaybackState:899) 4:Cuelist [cue 0,2000ms,Playing]
+- 21:39:11.000 INFO   : (@ClipPlayerManager::logPlaybackState:899) 4:Cuelist [cue 0,2000ms,Playing]
+- 21:39:16.468 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 21:39:16.468 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 21:39:16.468 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 21:39:16.468 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 21:39:16.484 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 21:39:16.484 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 21:39:16.484 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 21:39:16.484 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 21:39:16.500 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 21:39:16.500 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+*** Message repeated 193 more times ***
+- 21:39:42.421 INFO   : (@ByronMotherWidget::refreshDmxFiltersSlot:1577) Effective channels: 0
+- 21:39:48.843 INFO   : (@ByronMotherWidget::refreshDmxFiltersSlot:1577) Effective channels: 0
+- 21:39:58.359 INFO   : (@ByronApplication::onActionTriggered:164) Clear / Close
+- 21:39:58.375 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) Clear (type 64)
+- 21:39:59.375 INFO   : (@ByronApplication::onActionTriggered:164) Release All Cuelists
+- 21:39:59.375 INFO   : (@PlaybackFunctions::releaseAll:995) type: 0
+- 21:39:59.375 INFO   : (@PlaybackFunctions::release:593) 4 Cuelist [cue 0,2000ms,Playing]0
+- 21:39:59.390 INFO   : (@PlaybackFunctions::release:621) 4 Cuelist [cue 0,2000ms,Releasing][at exit]
+- 21:40:05.703 WARNING: (@MessageDialog::executeMessageBox:21) Are you sure that you want to quit?
+
+- 21:40:07.562 INFO   : (@main:589) exiting
+- 21:40:07.718 INFO   : (@JDialog::~JDialog:20) Dialog destroyed - DateTimeEventDialog
+- 21:40:07.718 INFO   : (@JDialog::~JDialog:20) Dialog destroyed - JumpDialog
+- 21:40:07.734 INFO   : (@TrackingBackupShowSyncWidget::~TrackingBackupShowSyncWidget:47) Destroying TrackingBackupShowSyncWidget
+- 21:40:07.734 INFO   : (@JDialog::~JDialog:20) Dialog destroyed - DmxConnectionsDialog
+- 21:40:07.734 INFO   : (@JDialog::~JDialog:20) Dialog destroyed - Add DMX Port
+- 21:40:07.750 INFO   : (@DestroyAudioLibrary:22) DestroyAudioLibrary
+- 21:40:07.765 INFO   : (@ConsoleDriver::stopCommunication:146) ConsoleDriver::stopCommunication: Console Type 100 Name: Art-Net Broadcast UUID:b44d6a80 - DMX stats: [Frames sent so far - 0: 55376] RX/TX-ready: 1
+- 21:40:07.765 INFO   : (@ConsoleDriver::stopCommunication:146) ConsoleDriver::stopCommunication: Console Type 101 Name: Pathport UUID:4e55c8af - DMX stats: [Frames sent so far - N/A] RX/TX-ready: 1
+- 21:40:07.765 INFO   : (@ConsoleDriver::stopCommunication:146) ConsoleDriver::stopCommunication: Console Type 102 Name: Streaming ACN UUID:669aa062 - DMX stats: [Frames sent so far - N/A] RX/TX-ready: 1
+- 21:40:07.781 INFO   : (@ConsoleDriver::stopCommunication:146) ConsoleDriver::stopCommunication: Console Type 100 Name: 192.168.1.7 UUID:c0a80107 - DMX stats: [Frames sent so far - 0: 54204 1: 54204 2: 54204 3: 54204] RX/TX-ready: 1
+- 21:40:08.812 INFO   : (@UsbManager::~UsbManager:170) Finish USB Manager
+- 21:40:08.812 INFO   : (@UsbManager::Impl::~Impl:81) Exit libusb
+- 21:40:08.812 INFO   : (@ConsoleDriver::stopCommunication:146) ConsoleDriver::stopCommunication: Console Type 102 Name: Streaming ACN UUID:669aa062 - DMX stats: [Frames sent so far - N/A] RX/TX-ready: 0
+- 21:40:08.859 INFO   :NETWORK: (@BoostTcpConnection::close:116) (Main): Connection closed.. local: :0, remote: :0
+- 21:40:08.875 INFO   :NETWORK: (@BoostTcpConnection::close:116) (Main): Connection closed.. local: :0, remote: :0
+- 21:40:08.875 INFO   :NETWORK: (@BoostTcpConnection::close:116) (Main): Connection closed.. local: 127.0.0.1:22123, remote: 127.0.0.1:53653
+- 21:40:08.875 INFO   :NETWORK: (@BoostTcpConnection::close:116) (Main): Connection closed.. local: :0, remote: :0
+- 21:40:08.875 WARNING:NETWORK: (@BoostTcpNetwork::outputNetworkError:395 ##9f44a18) (Main): A socket error has occurred.. local: 127.0.0.1:53653, remote: 127.0.0.1:22123 - An existing connection was forcibly closed by the remote host
+- 21:40:08.875 WARNING:NETWORK: (@BoostTcpNetwork::outputNetworkError:395 ##4dfeff0) (Main): A socket error has occurred.. local: 127.0.0.1:22123, remote: 127.0.0.1:53653 - The network connection was aborted by the local system
+- 21:40:08.875 INFO2  :NETWORK: (@BoostTcpNetwork::removeConnection:223 ##9f44a18) (Main): (-)Connection removed
+- 21:40:08.875 INFO   :NETWORK: (@BoostTcpConnection::close:116 ##4dfeff0) (Main): Connection closed.. local: 127.0.0.1:22123, remote: 127.0.0.1:53653
+- 21:40:08.875 INFO   :NETWORK: (@BoostTcpConnection::close:116 ##9f44a18) (Main): Connection closed.. local: 127.0.0.1:53653, remote: 127.0.0.1:22123
+- 21:40:08.875 INFO   :NETWORK: (@BoostTcpConnection::close:116 ##9f44a18) (Main): Connection closed.. local: 127.0.0.1:53653, remote: 127.0.0.1:22123
+- 21:40:08.875 INFO   :NETWORK: (@BoostTcpConnection::close:116) (Main): Connection closed.. local: 127.0.0.1:22123, remote: 127.0.0.1:53653
+- 21:40:08.875 INFO   :NETWORK: (@BoostTcpConnection::close:116) (Main): Connection closed.. local: :0, remote: :0
+- 21:40:08.875 INFO   : (@DestroyKernelLibrary:34) 
+
+
+############### Logging ended at 2021-May-06 21:40:08.940170 ###############
+
+
+
+- 21:40:08.890 INFO   :NETWORK: (@BoostTcpConnection::close:116) (Main): Connection closed.. local: 127.0.0.1:22125, remote: 127.0.0.1:53654
+- 21:40:08.890 INFO   :NETWORK: (@BoostTcpConnection::close:116) (Main): Connection closed.. local: 127.0.0.1:22125, remote: 127.0.0.1:53656
+- 21:40:08.890 WARNING:NETWORK: (@BoostTcpNetwork::outputNetworkError:395 ##9f467a0) (Main): A socket error has occurred.. local: 127.0.0.1:22125, remote: 127.0.0.1:53654 - The I/O operation has been aborted because of either a thread exit or an application request
+- 21:40:08.890 WARNING:NETWORK: (@BoostTcpNetwork::outputNetworkError:395 ##9f46620) (Main): A socket error has occurred.. local: 127.0.0.1:22125, remote: 127.0.0.1:53656 - The network connection was aborted by the local system
+- 21:40:08.890 INFO   :NETWORK: (@BoostTcpConnection::close:116) (Main): Connection closed.. local: 127.0.0.1:22125, remote: 127.0.0.1:53658
+- 21:40:08.890 WARNING:NETWORK: (@BoostTcpNetwork::outputNetworkError:395 ##9f467e8) (Main): A socket error has occurred.. local: 127.0.0.1:22125, remote: 127.0.0.1:53658 - The network connection was aborted by the local system
+- 21:40:08.890 INFO   :NETWORK: (@BoostTcpConnection::close:116) (Main): Connection closed.. local: 127.0.0.1:22125, remote: 127.0.0.1:53660
+- 21:40:08.890 INFO   :NETWORK: (@BoostTcpConnection::close:116) (Main): Connection closed.. local: :0, remote: :0
+- 21:40:08.890 INFO   :NETWORK: (@BoostTcpConnection::close:116 ##9f467a0) (Main): Connection closed.. local: 127.0.0.1:22125, remote: 127.0.0.1:53654
+- 21:40:08.890 INFO   :NETWORK: (@BoostTcpConnection::close:116 ##9f467a0) (Main): Connection closed.. local: 127.0.0.1:22125, remote: 127.0.0.1:53654
+- 21:40:08.890 INFO   :NETWORK: (@BoostTcpConnection::close:116 ##9f46620) (Main): Connection closed.. local: 127.0.0.1:22125, remote: 127.0.0.1:53656
+- 21:40:08.890 WARNING:NETWORK: (@BoostTcpNetwork::outputNetworkError:395 ##9f467a0) (Main): A socket error has occurred.. local: 127.0.0.1:22125, remote: 127.0.0.1:53660 - The network connection was aborted by the local system
+- 21:40:08.890 INFO   :NETWORK: (@BoostTcpConnection::close:116 ##9f467e8) (Main): Connection closed.. local: 127.0.0.1:22125, remote: 127.0.0.1:53658
+- 21:40:08.890 INFO   :NETWORK: (@BoostTcpConnection::close:116 ##9f46620) (Main): Connection closed.. local: 127.0.0.1:22125, remote: 127.0.0.1:53656
+- 21:40:08.890 INFO   :NETWORK: (@BoostTcpConnection::close:116 ##9f467e8) (Main): Connection closed.. local: 127.0.0.1:22125, remote: 127.0.0.1:53658
+- 21:40:08.890 INFO   :NETWORK: (@BoostTcpConnection::close:116 ##9f467a0) (Main): Connection closed.. local: 127.0.0.1:22125, remote: 127.0.0.1:53660
+- 21:40:08.890 WARNING:NETWORK: (@BoostTcpNetwork::outputNetworkError:395 ##9f467e8) (Main): A socket error has occurred.. local: :0, remote: :0 - The I/O operation has been aborted because of either a thread exit or an application request
+- 21:40:08.890 INFO   :NETWORK: (@BoostTcpConnection::close:116 ##9f467a0) (Main): Connection closed.. local: 127.0.0.1:22125, remote: 127.0.0.1:53660
+- 21:40:08.890 INFO   :NETWORK: (@BoostTcpConnection::close:116 ##9f467e8) (Main): Connection closed.. local: :0, remote: :0
+- 21:40:08.890 INFO   :NETWORK: (@BoostTcpConnection::close:116 ##9f467e8) (Main): Connection closed.. local: :0, remote: :0
+- 21:40:08.890 INFO   :NETWORK: (@BoostTcpConnection::close:116) (Main): Connection closed.. local: 127.0.0.1:22001, remote: 127.0.0.1:53655
+- 21:40:08.890 INFO   :NETWORK: (@BoostTcpConnection::close:116) (Main): Connection closed.. local: 127.0.0.1:22002, remote: 127.0.0.1:53661
+- 21:40:08.890 WARNING:NETWORK: (@BoostTcpNetwork::outputNetworkError:395 ##9f44be0) (Main): A socket error has occurred.. local: 127.0.0.1:22001, remote: 127.0.0.1:53655 - The I/O operation has been aborted because of either a thread exit or an application request
+- 21:40:08.890 INFO   :NETWORK: (@BoostTcpConnection::close:116) (Main): Connection closed.. local: 127.0.0.1:22003, remote: 127.0.0.1:53657
+- 21:40:08.890 WARNING:NETWORK: (@BoostTcpNetwork::outputNetworkError:395 ##9f447a8) (Main): A socket error has occurred.. local: 127.0.0.1:22002, remote: 127.0.0.1:53661 - The I/O operation has been aborted because of either a thread exit or an application request
+- 21:40:08.890 INFO   :NETWORK: (@BoostTcpConnection::close:116) (Main): Connection closed.. local: 127.0.0.1:22004, remote: 127.0.0.1:53659
+- 21:40:08.890 WARNING:NETWORK: (@BoostTcpNetwork::outputNetworkError:395 ##9f44e80) (Main): A socket error has occurred.. local: 127.0.0.1:22003, remote: 127.0.0.1:53657 - The I/O operation has been aborted because of either a thread exit or an application request
+- 21:40:08.890 INFO   :NETWORK: (@BoostTcpConnection::close:116) (Main): Connection closed.. local: :0, remote: :0
+- 21:40:08.890 WARNING:NETWORK: (@BoostTcpNetwork::outputNetworkError:395 ##9f450f0) (Main): A socket error has occurred.. local: 127.0.0.1:22004, remote: 127.0.0.1:53659 - The I/O operation has been aborted because of either a thread exit or an application request
+- 21:40:08.890 INFO   :NETWORK: (@BoostTcpConnection::close:116) (Main): Connection closed.. local: :0, remote: :0
+- 21:40:08.890 INFO   :NETWORK: (@BoostTcpConnection::close:116) (Main): Connection closed.. local: :0, remote: :0
+- 21:40:08.890 INFO   :NETWORK: (@BoostTcpConnection::close:116) (Main): Connection closed.. local: :0, remote: :0
+*** Message repeated 6 more times ***
+- 21:40:08.890 WARNING:NETWORK: (@BoostTcpNetwork::outputNetworkError:395 ##9f447a8) (Main): A socket error has occurred.. local: :0, remote: :0 - The I/O operation has been aborted because of either a thread exit or an application request
+- 21:40:08.890 INFO   :NETWORK: (@BoostTcpConnection::close:116 ##9f450f0) (Main): Connection closed.. local: 127.0.0.1:22004, remote: 127.0.0.1:53659
+- 21:40:08.890 WARNING:NETWORK: (@BoostTcpNetwork::outputNetworkError:395 ##9f44e80) (Main): A socket error has occurred.. local: :0, remote: :0 - The I/O operation has been aborted because of either a thread exit or an application request
+- 21:40:08.890 INFO   :NETWORK: (@BoostTcpConnection::close:116 ##9f450f0) (Main): Connection closed.. local: 127.0.0.1:22004, remote: 127.0.0.1:53659
+- 21:40:08.890 INFO   :NETWORK: (@BoostTcpConnection::close:116 ##9f447a8) (Main): Connection closed.. local: :0, remote: :0
+- 21:40:08.890 WARNING:NETWORK: (@BoostTcpNetwork::outputNetworkError:395 ##9f450f0) (Main): A socket error has occurred.. local: :0, remote: :0 - The I/O operation has been aborted because of either a thread exit or an application request
+- 21:40:08.890 INFO   :NETWORK: (@BoostTcpConnection::close:116 ##9f447a8) (Main): Connection closed.. local: :0, remote: :0
+- 21:40:08.890 INFO   :NETWORK: (@BoostTcpConnection::close:116 ##9f44e80) (Main): Connection closed.. local: :0, remote: :0
+- 21:40:08.890 INFO   :NETWORK: (@BoostTcpConnection::close:116 ##9f44e80) (Main): Connection closed.. local: :0, remote: :0
+- 21:40:08.890 INFO   :NETWORK: (@BoostTcpNetwork::outputNetworkError:116 ##9f450f0) (Main): Connection closed.. local: :0, remote: :0
+- 21:40:08.890 WARNING:NETWORK: (@BoostTcpNetwork::outputNetworkError:395 ##9f447a8) (Main): A socket error has occurred.. local: :0, remote: :0 - The I/O operation has been aborted because of either a thread exit or an application request
+- 21:40:08.890 INFO   :NETWORK: (@BoostTcpConnection::close:116 ##9f450f0) (Main): Connection closed.. local: :0, remote: :0
+- 21:40:08.890 INFO   :NETWORK: (@BoostTcpConnection::close:116 ##9f447a8) (Main): Connection closed.. local: :0, remote: :0
+- 21:40:08.890 INFO   :NETWORK: (@BoostTcpConnection::close:116 ##9f447a8) (Main): Connection closed.. local: :0, remote: :0
+- 21:40:08.890 INFO2  :NETWORK: (@DpuProcessManager::destroyExistingProcesses:64) (Main): Killing any lingering playback node processes
+- 21:40:08.921 INFO   : (@CopyProtectionManagerImpl::run:184 ##1b400540) Copy-protection thread finished.
+- 21:40:08.921 INFO   :NETWORK: (@BoostTcpConnection::close:116) (Main): Connection closed.. local: :0, remote: :0
+- 21:40:08.921 INFO   :NETWORK: (@BoostTcpConnection::close:116) (Main): Connection closed.. local: :0, remote: :0

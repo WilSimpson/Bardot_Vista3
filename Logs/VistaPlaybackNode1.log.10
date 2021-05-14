@@ -1,0 +1,240 @@
+- 21:09:05.000 INFO   : (@main:150) Thu May 6 21:09:05 2021
+- 21:09:05.000 INFO   : (@main:151) OS: Windows 10 (10.0), CPU: x86_64, Logical Cores: 4
+- 21:09:05.000 INFO   : (@`anonymous-namespace'::getThisExecutableDirPath:86) Path to executable: C:/Program Files (x86)/Chroma-Q/Vista3/VistaPlaybackNode.exe
+- 21:09:05.000 INFO   : (@Directory::getPath:848) QtPlugins path = C:/Program Files (x86)/Chroma-Q/Vista3/plugins
+- 21:09:05.000 INFO   : (@main:161) Starting C:/Program Files (x86)/Chroma-Q/Vista3/VistaPlaybackNode.exe
+- 21:09:05.000 INFO   : (@main:164) default plugin path: c:/Qt/Qt5.8.0/plugins
+- 21:09:05.000 INFO   : (@InitialiseHardwareInterfaceLibrary:10) Initializing Hardware Interface
+- 21:09:05.015 INFO   : (@BoostNetworkThread::run:54 ##1f687f0) starting
+- 21:09:05.015 INFO   : (@BoostNetworkThread::run:54 ##1f68670) starting
+- 21:09:05.047 INFO   : (@USB::libusbInit:143) Initializing libusb...
+- 21:09:05.047 INFO   : (@UsbManager::UsbManager:154) Initializing USB Manager
+- 21:09:05.047 INFO   : (@DpuManager::initialiseLocalConfiguration:80) initializing
+- 21:09:05.062 INFO   : (@BoostNetworkThread::run:54 ##1f66e40) starting
+- 21:09:05.062 INFO   : (@getLocalHostUuid:41) Local hostID: 434bfdc5
+- 21:09:05.062 INFO   : (@getLocalHostUuid:49) Local hostID: 434bfdc5
+- 21:09:05.125 INFO   : (@DpuManager::initialiseLocalConfiguration:117) Available CPU capability: 4 host type: 0
+- 21:09:05.125 INFO   : (@TimecodeManager::TimecodeManager:71) 
+- 21:09:05.125 INFO   : (@InitialiseShowLibrary:163) Initializing show Library
+- 21:09:05.125 INFO   : (@Console::Console:71) (props) type 100 (Art-Net) vcID: b44d6a80 hwID: b44d6a80
+- 21:09:05.125 INFO   : (@Console::Console:71) (props) type 102 (sACN) vcID: 669aa062 hwID: 669aa062
+- 21:09:05.125 INFO   : (@Console::Console:71) (props) type 101 (Pathport) vcID: 4e55c8af hwID: 4e55c8af
+- 21:09:05.140 INFO   : (@Directory::getPath:858) Preferences path = C:\Vista 3
+- 21:09:05.140 INFO   : (@ShowManager::ShowManager:128) 
+- 21:09:05.140 INFO   :NETWORK: (@PlaybackNodeManager::PlaybackNodeManager:252) VistaPlaybackNode_1: new instance
+- 21:09:05.140 INFO   : (@Directory::getPath:746) Factory Resources path = C:/Program Files (x86)/Chroma-Q/Vista3
+- 21:09:05.140 INFO   : (@Directory::getPath:784) FactoryEffectLibrary path = C:/Program Files (x86)/Chroma-Q/Vista3/EffectLibrary
+- 21:09:05.140 INFO   : (@BoostNetworkThread::run:54 ##1f99f88) starting
+- 21:09:05.140 INFO   : (@BoostNetworkThread::run:54 ##1f99eb0) starting
+- 21:09:05.140 INFO   : (@BoostNetworkThread::run:54 ##1f99f28) starting
+- 21:09:05.140 INFO   : (@BoostNetworkThread::run:54 ##1f99ec8) starting
+- 21:09:05.140 INFO   : (@BoostNetworkThread::run:54 ##1f99e80) starting
+- 21:09:05.140 INFO   : (@BoostNetworkThread::run:54 ##1fa4bc0) starting
+- 21:09:05.140 INFO   : (@BoostNetworkThread::run:54 ##1fa4b60) starting
+- 21:09:05.140 INFO   : (@BoostNetworkThread::run:54 ##1fa4c68) starting
+- 21:09:05.187 INFO   : (@Directory::getPath:779) UserEffectLibrary path = C:\Vista 3/Effects
+- 21:09:05.203 INFO   : (@BoostTcpConnection::connectToServer:32) host: 127.0.0.1, port: 22125
+- 21:09:05.203 INFO2  :NETWORK: (@BoostTcpNetwork::socketConnected:191 ##1fa4c68) VistaPlaybackNode_1: (+)Connection established.. local: 127.0.0.1:53654, remote: 127.0.0.1:22125
+- 21:09:05.203 INFO   : (@BoostTcpConnection::connectToServer:32) host: 127.0.0.1, port: 22001
+- 21:09:05.203 INFO2  :NETWORK: (@BoostTcpNetwork::socketConnected:191 ##1f68670) VistaPlaybackNode_1: (+)Connection established.. local: 127.0.0.1:53655, remote: 127.0.0.1:22001
+- 21:09:05.203 INFO   :NETWORK: (@PlaybackNodeManager::nodeConnectedSlot:541) VistaPlaybackNode_1: 127.0.0.1 connected
+- 21:09:08.640 INFO   :NETWORK: (@PlaybackNodeManager::doAboutToSync:902) VistaPlaybackNode_1: Received ABOUT_TO_SYNC
+- 21:09:08.640 INFO   :NETWORK: (@PlaybackNodeManager::setSyncProgressState:2174) VistaPlaybackNode_1: Sync Progress State: AUX_ABOUT_TO_SYNC
+- 21:09:08.687 INFO   :NETWORK: (@PlaybackNodeManager::doDpuSync:789) VistaPlaybackNode_1: Received SHOW_SYNC
+- 21:09:08.687 INFO   :NETWORK: (@PlaybackNodeManager::setSyncProgressState:2174) VistaPlaybackNode_1: Sync Progress State: AUX_RECEIVED_SHOW_ABOUT_TO_DESERIALISE
+- 21:09:08.687 INFO   :NETWORK: (@ShowManager::prepareForShowReplacement:803) VistaPlaybackNode_1: prepareForShowReplacement: Auxiliary
+- 21:09:08.687 INFO   :NETWORK: (@ShowManager::prepareForShowReplacement:820) VistaPlaybackNode_1: Emitting disablePlayback()
+- 21:09:08.687 INFO   :NETWORK: (@ShowManager::prepareForShowReplacement:823) VistaPlaybackNode_1: Emitting showAboutToLoad()
+- 21:09:08.703 INFO1  :NETWORK: (@PlaybackNodeManager::showAboutToLoadSlot:497) VistaPlaybackNode_1: Emitting stateChangedSignal()
+- 21:09:08.703 INFO   : (@Console::Console:65) serialised
+- 21:09:08.703 INFO   : (@Console::Console:65) serialised
+- 21:09:08.703 INFO   : (@Console::Console:65) serialised
+- 21:09:08.703 INFO   : (@Console::Console:65) serialised
+- 21:09:08.719 INFO   : (@Console::Console:65) serialised
+- 21:09:08.719 INFO   : (@ScopedTimeLogger::~ScopedTimeLogger:26) Serialise a show took 19 ms.
+- 21:09:08.719 INFO   : (@Directory::getPath:751) UserFixtureLibrary path = C:\Vista 3/Fixtures
+- 21:09:08.719 INFO   : (@Directory::getPath:863) UserFixtureArrangementLibrary path = C:\Vista 3/Fixtures/CustomArrangements
+- 21:09:08.719 INFO   :NETWORK: (@PlaybackNodeManager::setSyncProgressState:2174) VistaPlaybackNode_1: Sync Progress State: AUX_SHOW_DESERIALISED
+- 21:09:08.719 INFO   :NETWORK: (@PlaybackNodeManager::dpuSyncAck:658) VistaPlaybackNode_1: Sending SHOW_SYNC_ACK from: 434bfdc6
+- 21:09:08.719 INFO   :NETWORK: (@PlaybackNodeManager::setSyncProgressState:2174) VistaPlaybackNode_1: Sync Progress State: AUX_SENDING_SYNC_ACKNOWLEDGEMENT
+- 21:09:08.719 INFO   :NETWORK: (@PlaybackNodeManager::doDpuSyncAck:874) VistaPlaybackNode_1: Received SHOW_SYNC_ACK from: 434bfdc6
+- 21:09:08.719 WARNING:NETWORK: (@PlaybackNodeManager::doDpuSyncAck:880) VistaPlaybackNode_1: Received SHOW_SYNC_ACK from unknown playback node: 434bfdc6
+- 21:09:08.719 INFO   :NETWORK: (@PlaybackNodeManager::doDpuSyncAck:874) VistaPlaybackNode_1: Received SHOW_SYNC_ACK from: 434bfdc5
+- 21:09:08.719 WARNING:NETWORK: (@PlaybackNodeManager::doDpuSyncAck:880) VistaPlaybackNode_1: Received SHOW_SYNC_ACK from unknown playback node: 434bfdc5
+- 21:09:10.906 INFO   :NETWORK: (@PlaybackNodeManager::doDpuSyncComplete:710) VistaPlaybackNode_1: Received SHOW_SYNC_COMPLETE message from master
+- 21:09:10.906 INFO   :NETWORK: (@PlaybackNodeManager::setSyncProgressState:2174) VistaPlaybackNode_1: Sync Progress State: AUX_PERFORMING_POST_SYNC_TASKS
+- 21:09:10.922 INFO   :NETWORK: (@ShowManager::performPostShowSynchronisationTasks:1051) VistaPlaybackNode_1: Emitting initialisePlayback()
+- 21:09:10.922 INFO   :NETWORK: (@ShowManager::performPostShowSynchronisationTasks:1055) VistaPlaybackNode_1: Emitting showLoaded()
+- 21:09:10.922 INFO   :NETWORK: (@ShowManager::performPostShowSynchronisationTasks:1058) VistaPlaybackNode_1: Emitting showLoadedNotificationCompleted()
+- 21:09:10.922 INFO1  :NETWORK: (@PlaybackNodeManager::showLoadedNotificationCompletedSlot:516) VistaPlaybackNode_1: Emitting stateChangedSignal()
+- 21:09:10.922 INFO   :NETWORK: (@ShowManager::performPostShowSynchronisationTasks:1062) VistaPlaybackNode_1: Emitting enablePlayback()
+- 21:09:10.922 INFO   : (@logIntSet:489) PlaybackEngineCoordinator::setPlaybackUniverses: set contains 0 items: []
+- 21:09:10.922 INFO   :NETWORK: (@PlaybackNodeManager::setSyncProgressState:2174) VistaPlaybackNode_1: Sync Progress State: NO_SYNC_IN_PROGRESS
+- 21:09:10.953 WARNING: (@EffectRateController::resetAllPhasesToZero:105) current playback time 00:00:00
+- 21:09:10.953 INFO   : (@PlaybackEngine::doRefresh:266) New set of assigned fixtures follows:
+- 21:09:10.953 INFO   : (@PlaybackEngine::doRefresh:280) PlaybackEngine: Elapsed time between refreshes was: 0ms
+- 21:09:10.203 INFO   : (@logIntSet:489) PlaybackEngineCoordinator::setPlaybackUniverses: set contains 1 items: [0]
+- 21:09:10.219 INFO1  :NETWORK: (@PlaybackNodeManager::checkTimeControllerFailover:2049) VistaPlaybackNode_1: isSynchronised changed to: 1
+- 21:09:10.234 INFO   : (@PlaybackEngine::doRefresh:266) New set of assigned fixtures follows:
+- 21:09:10.234 INFO   : (@PlaybackEngine::doRefresh:268) id:1:IH140SR9
+- 21:09:10.234 INFO   : (@PlaybackEngine::doRefresh:268) id:2:IH140SR9
+- 21:09:10.234 INFO   : (@PlaybackEngine::doRefresh:268) id:3:IH140SR9
+- 21:09:10.234 INFO   : (@PlaybackEngine::doRefresh:268) id:4:IH140SR9
+- 21:09:10.234 INFO   : (@PlaybackEngine::doRefresh:268) id:5:UberPar 12
+- 21:09:10.234 INFO   : (@PlaybackEngine::doRefresh:268) id:6:UberPar 12
+- 21:09:10.234 INFO   : (@PlaybackEngine::doRefresh:268) id:7:UberPar 12
+- 21:09:10.234 INFO   : (@PlaybackEngine::doRefresh:268) id:8:UberPar 12
+- 21:09:10.234 INFO   : (@PlaybackEngine::doRefresh:268) id:9:UberPar 12
+- 21:09:10.234 INFO   : (@PlaybackEngine::doRefresh:268) id:10:UberPar 12
+- 21:09:10.234 INFO   : (@PlaybackEngine::doRefresh:268) id:11:UberPar 12
+- 21:09:10.234 INFO   : (@PlaybackEngine::doRefresh:268) id:12:UberPar 12
+- 21:09:10.234 INFO   : (@PlaybackEngine::doRefresh:268) id:13:UberPar 12
+- 21:09:10.234 INFO   : (@PlaybackEngine::doRefresh:268) id:14:UberPar 12
+- 21:09:10.234 INFO   : (@PlaybackEngine::doRefresh:268) id:30:WonderBar
+- 21:09:10.234 INFO   : (@PlaybackEngine::doRefresh:268) id:31:WonderBar
+- 21:09:10.234 INFO   : (@PlaybackEngine::doRefresh:268) id:32:SwritHPX
+- 21:09:10.234 INFO   : (@PlaybackEngine::doRefresh:268) id:34:HZ-350
+- 21:09:10.234 INFO   : (@PlaybackEngine::doRefresh:268) id:35:A360IEx
+- 21:09:10.234 INFO   : (@PlaybackEngine::doRefresh:268) id:36:A360IEx
+- 21:09:10.234 INFO   : (@PlaybackEngine::doRefresh:268) id:37:A360IEx
+- 21:09:10.234 INFO   : (@PlaybackEngine::doRefresh:268) id:38:A360IEx
+- 21:09:10.234 INFO   : (@PlaybackEngine::doRefresh:268) id:39:A360IEx
+- 21:09:11.719 INFO   : (@PlaybackEngine::doRefresh:266) New set of assigned fixtures follows:
+- 21:09:11.719 INFO   : (@PlaybackEngine::doRefresh:268) id:1:IH140SR9
+- 21:09:11.719 INFO   : (@PlaybackEngine::doRefresh:268) id:2:IH140SR9
+- 21:09:11.719 INFO   : (@PlaybackEngine::doRefresh:268) id:3:IH140SR9
+- 21:09:11.719 INFO   : (@PlaybackEngine::doRefresh:268) id:4:IH140SR9
+- 21:09:11.719 INFO   : (@PlaybackEngine::doRefresh:268) id:5:UberPar 12
+- 21:09:11.719 INFO   : (@PlaybackEngine::doRefresh:268) id:6:UberPar 12
+- 21:09:11.719 INFO   : (@PlaybackEngine::doRefresh:268) id:7:UberPar 12
+- 21:09:11.719 INFO   : (@PlaybackEngine::doRefresh:268) id:8:UberPar 12
+- 21:09:11.719 INFO   : (@PlaybackEngine::doRefresh:268) id:9:UberPar 12
+- 21:09:11.719 INFO   : (@PlaybackEngine::doRefresh:268) id:10:UberPar 12
+- 21:09:11.719 INFO   : (@PlaybackEngine::doRefresh:268) id:11:UberPar 12
+- 21:09:11.719 INFO   : (@PlaybackEngine::doRefresh:268) id:12:UberPar 12
+- 21:09:11.719 INFO   : (@PlaybackEngine::doRefresh:268) id:13:UberPar 12
+- 21:09:11.719 INFO   : (@PlaybackEngine::doRefresh:268) id:14:UberPar 12
+- 21:09:11.719 INFO   : (@PlaybackEngine::doRefresh:268) id:30:WonderBar
+- 21:09:11.719 INFO   : (@PlaybackEngine::doRefresh:268) id:31:WonderBar
+- 21:09:11.719 INFO   : (@PlaybackEngine::doRefresh:268) id:32:SwritHPX
+- 21:09:11.719 INFO   : (@PlaybackEngine::doRefresh:268) id:34:HZ-350
+- 21:09:11.719 INFO   : (@PlaybackEngine::doRefresh:268) id:35:A360IEx
+- 21:09:11.719 INFO   : (@PlaybackEngine::doRefresh:268) id:36:A360IEx
+- 21:09:11.719 INFO   : (@PlaybackEngine::doRefresh:268) id:37:A360IEx
+- 21:09:11.719 INFO   : (@PlaybackEngine::doRefresh:268) id:38:A360IEx
+- 21:09:11.719 INFO   : (@PlaybackEngine::doRefresh:268) id:39:A360IEx
+- 21:09:15.125 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 21:09:15.172 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 21:09:15.187 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 21:09:15.187 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 21:09:15.187 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 21:09:15.187 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 21:09:15.203 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 21:09:15.219 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 21:09:15.219 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 21:09:15.234 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+*** Message repeated - 21:09:50.937 INFO   : (@PlaybackEngine::doRefresh:266) New set of assigned fixtures follows:
+- 21:09:50.937 INFO   : (@PlaybackEngine::doRefresh:268) id:1:IH140SR9
+- 21:09:50.937 INFO   : (@PlaybackEngine::doRefresh:268) id:2:IH140SR9
+- 21:09:50.937 INFO   : (@PlaybackEngine::doRefresh:268) id:3:IH140SR9
+- 21:09:50.937 INFO   : (@PlaybackEngine::doRefresh:268) id:4:IH140SR9
+- 21:09:50.937 INFO   : (@PlaybackEngine::doRefresh:268) id:5:UberPar 12
+- 21:09:50.937 INFO   : (@PlaybackEngine::doRefresh:268) id:6:UberPar 12
+- 21:09:50.937 INFO   : (@PlaybackEngine::doRefresh:268) id:7:UberPar 12
+- 21:09:50.937 INFO   : (@PlaybackEngine::doRefresh:268) id:8:UberPar 12
+- 21:09:50.937 INFO   : (@PlaybackEngine::doRefresh:268) id:9:UberPar 12
+- 21:09:50.937 INFO   : (@PlaybackEngine::doRefresh:268) id:10:UberPar 12
+- 21:09:50.937 INFO   : (@PlaybackEngine::doRefresh:268) id:11:UberPar 12
+- 21:09:50.937 INFO   : (@PlaybackEngine::doRefresh:268) id:12:UberPar 12
+- 21:09:50.937 INFO   : (@PlaybackEngine::doRefresh:268) id:13:UberPar 12
+- 21:09:50.937 INFO   : (@PlaybackEngine::doRefresh:268) id:14:UberPar 12
+- 21:09:50.937 INFO   : (@PlaybackEngine::doRefresh:268) id:30:WonderBar
+- 21:09:50.937 INFO   : (@PlaybackEngine::doRefresh:268) id:31:WonderBar
+- 21:09:50.937 INFO   : (@PlaybackEngine::doRefresh:268) id:32:SwritHPX
+- 21:09:50.937 INFO   : (@PlaybackEngine::doRefresh:268) id:34:HZ-350
+- 21:09:50.937 INFO   : (@PlaybackEngine::doRefresh:268) id:35:A360IEx
+- 21:09:50.937 INFO   : (@PlaybackEngine::doRefresh:268) id:36:A360IEx
+- 21:09:50.937 INFO   : (@PlaybackEngine::doRefresh:268) id:37:A360IEx
+- 21:09:50.937 INFO   : (@PlaybackEngine::doRefresh:268) id:38:A360IEx
+- 21:09:50.937 INFO   : (@PlaybackEngine::doRefresh:268) id:39:A360IEx
+- 21:09:51.437 INFO   : (@PlaybackEngine::doRefresh:266) New set of assigned fixtures follows:
+- 21:09:51.437 INFO   : (@PlaybackEngine::doRefresh:268) id:1:IH140SR9
+- 21:09:51.437 INFO   : (@PlaybackEngine::doRefresh:268) id:2:IH140SR9
+- 21:09:51.437 INFO   : (@PlaybackEngine::doRefresh:268) id:3:IH140SR9
+- 21:09:51.437 INFO   : (@PlaybackEngine::doRefresh:268) id:4:IH140SR9
+- 21:09:51.437 INFO   : (@PlaybackEngine::doRefresh:268) id:5:UberPar 12
+- 21:09:51.437 INFO   : (@PlaybackEngine::doRefresh:268) id:6:UberPar 12
+- 21:09:51.437 INFO   : (@PlaybackEngine::doRefresh:268) id:7:UberPar 12
+- 21:09:51.437 INFO   : (@PlaybackEngine::doRefresh:268) id:8:UberPar 12
+- 21:09:51.437 INFO   : (@PlaybackEngine::doRefresh:268) id:9:UberPar 12
+- 21:09:51.437 INFO   : (@PlaybackEngine::doRefresh:268) id:10:UberPar 12
+- 21:09:51.437 INFO   : (@PlaybackEngine::doRefresh:268) id:11:UberPar 12
+- 21:09:51.437 INFO   : (@PlaybackEngine::doRefresh:268) id:12:UberPar 12
+- 21:09:51.437 INFO   : (@PlaybackEngine::doRefresh:268) id:13:UberPar 12
+- 21:09:51.437 INFO   : (@PlaybackEngine::doRefresh:268) id:14:UberPar 12
+- 21:09:51.437 INFO   : (@PlaybackEngine::doRefresh:268) id:30:WonderBar
+- 21:09:51.437 INFO   : (@PlaybackEngine::doRefresh:268) id:31:WonderBar
+- 21:09:51.437 INFO   : (@PlaybackEngine::doRefresh:268) id:32:SwritHPX
+- 21:09:51.437 INFO   : (@PlaybackEngine::doRefresh:268) id:34:HZ-350
+- 21:09:51.437 INFO   : (@PlaybackEngine::doRefresh:268) id:35:A360IEx
+- 21:09:51.437 INFO   : (@PlaybackEngine::doRefresh:268) id:36:A360IEx
+- 21:09:51.437 INFO   : (@PlaybackEngine::doRefresh:268) id:37:A360IEx
+- 21:09:51.437 INFO   : (@PlaybackEngine::doRefresh:268) id:38:A360IEx
+- 21:09:51.437 INFO   : (@PlaybackEngine::doRefresh:268) id:39:A360IEx
+- 21:10:06.531 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 21:10:06.547 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 21:10:06.547 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 21:10:06.562 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 21:10:06.578 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 21:10:06.578 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 21:10:06.594 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 21:10:06.609 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 21:10:06.609 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 21:10:06.625 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+*** Message repeated 1156 more times ***
+- 21:10:40.000 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) Clear (type 64)
+- 21:10:44.906 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 21:10:44.906 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 21:10:44.922 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 21:10:44.922 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 21:10:44.937 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 21:10:44.937 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 21:10:44.937 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 21:10:44.953 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 21:10:44.953 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+*** Message repeated 2106 more times ***
+- 21:12:30.750 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) revert changes (type 64)
+- 21:12:32.125 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 21:12:32.140 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 21:12:32.140 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 21:12:32.156 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 21:12:32.156 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 21:12:32.172 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 21:12:32.172 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 21:12:32.187 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 21:12:32.187 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+*** Message repeated 375 more times ***
+- 21:12:51.422 INFO   : (@ClipPlayerManager::logPlaybackState:899) 4:Cuelist [cue 0,2000ms,Playing]
+- 21:14:06.547 INFO   : (@ClipPlayerManager::logPlaybackState:899) 4:Cuelist [cue 0,2000ms,Playing]
+- 21:15:21.656 INFO   : (@ClipPlayerManager::logPlaybackState:899) 4:Cuelist [cue 0,2000ms,Playing]
+- 21:16:36.750 INFO   : (@ClipPlayerManager::logPlaybackState:899) 4:Cuelist [cue 0,2000ms,Playing]
+- 21:17:51.953 INFO   : (@ClipPlayerManager::logPlaybackState:899) 4:Cuelist [cue 0,2000ms,Playing]
+- 21:19:06.031 INFO   : (@ClipPlayerManager::logPlaybackState:899) 4:Cuelist [cue 0,2000ms,Playing]
+- 21:20:21.109 INFO   : (@ClipPlayerManager::logPlaybackState:899) 4:Cuelist [cue 0,2000ms,Playing]
+- 21:21:36.265 INFO   : (@ClipPlayerManager::logPlaybackState:899) 4:Cuelist [cue 0,2000ms,Playing]
+- 21:22:52.422 INFO   : (@ClipPlayerManager::logPlaybackState:899) 4:Cuelist [cue 0,2000ms,Playing]
+- 21:24:07.500 INFO   : (@ClipPlayerManager::logPlaybackState:899) 4:Cuelist [cue 0,2000ms,Playing]
+*** Message repeated 12 more times ***
+- 21:39:16.937 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 21:39:16.937 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 21:39:16.937 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 21:39:16.953 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 21:39:16.953 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 21:39:16.953 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 21:39:16.953 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 21:39:16.969 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 21:39:16.969 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 21:39:16.969 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+*** Message repeated 193 more times ***
+- 21:39:58.844 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) Clear (type 64)
+- 21:40:08.781 INFO1  :NETWORK: (@PlaybackNodeManager::checkTimeControllerFailover:2039) VistaPlaybackNode_1: Playback failover state changed to: 1

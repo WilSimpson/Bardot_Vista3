@@ -1,44 +1,850 @@
-- 18:41:41.000 INFO   : (@main:150) Sat Apr 17 18:41:41 2021
-- 18:41:41.000 INFO   : (@main:151) OS: Windows 10 (10.0), CPU: x86_64, Logical Cores: 12
-- 18:41:41.000 INFO   : (@`anonymous-namespace'::getThisExecutableDirPath:86) Path to executable: C:/Program Files (x86)/Chroma-Q/Vista3/VistaPlaybackNode.exe
-- 18:41:41.000 INFO   : (@Directory::getPath:848) QtPlugins path = C:/Program Files (x86)/Chroma-Q/Vista3/plugins
-- 18:41:41.000 INFO   : (@main:161) Starting C:/Program Files (x86)/Chroma-Q/Vista3/VistaPlaybackNode.exe
-- 18:41:41.000 INFO   : (@main:164) default plugin path: c:/Qt/Qt5.8.0/plugins
-- 18:41:41.000 INFO   : (@BoostNetworkThread::run:54 ##18a2378) starting
-- 18:41:41.000 INFO   : (@BoostNetworkThread::run:54 ##18a2408) starting
-- 18:41:41.000 INFO   : (@InitialiseHardwareInterfaceLibrary:10) Initializing Hardware Interface
-- 18:41:41.000 INFO   : (@USB::libusbInit:143) Initializing libusb...
-- 18:41:41.015 INFO   : (@UsbManager::UsbManager:154) Initializing USB Manager
-- 18:41:41.015 INFO   : (@DpuManager::initialiseLocalConfiguration:80) initializing
-- 18:41:41.015 INFO   : (@BoostNetworkThread::run:54 ##18a28a0) starting
-- 18:41:41.015 INFO   : (@getLocalHostUuid:41) Local hostID: 841cca3b
-- 18:41:41.015 INFO   : (@getLocalHostUuid:49) Local hostID: 841cca3b
-- 18:41:41.031 INFO   : (@DpuManager::initialiseLocalConfiguration:117) Available CPU capability: 12 host type: 0
-- 18:41:41.031 INFO   : (@TimecodeManager::TimecodeManager:71) 
-- 18:41:41.031 INFO   : (@InitialiseShowLibrary:163) Initializing show Library
-- 18:41:41.031 INFO   : (@Console::Console:71) (props) type 100 (Art-Net) vcID: b44d6a80 hwID: b44d6a80
-- 18:41:41.031 INFO   : (@Console::Console:71) (props) type 102 (sACN) vcID: 669aa062 hwID: 669aa062
-- 18:41:41.031 INFO   : (@Console::Console:71) (props) type 101 (Pathport) vcID: 4e55c8af hwID: 4e55c8af
-- 18:41:41.031 INFO   : (@Directory::getPath:858) Preferences path = C:\\Vista 3
-- 18:41:41.031 INFO   : (@ShowManager::ShowManager:128) 
-- 18:41:41.031 INFO   :NETWORK: (@PlaybackNodeManager::PlaybackNodeManager:252) VistaPlaybackNode_2: new instance
-- 18:41:41.031 INFO   : (@BoostNetworkThread::run:54 ##18d3a28) starting
-- 18:41:41.031 INFO   : (@BoostNetworkThread::run:54 ##18d3bc0) starting
-- 18:41:41.031 INFO   : (@BoostNetworkThread::run:54 ##18d3c98) starting
-- 18:41:41.031 INFO   : (@BoostNetworkThread::run:54 ##18d3d58) starting
-- 18:41:41.031 INFO   : (@BoostNetworkThread::run:54 ##18d3c20) starting
-- 18:41:41.031 INFO   : (@BoostNetworkThread::run:54 ##18e5f00) starting
-- 18:41:41.031 INFO   : (@BoostNetworkThread::run:54 ##18e6098) starting
-- 18:41:41.031 INFO   : (@BoostNetworkThread::run:54 ##18e5de0) starting
-- 18:41:41.031 INFO   : (@Directory::getPath:746) Factory Resources path = C:/Program Files (x86)/Chroma-Q/Vista3
-- 18:41:41.031 INFO   : (@Directory::getPath:784) FactoryEffectLibrary path = C:/Program Files (x86)/Chroma-Q/Vista3/EffectLibrary
-- 18:41:41.062 INFO   : (@Directory::getPath:779) UserEffectLibrary path = C:\\Vista 3/Effects
-- 18:41:41.062 INFO   : (@BoostTcpConnection::connectToServer:32) host: 127.0.0.1, port: 22125
-- 18:41:41.062 INFO   : (@BoostTcpConnection::connectToServer:32) host: 127.0.0.1, port: 22002
-- 18:41:41.062 INFO2  :NETWORK: (@BoostTcpNetwork::socketConnected:191 ##18e5de0) VistaPlaybackNode_2: (+)Connection established.. local: 127.0.0.1:52146, remote: 127.0.0.1:22125
-- 18:41:41.062 INFO2  :NETWORK: (@BoostTcpNetwork::socketConnected:191 ##18a2408) VistaPlaybackNode_2: (+)Connection established.. local: 127.0.0.1:52147, remote: 127.0.0.1:22002
-- 18:41:41.062 INFO   :NETWORK: (@PlaybackNodeManager::nodeConnectedSlot:541) VistaPlaybackNode_2: 127.0.0.1 connected
-- 18:41:57.718 WARNING:NETWORK: (@BoostTcpNetwork::outputNetworkError:395 ##18e5de0) VistaPlaybackNode_2: A socket error has occurred.. local: 127.0.0.1:52146, remote: 127.0.0.1:22125 - An existing connection was forcibly closed by the remote host
-- 18:41:57.718 INFO2  :NETWORK: (@BoostTcpNetwork::removeConnection:223 ##18e5de0) VistaPlaybackNode_2: (-)Connection removed
-- 18:41:57.734 INFO   :NETWORK: (@BoostTcpConnection::close:116 ##18e5de0) VistaPlaybackNode_2: Connection closed.. local: 127.0.0.1:52146, remote: 127.0.0.1:22125
-- 18:41:57.734 INFO   :NETWORK: (@BoostTcpConnection::close:116 ##18e5de0) VistaPlaybackNode_2: Connection closed.. local: 127.0.0.1:52146, remote: 127.0.0.1:22125
+- 21:17:19.000 INFO   : (@main:150) Wed May 12 21:17:19 2021
+- 21:17:19.000 INFO   : (@main:151) OS: Windows 10 (10.0), CPU: x86_64, Logical Cores: 4
+- 21:17:19.000 INFO   : (@`anonymous-namespace'::getThisExecutableDirPath:86) Path to executable: C:/Program Files (x86)/Chroma-Q/Vista3/VistaPlaybackNode.exe
+- 21:17:19.000 INFO   : (@Directory::getPath:848) QtPlugins path = C:/Program Files (x86)/Chroma-Q/Vista3/plugins
+- 21:17:19.016 INFO   : (@main:161) Starting C:/Program Files (x86)/Chroma-Q/Vista3/VistaPlaybackNode.exe
+- 21:17:19.016 INFO   : (@main:164) default plugin path: c:/Qt/Qt5.8.0/plugins
+- 21:17:19.047 INFO   : (@InitialiseHardwareInterfaceLibrary:10) Initializing Hardware Interface
+- 21:17:19.062 INFO   : (@BoostNetworkThread::run:54 ##1d33c28) starting
+- 21:17:19.062 INFO   : (@BoostNetworkThread::run:54 ##1d34078) starting
+- 21:17:19.078 INFO   : (@USB::libusbInit:143) Initializing libusb...
+- 21:17:19.109 INFO   : (@UsbManager::UsbManager:154) Initializing USB Manager
+- 21:17:19.125 INFO   : (@DpuManager::initialiseLocalConfiguration:80) initializing
+- 21:17:19.125 INFO   : (@BoostNetworkThread::run:54 ##1d32908) starting
+- 21:17:19.125 INFO   : (@getLocalHostUuid:41) Local hostID: 434bfdc5
+- 21:17:19.125 INFO   : (@getLocalHostUuid:49) Local hostID: 434bfdc5
+- 21:17:19.219 INFO   : (@DpuManager::initialiseLocalConfiguration:117) Available CPU capability: 4 host type: 83886080
+- 21:17:19.219 INFO   : (@TimecodeManager::TimecodeManager:71) 
+- 21:17:19.219 INFO   : (@InitialiseShowLibrary:163) Initializing show Library
+- 21:17:19.219 INFO   : (@Console::Console:71) (props) type 100 (Art-Net) vcID: b44d6a80 hwID: b44d6a80
+- 21:17:19.219 INFO   : (@Console::Console:71) (props) type 102 (sACN) vcID: 669aa062 hwID: 669aa062
+- 21:17:19.219 INFO   : (@Console::Console:71) (props) type 101 (Pathport) vcID: 4e55c8af hwID: 4e55c8af
+- 21:17:19.219 INFO   : (@Directory::getPath:858) Preferences path = C:\Vista 3
+- 21:17:19.219 INFO   : (@ShowManager::ShowManager:128) 
+- 21:17:19.219 INFO   :NETWORK: (@PlaybackNodeManager::PlaybackNodeManager:252) VistaPlaybackNode_2: new instance
+- 21:17:19.219 INFO   : (@BoostNetworkThread::run:54 ##1d62f00) starting
+- 21:17:19.219 INFO   : (@BoostNetworkThread::run:54 ##1d62d68) starting
+- 21:17:19.219 INFO   : (@BoostNetworkThread::run:54 ##1d63038) starting
+- 21:17:19.219 INFO   : (@BoostNetworkThread::run:54 ##1d62f18) starting
+- 21:17:19.219 INFO   : (@Directory::getPath:746) Factory Resources path = C:/Program Files (x86)/Chroma-Q/Vista3
+- 21:17:19.219 INFO   : (@Directory::getPath:784) FactoryEffectLibrary path = C:/Program Files (x86)/Chroma-Q/Vista3/EffectLibrary
+- 21:17:19.234 INFO   : (@BoostNetworkThread::run:54 ##1d62f48) starting
+- 21:17:19.234 INFO   : (@BoostNetworkThread::run:54 ##1da1688) starting
+- 21:17:19.234 INFO   : (@BoostNetworkThread::run:54 ##1da1400) starting
+- 21:17:19.234 INFO   : (@BoostNetworkThread::run:54 ##1da1640) starting
+- 21:17:19.297 INFO   : (@Directory::getPath:779) UserEffectLibrary path = C:\Vista 3/Effects
+- 21:17:19.297 INFO   : (@BoostTcpConnection::connectToServer:32) host: 127.0.0.1, port: 22125
+- 21:17:19.297 INFO   : (@BoostTcpConnection::connectToServer:32) host: 127.0.0.1, port: 22002
+- 21:17:19.297 INFO2  :NETWORK: (@BoostTcpNetwork::socketConnected:191 ##1da1640) VistaPlaybackNode_2: (+)Connection established.. local: 127.0.0.1:61804, remote: 127.0.0.1:22125
+- 21:17:19.297 INFO2  :NETWORK: (@BoostTcpNetwork::socketConnected:191 ##1d34078) VistaPlaybackNode_2: (+)Connection established.. local: 127.0.0.1:61805, remote: 127.0.0.1:22002
+- 21:17:19.297 INFO   :NETWORK: (@PlaybackNodeManager::nodeConnectedSlot:541) VistaPlaybackNode_2: 127.0.0.1 connected
+- 21:17:40.953 INFO   :NETWORK: (@PlaybackNodeManager::doAboutToSync:902) VistaPlaybackNode_2: Received ABOUT_TO_SYNC
+- 21:17:40.953 INFO   :NETWORK: (@PlaybackNodeManager::setSyncProgressState:2174) VistaPlaybackNode_2: Sync Progress State: AUX_ABOUT_TO_SYNC
+- 21:17:40.016 INFO   :NETWORK: (@PlaybackNodeManager::doDpuSync:789) VistaPlaybackNode_2: Received SHOW_SYNC
+- 21:17:40.016 INFO   :NETWORK: (@PlaybackNodeManager::setSyncProgressState:2174) VistaPlaybackNode_2: Sync Progress State: AUX_RECEIVED_SHOW_ABOUT_TO_DESERIALISE
+- 21:17:40.016 INFO   :NETWORK: (@ShowManager::prepareForShowReplacement:803) VistaPlaybackNode_2: prepareForShowReplacement: Auxiliary
+- 21:17:40.016 INFO   :NETWORK: (@ShowManager::prepareForShowReplacement:820) VistaPlaybackNode_2: Emitting disablePlayback()
+- 21:17:40.016 INFO   :NETWORK: (@ShowManager::prepareForShowReplacement:823) VistaPlaybackNode_2: Emitting showAboutToLoad()
+- 21:17:40.016 INFO1  :NETWORK: (@PlaybackNodeManager::showAboutToLoadSlot:497) VistaPlaybackNode_2: Emitting stateChangedSignal()
+- 21:17:40.031 INFO   : (@Console::Console:65) serialised
+- 21:17:40.031 INFO   : (@Console::Console:65) serialised
+- 21:17:40.031 INFO   : (@Console::Console:65) serialised
+- 21:17:40.031 INFO   : (@Console::Console:65) serialised
+- 21:17:40.047 INFO   : (@Console::Console:65) serialised
+- 21:17:40.047 INFO   : (@ScopedTimeLogger::~ScopedTimeLogger:26) Serialise a show took 26 ms.
+- 21:17:40.047 INFO   : (@Directory::getPath:751) UserFixtureLibrary path = C:\Vista 3/Fixtures
+- 21:17:40.047 INFO   : (@Directory::getPath:863) UserFixtureArrangementLibrary path = C:\Vista 3/Fixtures/CustomArrangements
+- 21:17:40.047 INFO   :NETWORK: (@PlaybackNodeManager::setSyncProgressState:2174) VistaPlaybackNode_2: Sync Progress State: AUX_SHOW_DESERIALISED
+- 21:17:40.047 INFO   :NETWORK: (@PlaybackNodeManager::dpuSyncAck:658) VistaPlaybackNode_2: Sending SHOW_SYNC_ACK from: 434bfdc7 (DESKTOP-6RVQOQ4-2)
+- 21:17:40.047 INFO   :NETWORK: (@PlaybackNodeManager::setSyncProgressState:2174) VistaPlaybackNode_2: Sync Progress State: AUX_SENDING_SYNC_ACKNOWLEDGEMENT
+- 21:17:40.047 INFO   :NETWORK: (@PlaybackNodeManager::doDpuSyncAck:874) VistaPlaybackNode_2: Received SHOW_SYNC_ACK from: 434bfdc7 (DESKTOP-6RVQOQ4-2)
+- 21:17:40.047 INFO   :NETWORK: (@PlaybackNodeManager::doDpuSyncAck:874) VistaPlaybackNode_2: Received SHOW_SYNC_ACK from: 434bfdc5 (DESKTOP-6RVQOQ4-UI)
+- 21:17:42.094 INFO   : (@PlaybackNodeManager::processMessage_SetConfiguration:1164) (role:0)- empty universes
+- 21:17:42.094 INFO   : (@logIntSet:489) PlaybackEngineCoordinator::setPlaybackUniverses: set contains 0 items: []
+- 21:17:42.578 INFO   :NETWORK: (@PlaybackNodeManager::doDpuSyncComplete:710) VistaPlaybackNode_2: Received SHOW_SYNC_COMPLETE message from master
+- 21:17:42.578 INFO   :NETWORK: (@PlaybackNodeManager::setSyncProgressState:2174) VistaPlaybackNode_2: Sync Progress State: AUX_PERFORMING_POST_SYNC_TASKS
+- 21:17:42.594 INFO   :NETWORK: (@ShowManager::performPostShowSynchronisationTasks:1051) VistaPlaybackNode_2: Emitting initialisePlayback()
+- 21:17:42.594 INFO   :NETWORK: (@ShowManager::performPostShowSynchronisationTasks:1055) VistaPlaybackNode_2: Emitting showLoaded()
+- 21:17:42.594 INFO   :NETWORK: (@ShowManager::performPostShowSynchronisationTasks:1058) VistaPlaybackNode_2: Emitting showLoadedNotificationCompleted()
+- 21:17:42.594 INFO1  :NETWORK: (@PlaybackNodeManager::showLoadedNotificationCompletedSlot:516) VistaPlaybackNode_2: Emitting stateChangedSignal()
+- 21:17:42.594 INFO   :NETWORK: (@ShowManager::performPostShowSynchronisationTasks:1062) VistaPlaybackNode_2: Emitting enablePlayback()
+- 21:17:42.594 INFO   : (@logIntSet:489) PlaybackEngineCoordinator::setPlaybackUniverses: set contains 0 items: []
+- 21:17:42.594 INFO   :NETWORK: (@PlaybackNodeManager::setSyncProgressState:2174) VistaPlaybackNode_2: Sync Progress State: NO_SYNC_IN_PROGRESS
+- 21:17:43.609 INFO   : (@PlaybackNodeManager::processMessage_SetConfiguration:1164) (role:0)- empty universes
+- 21:17:43.609 INFO   : (@logIntSet:489) PlaybackEngineCoordinator::setPlaybackUniverses: set contains 0 items: []
+- 21:17:43.625 WARNING: (@EffectRateController::resetAllPhasesToZero:105) current playback time 00:00:00
+- 21:17:43.625 INFO   : (@PlaybackEngine::doRefresh:266) New set of assigned fixtures follows:
+- 21:17:43.625 INFO   : (@PlaybackEngine::doRefresh:280) PlaybackEngine: Elapsed time between refreshes was: 0ms
+- 21:17:43.797 INFO1  :NETWORK: (@PlaybackNodeManager::checkTimeControllerFailover:2049) VistaPlaybackNode_2: isSynchronised changed to: 1
+- 21:17:58.484 INFO1  :Command: (@ShowCommandExecutor::doPush:359) set LiveClip properties (type 3971b727)
+- 21:17:58.484 INFO1  :Command: (@ShowCommandExecutor::doPush:359) set LiveClip properties (type 3971b727)
+- 21:18:00.406 INFO1  :Command: (@ShowCommandExecutor::doPush:359) set LiveClip properties (type 3971b727)
+- 21:18:00.406 INFO1  :Command: (@ShowCommandExecutor::doPush:359) set LiveClip properties (type 3971b727)
+- 21:18:12.875 INFO1  :Command: (@ShowCommandExecutor::doPush:359) set LiveClip properties (type 3971b727)
+- 21:18:12.875 INFO1  :Command: (@ShowCommandExecutor::doPush:359) set LiveClip properties (type 3971b727)
+- 21:18:34.344 INFO   : (@ClipPlayerManager::logPlaybackState:899) 5:Default [cue 0,0ms,Playing]
+- 21:19:49.422 INFO   : (@ClipPlayerManager::logPlaybackState:899) 5:Default [cue 1,0ms,Playing]
+- 21:21:04.547 INFO   : (@ClipPlayerManager::logPlaybackState:899) 5:Default [cue 0,0ms,Playing]
+- 21:22:20.641 INFO   : (@ClipPlayerManager::logPlaybackState:899) 5:Default [cue 1,0ms,Playing]
+- 21:23:35.750 INFO   : (@ClipPlayerManager::logPlaybackState:899) 5:Default [cue 0,0ms,Playing]
+- 21:24:50.812 INFO   : (@ClipPlayerManager::logPlaybackState:899) 5:Default [cue 1,0ms,Playing]
+- 21:26:05.047 INFO   : (@ClipPlayerManager::logPlaybackState:899) 5:Default [cue 0,0ms,Playing]
+- 21:27:20.156 INFO   : (@ClipPlayerManager::logPlaybackState:899) 5:Default [cue 2,0ms,Playing]
+- 21:27:34.172 WARNING: (@FixtureStatusManager::doPanelDataRequest:472) Playback status missing for fixture 34
+- 21:27:37.078 WARNING: (@FixtureStatusManager::doPanelDataRequest:472) Playback status missing for fixture 34
+- 21:27:38.500 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 21:27:39.609 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 21:27:39.609 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 21:27:39.625 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 21:27:39.625 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 21:28:35.344 INFO   : (@ClipPlayerManager::logPlaybackState:899) 5:Default [cue 0,0ms,Playing]
+- 21:28:37.078 WARNING: (@FixtureStatusManager::doPanelDataRequest:472) Playback status missing for fixture 34
+- 21:29:37.094 WARNING: (@FixtureStatusManager::doPanelDataRequest:472) Playback status missing for fixture 34
+- 21:29:40.094 WARNING: (@FixtureStatusManager::doPanelDataRequest:472) Playback status missing for fixture 34
+- 21:29:43.078 WARNING: (@FixtureStatusManager::doPanelDataRequest:472) Playback status missing for fixture 34
+- 21:29:46.094 WARNING: (@FixtureStatusManager::doPanelDataRequest:472) Playback status missing for fixture 34
+- 21:29:49.094 WARNING: (@FixtureStatusManager::doPanelDataRequest:472) Playback status missing for fixture 34
+- 21:29:50.391 INFO   : (@ClipPlayerManager::logPlaybackState:899) 5:Default [cue 6,0ms,Playing]
+- 21:29:54.094 WARNING: (@FixtureStatusManager::doPanelDataRequest:472) Playback status missing for fixture 34
+- 21:30:54.094 WARNING: (@FixtureStatusManager::doPanelDataRequest:472) Playback status missing for fixture 34
+- 21:31:05.531 INFO   : (@ClipPlayerManager::logPlaybackState:899) 5:Default [cue 1,0ms,Playing]
+- 21:32:21.609 INFO   : (@ClipPlayerManager::logPlaybackState:899) 5:Default [cue 0,0ms,Playing]
+- 21:33:36.687 INFO   : (@ClipPlayerManager::logPlaybackState:899) 5:Default [cue 1,0ms,Playing]
+- 21:34:51.781 INFO   : (@ClipPlayerManager::logPlaybackState:899) 5:Default [cue 0,0ms,Playing]
+- 21:36:06.891 INFO   : (@ClipPlayerManager::logPlaybackState:899) 5:Default [cue 1,0ms,Playing]
+- 21:37:21.984 INFO   : (@ClipPlayerManager::logPlaybackState:899) 5:Default [cue 0,0ms,Playing]
+- 21:38:36.078 INFO   : (@ClipPlayerManager::logPlaybackState:899) 5:Default [cue 1,0ms,Playing]
+- 21:39:51.203 INFO   : (@ClipPlayerManager::logPlaybackState:899) 5:Default [cue 0,0ms,Playing]
+- 21:41:06.281 INFO   : (@ClipPlayerManager::logPlaybackState:899) 5:Default [cue 3,0ms,Playing]
+- 21:42:21.312 INFO   : (@ClipPlayerManager::logPlaybackState:899) 5:Default [cue 1,0ms,Playing]
+*** Message repeated 1 more times ***
+- 21:43:01.234 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) modify effect (type 64)
+- 21:43:04.766 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) modify effect (type 64)
+- 21:43:31.297 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) modify effect (type 64)
+- 21:43:36.359 INFO   : (@ClipPlayerManager::logPlaybackState:899) 5:Default [cue 0,0ms,Playing]
+- 21:43:44.953 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) modify effect (type 64)
+- 21:44:01.000 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) modify effect (type 64)
+- 21:44:10.203 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) modify effect (type 64)
+- 21:44:37.719 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) add cue (type 64)
+- 21:44:51.453 INFO   : (@ClipPlayerManager::logPlaybackState:899) 5:Default [cue 1,0ms,Playing]
+- 21:45:46.281 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 21:45:47.375 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 21:45:48.797 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 21:45:48.266 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 21:45:57.578 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 21:46:07.609 INFO   : (@ClipPlayerManager::logPlaybackState:899) 5:Default [cue 7,2000ms,Playing]
+- 21:46:10.141 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 21:46:10.141 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 21:46:10.156 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 21:46:10.156 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 21:46:10.187 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 21:46:10.187 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 21:46:10.187 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 21:46:10.203 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 21:46:10.203 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+*** Message repeated 197 more times ***
+- 21:46:34.281 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply effect (type 64)
+- 21:46:37.656 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) modify effect (type 64)
+- 21:46:43.281 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) modify effect (type 64)
+- 21:46:56.219 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) change sorting (type 64)
+- 21:46:59.859 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) modify effect (type 64)
+- 21:46:59.859 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) modify effect (type 64)
+- 21:46:59.875 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) modify effect (type 64)
+- 21:46:59.875 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) modify effect (type 64)
+- 21:46:59.891 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) modify effect (type 64)
+- 21:46:59.891 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) modify effect (type 64)
+*** Message repeated 4 more times ***
+- 21:47:14.719 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 21:47:14.812 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 21:47:14.812 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 21:47:14.828 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 21:47:14.828 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 21:47:14.844 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 21:47:14.844 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 21:47:14.844 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 21:47:14.875 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 21:47:14.891 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+*** Message repeated 33 more times ***
+- 21:47:22.750 INFO   : (@ClipPlayerManager::logPlaybackState:899) 5:Default [cue 7,2000ms,Playing]
+- 21:47:30.844 INFO1  :Command: (@ShowCommandExecutor::doPush:359) set LiveStep properties (type 32a0f2c7)
+- 21:47:33.156 INFO1  :Command: (@ShowCommandExecutor::doPush:359) set properties of cue Cue:0 (type 3491b727)
+- 21:47:36.828 INFO1  :Command: (@ShowCommandExecutor::doPush:359) set LiveClip properties (type 3971b727)
+- 21:47:36.844 INFO1  :Command: (@ShowCommandExecutor::doPush:359) set LiveClip properties (type 3971b727)
+- 21:47:37.062 INFO1  :Command: (@ShowCommandExecutor::doPush:359) set LiveClip properties (type 3971b727)
+- 21:47:37.062 INFO1  :Command: (@ShowCommandExecutor::doPush:359) set LiveClip properties (type 3971b727)
+- 21:47:37.281 INFO1  :Command: (@ShowCommandExecutor::doPush:359) set LiveClip properties (type 3971b727)
+- 21:47:37.281 INFO1  :Command: (@ShowCommandExecutor::doPush:359) set LiveClip properties (type 3971b727)
+- 21:47:38.594 INFO1  :Command: (@ShowCommandExecutor::doPush:359) set LiveClip properties (type 3971b727)
+*** Message repeated 1 more times ***
+- 21:47:44.125 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) modify effect (type 64)
+- 21:47:45.625 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) modify effect (type 64)
+- 21:47:45.094 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) modify effect (type 64)
+- 21:47:46.609 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) modify effect (type 64)
+- 21:47:46.078 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) modify effect (type 64)
+- 21:48:00.469 INFO1  :Command: (@ShowCommandExecutor::doPush:359) set properties of cue Cue:0 (type 3491b727)
+- 21:48:13.156 INFO1  :Command: (@ShowCommandExecutor::doPush:359) set LiveStep properties (type 32a0f2c7)
+- 21:48:18.719 INFO1  :Command: (@ShowCommandExecutor::doPush:359) set LiveClip properties (type 3971b727)
+- 21:48:18.719 INFO1  :Command: (@ShowCommandExecutor::doPush:359) set LiveClip properties (type 3971b727)
+- 21:48:20.875 INFO1  :Command: (@ShowCommandExecutor::doPush:359) set LiveClip properties (type 3971b727)
+- 21:48:20.891 INFO1  :Command: (@ShowCommandExecutor::doPush:359) set LiveClip properties (type 3971b727)
+- 21:48:37.859 INFO   : (@ClipPlayerManager::logPlaybackState:899) 5:Default [cue 7,1966ms,Playing]
+- 21:49:02.594 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) add cue (type 64)
+- 21:49:09.406 INFO1  :Command: (@ShowCommandExecutor::doPush:359) set LiveClip properties (type 3971b727)
+- 21:49:09.406 INFO1  :Command: (@ShowCommandExecutor::doPush:359) set LiveClip properties (type 3971b727)
+- 21:49:10.703 INFO1  :Command: (@ShowCommandExecutor::doPush:359) set LiveClip properties (type 3971b727)
+- 21:49:10.703 INFO1  :Command: (@ShowCommandExecutor::doPush:359) set LiveClip properties (type 3971b727)
+- 21:49:10.844 INFO1  :Command: (@ShowCommandExecutor::doPush:359) set LiveClip properties (type 3971b727)
+- 21:49:10.844 INFO1  :Command: (@ShowCommandExecutor::doPush:359) set LiveClip properties (type 3971b727)
+- 21:49:10.016 INFO1  :Command: (@ShowCommandExecutor::doPush:359) set LiveClip properties (type 3971b727)
+- 21:49:10.016 INFO1  :Command: (@ShowCommandExecutor::doPush:359) set LiveClip properties (type 3971b727)
+- 21:49:10.312 INFO1  :Command: (@ShowCommandExecutor::doPush:359) set LiveClip properties (type 3971b727)
+- 21:49:10.312 INFO1  :Command: (@ShowCommandExecutor::doPush:359) set LiveClip properties (type 3971b727)
+*** Message repeated 9 more times ***
+- 21:49:52.937 INFO   : (@ClipPlayerManager::logPlaybackState:899) 5:Default [cue 8,2000ms,Playing]
+- 21:49:59.812 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 21:49:59.828 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 21:49:59.844 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 21:49:59.844 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 21:49:59.844 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 21:49:59.859 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 21:49:59.516 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 21:49:59.547 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 21:49:59.562 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+*** Message repeated 805 more times ***
+- 21:51:07.016 INFO   : (@ClipPlayerManager::logPlaybackState:899) 5:Default [cue 8,2000ms,Playing]
+- 21:51:07.094 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 21:51:07.125 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 21:51:07.125 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 21:51:07.344 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 21:51:07.437 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 21:51:07.484 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 21:51:07.500 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 21:51:07.531 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 21:51:07.562 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+*** Message repeated 441 more times ***
+- 21:52:22.109 INFO   : (@ClipPlayerManager::logPlaybackState:899) 5:Default [cue 8,2000ms,Playing]
+- 21:52:22.234 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 21:52:23.953 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 21:52:23.969 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 21:52:23.078 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 21:52:23.141 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 21:52:23.156 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 21:52:23.531 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 21:52:24.719 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 21:52:24.766 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+*** Message repeated 238 more times ***
+- 21:53:37.266 INFO   : (@ClipPlayerManager::logPlaybackState:899) 5:Default [cue 8,2000ms,Playing]
+- 21:53:42.922 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 21:53:42.359 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 21:53:42.391 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 21:53:42.406 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 21:53:42.422 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 21:53:42.578 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 21:53:43.672 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 21:53:43.703 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 21:53:43.703 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+*** Message repeated 78 more times ***
+- 21:54:40.000 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) paste events (type 64)
+- 21:54:52.375 INFO   : (@ClipPlayerManager::logPlaybackState:899) 5:Default [cue 6,0ms,Playing]
+- 21:55:22.875 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 21:55:22.359 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 21:55:24.578 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 21:55:24.578 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 21:55:24.594 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 21:55:25.594 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 21:55:25.609 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 21:55:25.609 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 21:55:25.625 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 21:55:25.625 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+*** Message repeated 136 more times ***
+- 21:55:48.516 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply effect (type 64)
+- 21:56:07.500 INFO   : (@ClipPlayerManager::logPlaybackState:899) 5:Default [cue 8,2000ms,Playing]
+- 21:56:11.953 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 21:56:11.969 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 21:56:11.984 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 21:56:11.984 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 21:56:11.000 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 21:56:11.000 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 21:56:11.016 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 21:56:11.016 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 21:56:11.031 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 21:56:11.047 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+*** Message repeated 119 more times ***
+- 21:56:39.359 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) Clear (type 64)
+- 21:57:21.141 INFO1  :Command: (@ShowCommandExecutor::doPush:359) set LiveClip properties (type 3971b727)
+- 21:57:23.641 INFO   : (@ClipPlayerManager::logPlaybackState:899) 5:Default [cue 3,0ms,Playing]
+- 21:57:47.156 INFO1  :Command: (@ShowCommandExecutor::doPush:359) set LiveClip properties (type 3971b727)
+- 21:57:49.375 INFO1  :Command: (@ShowCommandExecutor::doPush:359) set LiveClip properties (type 3971b727)
+- 21:57:50.375 INFO1  :Command: (@ShowCommandExecutor::doPush:359) set LiveClip properties (type 3971b727)
+- 21:58:12.094 INFO1  :Command: (@ShowCommandExecutor::doPush:359) set LiveClip properties (type 3971b727)
+- 21:58:38.766 INFO   : (@ClipPlayerManager::logPlaybackState:899) 5:Default [cue 8,2000ms,Playing]
+- 21:58:55.703 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) delete cue (type 64)
+- 21:59:53.828 INFO   : (@ClipPlayerManager::logPlaybackState:899) 5:Default [cue 0,0ms,Playing]
+- 22:00:35.437 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) modify effect (type 64)
+- 22:00:36.078 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) modify effect (type 64)
+- 22:00:37.687 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) modify effect (type 64)
+- 22:00:37.297 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) modify effect (type 64)
+- 22:00:38.906 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) modify effect (type 64)
+- 22:00:43.359 INFO1  :Command: (@ShowCommandExecutor::doPush:359) set LiveClip properties (type 3971b727)
+- 22:00:43.359 INFO1  :Command: (@ShowCommandExecutor::doPush:359) set LiveClip properties (type 3971b727)
+- 22:01:08.953 INFO   : (@ClipPlayerManager::logPlaybackState:899) 5:Default [cue 1,0ms,Playing]
+- 22:01:19.172 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) add cue (type 64)
+- 22:01:32.687 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) paste events (type 64)
+- 22:01:44.984 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 22:01:59.297 INFO   :NETWORK: (@PlaybackNodeManager::doShowSavedOnMain:742) VistaPlaybackNode_2: Received SHOW_SAVED_ON_MAIN message from master
+- 22:02:01.297 INFO1  :Command: (@ShowCommandExecutor::doPush:359) set LiveClip properties (type 3971b727)
+- 22:02:01.312 INFO1  :Command: (@ShowCommandExecutor::doPush:359) set LiveClip properties (type 3971b727)
+- 22:02:08.969 INFO1  :Command: (@ShowCommandExecutor::doPush:359) set LiveStep properties (type 32a0f2c7)
+- 22:02:10.031 INFO1  :Command: (@ShowCommandExecutor::doPush:359) set properties of cue Cue:0 (type 3491b727)
+- 22:02:13.219 INFO1  :Command: (@ShowCommandExecutor::doPush:359) set LiveStep properties (type 32a0f2c7)
+- 22:02:20.016 INFO1  :Command: (@ShowCommandExecutor::doPush:359) set LiveStep properties (type 32a0f2c7)
+- 22:02:23.969 INFO   : (@ClipPlayerManager::logPlaybackState:899) 5:Default [cue 0,0ms,Playing]
+- 22:02:54.125 INFO1  :Command: (@ShowCommandExecutor::doPush:359) set LiveStep properties (type 32a0f2c7)
+- 22:02:58.672 INFO1  :Command: (@ShowCommandExecutor::doPush:359) set LiveStep properties (type 32a0f2c7)
+- 22:03:01.922 INFO1  :Command: (@ShowCommandExecutor::doPush:359) set LiveStep properties (type 32a0f2c7)
+- 22:03:05.453 INFO1  :Command: (@ShowCommandExecutor::doPush:359) set LiveStep properties (type 32a0f2c7)
+- 22:03:14.297 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 22:03:14.312 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 22:03:14.312 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 22:03:14.328 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 22:03:14.328 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+*** Message repeated 35 more times ***
+- 22:03:27.047 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply effect (type 64)
+- 22:03:35.109 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) modify effect (type 64)
+- 22:03:36.453 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) modify effect (type 64)
+- 22:03:36.469 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) modify effect (type 64)
+- 22:03:36.469 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) modify effect (type 64)
+- 22:03:36.484 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) modify effect (type 64)
+- 22:03:36.484 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) modify effect (type 64)
+- 22:03:36.500 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) modify effect (type 64)
+- 22:03:36.500 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) modify effect (type 64)
+- 22:03:36.516 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) modify effect (type 64)
+*** Message repeated 32 more times ***
+- 22:03:38.125 INFO   : (@ClipPlayerManager::logPlaybackState:899) 5:Default [cue 8,0ms,Playing]
+- 22:03:38.312 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) modify effect (type 64)
+- 22:03:42.109 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) modify effect (type 64)
+- 22:03:42.141 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) modify effect (type 64)
+- 22:03:42.156 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) modify effect (type 64)
+- 22:03:42.172 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) modify effect (type 64)
+- 22:03:42.187 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) modify effect (type 64)
+- 22:03:42.187 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) modify effect (type 64)
+- 22:03:42.203 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) modify effect (type 64)
+- 22:03:42.250 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) modify effect (type 64)
+*** Message repeated 147 more times ***
+- 22:04:40.797 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 22:04:53.234 INFO   : (@ClipPlayerManager::logPlaybackState:899) 5:Default [cue 8,0ms,Playing]
+- 22:04:56.750 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply effect (type 64)
+- 22:04:59.031 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) modify effect (type 64)
+- 22:05:06.359 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) modify effect (type 64)
+- 22:05:06.375 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) modify effect (type 64)
+- 22:05:06.391 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) modify effect (type 64)
+- 22:05:06.406 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) modify effect (type 64)
+- 22:05:06.422 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) modify effect (type 64)
+- 22:05:06.422 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) modify effect (type 64)
+- 22:05:06.437 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) modify effect (type 64)
+- 22:05:06.453 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) modify effect (type 64)
+*** Message repeated 46 more times ***
+- 22:05:38.141 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 22:05:38.203 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 22:05:38.219 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 22:05:38.219 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 22:05:38.234 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 22:05:38.234 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 22:05:38.250 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 22:05:38.250 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 22:05:38.266 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 22:05:38.266 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+*** Message repeated 279 more times ***
+- 22:06:08.375 INFO   : (@ClipPlayerManager::logPlaybackState:899) 5:Default [cue 8,0ms,Playing]
+- 22:06:13.469 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 22:06:13.500 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 22:06:13.516 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 22:06:13.516 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 22:06:13.516 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 22:06:13.531 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 22:06:13.531 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 22:06:13.547 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 22:06:13.547 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+*** Message repeated 457 more times ***
+- 22:06:41.172 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply effect (type 64)
+- 22:06:46.875 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 22:06:46.875 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 22:06:46.906 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 22:06:46.922 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 22:06:46.937 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 22:06:46.953 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 22:06:46.187 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 22:06:47.672 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 22:06:47.719 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+*** Message repeated 4 more times ***
+- 22:06:55.922 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) modify effect (type 64)
+- 22:06:58.281 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) modify effect (type 64)
+- 22:06:58.344 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) modify effect (type 64)
+- 22:06:58.359 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) modify effect (type 64)
+- 22:06:58.375 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) modify effect (type 64)
+- 22:06:58.406 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) modify effect (type 64)
+- 22:06:58.437 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) modify effect (type 64)
+- 22:06:58.437 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) modify effect (type 64)
+- 22:06:58.469 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) modify effect (type 64)
+- 22:06:58.500 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) modify effect (type 64)
+*** Message repeated 9 more times ***
+- 22:07:23.500 INFO   : (@ClipPlayerManager::logPlaybackState:899) 5:Default [cue 8,0ms,Playing]
+- 22:07:25.828 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) modify effect (type 64)
+- 22:07:30.328 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) modify effect (type 64)
+- 22:07:43.562 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply effect (type 64)
+- 22:07:49.578 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) delete effect (type 64)
+- 22:07:53.078 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply effect (type 64)
+- 22:07:55.281 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) modify effect (type 64)
+- 22:07:58.172 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) modify effect (type 64)
+- 22:08:00.906 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) modify effect (type 64)
+- 22:08:07.469 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) modify effect (type 64)
+*** Message repeated 6 more times ***
+- 22:08:38.594 INFO   : (@ClipPlayerManager::logPlaybackState:899) 5:Default [cue 8,0ms,Playing]
+- 22:09:01.187 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) modify effect (type 64)
+- 22:09:01.453 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) modify effect (type 64)
+- 22:09:01.469 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) modify effect (type 64)
+- 22:09:01.484 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) modify effect (type 64)
+- 22:09:01.484 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) modify effect (type 64)
+- 22:09:01.500 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) modify effect (type 64)
+- 22:09:01.516 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) modify effect (type 64)
+- 22:09:01.531 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) modify effect (type 64)
+- 22:09:01.547 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) modify effect (type 64)
+*** Message repeated 88 more times ***
+- 22:09:37.406 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 22:09:37.422 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 22:09:37.437 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 22:09:37.437 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 22:09:37.453 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 22:09:37.453 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 22:09:37.469 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 22:09:37.469 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 22:09:37.484 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 22:09:37.484 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+*** Message repeated 154 more times ***
+- 22:09:54.734 INFO   : (@ClipPlayerManager::logPlaybackState:899) 5:Default [cue 8,0ms,Playing]
+- 22:09:59.484 INFO1  :Command: (@ShowCommandExecutor::doPush:359) set LiveStep properties (type 32a0f2c7)
+- 22:10:03.047 INFO1  :Command: (@ShowCommandExecutor::doPush:359) set LiveStep properties (type 32a0f2c7)
+- 22:10:21.203 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) add cue (type 64)
+- 22:10:26.422 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) insert cue (type 64)
+- 22:10:31.422 INFO1  :Command: (@ShowCommandExecutor::doPush:359) set LiveClip properties (type 3971b727)
+- 22:10:31.422 INFO1  :Command: (@ShowCommandExecutor::doPush:359) set LiveClip properties (type 3971b727)
+- 22:11:09.875 INFO   : (@ClipPlayerManager::logPlaybackState:899) 5:Default [cue 2,2000ms,Playing]
+- 22:11:27.375 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) create preset (type 64)
+- 22:11:33.312 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) create preset (type 64)
+- 22:12:00.219 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 22:12:10.937 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 22:12:20.453 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 22:12:24.016 INFO   : (@ClipPlayerManager::logPlaybackState:899) 5:Default [cue 9,0ms,Playing]
+- 22:13:10.406 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) create preset (type 64)
+- 22:13:15.500 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) create preset (type 64)
+- 22:13:36.906 INFO1  :Command: (@ShowCommandExecutor::doPush:359) set LiveClip properties (type 3971b727)
+- 22:13:36.906 INFO1  :Command: (@ShowCommandExecutor::doPush:359) set LiveClip properties (type 3971b727)
+- 22:13:36.406 INFO1  :Command: (@ShowCommandExecutor::doPush:359) set LiveClip properties (type 3971b727)
+- 22:13:36.406 INFO1  :Command: (@ShowCommandExecutor::doPush:359) set LiveClip properties (type 3971b727)
+- 22:13:39.156 INFO   : (@ClipPlayerManager::logPlaybackState:899) 5:Default [cue 2,2000ms,Playing]
+- 22:13:46.375 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 22:13:48.625 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 22:13:57.547 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 22:14:02.203 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 22:14:35.031 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 22:14:35.047 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 22:14:35.047 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 22:14:35.062 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 22:14:35.078 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 22:14:35.078 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 22:14:35.094 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 22:14:35.094 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+*** Message repeated 6 more times ***
+- 22:14:54.219 INFO   : (@ClipPlayerManager::logPlaybackState:899) 5:Default [cue 8,803ms,Playing]
+- 22:14:55.219 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 22:15:27.406 INFO1  :Command: (@ShowCommandExecutor::doPush:359) set LiveClip properties (type 3971b727)
+- 22:15:27.437 INFO1  :Command: (@ShowCommandExecutor::doPush:359) set LiveClip properties (type 3971b727)
+- 22:15:28.937 INFO1  :Command: (@ShowCommandExecutor::doPush:359) set LiveClip properties (type 3971b727)
+- 22:15:28.937 INFO1  :Command: (@ShowCommandExecutor::doPush:359) set LiveClip properties (type 3971b727)
+- 22:15:29.703 INFO1  :Command: (@ShowCommandExecutor::doPush:359) set LiveClip properties (type 3971b727)
+- 22:15:29.703 INFO1  :Command: (@ShowCommandExecutor::doPush:359) set LiveClip properties (type 3971b727)
+- 22:15:37.203 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 22:15:37.203 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 22:15:37.219 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 22:15:37.219 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+*** Message repeated 264 more times ***
+- 22:15:49.891 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) insert cue (type 64)
+- 22:15:56.641 INFO1  :Command: (@ShowCommandExecutor::doPush:359) set properties of cue Cue:0 (type 3491b727)
+- 22:16:09.312 INFO   : (@ClipPlayerManager::logPlaybackState:899) 5:Default [cue 2,2000ms,Playing]
+- 22:16:10.687 INFO1  :Command: (@ShowCommandExecutor::doPush:359) set LiveStep properties (type 32a0f2c7)
+- 22:16:14.391 INFO1  :Command: (@ShowCommandExecutor::doPush:359) set LiveStep properties (type 32a0f2c7)
+- 22:16:22.359 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 22:16:22.375 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 22:16:22.391 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 22:16:22.391 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 22:16:22.406 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 22:16:22.422 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 22:16:22.422 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+*** Message repeated 15 more times ***
+- 22:16:30.734 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 22:16:32.172 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 22:16:37.312 INFO1  :Command: (@ShowCommandExecutor::doPush:359) set LiveClip properties (type 3971b727)
+- 22:16:37.328 INFO1  :Command: (@ShowCommandExecutor::doPush:359) set LiveClip properties (type 3971b727)
+- 22:16:53.062 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 22:16:56.812 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 22:16:58.781 INFO1  :Command: (@ShowCommandExecutor::doPush:359) set LiveClip properties (type 3971b727)
+- 22:16:58.797 INFO1  :Command: (@ShowCommandExecutor::doPush:359) set LiveClip properties (type 3971b727)
+- 22:16:58.031 INFO1  :Command: (@ShowCommandExecutor::doPush:359) set LiveClip properties (type 3971b727)
+- 22:16:58.031 INFO1  :Command: (@ShowCommandExecutor::doPush:359) set LiveClip properties (type 3971b727)
+- 22:16:58.234 INFO1  :Command: (@ShowCommandExecutor::doPush:359) set LiveClip properties (type 3971b727)
+- 22:16:58.234 INFO1  :Command: (@ShowCommandExecutor::doPush:359) set LiveClip properties (type 3971b727)
+- 22:16:58.469 INFO1  :Command: (@ShowCommandExecutor::doPush:359) set LiveClip properties (type 3971b727)
+- 22:16:58.484 INFO1  :Command: (@ShowCommandExecutor::doPush:359) set LiveClip properties (type 3971b727)
+- 22:16:59.359 INFO1  :Command: (@ShowCommandExecutor::doPush:359) set LiveClip properties (type 3971b727)
+- 22:16:59.375 INFO1  :Command: (@ShowCommandExecutor::doPush:359) set LiveClip properties (type 3971b727)
+*** Message repeated 5 more times ***
+- 22:17:24.437 INFO   : (@ClipPlayerManager::logPlaybackState:899) 5:Default [cue 7,0ms,Playing]
+- 22:18:04.312 INFO1  :Command: (@ShowCommandExecutor::doPush:359) set LiveStep properties (type 32a0f2c7)
+- 22:18:07.781 INFO1  :Command: (@ShowCommandExecutor::doPush:359) set LiveClip properties (type 3971b727)
+- 22:18:07.797 INFO1  :Command: (@ShowCommandExecutor::doPush:359) set LiveClip properties (type 3971b727)
+- 22:18:07.062 INFO1  :Command: (@ShowCommandExecutor::doPush:359) set LiveClip properties (type 3971b727)
+- 22:18:07.062 INFO1  :Command: (@ShowCommandExecutor::doPush:359) set LiveClip properties (type 3971b727)
+- 22:18:10.906 INFO1  :Command: (@ShowCommandExecutor::doPush:359) set LiveClip properties (type 3971b727)
+- 22:18:10.922 INFO1  :Command: (@ShowCommandExecutor::doPush:359) set LiveClip properties (type 3971b727)
+- 22:18:17.922 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 22:18:27.687 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply effect (type 64)
+- 22:18:30.766 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) modify effect (type 64)
+- 22:18:34.203 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) modify effect (type 64)
+- 22:18:34.219 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) modify effect (type 64)
+- 22:18:34.219 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) modify effect (type 64)
+- 22:18:34.234 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) modify effect (type 64)
+- 22:18:39.484 INFO   : (@ClipPlayerManager::logPlaybackState:899) 5:Default [cue 2,2000ms,Playing]
+- 22:18:40.203 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) modify effect (type 64)
+- 22:18:49.422 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) modify effect (type 64)
+- 22:18:54.500 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) modify effect (type 64)
+- 22:18:58.047 INFO1  :Command: (@ShowCommandExecutor::doPush:359) set LiveClip properties (type 3971b727)
+- 22:18:58.062 INFO1  :Command: (@ShowCommandExecutor::doPush:359) set LiveClip properties (type 3971b727)
+- 22:19:19.094 INFO1  :Command: (@ShowCommandExecutor::doPush:359) set properties of cue Cue:0 (type 3491b727)
+- 22:19:52.469 INFO1  :Command: (@ShowCommandExecutor::doPush:359) set LiveStep properties (type 32a0f2c7)
+- 22:19:54.547 INFO   : (@ClipPlayerManager::logPlaybackState:899) 5:Default [cue 10,0ms,Playing]
+- 22:19:56.641 INFO1  :Command: (@ShowCommandExecutor::doPush:359) set LiveStep properties (type 32a0f2c7)
+- 22:20:00.781 INFO1  :Command: (@ShowCommandExecutor::doPush:359) set LiveStep properties (type 32a0f2c7)
+- 22:20:02.234 INFO1  :Command: (@ShowCommandExecutor::doPush:359) set properties of cue Cue:0 (type 3491b727)
+- 22:20:04.516 INFO1  :Command: (@ShowCommandExecutor::doPush:359) set LiveClip properties (type 3971b727)
+- 22:20:04.531 INFO1  :Command: (@ShowCommandExecutor::doPush:359) set LiveClip properties (type 3971b727)
+- 22:21:10.625 INFO   : (@ClipPlayerManager::logPlaybackState:899) 5:Default [cue 3,3109ms,Playing]
+- 22:21:24.062 INFO1  :Command: (@ShowCommandExecutor::doPush:359) set LiveClip properties (type 3971b727)
+- 22:21:24.062 INFO1  :Command: (@ShowCommandExecutor::doPush:359) set LiveClip properties (type 3971b727)
+- 22:21:52.844 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) modify effect (type 64)
+- 22:21:56.703 INFO1  :Command: (@ShowCommandExecutor::doPush:359) set LiveClip properties (type 3971b727)
+- 22:21:56.703 INFO1  :Command: (@ShowCommandExecutor::doPush:359) set LiveClip properties (type 3971b727)
+- 22:21:56.906 INFO1  :Command: (@ShowCommandExecutor::doPush:359) set LiveClip properties (type 3971b727)
+- 22:21:56.922 INFO1  :Command: (@ShowCommandExecutor::doPush:359) set LiveClip properties (type 3971b727)
+- 22:21:56.094 INFO1  :Command: (@ShowCommandExecutor::doPush:359) set LiveClip properties (type 3971b727)
+- 22:21:56.109 INFO1  :Command: (@ShowCommandExecutor::doPush:359) set LiveClip properties (type 3971b727)
+- 22:22:24.297 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) modify effect (type 64)
+- 22:22:25.719 INFO   : (@ClipPlayerManager::logPlaybackState:899) 5:Default [cue 9,618ms,Playing]
+- 22:22:32.953 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) modify effect (type 64)
+- 22:22:32.984 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) modify effect (type 64)
+- 22:22:32.984 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) modify effect (type 64)
+- 22:22:32.000 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) modify effect (type 64)
+- 22:22:32.016 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) modify effect (type 64)
+- 22:22:32.219 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) modify effect (type 64)
+- 22:22:32.234 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) modify effect (type 64)
+- 22:22:33.953 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) modify effect (type 64)
+- 22:22:33.969 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) modify effect (type 64)
+*** Message repeated 4 more times ***
+- 22:22:34.422 INFO1  :Command: (@ShowCommandExecutor::doPush:359) set LiveClip properties (type 3971b727)
+- 22:22:34.437 INFO1  :Command: (@ShowCommandExecutor::doPush:359) set LiveClip properties (type 3971b727)
+- 22:22:35.609 INFO1  :Command: (@ShowCommandExecutor::doPush:359) set LiveClip properties (type 3971b727)
+- 22:22:35.609 INFO1  :Command: (@ShowCommandExecutor::doPush:359) set LiveClip properties (type 3971b727)
+- 22:23:20.062 INFO1  :Command: (@ShowCommandExecutor::doPush:359) set properties of cue Cue:0 (type 3491b727)
+- 22:23:30.516 INFO1  :Command: (@ShowCommandExecutor::doPush:359) set LiveStep properties (type 32a0f2c7)
+- 22:23:35.625 INFO1  :Command: (@ShowCommandExecutor::doPush:359) set LiveStep properties (type 32a0f2c7)
+- 22:23:39.781 INFO1  :Command: (@ShowCommandExecutor::doPush:359) set LiveStep properties (type 32a0f2c7)
+- 22:23:40.797 INFO   : (@ClipPlayerManager::logPlaybackState:899) 5:Default [cue 10,0ms,Playing]
+- 22:23:52.297 INFO1  :Command: (@ShowCommandExecutor::doPush:359) set LiveStep properties (type 32a0f2c7)
+- 22:23:58.016 INFO1  :Command: (@ShowCommandExecutor::doPush:359) set LiveStep properties (type 32a0f2c7)
+- 22:24:55.906 INFO   : (@ClipPlayerManager::logPlaybackState:899) 5:Default [cue 0,0ms,Playing]
+- 22:26:10.062 INFO   : (@ClipPlayerManager::logPlaybackState:899) 5:Default [cue 8,0ms,Playing]
+- 22:27:25.156 INFO   : (@ClipPlayerManager::logPlaybackState:899) 5:Default [cue 0,0ms,Playing]
+- 22:28:31.703 INFO1  :Command: (@ShowCommandExecutor::doPush:359) set LiveClip properties (type 3971b727)
+- 22:28:31.719 INFO1  :Command: (@ShowCommandExecutor::doPush:359) set LiveClip properties (type 3971b727)
+- 22:28:40.219 INFO   : (@ClipPlayerManager::logPlaybackState:899) 5:Default [cue 4,0ms,Playing]
+- 22:28:40.219 INFO   : (@ClipPlayerManager::logPlaybackState:899) 7:White Strobe [cue 0,0ms,Playing]
+- 22:28:40.219 INFO   : (@ClipPlayerManager::logPlaybackState:899) 9:Build Up [cue 0,0ms,Playing]
+- 22:28:49.547 INFO1  :Command: (@ShowCommandExecutor::doPush:359) set LiveClip properties (type 3971b727)
+- 22:28:49.562 INFO1  :Command: (@ShowCommandExecutor::doPush:359) set LiveClip properties (type 3971b727)
+- 22:29:55.266 INFO   : (@ClipPlayerManager::logPlaybackState:899) 5:Default [cue 10,0ms,Playing]
+- 22:29:55.266 INFO   : (@ClipPlayerManager::logPlaybackState:899) 7:White Strobe [cue 0,0ms,Playing]
+- 22:31:11.719 INFO   : (@ClipPlayerManager::logPlaybackState:899) 5:Default [cue 0,0ms,Playing]
+- 22:31:11.719 INFO   : (@ClipPlayerManager::logPlaybackState:899) 7:White Strobe [cue 0,0ms,Playing]
+- 22:31:49.094 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) modify effect (type 64)
+- 22:31:50.078 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) modify effect (type 64)
+- 22:31:52.453 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) modify effect (type 64)
+- 22:31:52.469 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) modify effect (type 64)
+- 22:31:52.469 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) modify effect (type 64)
+- 22:31:52.484 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) modify effect (type 64)
+- 22:31:52.500 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) modify effect (type 64)
+- 22:31:52.500 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) modify effect (type 64)
+- 22:31:52.516 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) modify effect (type 64)
+- 22:31:52.531 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) modify effect (type 64)
+*** Message repeated 36 more times ***
+- 22:32:11.125 INFO1  :Command: (@ShowCommandExecutor::doPush:359) set LiveClip properties (type 3971b727)
+- 22:32:11.125 INFO1  :Command: (@ShowCommandExecutor::doPush:359) set LiveClip properties (type 3971b727)
+- 22:32:11.297 INFO1  :Command: (@ShowCommandExecutor::doPush:359) set LiveClip properties (type 3971b727)
+- 22:32:11.297 INFO1  :Command: (@ShowCommandExecutor::doPush:359) set LiveClip properties (type 3971b727)
+- 22:32:11.437 INFO1  :Command: (@ShowCommandExecutor::doPush:359) set LiveClip properties (type 3971b727)
+- 22:32:11.453 INFO1  :Command: (@ShowCommandExecutor::doPush:359) set LiveClip properties (type 3971b727)
+- 22:32:12.609 INFO1  :Command: (@ShowCommandExecutor::doPush:359) set LiveClip properties (type 3971b727)
+- 22:32:12.625 INFO1  :Command: (@ShowCommandExecutor::doPush:359) set LiveClip properties (type 3971b727)
+- 22:32:12.172 INFO1  :Command: (@ShowCommandExecutor::doPush:359) set LiveClip properties (type 3971b727)
+- 22:32:12.187 INFO1  :Command: (@ShowCommandExecutor::doPush:359) set LiveClip properties (type 3971b727)
+- 22:32:26.781 INFO   : (@ClipPlayerManager::logPlaybackState:899) 5:Default [cue 3,11606ms,Playing]
+- 22:32:26.781 INFO   : (@ClipPlayerManager::logPlaybackState:899) 7:White Strobe [cue 0,0ms,Playing]
+- 22:32:31.453 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 22:32:31.469 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 22:32:31.469 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 22:32:31.484 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 22:32:31.500 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 22:32:31.500 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 22:32:31.516 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 22:32:31.516 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 22:32:31.531 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 22:32:31.531 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+*** Message repeated 193 more times ***
+- 22:33:41.844 INFO   : (@ClipPlayerManager::logPlaybackState:899) 5:Default [cue 7,0ms,Playing]
+- 22:33:41.844 INFO   : (@ClipPlayerManager::logPlaybackState:899) 7:White Strobe [cue 0,0ms,Playing]
+- 22:33:59.531 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) change sorting (type 64)
+- 22:34:03.047 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) change sorting (type 64)
+- 22:34:07.172 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) change sorting (type 64)
+- 22:34:09.516 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) change sorting (type 64)
+- 22:34:22.859 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 22:34:23.016 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 22:34:23.297 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 22:34:24.703 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 22:34:24.000 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 22:34:28.281 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) modify effect (type 64)
+- 22:34:28.484 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) modify effect (type 64)
+- 22:34:29.687 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) modify effect (type 64)
+- 22:34:29.875 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) modify effect (type 64)
+- 22:34:29.219 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) modify effect (type 64)
+- 22:34:29.531 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) modify effect (type 64)
+- 22:34:30.922 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) modify effect (type 64)
+- 22:34:34.406 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) change sorting (type 64)
+- 22:34:43.984 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 22:34:43.047 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 22:34:43.047 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 22:34:43.062 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 22:34:43.062 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 22:34:43.078 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 22:34:43.078 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 22:34:43.094 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 22:34:43.094 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 22:34:44.672 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+*** Message repeated 17 more times ***
+- 22:34:56.891 INFO   : (@ClipPlayerManager::logPlaybackState:899) 5:Default [cue 0,0ms,Playing]
+- 22:34:56.891 INFO   : (@ClipPlayerManager::logPlaybackState:899) 7:White Strobe [cue 0,0ms,Playing]
+- 22:35:00.875 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 22:35:07.000 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 22:35:07.031 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 22:35:07.031 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 22:35:07.047 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 22:35:07.078 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 22:35:08.234 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 22:35:08.281 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 22:35:08.312 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 22:35:08.344 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+*** Message repeated 125 more times ***
+- 22:36:11.984 INFO   : (@ClipPlayerManager::logPlaybackState:899) 5:Default [cue 7,0ms,Playing]
+- 22:36:11.984 INFO   : (@ClipPlayerManager::logPlaybackState:899) 7:White Strobe [cue 0,0ms,Playing]
+- 22:36:11.203 INFO1  :Command: (@ShowCommandExecutor::doPush:359) set LiveClip properties (type 3971b727)
+- 22:36:11.203 INFO1  :Command: (@ShowCommandExecutor::doPush:359) set LiveClip properties (type 3971b727)
+- 22:36:11.422 INFO1  :Command: (@ShowCommandExecutor::doPush:359) set LiveClip properties (type 3971b727)
+- 22:36:11.437 INFO1  :Command: (@ShowCommandExecutor::doPush:359) set LiveClip properties (type 3971b727)
+- 22:36:12.984 INFO1  :Command: (@ShowCommandExecutor::doPush:359) set LiveClip properties (type 3971b727)
+- 22:36:12.984 INFO1  :Command: (@ShowCommandExecutor::doPush:359) set LiveClip properties (type 3971b727)
+- 22:36:24.656 INFO1  :Command: (@ShowCommandExecutor::doPush:359) set LiveClip properties (type 3971b727)
+- 22:36:24.672 INFO1  :Command: (@ShowCommandExecutor::doPush:359) set LiveClip properties (type 3971b727)
+- 22:36:25.984 INFO1  :Command: (@ShowCommandExecutor::doPush:359) set LiveClip properties (type 3971b727)
+- 22:36:25.984 INFO1  :Command: (@ShowCommandExecutor::doPush:359) set LiveClip properties (type 3971b727)
+*** Message repeated 2 more times ***
+- 22:37:26.047 INFO   : (@ClipPlayerManager::logPlaybackState:899) 5:Default [cue 7,0ms,Playing]
+- 22:37:26.047 INFO   : (@ClipPlayerManager::logPlaybackState:899) 7:White Strobe [cue 0,0ms,Playing]
+- 22:37:26.078 INFO1  :Command: (@ShowCommandExecutor::doPush:359) set LiveClip properties (type 3971b727)
+- 22:37:26.094 INFO1  :Command: (@ShowCommandExecutor::doPush:359) set LiveClip properties (type 3971b727)
+- 22:37:26.281 INFO1  :Command: (@ShowCommandExecutor::doPush:359) set LiveClip properties (type 3971b727)
+- 22:37:26.297 INFO1  :Command: (@ShowCommandExecutor::doPush:359) set LiveClip properties (type 3971b727)
+- 22:37:27.703 INFO1  :Command: (@ShowCommandExecutor::doPush:359) set LiveClip properties (type 3971b727)
+- 22:37:27.719 INFO1  :Command: (@ShowCommandExecutor::doPush:359) set LiveClip properties (type 3971b727)
+- 22:37:28.641 INFO1  :Command: (@ShowCommandExecutor::doPush:359) set LiveClip properties (type 3971b727)
+- 22:37:28.656 INFO1  :Command: (@ShowCommandExecutor::doPush:359) set LiveClip properties (type 3971b727)
+- 22:37:28.234 INFO1  :Command: (@ShowCommandExecutor::doPush:359) set LiveClip properties (type 3971b727)
+- 22:37:28.234 INFO1  :Command: (@ShowCommandExecutor::doPush:359) set LiveClip properties (type 3971b727)
+*** Message repeated 18 more times ***
+- 22:38:41.094 INFO   : (@ClipPlayerManager::logPlaybackState:899) 5:Default [cue 3,1265ms,Playing]
+- 22:38:41.094 INFO   : (@ClipPlayerManager::logPlaybackState:899) 7:White Strobe [cue 0,0ms,Playing]
+- 22:38:47.812 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) update effect fixture selection (type 64)
+- 22:38:53.953 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 22:38:53.953 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 22:38:53.969 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 22:38:53.969 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 22:38:53.984 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 22:38:53.984 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 22:38:53.000 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 22:38:53.016 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 22:38:53.016 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 22:38:53.016 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+*** Message repeated 177 more times ***
+- 22:39:56.203 INFO   : (@ClipPlayerManager::logPlaybackState:899) 5:Default [cue 7,0ms,Playing]
+- 22:39:56.203 INFO   : (@ClipPlayerManager::logPlaybackState:899) 7:White Strobe [cue 0,0ms,Playing]
+- 22:40:06.047 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) Clear (type 64)
+- 22:40:18.719 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 22:40:18.156 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 22:40:18.219 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 22:40:18.312 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 22:40:18.344 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 22:40:18.391 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 22:40:18.469 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 22:40:18.484 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 22:40:18.516 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 22:40:18.531 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+*** Message repeated 15 more times ***
+- 22:40:29.953 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) Clear (type 64)
+- 22:40:35.469 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 22:40:36.953 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 22:40:36.125 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 22:40:36.266 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 22:40:36.312 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 22:40:36.344 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 22:40:36.359 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 22:40:36.391 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 22:40:36.453 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+*** Message repeated 43 more times ***
+- 22:41:11.312 INFO   : (@ClipPlayerManager::logPlaybackState:899) 5:Default [cue 3,2301ms,Playing]
+- 22:41:11.312 INFO   : (@ClipPlayerManager::logPlaybackState:899) 7:White Strobe [cue 0,0ms,Playing]
+- 22:41:44.203 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 22:41:44.234 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 22:41:44.234 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 22:41:44.250 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 22:41:44.281 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 22:41:44.281 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 22:41:44.312 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 22:41:44.328 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 22:41:44.328 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 22:41:44.344 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+*** Message repeated 402 more times ***
+- 22:42:26.422 INFO   : (@ClipPlayerManager::logPlaybackState:899) 5:Default [cue 10,0ms,Playing]
+- 22:42:26.422 INFO   : (@ClipPlayerManager::logPlaybackState:899) 7:White Strobe [cue 0,0ms,Playing]
+- 22:42:37.969 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 22:42:37.328 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 22:42:37.344 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 22:42:37.359 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 22:42:37.375 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 22:42:37.391 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 22:42:37.406 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 22:42:37.422 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 22:42:37.437 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 22:42:37.469 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+*** Message repeated 342 more times ***
+- 22:43:22.125 INFO   :NETWORK: (@PlaybackNodeManager::doShowSavedOnMain:742) VistaPlaybackNode_2: Received SHOW_SAVED_ON_MAIN message from master
+- 22:43:41.531 INFO   : (@ClipPlayerManager::logPlaybackState:899) 5:Default [cue 0,0ms,Playing]
+- 22:43:41.531 INFO   : (@ClipPlayerManager::logPlaybackState:899) 7:White Strobe [cue 0,0ms,Playing]
+- 22:43:41.531 INFO   : (@ClipPlayerManager::logPlaybackState:899) 9:Build Up [cue 0,0ms,Playing]
+- 22:44:34.844 INFO1  :Command: (@ShowCommandExecutor::doPush:359) set LiveClip properties (type 3971b727)
+- 22:44:34.844 INFO1  :Command: (@ShowCommandExecutor::doPush:359) set LiveClip properties (type 3971b727)
+- 22:44:50.687 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 22:44:50.703 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 22:44:50.703 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 22:44:50.719 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 22:44:50.719 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 22:44:50.734 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 22:44:50.734 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 22:44:50.750 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+*** Message repeated 48 more times ***
+- 22:44:57.656 INFO   : (@ClipPlayerManager::logPlaybackState:899) 5:Default [cue 4,0ms,Playing]
+- 22:44:59.516 INFO1  :Command: (@ShowCommandExecutor::doPush:359) set LiveClip properties (type 3971b727)
+- 22:44:59.516 INFO1  :Command: (@ShowCommandExecutor::doPush:359) set LiveClip properties (type 3971b727)
+- 22:45:00.953 INFO1  :Command: (@ShowCommandExecutor::doPush:359) set LiveClip properties (type 3971b727)
+- 22:45:00.953 INFO1  :Command: (@ShowCommandExecutor::doPush:359) set LiveClip properties (type 3971b727)
+- 22:45:00.125 INFO1  :Command: (@ShowCommandExecutor::doPush:359) set LiveClip properties (type 3971b727)
+- 22:45:00.125 INFO1  :Command: (@ShowCommandExecutor::doPush:359) set LiveClip properties (type 3971b727)
+- 22:45:00.281 INFO1  :Command: (@ShowCommandExecutor::doPush:359) set LiveClip properties (type 3971b727)
+- 22:45:00.281 INFO1  :Command: (@ShowCommandExecutor::doPush:359) set LiveClip properties (type 3971b727)
+- 22:45:00.484 INFO1  :Command: (@ShowCommandExecutor::doPush:359) set LiveClip properties (type 3971b727)
+*** Message repeated 9 more times ***
+- 22:45:58.453 INFO   :NETWORK: (@PlaybackNodeManager::doShowSavedOnMain:742) VistaPlaybackNode_2: Received SHOW_SAVED_ON_MAIN message from master
+- 22:46:12.734 INFO   : (@ClipPlayerManager::logPlaybackState:899) 5:Default [cue 10,0ms,Playing]
+- 22:46:38.937 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) modify effect (type 64)
+- 22:46:38.953 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) modify effect (type 64)
+- 22:46:38.969 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) modify effect (type 64)
+- 22:46:38.969 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) modify effect (type 64)
+- 22:46:38.969 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) modify effect (type 64)
+- 22:46:38.078 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) modify effect (type 64)
+- 22:46:38.125 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) modify effect (type 64)
+- 22:46:38.141 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) modify effect (type 64)
+- 22:46:38.156 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) modify effect (type 64)
+- 22:46:38.172 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) modify effect (type 64)
+*** Message repeated 240 more times ***
+- 22:47:27.797 INFO   : (@ClipPlayerManager::logPlaybackState:899) 5:Default [cue 0,0ms,Playing]
+- 22:47:29.578 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) modify effect (type 64)
+- 22:47:39.250 INFO1  :Command: (@ShowCommandExecutor::doPush:359) set LiveClip properties (type 3971b727)
+- 22:47:39.250 INFO1  :Command: (@ShowCommandExecutor::doPush:359) set LiveClip properties (type 3971b727)
+- 22:47:39.516 INFO1  :Command: (@ShowCommandExecutor::doPush:359) set LiveClip properties (type 3971b727)
+- 22:47:39.516 INFO1  :Command: (@ShowCommandExecutor::doPush:359) set LiveClip properties (type 3971b727)
+- 22:47:40.656 INFO1  :Command: (@ShowCommandExecutor::doPush:359) set LiveClip properties (type 3971b727)
+- 22:47:40.656 INFO1  :Command: (@ShowCommandExecutor::doPush:359) set LiveClip properties (type 3971b727)
+- 22:47:40.937 INFO1  :Command: (@ShowCommandExecutor::doPush:359) set LiveClip properties (type 3971b727)
+- 22:47:40.937 INFO1  :Command: (@ShowCommandExecutor::doPush:359) set LiveClip properties (type 3971b727)
+- 22:47:40.078 INFO1  :Command: (@ShowCommandExecutor::doPush:359) set LiveClip properties (type 3971b727)
+- 22:47:40.094 INFO1  :Command: (@ShowCommandExecutor::doPush:359) set LiveClip properties (type 3971b727)
+*** Message repeated 8 more times ***
+- 22:48:02.141 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) modify effect (type 64)
+- 22:48:02.203 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) modify effect (type 64)
+- 22:48:02.203 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) modify effect (type 64)
+- 22:48:02.219 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) modify effect (type 64)
+- 22:48:02.219 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) modify effect (type 64)
+- 22:48:02.234 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) modify effect (type 64)
+- 22:48:02.234 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) modify effect (type 64)
+- 22:48:02.250 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) modify effect (type 64)
+- 22:48:02.250 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) modify effect (type 64)
+- 22:48:02.266 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) modify effect (type 64)
+*** Message repeated 5 more times ***
+- 22:48:42.844 INFO   : (@ClipPlayerManager::logPlaybackState:899) 5:Default [cue 10,0ms,Playing]
+- 22:48:43.453 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) modify effect (type 64)
+- 22:48:52.766 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) modify effect (type 64)
+- 22:48:52.422 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) modify effect (type 64)
+- 22:48:53.062 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) modify effect (type 64)
+- 22:49:01.187 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) modify effect (type 64)
+- 22:49:03.297 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) modify effect (type 64)
+- 22:49:14.812 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) modify effect (type 64)
+- 22:49:14.828 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) modify effect (type 64)
+- 22:49:14.844 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) modify effect (type 64)
+*** Message repeated 46 more times ***
+- 22:49:57.922 INFO   : (@ClipPlayerManager::logPlaybackState:899) 5:Default [cue 10,0ms,Playing]
+- 22:51:12.031 INFO   : (@ClipPlayerManager::logPlaybackState:899) 5:Default [cue 10,0ms,Playing]
+- 22:51:27.406 INFO1  :Command: (@ShowCommandExecutor::doPush:359) set LiveClip properties (type 3971b727)
+- 22:51:27.406 INFO1  :Command: (@ShowCommandExecutor::doPush:359) set LiveClip properties (type 3971b727)
+- 22:52:27.219 INFO   : (@ClipPlayerManager::logPlaybackState:899) 5:Default [cue 0,0ms,Playing]
+- 22:52:43.953 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 22:52:43.453 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 22:52:43.547 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 22:52:43.562 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 22:52:43.578 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 22:52:43.594 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 22:52:44.609 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 22:52:44.625 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 22:52:44.641 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+*** Message repeated 5 more times ***
+- 22:53:42.359 INFO   : (@ClipPlayerManager::logPlaybackState:899) 5:Default [cue 3,12934ms,Playing]
+- 22:54:47.500 INFO1  :Command: (@ShowCommandExecutor::doPush:359) set LiveClip properties (type 3971b727)
+- 22:54:47.516 INFO1  :Command: (@ShowCommandExecutor::doPush:359) set LiveClip properties (type 3971b727)
+- 22:54:48.687 INFO1  :Command: (@ShowCommandExecutor::doPush:359) set LiveClip properties (type 3971b727)
+- 22:54:48.703 INFO1  :Command: (@ShowCommandExecutor::doPush:359) set LiveClip properties (type 3971b727)
+- 22:54:48.922 INFO1  :Command: (@ShowCommandExecutor::doPush:359) set LiveClip properties (type 3971b727)
+- 22:54:48.922 INFO1  :Command: (@ShowCommandExecutor::doPush:359) set LiveClip properties (type 3971b727)
+- 22:54:54.937 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) update effect fixture selection (type 64)
+- 22:54:57.422 INFO   : (@ClipPlayerManager::logPlaybackState:899) 5:Default [cue 3,7506ms,Playing]
+- 22:55:00.453 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) Clear (type 64)
+- 22:55:11.859 INFO   :NETWORK: (@PlaybackNodeManager::doShowSavedOnMain:742) VistaPlaybackNode_2: Received SHOW_SAVED_ON_MAIN message from master
+- 22:55:42.094 INFO   :NETWORK: (@PlaybackNodeManager::doShowSavedOnMain:742) VistaPlaybackNode_2: Received SHOW_SAVED_ON_MAIN message from master
+- 22:55:44.703 INFO1  :NETWORK: (@PlaybackNodeManager::checkTimeControllerFailover:2039) VistaPlaybackNode_2: Playback failover state changed to: 1
+- 22:55:44.500 WARNING:NETWORK: (@BoostTcpNetwork::outputNetworkError:395 ##1da1640) VistaPlaybackNode_2: A socket error has occurred.. local: 127.0.0.1:61804, remote: 127.0.0.1:22125 - An existing connection was forcibly closed by the remote host
+- 22:55:44.500 INFO2  :NETWORK: (@BoostTcpNetwork::removeConnection:223 ##1da1640) VistaPlaybackNode_2: (-)Connection removed
+- 22:55:44.500 INFO   :NETWORK: (@BoostTcpConnection::close:116 ##1da1640) VistaPlaybackNode_2: Connection closed.. local: 127.0.0.1:61804, remote: 127.0.0.1:22125
+- 22:55:44.500 INFO   :NETWORK: (@BoostTcpConnection::close:116 ##1da1640) VistaPlaybackNode_2: Connection closed.. local: 127.0.0.1:61804, remote: 127.0.0.1:22125

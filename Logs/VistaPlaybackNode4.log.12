@@ -1,0 +1,694 @@
+- 20:15:41.000 INFO   : (@main:150) Wed May 5 20:15:41 2021
+- 20:15:41.000 INFO   : (@main:151) OS: Windows 10 (10.0), CPU: x86_64, Logical Cores: 4
+- 20:15:41.000 INFO   : (@`anonymous-namespace'::getThisExecutableDirPath:86) Path to executable: C:/Program Files (x86)/Chroma-Q/Vista3/VistaPlaybackNode.exe
+- 20:15:41.000 INFO   : (@Directory::getPath:848) QtPlugins path = C:/Program Files (x86)/Chroma-Q/Vista3/plugins
+- 20:15:41.000 INFO   : (@main:161) Starting C:/Program Files (x86)/Chroma-Q/Vista3/VistaPlaybackNode.exe
+- 20:15:41.000 INFO   : (@main:164) default plugin path: c:/Qt/Qt5.8.0/plugins
+- 20:15:41.000 INFO   : (@InitialiseHardwareInterfaceLibrary:10) Initializing Hardware Interface
+- 20:15:41.000 INFO   : (@BoostNetworkThread::run:54 ##6d22c8) starting
+- 20:15:41.000 INFO   : (@BoostNetworkThread::run:54 ##6d2538) starting
+- 20:15:41.047 INFO   : (@USB::libusbInit:143) Initializing libusb...
+- 20:15:41.063 INFO   : (@UsbManager::UsbManager:154) Initializing USB Manager
+- 20:15:41.063 INFO   : (@DpuManager::initialiseLocalConfiguration:80) initializing
+- 20:15:41.063 INFO   : (@BoostNetworkThread::run:54 ##6d0e10) starting
+- 20:15:41.078 INFO   : (@getLocalHostUuid:41) Local hostID: 434bfdc5
+- 20:15:41.078 INFO   : (@getLocalHostUuid:49) Local hostID: 434bfdc5
+- 20:15:41.141 INFO   : (@DpuManager::initialiseLocalConfiguration:117) Available CPU capability: 4 host type: 0
+- 20:15:41.141 INFO   : (@TimecodeManager::TimecodeManager:71) 
+- 20:15:41.141 INFO   : (@InitialiseShowLibrary:163) Initializing show Library
+- 20:15:41.141 INFO   : (@Console::Console:71) (props) type 100 (Art-Net) vcID: b44d6a80 hwID: b44d6a80
+- 20:15:41.141 INFO   : (@Console::Console:71) (props) type 102 (sACN) vcID: 669aa062 hwID: 669aa062
+- 20:15:41.141 INFO   : (@Console::Console:71) (props) type 101 (Pathport) vcID: 4e55c8af hwID: 4e55c8af
+- 20:15:41.141 INFO   : (@Directory::getPath:858) Preferences path = C:\Vista 3
+- 20:15:41.141 INFO   : (@ShowManager::ShowManager:128) 
+- 20:15:41.141 INFO   :NETWORK: (@PlaybackNodeManager::PlaybackNodeManager:252) VistaPlaybackNode_4: new instance
+- 20:15:41.141 INFO   : (@BoostNetworkThread::run:54 ##6ffc88) starting
+- 20:15:41.141 INFO   : (@BoostNetworkThread::run:54 ##6ffbb0) starting
+- 20:15:41.141 INFO   : (@BoostNetworkThread::run:54 ##6ffbe0) starting
+- 20:15:41.141 INFO   : (@BoostNetworkThread::run:54 ##6ffb68) starting
+- 20:15:41.141 INFO   : (@BoostNetworkThread::run:54 ##6ffa48) starting
+- 20:15:41.141 INFO   : (@Directory::getPath:746) Factory Resources path = C:/Program Files (x86)/Chroma-Q/Vista3
+- 20:15:41.141 INFO   : (@Directory::getPath:784) FactoryEffectLibrary path = C:/Program Files (x86)/Chroma-Q/Vista3/EffectLibrary
+- 20:15:41.157 INFO   : (@BoostNetworkThread::run:54 ##717628) starting
+- 20:15:41.157 INFO   : (@BoostNetworkThread::run:54 ##717e50) starting
+- 20:15:41.157 INFO   : (@BoostNetworkThread::run:54 ##717cd0) starting
+- 20:15:41.219 INFO   : (@Directory::getPath:779) UserEffectLibrary path = C:\Vista 3/Effects
+- 20:15:41.219 INFO   : (@BoostTcpConnection::connectToServer:32) host: 127.0.0.1, port: 22125
+- 20:15:41.219 INFO   : (@BoostTcpConnection::connectToServer:32) host: 127.0.0.1, port: 22004
+- 20:15:41.219 INFO2  :NETWORK: (@BoostTcpNetwork::socketConnected:191 ##717cd0) VistaPlaybackNode_4: (+)Connection established.. local: 127.0.0.1:52399, remote: 127.0.0.1:22125
+- 20:15:41.219 INFO2  :NETWORK: (@BoostTcpNetwork::socketConnected:191 ##6d2538) VistaPlaybackNode_4: (+)Connection established.. local: 127.0.0.1:52400, remote: 127.0.0.1:22004
+- 20:15:41.219 INFO   :NETWORK: (@PlaybackNodeManager::nodeConnectedSlot:541) VistaPlaybackNode_4: 127.0.0.1 connected
+- 20:15:46.000 INFO   :NETWORK: (@PlaybackNodeManager::doAboutToSync:902) VistaPlaybackNode_4: Received ABOUT_TO_SYNC
+- 20:15:46.000 INFO   :NETWORK: (@PlaybackNodeManager::setSyncProgressState:2174) VistaPlaybackNode_4: Sync Progress State: AUX_ABOUT_TO_SYNC
+- 20:15:46.157 INFO   :NETWORK: (@PlaybackNodeManager::doDpuSync:789) VistaPlaybackNode_4: Received SHOW_SYNC
+- 20:15:46.157 INFO   :NETWORK: (@PlaybackNodeManager::setSyncProgressState:2174) VistaPlaybackNode_4: Sync Progress State: AUX_RECEIVED_SHOW_ABOUT_TO_DESERIALISE
+- 20:15:46.157 INFO   :NETWORK: (@ShowManager::prepareForShowReplacement:803) VistaPlaybackNode_4: prepareForShowReplacement: Auxiliary
+- 20:15:46.157 INFO   :NETWORK: (@ShowManager::prepareForShowReplacement:820) VistaPlaybackNode_4: Emitting disablePlayback()
+- 20:15:46.157 INFO   :NETWORK: (@ShowManager::prepareForShowReplacement:823) VistaPlaybackNode_4: Emitting showAboutToLoad()
+- 20:15:46.157 INFO1  :NETWORK: (@PlaybackNodeManager::showAboutToLoadSlot:497) VistaPlaybackNode_4: Emitting stateChangedSignal()
+- 20:15:46.172 INFO   : (@Console::Console:65) serialised
+- 20:15:46.172 INFO   : (@Console::Console:65) serialised
+- 20:15:46.172 INFO   : (@Console::Console:65) serialised
+- 20:15:46.172 INFO   : (@Console::Console:65) serialised
+- 20:15:46.188 INFO   : (@Console::Console:65) serialised
+- 20:15:46.188 INFO   : (@ScopedTimeLogger::~ScopedTimeLogger:26) Serialise a show took 27 ms.
+- 20:15:46.188 INFO   : (@Directory::getPath:751) UserFixtureLibrary path = C:\Vista 3/Fixtures
+- 20:15:46.188 INFO   : (@Directory::getPath:863) UserFixtureArrangementLibrary path = C:\Vista 3/Fixtures/CustomArrangements
+- 20:15:46.188 INFO   :NETWORK: (@PlaybackNodeManager::setSyncProgressState:2174) VistaPlaybackNode_4: Sync Progress State: AUX_SHOW_DESERIALISED
+- 20:15:46.188 INFO   :NETWORK: (@PlaybackNodeManager::dpuSyncAck:658) VistaPlaybackNode_4: Sending SHOW_SYNC_ACK from: 434bfdc9 (DESKTOP-6RVQOQ4-4)
+- 20:15:46.188 INFO   :NETWORK: (@PlaybackNodeManager::setSyncProgressState:2174) VistaPlaybackNode_4: Sync Progress State: AUX_SENDING_SYNC_ACKNOWLEDGEMENT
+- 20:15:46.188 INFO   :NETWORK: (@PlaybackNodeManager::doDpuSyncAck:874) VistaPlaybackNode_4: Received SHOW_SYNC_ACK from: 434bfdc9 (DESKTOP-6RVQOQ4-4)
+- 20:15:46.188 INFO   :NETWORK: (@PlaybackNodeManager::doDpuSyncAck:874) VistaPlaybackNode_4: Received SHOW_SYNC_ACK from: 434bfdc5 (DESKTOP-6RVQOQ4-UI)
+- 20:15:49.203 INFO   : (@PlaybackNodeManager::processMessage_SetConfiguration:1164) (role:0)- empty universes
+- 20:15:49.203 INFO   : (@logIntSet:489) PlaybackEngineCoordinator::setPlaybackUniverses: set contains 0 items: []
+- 20:15:49.453 INFO   :NETWORK: (@PlaybackNodeManager::doDpuSyncComplete:710) VistaPlaybackNode_4: Received SHOW_SYNC_COMPLETE message from master
+- 20:15:49.453 INFO   :NETWORK: (@PlaybackNodeManager::setSyncProgressState:2174) VistaPlaybackNode_4: Sync Progress State: AUX_PERFORMING_POST_SYNC_TASKS
+- 20:15:49.469 INFO   :NETWORK: (@ShowManager::performPostShowSynchronisationTasks:1051) VistaPlaybackNode_4: Emitting initialisePlayback()
+- 20:15:49.469 INFO   :NETWORK: (@ShowManager::performPostShowSynchronisationTasks:1055) VistaPlaybackNode_4: Emitting showLoaded()
+- 20:15:49.469 INFO   :NETWORK: (@ShowManager::performPostShowSynchronisationTasks:1058) VistaPlaybackNode_4: Emitting showLoadedNotificationCompleted()
+- 20:15:49.469 INFO1  :NETWORK: (@PlaybackNodeManager::showLoadedNotificationCompletedSlot:516) VistaPlaybackNode_4: Emitting stateChangedSignal()
+- 20:15:49.469 INFO   :NETWORK: (@ShowManager::performPostShowSynchronisationTasks:1062) VistaPlaybackNode_4: Emitting enablePlayback()
+- 20:15:49.469 INFO   : (@logIntSet:489) PlaybackEngineCoordinator::setPlaybackUniverses: set contains 0 items: []
+- 20:15:49.469 INFO   :NETWORK: (@PlaybackNodeManager::setSyncProgressState:2174) VistaPlaybackNode_4: Sync Progress State: NO_SYNC_IN_PROGRESS
+- 20:15:49.485 WARNING: (@EffectRateController::resetAllPhasesToZero:105) current playback time 00:00:00
+- 20:15:49.485 INFO   : (@PlaybackEngine::doRefresh:266) New set of assigned fixtures follows:
+- 20:15:49.485 INFO   : (@PlaybackEngine::doRefresh:280) PlaybackEngine: Elapsed time between refreshes was: 0ms
+- 20:15:49.703 INFO   : (@PlaybackNodeManager::processMessage_SetConfiguration:1164) (role:0)- empty universes
+- 20:15:49.703 INFO   : (@logIntSet:489) PlaybackEngineCoordinator::setPlaybackUniverses: set contains 0 items: []
+- 20:15:50.719 INFO1  :NETWORK: (@PlaybackNodeManager::checkTimeControllerFailover:2049) VistaPlaybackNode_4: isSynchronised changed to: 1
+- 20:15:50.719 INFO   : (@PlaybackEngine::doRefresh:266) New set of assigned fixtures follows:
+- 20:15:53.219 WARNING: (@FixtureStatusManager::doPanelDataRequest:472) Playback status missing for fixture 4
+- 20:15:53.219 WARNING: (@FixtureStatusManager::doPanelDataRequest:472) Playback status missing for fixture 14
+- 20:15:53.219 WARNING: (@FixtureStatusManager::doPanelDataRequest:472) Playback status missing for fixture 30
+- 20:15:53.219 WARNING: (@FixtureStatusManager::doPanelDataRequest:472) Playback status missing for fixture 35
+- 20:15:53.219 WARNING: (@FixtureStatusManager::doPanelDataRequest:472) Playback status missing for fixture 8
+- 20:15:53.219 WARNING: (@FixtureStatusManager::doPanelDataRequest:472) Playback status missing for fixture 1
+- 20:15:53.219 WARNING: (@FixtureStatusManager::doPanelDataRequest:472) Playback status missing for fixture 10
+- 20:15:53.219 WARNING: (@FixtureStatusManager::doPanelDataRequest:472) Playback status missing for fixture 32
+- 20:15:53.219 WARNING: (@FixtureStatusManager::doPanelDataRequest:472) Playback status missing for fixture 5
+- 20:15:53.219 WARNING: (@FixtureStatusManager::doPanelDataRequest:472) Playback status missing for fixture 31
+- 20:15:54.000 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 20:15:54.094 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 20:15:54.094 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 20:15:54.110 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 20:15:54.110 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 20:15:54.125 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 20:15:54.141 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 20:15:54.157 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 20:15:54.157 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 20:15:54.157 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+*** Message repeated 484 more times ***
+- 20:23:18.938 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply effect (type 64)
+- 20:23:20.750 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) modify effect (type 64)
+- 20:23:33.328 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) modify effect (type 64)
+- 20:23:33.360 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) modify effect (type 64)
+- 20:23:33.375 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) modify effect (type 64)
+- 20:23:33.391 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) modify effect (type 64)
+- 20:23:39.094 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) modify effect (type 64)
+- 20:23:39.250 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) modify effect (type 64)
+- 20:23:39.266 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) modify effect (type 64)
+- 20:23:39.282 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) modify effect (type 64)
+*** Message repeated 126 more times ***
+- 20:24:10.422 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 20:24:10.657 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 20:24:10.657 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 20:24:10.672 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 20:24:10.672 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 20:24:10.688 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 20:24:10.688 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 20:24:10.703 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 20:24:10.703 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 20:24:11.719 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+*** Message repeated 264 more times ***
+- 20:24:33.297 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) delete effect (type 64)
+- 20:24:37.266 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 20:24:39.235 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 20:24:39.500 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 20:24:39.516 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 20:24:39.516 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 20:24:39.532 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 20:24:39.532 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 20:24:39.547 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 20:24:39.563 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+*** Message repeated 169 more times ***
+- 20:37:38.907 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) Clear (type 64)
+- 20:37:40.907 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 20:37:40.047 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 20:37:40.047 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 20:37:40.063 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 20:37:40.063 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 20:37:40.078 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 20:37:40.078 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 20:37:40.094 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 20:37:40.094 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+*** Message repeated 42 more times ***
+- 20:38:57.047 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply effect (type 64)
+- 20:39:05.703 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) delete effect (type 64)
+- 20:39:40.735 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 20:39:40.844 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 20:39:40.844 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 20:39:40.860 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 20:39:40.860 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 20:39:42.297 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 20:39:42.297 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 20:39:42.313 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 20:39:42.313 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 20:40:19.766 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+*** Message repeated 4320 more times ***
+- 20:43:43.438 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply effect (type 64)
+- 20:43:47.016 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) modify effect (type 64)
+- 20:43:53.282 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) modify effect (type 64)
+- 20:43:53.313 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) modify effect (type 64)
+- 20:43:53.328 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) modify effect (type 64)
+- 20:43:53.328 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) modify effect (type 64)
+- 20:43:53.344 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) modify effect (type 64)
+- 20:43:53.360 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) modify effect (type 64)
+- 20:43:53.360 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) modify effect (type 64)
+- 20:43:53.375 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) modify effect (type 64)
+*** Message repeated 49 more times ***
+- 20:44:22.016 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 20:44:22.235 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 20:44:22.235 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 20:44:22.250 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 20:44:22.250 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 20:44:22.266 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 20:44:22.266 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 20:44:22.282 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 20:44:22.282 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 20:44:22.375 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+*** Message repeated 66 more times ***
+- 20:44:57.594 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) Clear (type 64)
+- 20:44:59.688 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 20:45:00.813 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 20:45:00.813 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 20:45:00.813 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 20:45:00.828 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 20:45:00.844 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 20:45:00.844 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 20:45:00.844 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 20:45:00.860 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+*** Message repeated 72 more times ***
+- 20:45:07.328 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) Clear (type 64)
+- 20:52:49.735 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 20:52:49.094 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 20:52:49.094 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 20:52:49.110 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 20:52:49.110 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 20:52:49.125 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 20:52:49.157 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 20:52:49.157 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 20:52:49.172 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+*** Message repeated 331 more times ***
+- 20:54:56.953 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) patch fixtures (type 64)
+- 20:54:56.469 INFO   : (@PlaybackNodeManager::processMessage_SetConfiguration:1164) (role:0)- empty universes
+- 20:54:56.469 INFO   : (@logIntSet:489) PlaybackEngineCoordinator::setPlaybackUniverses: set contains 0 items: []
+- 20:54:56.500 INFO   : (@PlaybackEngine::doRefresh:266) New set of assigned fixtures follows:
+- 20:55:01.453 INFO   : (@PlaybackNodeManager::processMessage_SetConfiguration:1164) (role:0)- empty universes
+- 20:55:01.453 INFO   : (@logIntSet:489) PlaybackEngineCoordinator::setPlaybackUniverses: set contains 0 items: []
+- 20:55:01.485 INFO   : (@PlaybackEngine::doRefresh:266) New set of assigned fixtures follows:
+- 20:55:05.360 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) patch fixtures (type 64)
+- 20:55:06.875 INFO   : (@PlaybackNodeManager::processMessage_SetConfiguration:1164) (role:0)- empty universes
+- 20:55:06.875 INFO   : (@logIntSet:489) PlaybackEngineCoordinator::setPlaybackUniverses: set contains 0 items: []
+- 20:55:06.907 INFO   : (@PlaybackEngine::doRefresh:266) New set of assigned fixtures follows:
+- 20:55:10.485 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) patch fixtures (type 64)
+- 20:55:11.016 INFO   : (@PlaybackNodeManager::processMessage_SetConfiguration:1164) (role:0)- empty universes
+- 20:55:11.016 INFO   : (@logIntSet:489) PlaybackEngineCoordinator::setPlaybackUniverses: set contains 0 items: []
+- 20:55:11.032 INFO   : (@PlaybackEngine::doRefresh:266) New set of assigned fixtures follows:
+- 20:55:22.391 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) patch fixtures (type 64)
+- 20:55:23.891 INFO   : (@PlaybackNodeManager::processMessage_SetConfiguration:1164) (role:0)- empty universes
+- 20:55:23.891 INFO   : (@logIntSet:489) PlaybackEngineCoordinator::setPlaybackUniverses: set contains 0 items: []
+- 20:55:23.922 INFO   : (@PlaybackEngine::doRefresh:266) New set of assigned fixtures follows:
+- 20:55:25.547 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) patch fixtures (type 64)
+- 20:55:26.047 INFO   : (@PlaybackNodeManager::processMessage_SetConfiguration:1164) (role:0)- empty universes
+- 20:55:26.047 INFO   : (@logIntSet:489) PlaybackEngineCoordinator::setPlaybackUniverses: set contains 0 items: []
+- 20:55:26.078 INFO   : (@PlaybackEngine::doRefresh:266) New set of assigned fixtures follows:
+- 20:55:33.141 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) patch fixtures (type 64)
+- 20:55:33.641 INFO   : (@PlaybackNodeManager::processMessage_SetConfiguration:1164) (role:0)- empty universes
+- 20:55:33.641 INFO   : (@logIntSet:489) PlaybackEngineCoordinator::setPlaybackUniverses: set contains 0 items: []
+- 20:55:33.657 INFO   : (@PlaybackEngine::doRefresh:266) New set of assigned fixtures follows:
+- 20:55:43.438 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) patch fixtures (type 64)
+- 20:55:44.938 INFO   : (@PlaybackNodeManager::processMessage_SetConfiguration:1164) (role:0)- empty universes
+- 20:55:44.938 INFO   : (@logIntSet:489) PlaybackEngineCoordinator::setPlaybackUniverses: set contains 0 items: []
+- 20:55:44.969 INFO   : (@PlaybackEngine::doRefresh:266) New set of assigned fixtures follows:
+- 20:55:47.453 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) patch fixtures (type 64)
+- 20:55:48.953 INFO   : (@PlaybackNodeManager::processMessage_SetConfiguration:1164) (role:0)- empty universes
+- 20:55:48.953 INFO   : (@logIntSet:489) PlaybackEngineCoordinator::setPlaybackUniverses: set contains 0 items: []
+- 20:55:48.985 INFO   : (@PlaybackEngine::doRefresh:266) New set of assigned fixtures follows:
+- 20:56:00.157 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 20:56:00.375 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 20:56:00.391 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 20:56:00.407 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 20:56:00.422 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 20:56:00.422 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 20:56:00.438 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 20:56:00.453 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 20:56:00.453 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 20:56:00.469 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+*** Message repeated 297 more times ***
+- 20:56:42.688 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) Clear (type 64)
+- 20:57:25.282 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 20:57:25.297 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 20:57:25.313 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 20:57:25.313 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 20:57:25.328 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 20:57:25.328 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 20:57:25.344 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 20:57:25.360 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 20:57:25.360 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+*** Message repeated 660 more times ***
+- 20:59:49.625 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) Clear (type 64)
+- 21:00:17.672 INFO   : (@PlaybackNodeManager::processMessage_SetConfiguration:1164) (role:0)- empty universes
+- 21:00:17.672 INFO   : (@logIntSet:489) PlaybackEngineCoordinator::setPlaybackUniverses: set contains 0 items: []
+- 21:00:17.703 INFO   : (@PlaybackEngine::doRefresh:266) New set of assigned fixtures follows:
+- 21:00:18.469 INFO   : (@PlaybackNodeManager::processMessage_SetConfiguration:1164) (role:0)- empty universes
+- 21:00:18.469 INFO   : (@logIntSet:489) PlaybackEngineCoordinator::setPlaybackUniverses: set contains 0 items: []
+- 21:00:18.485 INFO   : (@PlaybackEngine::doRefresh:266) New set of assigned fixtures follows:
+- 21:00:19.219 INFO   : (@PlaybackNodeManager::processMessage_SetConfiguration:1164) (role:0)- empty universes
+- 21:00:19.219 INFO   : (@logIntSet:489) PlaybackEngineCoordinator::setPlaybackUniverses: set contains 0 items: []
+- 21:00:19.250 INFO   : (@PlaybackEngine::doRefresh:266) New set of assigned fixtures follows:
+- 21:00:20.188 INFO   : (@PlaybackNodeManager::processMessage_SetConfiguration:1164) (role:0)- empty universes
+- 21:00:20.188 INFO   : (@logIntSet:489) PlaybackEngineCoordinator::setPlaybackUniverses: set contains 0 items: []
+- 21:00:20.219 INFO   : (@PlaybackEngine::doRefresh:266) New set of assigned fixtures follows:
+- 21:00:21.094 INFO   : (@PlaybackNodeManager::processMessage_SetConfiguration:1164) (role:0)- empty universes
+- 21:00:21.094 INFO   : (@logIntSet:489) PlaybackEngineCoordinator::setPlaybackUniverses: set contains 0 items: []
+- 21:00:21.110 INFO   : (@PlaybackEngine::doRefresh:266) New set of assigned fixtures follows:
+- 21:00:43.469 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) remove steps (type 64)
+- 21:00:43.469 INFO1  :Command: (@ShowCommandExecutor::doPush:359) add cue (type 56072962)
+- 21:00:43.485 INFO1  :Command: (@ShowCommandExecutor::doPush:359) set timing (type ffffffff9279383f)
+- 21:00:46.735 INFO   : (@ClipPlayerManager::logPlaybackState:899) 1:Cuelist [cue 7,498ms,Paused]
+- 21:00:46.735 INFO   : (@ClipPlayerManager::logPlaybackState:899) *Live* [cue 0,750ms,Playing]
+- 21:00:47.297 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) Clear (type 64)
+- 21:06:17.657 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 21:06:21.953 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 21:06:21.110 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 21:06:21.110 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 21:06:21.125 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 21:06:21.125 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 21:06:21.141 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 21:06:21.141 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 21:06:21.157 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 21:06:21.157 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+*** Message repeated 41 more times ***
+- 21:06:36.672 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) Clear (type 64)
+- 21:15:06.922 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 21:15:06.172 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 21:15:06.188 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 21:15:06.188 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 21:15:06.188 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 21:15:06.203 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 21:15:06.219 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 21:15:06.219 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 21:15:06.266 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+*** Message repeated 4249 more times ***
+- 21:45:24.578 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply effect (type 64)
+- 21:45:32.032 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) modify effect (type 64)
+- 21:45:36.110 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) modify effect (type 64)
+- 21:45:36.266 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) modify effect (type 64)
+- 21:45:36.282 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) modify effect (type 64)
+- 21:45:36.282 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) modify effect (type 64)
+- 21:45:36.297 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) modify effect (type 64)
+- 21:45:36.297 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) modify effect (type 64)
+- 21:45:36.313 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) modify effect (type 64)
+- 21:45:36.313 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) modify effect (type 64)
+*** Message repeated 30 more times ***
+- 21:45:48.922 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 21:45:48.188 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 21:45:48.219 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 21:45:48.235 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 21:45:48.250 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 21:45:48.266 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 21:45:48.266 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 21:45:48.282 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 21:45:48.297 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 21:45:48.313 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+*** Message repeated 534 more times ***
+- 21:46:38.907 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) modify effect (type 64)
+- 21:46:38.922 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) modify effect (type 64)
+- 21:46:38.938 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) modify effect (type 64)
+- 21:46:38.953 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) modify effect (type 64)
+- 21:46:38.953 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) modify effect (type 64)
+- 21:46:38.969 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) modify effect (type 64)
+- 21:46:38.969 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) modify effect (type 64)
+- 21:46:38.985 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) modify effect (type 64)
+- 21:46:38.000 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) modify effect (type 64)
+- 21:46:59.360 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 21:46:59.375 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 21:46:59.391 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 21:46:59.391 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 21:46:59.407 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 21:46:59.407 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 21:46:59.422 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 21:46:59.422 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 21:46:59.438 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 21:46:59.438 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+*** Message repeated 2709 more times ***
+- 21:49:21.563 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply effect (type 64)
+- 21:49:23.047 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) modify effect (type 64)
+- 21:49:33.563 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) modify effect (type 64)
+- 21:49:33.578 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) modify effect (type 64)
+- 21:49:36.672 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) modify effect (type 64)
+- 21:49:37.922 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) modify effect (type 64)
+- 21:49:37.922 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) modify effect (type 64)
+- 21:49:37.938 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) modify effect (type 64)
+- 21:49:37.953 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) modify effect (type 64)
+- 21:49:37.032 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) modify effect (type 64)
+*** Message repeated 61 more times ***
+- 21:51:09.360 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 21:51:09.360 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 21:51:09.360 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 21:51:09.375 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 21:51:09.391 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 21:51:09.391 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 21:51:09.407 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 21:51:09.407 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 21:51:09.422 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 21:51:09.422 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+*** Message repeated 163 more times ***
+- 21:51:36.532 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) modify effect (type 64)
+- 21:51:36.547 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) modify effect (type 64)
+- 21:51:36.563 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) modify effect (type 64)
+- 21:51:36.563 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) modify effect (type 64)
+- 21:51:36.578 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) modify effect (type 64)
+- 21:51:36.594 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) modify effect (type 64)
+- 21:51:36.594 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) modify effect (type 64)
+- 21:51:36.610 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) modify effect (type 64)
+- 21:51:36.610 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) modify effect (type 64)
+- 21:51:36.625 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) modify effect (type 64)
+*** Message repeated 28 more times ***
+- 21:52:28.985 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 21:52:28.000 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 21:52:28.000 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 21:52:28.016 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 21:52:28.016 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 21:52:28.032 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 21:52:28.032 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 21:52:28.047 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 21:52:28.063 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 21:52:28.063 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+*** Message repeated 2514 more times ***
+- 21:57:13.063 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) modify effect (type 64)
+- 21:57:13.110 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) modify effect (type 64)
+- 21:57:13.125 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) modify effect (type 64)
+- 21:57:13.172 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) modify effect (type 64)
+- 21:57:13.188 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) modify effect (type 64)
+- 21:57:13.235 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) modify effect (type 64)
+- 21:57:13.266 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) modify effect (type 64)
+- 21:57:13.297 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) modify effect (type 64)
+- 21:57:13.328 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) modify effect (type 64)
+- 21:57:13.360 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) modify effect (type 64)
+*** Message repeated 640 more times ***
+- 22:05:34.610 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 22:05:44.907 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 22:05:44.922 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 22:05:44.922 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 22:05:44.953 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 22:05:44.953 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 22:05:44.969 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 22:05:44.969 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 22:05:44.985 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 22:05:44.000 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+*** Message repeated 244 more times ***
+- 22:15:15.766 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) create cuelist (type 64)
+- 22:15:23.078 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) Store (type 64)
+- 22:15:53.141 INFO   : (@ClipPlayerManager::logPlaybackState:899) 4:Cuelist [cue 0,2000ms,Playing]
+- 22:15:53.703 INFO   :NETWORK: (@PlaybackNodeManager::doShowSavedOnMain:742) VistaPlaybackNode_4: Received SHOW_SAVED_ON_MAIN message from master
+- 22:16:07.141 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) Clear (type 64)
+- 22:17:08.235 INFO   : (@ClipPlayerManager::logPlaybackState:899) 4:Cuelist [cue 0,2000ms,Playing]
+- 22:18:23.344 INFO   : (@ClipPlayerManager::logPlaybackState:899) 4:Cuelist [cue 0,2000ms,Playing]
+- 22:19:38.407 INFO   : (@ClipPlayerManager::logPlaybackState:899) 4:Cuelist [cue 0,2000ms,Playing]
+- 22:20:53.453 INFO   : (@ClipPlayerManager::logPlaybackState:899) 4:Cuelist [cue 0,2000ms,Playing]
+- 22:22:08.578 INFO   : (@ClipPlayerManager::logPlaybackState:899) 4:Cuelist [cue 0,2000ms,Playing]
+- 22:23:24.735 INFO   : (@ClipPlayerManager::logPlaybackState:899) 4:Cuelist [cue 0,2000ms,Playing]
+- 22:24:39.844 INFO   : (@ClipPlayerManager::logPlaybackState:899) 4:Cuelist [cue 0,2000ms,Playing]
+- 22:25:54.985 INFO   : (@ClipPlayerManager::logPlaybackState:899) 4:Cuelist [cue 0,2000ms,Playing]
+- 22:27:09.078 INFO   : (@ClipPlayerManager::logPlaybackState:899) 4:Cuelist [cue 0,2000ms,Playing]
+- 22:28:24.188 INFO   : (@ClipPlayerManager::logPlaybackState:899) 4:Cuelist [cue 0,2000ms,Playing]
+*** Message repeated 37 more times ***
+- 23:15:08.250 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 23:15:08.266 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 23:15:08.282 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 23:15:08.282 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 23:15:08.297 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 23:15:08.313 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 23:15:08.313 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 23:15:08.328 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 23:15:08.328 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 23:15:10.797 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+*** Message repeated 630 more times ***
+- 23:15:59.485 INFO   : (@ClipPlayerManager::logPlaybackState:899) 4:Cuelist [cue 1,2000ms,Playing]
+- 23:15:59.485 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 23:15:59.485 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 23:15:59.500 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 23:15:59.500 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 23:15:59.516 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 23:15:59.516 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 23:15:59.532 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 23:15:59.532 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 23:15:59.532 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+*** Message repeated 1000 more times ***
+- 23:17:14.547 INFO   : (@ClipPlayerManager::logPlaybackState:899) 4:Cuelist [cue 1,2000ms,Playing]
+- 23:17:16.282 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 23:17:16.453 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 23:17:16.453 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 23:17:16.469 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 23:17:16.469 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 23:17:16.485 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 23:17:16.485 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 23:17:16.500 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 23:17:16.516 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+*** Message repeated 816 more times ***
+- 23:18:29.610 INFO   : (@ClipPlayerManager::logPlaybackState:899) 4:Cuelist [cue 1,2000ms,Playing]
+- 23:18:30.750 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 23:18:30.766 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 23:18:30.766 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 23:18:30.782 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 23:18:30.797 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 23:18:30.797 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 23:18:30.797 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 23:18:30.813 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 23:18:30.828 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+*** Message repeated 563 more times ***
+- 23:19:45.735 INFO   : (@ClipPlayerManager::logPlaybackState:899) 4:Cuelist [cue 1,2000ms,Playing]
+- 23:19:47.422 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 23:19:47.422 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 23:19:47.453 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 23:19:47.500 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 23:19:47.516 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 23:19:47.563 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 23:19:47.578 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 23:19:47.594 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 23:19:47.625 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+*** Message repeated 572 more times ***
+- 23:21:00.782 INFO   : (@ClipPlayerManager::logPlaybackState:899) 4:Cuelist [cue 1,2000ms,Playing]
+- 23:21:04.250 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 23:21:04.594 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 23:21:04.610 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 23:21:04.610 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 23:21:04.625 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 23:21:04.625 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 23:21:04.641 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 23:21:04.657 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 23:21:04.657 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+*** Message repeated 258 more times ***
+- 23:22:15.875 INFO   : (@ClipPlayerManager::logPlaybackState:899) 4:Cuelist [cue 1,2000ms,Playing]
+- 23:22:34.641 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 23:22:34.657 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 23:22:34.657 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 23:22:34.672 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 23:22:34.672 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 23:22:34.688 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 23:22:34.703 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 23:22:34.703 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 23:22:35.719 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+*** Message repeated 584 more times ***
+- 23:23:30.953 INFO   : (@ClipPlayerManager::logPlaybackState:899) 4:Cuelist [cue 1,2000ms,Playing]
+- 23:23:30.985 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 23:23:30.000 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 23:23:30.000 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 23:23:30.016 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 23:23:30.032 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 23:23:30.094 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 23:23:33.907 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 23:23:33.922 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 23:23:33.938 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+*** Message repeated 351 more times ***
+- 23:24:45.047 INFO   : (@ClipPlayerManager::logPlaybackState:899) 4:Cuelist [cue 1,2000ms,Playing]
+- 23:24:45.563 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 23:24:46.875 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 23:24:46.063 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 23:24:46.235 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 23:24:46.391 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 23:24:46.563 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 23:24:47.719 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 23:24:47.922 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 23:24:47.110 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+*** Message repeated 354 more times ***
+- 23:26:00.125 INFO   : (@ClipPlayerManager::logPlaybackState:899) 4:Cuelist [cue 1,2000ms,Playing]
+- 23:26:05.422 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 23:26:05.578 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 23:26:06.750 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 23:26:06.922 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 23:26:06.110 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 23:26:06.328 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 23:26:06.578 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 23:26:07.813 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 23:26:07.094 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+*** Message repeated 495 more times ***
+- 23:27:15.219 INFO   : (@ClipPlayerManager::logPlaybackState:899) 4:Cuelist [cue 1,2000ms,Playing]
+- 23:27:25.235 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 23:27:25.422 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 23:27:25.422 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 23:27:25.438 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 23:27:25.438 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 23:27:32.922 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 23:27:32.360 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 23:27:32.422 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 23:27:32.438 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+*** Message repeated 305 more times ***
+- 23:28:30.344 INFO   : (@ClipPlayerManager::logPlaybackState:899) 4:Cuelist [cue 1,2000ms,Playing]
+- 23:28:49.141 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) paste events (type 64)
+- 23:29:02.938 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 23:29:02.110 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 23:29:02.282 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 23:29:02.453 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 23:29:02.594 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 23:29:03.766 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 23:29:03.938 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 23:29:03.094 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 23:29:03.625 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 23:29:04.782 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+*** Message repeated 15 more times ***
+- 23:29:45.438 INFO   : (@ClipPlayerManager::logPlaybackState:899) 4:Cuelist [cue 0,2000ms,Playing]
+- 23:30:05.032 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 23:30:05.203 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 23:30:06.719 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 23:30:06.875 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 23:30:06.047 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 23:30:06.188 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 23:30:06.313 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 23:30:06.438 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 23:30:06.563 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+*** Message repeated 177 more times ***
+- 23:31:00.563 INFO   : (@ClipPlayerManager::logPlaybackState:899) 4:Cuelist [cue 0,2000ms,Playing]
+- 23:31:02.422 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 23:31:02.438 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 23:31:02.438 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 23:31:02.453 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 23:31:02.453 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 23:31:02.469 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 23:31:02.485 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 23:31:02.500 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 23:31:02.516 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+*** Message repeated 676 more times ***
+- 23:32:15.625 INFO   : (@ClipPlayerManager::logPlaybackState:899) 4:Cuelist [cue 0,2000ms,Playing]
+- 23:33:02.891 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 23:33:02.063 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 23:33:02.063 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 23:33:02.078 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 23:33:02.078 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 23:33:02.094 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 23:33:03.797 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 23:33:03.813 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 23:33:03.813 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+*** Message repeated 307 more times ***
+- 23:33:31.735 INFO   : (@ClipPlayerManager::logPlaybackState:899) 4:Cuelist [cue 0,2000ms,Playing]
+- 23:33:31.282 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 23:33:31.282 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 23:33:31.297 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 23:33:31.297 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 23:33:31.313 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 23:33:31.313 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 23:33:31.328 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 23:33:31.328 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 23:33:35.266 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+*** Message repeated 483 more times ***
+- 23:34:46.813 INFO   : (@ClipPlayerManager::logPlaybackState:899) 4:Cuelist [cue 0,2000ms,Playing]
+- 23:34:47.360 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 23:34:48.860 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 23:34:48.000 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 23:34:48.016 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 23:34:48.016 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 23:34:48.047 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 23:34:48.063 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 23:34:48.110 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 23:34:48.141 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+*** Message repeated 543 more times ***
+- 23:36:01.860 INFO   : (@ClipPlayerManager::logPlaybackState:899) 4:Cuelist [cue 0,2000ms,Playing]
+- 23:36:18.141 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) Clear (type 64)
+- 23:36:26.516 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 23:36:26.532 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 23:36:26.532 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 23:36:26.547 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 23:36:26.547 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 23:36:26.563 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 23:36:26.563 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 23:36:26.578 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 23:36:26.578 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 23:36:26.594 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+*** Message repeated 176 more times ***
+- 23:37:16.000 INFO   : (@ClipPlayerManager::logPlaybackState:899) 4:Cuelist [cue 0,2000ms,Playing]
+- 23:37:27.813 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 23:37:27.000 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 23:37:27.172 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 23:37:27.344 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 23:37:27.500 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 23:37:27.657 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 23:37:28.797 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 23:37:28.985 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 23:37:28.141 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+*** Message repeated 457 more times ***
+- 23:38:31.110 INFO   : (@ClipPlayerManager::logPlaybackState:899) 4:Cuelist [cue 0,2000ms,Playing]
+- 23:38:36.375 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 23:38:36.375 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 23:38:36.391 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 23:38:36.391 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 23:38:36.407 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 23:38:36.422 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 23:38:36.438 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 23:38:36.453 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 23:38:36.469 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+*** Message repeated 794 more times ***
+- 23:39:46.266 INFO   : (@ClipPlayerManager::logPlaybackState:899) 4:Cuelist [cue 0,2000ms,Playing]
+- 23:39:47.500 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 23:39:47.625 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 23:39:54.219 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 23:39:54.219 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 23:39:54.235 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 23:39:54.266 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 23:39:54.282 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 23:39:54.282 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 23:39:54.297 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+*** Message repeated 656 more times ***
+- 23:41:01.391 INFO   : (@ClipPlayerManager::logPlaybackState:899) 4:Cuelist [cue 0,2000ms,Playing]
+- 23:41:39.407 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 23:41:39.422 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 23:41:39.438 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 23:41:39.438 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 23:41:39.453 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 23:41:39.469 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 23:41:39.469 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 23:41:39.547 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 23:41:39.578 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+*** Message repeated 422 more times ***
+- 23:42:16.563 INFO   : (@ClipPlayerManager::logPlaybackState:899) 4:Cuelist [cue 0,2000ms,Playing]
+- 23:42:18.735 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 23:42:18.750 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 23:42:18.750 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 23:42:18.766 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 23:42:18.782 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 23:42:18.782 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 23:42:18.797 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 23:42:18.797 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 23:42:18.813 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+*** Message repeated 504 more times ***
+- 23:43:22.219 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) Store (type 64)
+- 23:43:31.110 INFO   :NETWORK: (@PlaybackNodeManager::doShowSavedOnMain:742) VistaPlaybackNode_4: Received SHOW_SAVED_ON_MAIN message from master
+- 23:43:31.688 INFO   : (@ClipPlayerManager::logPlaybackState:899) 4:Cuelist [cue 0,2000ms,Playing]
+- 01:36:21.797 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) Store (type 64)
+- 01:36:24.766 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) Clear (type 64)
+- 01:36:32.344 INFO   :NETWORK: (@PlaybackNodeManager::doShowSavedOnMain:742) VistaPlaybackNode_4: Received SHOW_SAVED_ON_MAIN message from master
+- 01:36:36.203 INFO1  :NETWORK: (@PlaybackNodeManager::checkTimeControllerFailover:2039) VistaPlaybackNode_4: Playback failover state changed to: 1
+- 01:36:37.875 WARNING:NETWORK: (@BoostTcpNetwork::outputNetworkError:395 ##717cd0) VistaPlaybackNode_4: A socket error has occurred.. local: 127.0.0.1:52399, remote: 127.0.0.1:22125 - An existing connection was forcibly closed by the remote host
+- 01:36:37.875 INFO2  :NETWORK: (@BoostTcpNetwork::removeConnection:223 ##717cd0) VistaPlaybackNode_4: (-)Connection removed
+- 01:36:37.875 INFO   :NETWORK: (@BoostTcpConnection::close:116 ##717cd0) VistaPlaybackNode_4: Connection closed.. local: 127.0.0.1:52399, remote: 127.0.0.1:22125
+- 01:36:37.875 INFO   :NETWORK: (@BoostTcpConnection::close:116 ##717cd0) VistaPlaybackNode_4: Connection closed.. local: 127.0.0.1:52399, remote: 127.0.0.1:22125

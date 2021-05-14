@@ -1,0 +1,262 @@
+- 13:39:06.000 INFO   : (@main:150) Thu May 6 13:39:06 2021
+- 13:39:06.000 INFO   : (@main:151) OS: Windows 10 (10.0), CPU: x86_64, Logical Cores: 4
+- 13:39:06.000 INFO   : (@`anonymous-namespace'::getThisExecutableDirPath:86) Path to executable: C:/Program Files (x86)/Chroma-Q/Vista3/VistaPlaybackNode.exe
+- 13:39:06.000 INFO   : (@Directory::getPath:848) QtPlugins path = C:/Program Files (x86)/Chroma-Q/Vista3/plugins
+- 13:39:06.016 INFO   : (@main:161) Starting C:/Program Files (x86)/Chroma-Q/Vista3/VistaPlaybackNode.exe
+- 13:39:06.016 INFO   : (@main:164) default plugin path: c:/Qt/Qt5.8.0/plugins
+- 13:39:06.016 INFO   : (@InitialiseHardwareInterfaceLibrary:10) Initializing Hardware Interface
+- 13:39:06.016 INFO   : (@BoostNetworkThread::run:54 ##1d329b0) starting
+- 13:39:06.016 INFO   : (@BoostNetworkThread::run:54 ##1d32b90) starting
+- 13:39:06.032 INFO   : (@USB::libusbInit:143) Initializing libusb...
+- 13:39:06.079 INFO   : (@UsbManager::UsbManager:154) Initializing USB Manager
+- 13:39:06.094 INFO   : (@DpuManager::initialiseLocalConfiguration:80) initializing
+- 13:39:06.094 INFO   : (@BoostNetworkThread::run:54 ##1d31390) starting
+- 13:39:06.110 INFO   : (@getLocalHostUuid:41) Local hostID: 434bfdc5
+- 13:39:06.110 INFO   : (@getLocalHostUuid:49) Local hostID: 434bfdc5
+- 13:39:06.219 INFO   : (@DpuManager::initialiseLocalConfiguration:117) Available CPU capability: 4 host type: 0
+- 13:39:06.219 INFO   : (@TimecodeManager::TimecodeManager:71) 
+- 13:39:06.219 INFO   : (@InitialiseShowLibrary:163) Initializing show Library
+- 13:39:06.219 INFO   : (@Console::Console:71) (props) type 100 (Art-Net) vcID: b44d6a80 hwID: b44d6a80
+- 13:39:06.219 INFO   : (@Console::Console:71) (props) type 102 (sACN) vcID: 669aa062 hwID: 669aa062
+- 13:39:06.219 INFO   : (@Console::Console:71) (props) type 101 (Pathport) vcID: 4e55c8af hwID: 4e55c8af
+- 13:39:06.219 INFO   : (@Directory::getPath:858) Preferences path = C:\Vista 3
+- 13:39:06.219 INFO   : (@ShowManager::ShowManager:128) 
+- 13:39:06.219 INFO   :NETWORK: (@PlaybackNodeManager::PlaybackNodeManager:252) VistaPlaybackNode_2: new instance
+- 13:39:06.219 INFO   : (@Directory::getPath:746) Factory Resources path = C:/Program Files (x86)/Chroma-Q/Vista3
+- 13:39:06.219 INFO   : (@Directory::getPath:784) FactoryEffectLibrary path = C:/Program Files (x86)/Chroma-Q/Vista3/EffectLibrary
+- 13:39:06.235 INFO   : (@BoostNetworkThread::run:54 ##1d4b798) starting
+- 13:39:06.235 INFO   : (@BoostNetworkThread::run:54 ##1d4b690) starting
+- 13:39:06.235 INFO   : (@BoostNetworkThread::run:54 ##1d4b5b8) starting
+- 13:39:06.235 INFO   : (@BoostNetworkThread::run:54 ##1d4b738) starting
+- 13:39:06.235 INFO   : (@BoostNetworkThread::run:54 ##1d4b6d8) starting
+- 13:39:06.235 INFO   : (@BoostNetworkThread::run:54 ##1d6fef8) starting
+- 13:39:06.235 INFO   : (@BoostNetworkThread::run:54 ##1d6ff10) starting
+- 13:39:06.235 INFO   : (@BoostNetworkThread::run:54 ##1d70078) starting
+- 13:39:07.297 INFO   : (@Directory::getPath:779) UserEffectLibrary path = C:\Vista 3/Effects
+- 13:39:07.297 INFO   : (@BoostTcpConnection::connectToServer:32) host: 127.0.0.1, port: 22125
+- 13:39:07.297 INFO   : (@BoostTcpConnection::connectToServer:32) host: 127.0.0.1, port: 22002
+- 13:39:07.297 INFO2  :NETWORK: (@BoostTcpNetwork::socketConnected:191 ##1d6fef8) VistaPlaybackNode_2: (+)Connection established.. local: 127.0.0.1:50088, remote: 127.0.0.1:22125
+- 13:39:07.313 INFO2  :NETWORK: (@BoostTcpNetwork::socketConnected:191 ##1d32b90) VistaPlaybackNode_2: (+)Connection established.. local: 127.0.0.1:50089, remote: 127.0.0.1:22002
+- 13:39:07.313 INFO   :NETWORK: (@PlaybackNodeManager::nodeConnectedSlot:541) VistaPlaybackNode_2: 127.0.0.1 connected
+- 13:57:21.938 INFO   :NETWORK: (@PlaybackNodeManager::doAboutToSync:902) VistaPlaybackNode_2: Received ABOUT_TO_SYNC
+- 13:57:21.938 INFO   :NETWORK: (@PlaybackNodeManager::setSyncProgressState:2174) VistaPlaybackNode_2: Sync Progress State: AUX_ABOUT_TO_SYNC
+- 13:57:21.047 INFO   :NETWORK: (@PlaybackNodeManager::doDpuSync:789) VistaPlaybackNode_2: Received SHOW_SYNC
+- 13:57:21.047 INFO   :NETWORK: (@PlaybackNodeManager::setSyncProgressState:2174) VistaPlaybackNode_2: Sync Progress State: AUX_RECEIVED_SHOW_ABOUT_TO_DESERIALISE
+- 13:57:21.047 INFO   :NETWORK: (@ShowManager::prepareForShowReplacement:803) VistaPlaybackNode_2: prepareForShowReplacement: Auxiliary
+- 13:57:21.047 INFO   :NETWORK: (@ShowManager::prepareForShowReplacement:820) VistaPlaybackNode_2: Emitting disablePlayback()
+- 13:57:21.047 INFO   :NETWORK: (@ShowManager::prepareForShowReplacement:823) VistaPlaybackNode_2: Emitting showAboutToLoad()
+- 13:57:21.047 INFO1  :NETWORK: (@PlaybackNodeManager::showAboutToLoadSlot:497) VistaPlaybackNode_2: Emitting stateChangedSignal()
+- 13:57:21.079 INFO   : (@Console::Console:65) serialised
+- 13:57:21.079 INFO   : (@Console::Console:65) serialised
+- 13:57:21.079 INFO   : (@Console::Console:65) serialised
+- 13:57:21.079 INFO   : (@Console::Console:65) serialised
+- 13:57:21.079 INFO   : (@Console::Console:65) serialised
+- 13:57:21.079 INFO   : (@ScopedTimeLogger::~ScopedTimeLogger:26) Serialise a show took 31 ms.
+- 13:57:21.079 INFO   : (@Directory::getPath:751) UserFixtureLibrary path = C:\Vista 3/Fixtures
+- 13:57:21.079 INFO   : (@Directory::getPath:863) UserFixtureArrangementLibrary path = C:\Vista 3/Fixtures/CustomArrangements
+- 13:57:21.079 INFO   :NETWORK: (@PlaybackNodeManager::setSyncProgressState:2174) VistaPlaybackNode_2: Sync Progress State: AUX_SHOW_DESERIALISED
+- 13:57:21.079 INFO   :NETWORK: (@PlaybackNodeManager::dpuSyncAck:658) VistaPlaybackNode_2: Sending SHOW_SYNC_ACK from: 434bfdc7 (DESKTOP-6RVQOQ4-2)
+- 13:57:21.079 INFO   :NETWORK: (@PlaybackNodeManager::setSyncProgressState:2174) VistaPlaybackNode_2: Sync Progress State: AUX_SENDING_SYNC_ACKNOWLEDGEMENT
+- 13:57:21.079 INFO   :NETWORK: (@PlaybackNodeManager::doDpuSyncAck:874) VistaPlaybackNode_2: Received SHOW_SYNC_ACK from: 434bfdc7 (DESKTOP-6RVQOQ4-2)
+- 13:57:21.079 INFO   :NETWORK: (@PlaybackNodeManager::doDpuSyncAck:874) VistaPlaybackNode_2: Received SHOW_SYNC_ACK from: 434bfdc5 (DESKTOP-6RVQOQ4-UI)
+- 13:57:24.016 INFO   : (@PlaybackNodeManager::processMessage_SetConfiguration:1164) (role:0)- empty universes
+- 13:57:24.016 INFO   : (@logIntSet:489) PlaybackEngineCoordinator::setPlaybackUniverses: set contains 0 items: []
+- 13:57:25.454 INFO   :NETWORK: (@PlaybackNodeManager::doDpuSyncComplete:710) VistaPlaybackNode_2: Received SHOW_SYNC_COMPLETE message from master
+- 13:57:25.454 INFO   :NETWORK: (@PlaybackNodeManager::setSyncProgressState:2174) VistaPlaybackNode_2: Sync Progress State: AUX_PERFORMING_POST_SYNC_TASKS
+- 13:57:25.485 INFO   :NETWORK: (@ShowManager::performPostShowSynchronisationTasks:1051) VistaPlaybackNode_2: Emitting initialisePlayback()
+- 13:57:25.485 INFO   :NETWORK: (@ShowManager::performPostShowSynchronisationTasks:1055) VistaPlaybackNode_2: Emitting showLoaded()
+- 13:57:25.485 INFO   :NETWORK: (@ShowManager::performPostShowSynchronisationTasks:1058) VistaPlaybackNode_2: Emitting showLoadedNotificationCompleted()
+- 13:57:25.485 INFO1  :NETWORK: (@PlaybackNodeManager::showLoadedNotificationCompletedSlot:516) VistaPlaybackNode_2: Emitting stateChangedSignal()
+- 13:57:25.485 INFO   :NETWORK: (@ShowManager::performPostShowSynchronisationTasks:1062) VistaPlaybackNode_2: Emitting enablePlayback()
+- 13:57:25.485 INFO   : (@logIntSet:489) PlaybackEngineCoordinator::setPlaybackUniverses: set contains 0 items: []
+- 13:57:25.485 INFO   :NETWORK: (@PlaybackNodeManager::setSyncProgressState:2174) VistaPlaybackNode_2: Sync Progress State: NO_SYNC_IN_PROGRESS
+- 13:57:25.485 WARNING: (@EffectRateController::resetAllPhasesToZero:105) current playback time 00:00:00
+- 13:57:25.485 INFO   : (@PlaybackEngine::doRefresh:266) New set of assigned fixtures follows:
+- 13:57:25.485 INFO   : (@PlaybackEngine::doRefresh:280) PlaybackEngine: Elapsed time between refreshes was: 0ms
+- 13:57:25.547 INFO   : (@PlaybackNodeManager::processMessage_SetConfiguration:1164) (role:0)- empty universes
+- 13:57:25.547 INFO   : (@logIntSet:489) PlaybackEngineCoordinator::setPlaybackUniverses: set contains 0 items: []
+- 13:57:25.563 INFO   : (@PlaybackEngine::doRefresh:266) New set of assigned fixtures follows:
+- 13:57:25.563 INFO1  :NETWORK: (@PlaybackNodeManager::checkTimeControllerFailover:2049) VistaPlaybackNode_2: isSynchronised changed to: 1
+- 13:57:28.516 WARNING: (@FixtureStatusManager::doPanelDataRequest:472) Playback status missing for fixture 13
+- 13:57:28.516 WARNING: (@FixtureStatusManager::doPanelDataRequest:472) Playback status missing for fixture 3
+- 13:57:28.516 WARNING: (@FixtureStatusManager::doPanelDataRequest:472) Playback status missing for fixture 12
+- 13:57:28.516 WARNING: (@FixtureStatusManager::doPanelDataRequest:472) Playback status missing for fixture 37
+- 13:57:28.516 WARNING: (@FixtureStatusManager::doPanelDataRequest:472) Playback status missing for fixture 39
+- 13:57:28.516 WARNING: (@FixtureStatusManager::doPanelDataRequest:472) Playback status missing for fixture 9
+- 13:57:28.516 WARNING: (@FixtureStatusManager::doPanelDataRequest:472) Playback status missing for fixture 36
+- 13:57:28.516 WARNING: (@FixtureStatusManager::doPanelDataRequest:472) Playback status missing for fixture 2
+- 13:57:28.516 WARNING: (@FixtureStatusManager::doPanelDataRequest:472) Playback status missing for fixture 10
+- 13:57:28.516 WARNING: (@FixtureStatusManager::doPanelDataRequest:472) Playback status missing for fixture 32
+- 13:57:55.532 INFO   : (@ClipPlayerManager::logPlaybackState:899) 4:Cuelist [cue 1,2000ms,Playing]
+- 13:58:54.485 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 13:58:54.500 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 13:58:54.500 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 13:58:54.516 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 13:58:54.516 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 13:58:54.547 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 13:58:54.547 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 13:58:54.563 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 13:59:10.641 INFO   : (@ClipPlayerManager::logPlaybackState:899) 4:Cuelist [cue 3,750ms,Playing]
+- 14:00:25.797 INFO   : (@ClipPlayerManager::logPlaybackState:899) 4:Cuelist [cue 3,750ms,Playing]
+- 14:00:44.844 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 14:00:44.016 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 14:00:44.172 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 14:00:45.344 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 14:00:45.516 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 14:00:45.657 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 14:00:45.829 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 14:00:45.016 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 14:00:45.188 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 14:00:46.344 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+*** Message repeated 119 more times ***
+- 14:01:40.860 INFO   : (@ClipPlayerManager::logPlaybackState:899) 4:Cuelist [cue 3,750ms,Playing]
+- 14:01:47.125 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) modify effect (type 64)
+- 14:01:47.157 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) modify effect (type 64)
+- 14:01:47.172 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) modify effect (type 64)
+- 14:01:47.188 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) modify effect (type 64)
+- 14:01:47.204 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) modify effect (type 64)
+- 14:01:47.219 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) modify effect (type 64)
+- 14:01:47.235 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) modify effect (type 64)
+- 14:01:47.250 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) modify effect (type 64)
+- 14:01:47.250 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) modify effect (type 64)
+- 14:01:48.266 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) modify effect (type 64)
+*** Message repeated 129 more times ***
+- 14:02:29.641 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 14:02:29.657 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 14:02:29.657 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 14:02:29.672 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 14:02:29.672 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 14:02:29.688 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 14:02:29.688 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 14:02:29.704 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 14:02:29.719 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 14:02:29.719 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+*** Message repeated 33 more times ***
+- 14:02:55.954 INFO   : (@ClipPlayerManager::logPlaybackState:899) 4:Cuelist [cue 3,750ms,Playing]
+- 14:04:10.032 INFO   : (@ClipPlayerManager::logPlaybackState:899) 4:Cuelist [cue 3,750ms,Playing]
+- 14:04:26.313 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 14:04:37.641 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) modify effect (type 64)
+- 14:04:37.672 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) modify effect (type 64)
+- 14:04:37.672 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) modify effect (type 64)
+- 14:04:37.688 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) modify effect (type 64)
+- 14:04:37.704 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) modify effect (type 64)
+- 14:04:37.719 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) modify effect (type 64)
+- 14:04:37.735 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) modify effect (type 64)
+- 14:04:37.750 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) modify effect (type 64)
+- 14:04:37.875 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) modify effect (type 64)
+- 14:04:37.922 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) modify effect (type 64)
+*** Message repeated 224 more times ***
+- 14:05:25.110 INFO   : (@ClipPlayerManager::logPlaybackState:899) 4:Cuelist [cue 3,750ms,Playing]
+- 14:05:54.219 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply effect (type 64)
+- 14:06:02.891 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) modify effect (type 64)
+- 14:06:02.922 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) modify effect (type 64)
+- 14:06:02.938 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) modify effect (type 64)
+- 14:06:02.954 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) modify effect (type 64)
+- 14:06:02.954 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) modify effect (type 64)
+- 14:06:02.954 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) modify effect (type 64)
+- 14:06:02.969 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) modify effect (type 64)
+- 14:06:02.985 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) modify effect (type 64)
+*** Message repeated 89 more times ***
+- 14:06:17.016 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 14:06:17.032 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 14:06:17.047 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 14:06:17.047 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 14:06:17.047 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 14:06:17.063 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 14:06:41.266 INFO   : (@ClipPlayerManager::logPlaybackState:899) 4:Cuelist [cue 3,750ms,Playing]
+- 14:07:56.391 INFO   : (@ClipPlayerManager::logPlaybackState:899) 4:Cuelist [cue 3,750ms,Playing]
+- 14:09:11.485 INFO   : (@ClipPlayerManager::logPlaybackState:899) 4:Cuelist [cue 3,750ms,Playing]
+- 14:10:26.625 INFO   : (@ClipPlayerManager::logPlaybackState:899) 4:Cuelist [cue 3,750ms,Playing]
+- 14:11:41.813 INFO   : (@ClipPlayerManager::logPlaybackState:899) 4:Cuelist [cue 3,750ms,Playing]
+- 14:12:56.891 INFO   : (@ClipPlayerManager::logPlaybackState:899) 4:Cuelist [cue 3,750ms,Playing]
+- 14:14:11.063 INFO   : (@ClipPlayerManager::logPlaybackState:899) 4:Cuelist [cue 3,750ms,Playing]
+- 14:15:26.172 INFO   : (@ClipPlayerManager::logPlaybackState:899) 4:Cuelist [cue 3,750ms,Playing]
+- 14:15:42.157 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 14:15:42.188 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 14:15:42.188 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 14:15:42.188 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 14:15:42.204 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 14:15:42.204 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 14:15:42.219 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 14:15:42.219 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 14:15:42.235 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 14:15:42.235 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+*** Message repeated 89 more times ***
+- 14:16:37.563 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) modify effect (type 64)
+- 14:16:37.735 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) modify effect (type 64)
+- 14:16:37.750 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) modify effect (type 64)
+- 14:16:37.766 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) modify effect (type 64)
+- 14:16:37.766 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) modify effect (type 64)
+- 14:16:37.782 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) modify effect (type 64)
+- 14:16:37.797 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) modify effect (type 64)
+- 14:16:37.797 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) modify effect (type 64)
+- 14:16:42.313 INFO   : (@ClipPlayerManager::logPlaybackState:899) 4:Cuelist [cue 3,750ms,Playing]
+- 14:16:47.797 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) modify effect (type 64)
+- 14:16:47.829 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) modify effect (type 64)
+- 14:16:47.844 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) modify effect (type 64)
+- 14:16:47.844 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) modify effect (type 64)
+- 14:16:48.516 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) modify effect (type 64)
+- 14:16:48.594 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) modify effect (type 64)
+- 14:16:49.657 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) modify effect (type 64)
+- 14:16:49.688 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) modify effect (type 64)
+- 14:16:57.000 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) change sorting (type 64)
+- 14:17:18.266 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 14:17:18.844 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 14:17:18.891 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 14:17:18.938 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 14:17:20.875 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 14:17:20.891 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 14:17:20.907 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 14:17:20.922 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 14:17:20.922 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 14:17:20.954 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+*** Message repeated 153 more times ***
+- 14:17:57.375 INFO   : (@ClipPlayerManager::logPlaybackState:899) 4:Cuelist [cue 3,750ms,Playing]
+- 14:19:08.266 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) modify effect (type 64)
+- 14:19:08.469 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) modify effect (type 64)
+- 14:19:08.485 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) modify effect (type 64)
+- 14:19:08.500 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) modify effect (type 64)
+- 14:19:08.500 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) modify effect (type 64)
+- 14:19:08.516 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) modify effect (type 64)
+- 14:19:08.532 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) modify effect (type 64)
+- 14:19:08.547 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) modify effect (type 64)
+- 14:19:08.563 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) modify effect (type 64)
+- 14:19:08.563 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) modify effect (type 64)
+*** Message repeated 52 more times ***
+- 14:19:12.422 INFO   : (@ClipPlayerManager::logPlaybackState:899) 4:Cuelist [cue 3,750ms,Playing]
+- 14:19:14.704 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) modify effect (type 64)
+- 14:19:14.782 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) modify effect (type 64)
+- 14:19:14.797 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) modify effect (type 64)
+- 14:19:14.813 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) modify effect (type 64)
+- 14:19:14.829 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) modify effect (type 64)
+- 14:19:14.829 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) modify effect (type 64)
+- 14:19:14.844 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) modify effect (type 64)
+- 14:19:14.860 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) modify effect (type 64)
+- 14:19:14.875 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) modify effect (type 64)
+*** Message repeated 22 more times ***
+- 14:20:23.063 INFO   :NETWORK: (@PlaybackNodeManager::doShowSavedOnMain:742) VistaPlaybackNode_2: Received SHOW_SAVED_ON_MAIN message from master
+- 14:20:27.579 INFO   : (@ClipPlayerManager::logPlaybackState:899) 4:Cuelist [cue 3,750ms,Playing]
+- 14:20:36.422 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) Store (type 64)
+- 14:20:57.157 INFO   :NETWORK: (@PlaybackNodeManager::doShowSavedOnMain:742) VistaPlaybackNode_2: Received SHOW_SAVED_ON_MAIN message from master
+- 14:21:59.313 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 14:21:59.422 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 14:21:59.438 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 14:21:59.438 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 14:21:59.454 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 14:21:59.454 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 14:21:59.469 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 14:21:59.469 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 14:21:59.485 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 14:21:59.485 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+*** Message repeated 346 more times ***
+- 14:27:42.672 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) Clear (type 64)
+- 15:18:16.719 INFO   : (@PlaybackEngine::doRefresh:280) PlaybackEngine: Elapsed time between refreshes was: 37781ms
+- 15:18:17.500 INFO   : (@PlaybackNodeManager::processMessage_SetConfiguration:1164) (role:0)- empty universes
+- 15:18:17.500 INFO   : (@logIntSet:489) PlaybackEngineCoordinator::setPlaybackUniverses: set contains 0 items: []
+- 15:18:17.516 INFO   : (@PlaybackEngine::doRefresh:266) New set of assigned fixtures follows:
+- 15:18:25.157 INFO   :NETWORK: (@PlaybackNodeManager::doShowSavedOnMain:742) VistaPlaybackNode_2: Received SHOW_SAVED_ON_MAIN message from master
+- 15:18:29.250 INFO1  :NETWORK: (@PlaybackNodeManager::checkTimeControllerFailover:2039) VistaPlaybackNode_2: Playback failover state changed to: 1
+- 15:18:30.579 WARNING:NETWORK: (@BoostTcpNetwork::outputNetworkError:395 ##1d6fef8) VistaPlaybackNode_2: A socket error has occurred.. local: 127.0.0.1:50088, remote: 127.0.0.1:22125 - An existing connection was forcibly closed by the remote host
+- 15:18:30.579 INFO2  :NETWORK: (@BoostTcpNetwork::removeConnection:223 ##1d6fef8) VistaPlaybackNode_2: (-)Connection removed
+- 15:18:30.579 INFO   :NETWORK: (@BoostTcpConnection::close:116 ##1d6fef8) VistaPlaybackNode_2: Connection closed.. local: 127.0.0.1:50088, remote: 127.0.0.1:22125
+- 15:18:30.579 INFO   :NETWORK: (@BoostTcpConnection::close:116 ##1d6fef8) VistaPlaybackNode_2: Connection closed.. local: 127.0.0.1:50088, remote: 127.0.0.1:22125
