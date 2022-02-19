@@ -38,3 +38,209 @@
 - 14:27:16.265 INFO2  :NETWORK: (@BoostTcpNetwork::socketConnected:191 ##1b0d530) VistaPlaybackNode_2: (+)Connection established.. local: 127.0.0.1:51930, remote: 127.0.0.1:22125
 - 14:27:16.265 INFO2  :NETWORK: (@BoostTcpNetwork::socketConnected:191 ##1a92920) VistaPlaybackNode_2: (+)Connection established.. local: 127.0.0.1:51931, remote: 127.0.0.1:22002
 - 14:27:16.281 INFO   :NETWORK: (@PlaybackNodeManager::nodeConnectedSlot:541) VistaPlaybackNode_2: 127.0.0.1 connected
+- 14:27:21.515 INFO   :NETWORK: (@PlaybackNodeManager::doAboutToSync:902) VistaPlaybackNode_2: Received ABOUT_TO_SYNC
+- 14:27:21.515 INFO   :NETWORK: (@PlaybackNodeManager::setSyncProgressState:2174) VistaPlaybackNode_2: Sync Progress State: AUX_ABOUT_TO_SYNC
+- 14:27:21.750 INFO   :NETWORK: (@PlaybackNodeManager::doDpuSync:789) VistaPlaybackNode_2: Received SHOW_SYNC
+- 14:27:21.750 INFO   :NETWORK: (@PlaybackNodeManager::setSyncProgressState:2174) VistaPlaybackNode_2: Sync Progress State: AUX_RECEIVED_SHOW_ABOUT_TO_DESERIALISE
+- 14:27:21.750 INFO   :NETWORK: (@ShowManager::prepareForShowReplacement:803) VistaPlaybackNode_2: prepareForShowReplacement: Auxiliary
+- 14:27:21.750 INFO   :NETWORK: (@ShowManager::prepareForShowReplacement:820) VistaPlaybackNode_2: Emitting disablePlayback()
+- 14:27:21.750 INFO   :NETWORK: (@ShowManager::prepareForShowReplacement:823) VistaPlaybackNode_2: Emitting showAboutToLoad()
+- 14:27:21.750 INFO1  :NETWORK: (@PlaybackNodeManager::showAboutToLoadSlot:497) VistaPlaybackNode_2: Emitting stateChangedSignal()
+- 14:27:21.843 INFO   : (@Console::Console:65) serialised
+- 14:27:21.843 INFO   : (@Console::Console:65) serialised
+- 14:27:21.843 INFO   : (@Console::Console:65) serialised
+- 14:27:21.843 INFO   : (@Console::Console:65) serialised
+- 14:27:21.875 INFO   : (@Console::Console:65) serialised
+- 14:27:21.875 INFO   : (@ScopedTimeLogger::~ScopedTimeLogger:26) Serialise a show took 115 ms.
+- 14:27:21.875 INFO   : (@Directory::getPath:751) UserFixtureLibrary path = C:\Vista 3/Fixtures
+- 14:27:21.875 INFO   : (@Directory::getPath:863) UserFixtureArrangementLibrary path = C:\Vista 3/Fixtures/CustomArrangements
+- 14:27:21.875 INFO   :NETWORK: (@PlaybackNodeManager::setSyncProgressState:2174) VistaPlaybackNode_2: Sync Progress State: AUX_SHOW_DESERIALISED
+- 14:27:21.875 INFO   :NETWORK: (@PlaybackNodeManager::dpuSyncAck:658) VistaPlaybackNode_2: Sending SHOW_SYNC_ACK from: c2d5fe13 (DESKTOP-6RVQOQ4-2)
+- 14:27:21.875 INFO   :NETWORK: (@PlaybackNodeManager::setSyncProgressState:2174) VistaPlaybackNode_2: Sync Progress State: AUX_SENDING_SYNC_ACKNOWLEDGEMENT
+- 14:27:21.875 INFO   :NETWORK: (@PlaybackNodeManager::doDpuSyncAck:874) VistaPlaybackNode_2: Received SHOW_SYNC_ACK from: c2d5fe13 (DESKTOP-6RVQOQ4-2)
+- 14:27:21.875 INFO   :NETWORK: (@PlaybackNodeManager::doDpuSyncAck:874) VistaPlaybackNode_2: Received SHOW_SYNC_ACK from: c2d5fe11 (DESKTOP-6RVQOQ4-UI)
+- 14:27:24.140 INFO   : (@PlaybackNodeManager::processMessage_SetConfiguration:1164) (role:0)- empty universes
+- 14:27:24.140 INFO   : (@logIntSet:489) PlaybackEngineCoordinator::setPlaybackUniverses: set contains 0 items: []
+- 14:27:24.406 INFO   :NETWORK: (@PlaybackNodeManager::doDpuSyncComplete:710) VistaPlaybackNode_2: Received SHOW_SYNC_COMPLETE message from master
+- 14:27:24.406 INFO   :NETWORK: (@PlaybackNodeManager::setSyncProgressState:2174) VistaPlaybackNode_2: Sync Progress State: AUX_PERFORMING_POST_SYNC_TASKS
+- 14:27:24.437 INFO   :NETWORK: (@ShowManager::performPostShowSynchronisationTasks:1051) VistaPlaybackNode_2: Emitting initialisePlayback()
+- 14:27:24.453 INFO   :NETWORK: (@ShowManager::performPostShowSynchronisationTasks:1055) VistaPlaybackNode_2: Emitting showLoaded()
+- 14:27:24.453 INFO   :NETWORK: (@ShowManager::performPostShowSynchronisationTasks:1058) VistaPlaybackNode_2: Emitting showLoadedNotificationCompleted()
+- 14:27:24.468 INFO1  :NETWORK: (@PlaybackNodeManager::showLoadedNotificationCompletedSlot:516) VistaPlaybackNode_2: Emitting stateChangedSignal()
+- 14:27:24.468 INFO   :NETWORK: (@ShowManager::performPostShowSynchronisationTasks:1062) VistaPlaybackNode_2: Emitting enablePlayback()
+- 14:27:24.468 INFO   : (@logIntSet:489) PlaybackEngineCoordinator::setPlaybackUniverses: set contains 0 items: []
+- 14:27:24.468 INFO   :NETWORK: (@PlaybackNodeManager::setSyncProgressState:2174) VistaPlaybackNode_2: Sync Progress State: NO_SYNC_IN_PROGRESS
+- 14:27:24.468 WARNING: (@EffectRateController::resetAllPhasesToZero:105) current playback time 00:00:00
+- 14:27:24.468 INFO   : (@PlaybackEngine::doRefresh:266) New set of assigned fixtures follows:
+- 14:27:24.468 INFO   : (@PlaybackEngine::doRefresh:280) PlaybackEngine: Elapsed time between refreshes was: 0ms
+- 14:27:24.640 INFO   : (@PlaybackNodeManager::processMessage_SetConfiguration:1164) (role:0)- empty universes
+- 14:27:24.656 INFO   : (@logIntSet:489) PlaybackEngineCoordinator::setPlaybackUniverses: set contains 0 items: []
+- 14:27:24.656 INFO   : (@PlaybackEngine::doRefresh:266) New set of assigned fixtures follows:
+- 14:27:24.781 INFO1  :NETWORK: (@PlaybackNodeManager::checkTimeControllerFailover:2049) VistaPlaybackNode_2: isSynchronised changed to: 1
+- 14:28:56.140 INFO   :NETWORK: (@PlaybackNodeManager::doAboutToSync:902) VistaPlaybackNode_2: Received ABOUT_TO_SYNC
+- 14:28:56.140 INFO   :NETWORK: (@PlaybackNodeManager::setSyncProgressState:2174) VistaPlaybackNode_2: Sync Progress State: AUX_ABOUT_TO_SYNC
+- 14:28:56.312 INFO   :NETWORK: (@PlaybackNodeManager::doDpuSync:789) VistaPlaybackNode_2: Received SHOW_SYNC
+- 14:28:56.312 INFO   :NETWORK: (@PlaybackNodeManager::setSyncProgressState:2174) VistaPlaybackNode_2: Sync Progress State: AUX_RECEIVED_SHOW_ABOUT_TO_DESERIALISE
+- 14:28:56.312 INFO   :NETWORK: (@ShowManager::prepareForShowReplacement:803) VistaPlaybackNode_2: prepareForShowReplacement: Auxiliary
+- 14:28:56.312 INFO   :NETWORK: (@ShowManager::prepareForShowReplacement:820) VistaPlaybackNode_2: Emitting disablePlayback()
+- 14:28:56.312 INFO   :NETWORK: (@ShowManager::prepareForShowReplacement:823) VistaPlaybackNode_2: Emitting showAboutToLoad()
+- 14:28:56.312 INFO1  :NETWORK: (@PlaybackNodeManager::showAboutToLoadSlot:497) VistaPlaybackNode_2: Emitting stateChangedSignal()
+- 14:28:56.437 INFO   : (@Console::Console:65) serialised
+- 14:28:56.437 INFO   : (@Console::Console:65) serialised
+- 14:28:56.437 INFO   : (@Console::Console:65) serialised
+- 14:28:56.437 INFO   : (@Console::Console:65) serialised
+- 14:28:56.453 INFO   : (@Console::Console:65) serialised
+- 14:28:56.468 INFO   : (@ScopedTimeLogger::~ScopedTimeLogger:26) Serialise a show took 112 ms.
+- 14:28:56.468 INFO   :NETWORK: (@PlaybackNodeManager::setSyncProgressState:2174) VistaPlaybackNode_2: Sync Progress State: AUX_SHOW_DESERIALISED
+- 14:28:56.468 INFO   :NETWORK: (@PlaybackNodeManager::dpuSyncAck:658) VistaPlaybackNode_2: Sending SHOW_SYNC_ACK from: c2d5fe13 (DESKTOP-6RVQOQ4-2)
+- 14:28:56.468 INFO   :NETWORK: (@PlaybackNodeManager::setSyncProgressState:2174) VistaPlaybackNode_2: Sync Progress State: AUX_SENDING_SYNC_ACKNOWLEDGEMENT
+- 14:28:56.468 INFO   :NETWORK: (@PlaybackNodeManager::doDpuSyncAck:874) VistaPlaybackNode_2: Received SHOW_SYNC_ACK from: c2d5fe13 (DESKTOP-6RVQOQ4-2)
+- 14:28:56.468 INFO   :NETWORK: (@PlaybackNodeManager::doDpuSyncAck:874) VistaPlaybackNode_2: Received SHOW_SYNC_ACK from: c2d5fe11 (DESKTOP-6RVQOQ4-UI)
+- 14:28:58.172 INFO   : (@PlaybackNodeManager::processMessage_SetConfiguration:1164) (role:0)- empty universes
+- 14:28:58.172 INFO   : (@logIntSet:489) PlaybackEngineCoordinator::setPlaybackUniverses: set contains 0 items: []
+- 14:28:58.453 INFO   :NETWORK: (@PlaybackNodeManager::doDpuSyncComplete:710) VistaPlaybackNode_2: Received SHOW_SYNC_COMPLETE message from master
+- 14:28:58.453 INFO   :NETWORK: (@PlaybackNodeManager::setSyncProgressState:2174) VistaPlaybackNode_2: Sync Progress State: AUX_PERFORMING_POST_SYNC_TASKS
+- 14:28:58.468 INFO   :NETWORK: (@ShowManager::performPostShowSynchronisationTasks:1051) VistaPlaybackNode_2: Emitting initialisePlayback()
+- 14:28:58.468 INFO   :NETWORK: (@ShowManager::performPostShowSynchronisationTasks:1055) VistaPlaybackNode_2: Emitting showLoaded()
+- 14:28:58.468 INFO   :NETWORK: (@ShowManager::performPostShowSynchronisationTasks:1058) VistaPlaybackNode_2: Emitting showLoadedNotificationCompleted()
+- 14:28:58.468 INFO1  :NETWORK: (@PlaybackNodeManager::showLoadedNotificationCompletedSlot:516) VistaPlaybackNode_2: Emitting stateChangedSignal()
+- 14:28:58.468 INFO   :NETWORK: (@ShowManager::performPostShowSynchronisationTasks:1062) VistaPlaybackNode_2: Emitting enablePlayback()
+- 14:28:58.468 INFO   : (@logIntSet:489) PlaybackEngineCoordinator::setPlaybackUniverses: set contains 0 items: []
+- 14:28:58.468 INFO   :NETWORK: (@PlaybackNodeManager::setSyncProgressState:2174) VistaPlaybackNode_2: Sync Progress State: NO_SYNC_IN_PROGRESS
+- 14:28:58.484 WARNING: (@EffectRateController::resetAllPhasesToZero:105) current playback time 14:28:55.980726
+- 14:28:58.484 INFO   : (@PlaybackEngine::doRefresh:266) New set of assigned fixtures follows:
+- 14:28:58.484 INFO   : (@PlaybackEngine::doRefresh:280) PlaybackEngine: Elapsed time between refreshes was: 2530ms
+- 14:28:58.656 INFO   : (@PlaybackNodeManager::processMessage_SetConfiguration:1164) (role:0)- empty universes
+- 14:28:58.656 INFO   : (@logIntSet:489) PlaybackEngineCoordinator::setPlaybackUniverses: set contains 0 items: []
+- 14:28:58.687 INFO   : (@PlaybackEngine::doRefresh:266) New set of assigned fixtures follows:
+- 14:29:00.812 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 14:29:00.812 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 14:29:00.828 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 14:29:00.828 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 14:29:00.843 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 14:29:00.843 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 14:29:00.843 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 14:29:00.843 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 14:29:00.843 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 14:29:00.875 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+*** Message repeated 46 more times ***
+- 14:29:20.718 INFO   :NETWORK: (@PlaybackNodeManager::doShowSavedOnMain:742) VistaPlaybackNode_2: Received SHOW_SAVED_ON_MAIN message from master
+- 14:29:22.125 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 14:29:22.140 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 14:29:22.140 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 14:29:22.156 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 14:29:22.156 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 14:29:22.156 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 14:29:22.156 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 14:29:22.172 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 14:29:22.203 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+*** Message repeated 76 more times ***
+- 14:31:41.640 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 14:31:41.797 WARNING: (@FixtureStatusManager::doPanelDataRequest:472) Playback status missing for fixture 4
+- 14:31:46.906 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) revert changes (type 64)
+- 14:31:47.140 WARNING: (@FixtureStatusManager::doPanelDataRequest:472) Playback status missing for fixture 4
+- 14:32:05.468 INFO1  :Command: (@ShowCommandExecutor::doPush:359) set Snapshot properties (type ffffffffbcfff332)
+- 14:32:07.422 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 14:32:07.422 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 14:32:07.422 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 14:32:07.422 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 14:32:07.437 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 14:32:07.437 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 14:32:07.437 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 14:32:07.437 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 14:32:07.453 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+*** Message repeated 160 more times ***
+- 14:51:23.468 INFO   :NETWORK: (@PlaybackNodeManager::doShowSavedOnMain:742) VistaPlaybackNode_2: Received SHOW_SAVED_ON_MAIN message from master
+- 14:57:50.828 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 14:57:50.828 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 14:57:56.312 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 14:57:56.312 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 14:57:56.312 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 14:57:56.312 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 14:58:02.031 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 14:58:02.031 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 14:58:02.031 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+*** Message repeated 6 more times ***
+- 14:59:07.672 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 14:59:07.843 WARNING: (@FixtureStatusManager::doPanelDataRequest:472) Playback status missing for fixture 4
+- 14:59:08.297 INFO   :NETWORK: (@PlaybackNodeManager::doShowSavedOnMain:742) VistaPlaybackNode_2: Received SHOW_SAVED_ON_MAIN message from master
+- 14:59:09.797 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 14:59:09.797 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 14:59:09.797 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 14:59:09.828 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 14:59:09.828 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 14:59:09.828 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 14:59:09.828 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 14:59:09.828 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 14:59:09.828 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 14:59:09.843 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+*** Message repeated 257 more times ***
+- 15:01:40.156 INFO   :NETWORK: (@PlaybackNodeManager::doShowSavedOnMain:742) VistaPlaybackNode_2: Received SHOW_SAVED_ON_MAIN message from master
+- 15:01:42.656 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 15:01:42.656 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 15:01:42.672 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 15:01:42.672 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 15:01:42.672 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 15:01:42.672 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 15:01:42.687 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 15:01:42.687 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 15:01:42.687 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+*** Message repeated 72 more times ***
+- 15:05:01.734 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) Create Item (type 64)
+- 15:05:12.687 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) Create Item (type 64)
+- 15:05:27.734 INFO   :NETWORK: (@PlaybackNodeManager::doShowSavedOnMain:742) VistaPlaybackNode_2: Received SHOW_SAVED_ON_MAIN message from master
+- 15:05:49.703 INFO   :NETWORK: (@PlaybackNodeManager::doShowSavedOnMain:742) VistaPlaybackNode_2: Received SHOW_SAVED_ON_MAIN message from master
+- 15:05:52.765 INFO1  :Command: (@ShowCommandExecutor::doPush:359) set Snapshot properties (type ffffffffbcfff332)
+- 15:05:53.515 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 15:05:53.531 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 15:05:53.531 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 15:05:53.531 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 15:05:53.547 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 15:05:53.547 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 15:05:53.547 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 15:05:53.547 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 15:05:53.578 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+*** Message repeated 159 more times ***
+- 15:07:03.468 WARNING: (@FixtureStatusManager::doPanelDataRequest:472) Playback status missing for fixture 4
+- 15:07:11.718 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 15:07:11.718 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 15:07:11.718 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 15:07:11.734 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 15:07:11.734 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 15:07:11.750 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 15:07:11.750 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 15:07:11.750 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 15:07:11.750 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+*** Message repeated 14 more times ***
+- 15:07:14.125 WARNING: (@FixtureStatusManager::doPanelDataRequest:472) Playback status missing for fixture 4
+- 15:07:15.422 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 15:07:15.437 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 15:07:15.437 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 15:07:15.437 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 15:07:15.437 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 15:07:15.453 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 15:07:15.453 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 15:07:15.453 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 15:07:15.468 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+*** Message repeated 100 more times ***
+- 15:08:05.484 INFO   :NETWORK: (@PlaybackNodeManager::doShowSavedOnMain:742) VistaPlaybackNode_2: Received SHOW_SAVED_ON_MAIN message from master
+- 15:08:38.843 WARNING: (@FixtureStatusManager::doPanelDataRequest:472) Playback status missing for fixture 31
+- 15:08:38.843 WARNING: (@FixtureStatusManager::doPanelDataRequest:472) Playback status missing for fixture 39
+- 15:08:38.843 WARNING: (@FixtureStatusManager::doPanelDataRequest:472) Playback status missing for fixture 8
+- 15:08:38.843 WARNING: (@FixtureStatusManager::doPanelDataRequest:472) Playback status missing for fixture 14
+- 15:08:38.843 WARNING: (@FixtureStatusManager::doPanelDataRequest:472) Playback status missing for fixture 38
+- 15:15:19.578 INFO   : (@PlaybackEngine::doRefresh:280) PlaybackEngine: Elapsed time between refreshes was: 1210ms
+- 19:56:52.047 INFO   : (@PlaybackEngine::doRefresh:280) PlaybackEngine: Elapsed time between refreshes was: 16888813ms
+- 19:56:54.953 INFO   : (@PlaybackNodeManager::processMessage_SetConfiguration:1164) (role:0)- empty universes
+- 19:56:54.953 INFO   : (@logIntSet:489) PlaybackEngineCoordinator::setPlaybackUniverses: set contains 0 items: []
+- 19:56:55.000 INFO   : (@PlaybackEngine::doRefresh:266) New set of assigned fixtures follows:
+- 21:58:01.531 INFO   : (@PlaybackEngine::doRefresh:280) PlaybackEngine: Elapsed time between refreshes was: 7262299ms
+- 21:58:03.047 INFO   : (@PlaybackNodeManager::processMessage_SetConfiguration:1164) (role:0)- empty universes
+- 21:58:03.047 INFO   : (@logIntSet:489) PlaybackEngineCoordinator::setPlaybackUniverses: set contains 0 items: []
+- 21:58:03.078 INFO   : (@PlaybackEngine::doRefresh:266) New set of assigned fixtures follows:
+- 20:08:18.500 INFO1  :NETWORK: (@PlaybackNodeManager::checkTimeControllerFailover:2039) VistaPlaybackNode_2: Playback failover state changed to: 1
+- 20:08:18.547 INFO   : (@PlaybackEngine::doRefresh:280) PlaybackEngine: Elapsed time between refreshes was: 79807191ms
+- 20:08:19.422 INFO1  :NETWORK: (@PlaybackNodeManager::checkTimeControllerFailover:2039) VistaPlaybackNode_2: Playback failover state changed to: 0
+- 20:08:19.922 INFO   : (@PlaybackNodeManager::processMessage_SetConfiguration:1164) (role:0)- empty universes
+- 20:08:19.922 INFO   : (@logIntSet:489) PlaybackEngineCoordinator::setPlaybackUniverses: set contains 0 items: []
+- 20:08:20.000 INFO   : (@PlaybackEngine::doRefresh:266) New set of assigned fixtures follows:
