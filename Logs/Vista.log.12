@@ -1,0 +1,1243 @@
+- 17:14:02.000 INFO   : (@`anonymous-namespace'::getThisExecutableDirPath:86) Path to executable: C:/Program Files (x86)/Chroma-Q/Vista3/Vista.exe
+- 17:14:02.000 INFO   : (@Directory::getPath:848) QtPlugins path = C:/Program Files (x86)/Chroma-Q/Vista3/plugins
+- 17:14:02.000 INFO   : (@main:257) Qt Plugin Library Path: C:/Program Files (x86)/Chroma-Q/Vista3/plugins
+- 17:14:02.187 INFO   : (@main:283) Starting C:/Program Files (x86)/Chroma-Q/Vista3/Vista.exe
+- 17:14:02.187 INFO   : (@main:284) Current directory is:C:/Program Files (x86)/Chroma-Q/Vista3
+- 17:14:05.047 INFO   : (@ByronSplashScreen::setStatusText:59) Checking installation...
+- 17:14:05.062 INFO   : (@Directory::getPath:751) UserFixtureLibrary path = C:\Vista 3/Fixtures
+- 17:14:05.062 INFO   : (@Directory::getPath:779) UserEffectLibrary path = C:\Vista 3/Effects
+- 17:14:05.062 INFO   : (@Directory::getPath:793) ShowResources path = C:\Vista 3/ShowResources
+- 17:14:05.062 INFO   : (@Directory::getPath:798) UserIcons path = C:\Vista 3/ShowResources/Icons
+- 17:14:05.062 INFO   : (@Directory::getPath:818) UserThemes path = C:\Vista 3/Themes
+- 17:14:05.062 INFO   : (@Directory::getPath:808) Shows path = C:\Vista 3/Shows
+- 17:14:05.062 INFO   : (@Directory::getPath:813) Backups path = C:\Vista 3/Shows/_Backups
+- 17:14:05.062 INFO   : (@Directory::getPath:858) Preferences path = C:\Vista 3
+- 17:14:05.062 INFO   : (@Directory::getPath:863) UserFixtureArrangementLibrary path = C:\Vista 3/Fixtures/CustomArrangements
+- 17:14:05.062 INFO   : (@Directory::getPath:874) Crash reports path = C:/Users/simps/AppData/Local/Vista/CrashReports
+- 17:14:05.062 INFO   : (@Directory::getPath:879) Images path = C:\Vista 3/ShowResources/Images
+- 17:14:05.062 INFO   : (@Directory::getPath:884) Audio path = C:\Vista 3/ShowResources/Audio
+- 17:14:05.062 INFO   : (@Directory::getPath:889) Video path = C:\Vista 3/ShowResources/Video
+- 17:14:05.093 INFO   : (@ByronSplashScreen::setStatusText:59) Checking network...
+- 17:14:05.109 INFO   : (@main:409) Starting Vista, Version: Vista3 R3 build 21712 - bdf49d9dbe (built: Nov 11 2020 08:35:06))
+- 17:14:05.109 INFO   : (@main:410) Fri Feb 11 17:14:05 2022
+- 17:14:05.109 INFO   : (@main:411) OS: Windows 10 (10.0), CPU: x86_64, Logical Cores: 4
+- 17:14:05.125 INFO   : (@main:413) Network interfaces: 6
+- 17:14:05.125 INFO   : (@main:417) Network Interface: 29: vEthernet (WSL) flags: 27, MAC: 00:15:5D:45:64:FD addresses: fe80::d83b:35d5:d123:e021%ethernet_32777/ffff:ffff:ffff:ffff::/BC:, 172.21.48.1/255.255.240.0/BC:172.21.63.255
+- 17:14:05.125 INFO   : (@main:417) Network Interface: 4: Ethernet 3 flags: 24, MAC: 00:FF:1B:EE:0F:F3 addresses: fe80::c071:980b:3e10:20e9%ethernet_32774/ffff:ffff:ffff:ffff::/BC:, 169.254.32.233//BC:
+- 17:14:05.125 INFO   : (@main:417) Network Interface: 2: Local Area Connection* 1 flags: 24, MAC: 9A:5F:D3:57:01:9D addresses: fe80::ecfc:ac45:9548:add8%wireless_32769/ffff:ffff:ffff:ffff::/BC:, 169.254.173.216//BC:
+- 17:14:05.125 INFO   : (@main:417) Network Interface: 18: Wi-Fi flags: 27, MAC: 98:5F:D3:57:00:9C addresses: fe80::7132:f479:c44f:d639%wireless_32768/ffff:ffff:ffff:ffff::/BC:, 10.0.0.7/255.255.255.0/BC:10.0.0.255
+- 17:14:05.125 INFO   : (@main:417) Network Interface: 19: Bluetooth Network Connection flags: 24, MAC: 98:5F:D3:57:00:9D addresses: fe80::d596:b227:587:1956%ethernet_32776/ffff:ffff:ffff:ffff::/BC:, 169.254.25.86//BC:
+- 17:14:05.125 INFO   : (@main:417) Network Interface: 1: Loopback Pseudo-Interface 1 flags: 2f, MAC:  addresses: ::1/ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff/BC:, 127.0.0.1//BC:
+- 17:14:06.187 INFO   : (@main:438) Network Routing Info: 
+===========================================================================
+Interface List
+ 29...00 15 5d 45 64 fd ......Hyper-V Virtual Ethernet Adapter
+  4...00 ff 1b ee 0f f3 ......TAP-NordVPN Windows Adapter V9
+  2...9a 5f d3 57 01 9d ......Microsoft Wi-Fi Direct Virtual Adapter
+ 18...98 5f d3 57 00 9c ......Marvell AVASTAR Wireless-AC Network Controller
+ 19...98 5f d3 57 00 9d ......Bluetooth Device (Personal Area Network)
+  1...........................Software Loopback Interface 1
+===========================================================================
+
+IPv4 Route Table
+===========================================================================
+Active Routes:
+Network Destination        Netmask          Gateway       Interface  Metric
+          0.0.0.0          0.0.0.0         10.0.0.1         10.0.0.7     55
+         10.0.0.0    255.255.255.0         On-link          10.0.0.7    311
+         10.0.0.7  255.255.255.255         On-link          10.0.0.7    311
+       10.0.0.255  255.255.255.255         On-link          10.0.0.7    311
+        127.0.0.0        255.0.0.0         On-link         127.0.0.1    331
+        127.0.0.1  255.255.255.255         On-link         127.0.0.1    331
+  127.255.255.255  255.255.255.255         On-link         127.0.0.1    331
+      172.21.48.0    255.255.240.0         On-link       172.21.48.1    271
+      172.21.48.1  255.255.255.255         On-link       172.21.48.1    271
+    172.21.63.255  255.255.255.255         On-link       172.21.48.1    271
+        224.0.0.0        240.0.0.0         On-link         127.0.0.1    331
+        224.0.0.0        240.0.0.0         On-link          10.0.0.7    311
+        224.0.0.0        240.0.0.0         On-link       172.21.48.1    271
+  255.255.255.255  255.255.255.255         On-link         127.0.0.1    331
+  255.255.255.255  255.255.255.255         On-link          10.0.0.7    311
+  255.255.255.255  255.255.255.255         On-link       172.21.48.1    271
+===========================================================================
+Persistent Routes:
+  None
+
+IPv6 Route Table
+===========================================================================
+Active Routes:
+ If Metric Network Destination      Gateway
+  1    331 ::1/128                  On-link
+ 18    311 fe80::/64                On-link
+ 29    271 fe80::/64                On-link
+ 18    311 fe80::7132:f479:c44f:d639/128
+                                    On-link
+ 29    271 fe80::d83b:35d5:d123:e021/128
+                                    On-link
+  1    331 ff00::/8                 On-link
+ 18    311 ff00::/8                 On-link
+ 29    271 ff00::/8                 On-link
+===========================================================================
+Persistent Routes:
+  None
+
+- 17:14:06.187 INFO   : (@ByronSplashScreen::setStatusText:59) Waiting for network...
+- 17:14:06.250 INFO   : (@waitForNetwork:254) Preferred network interface is:Wi-Fi
+- 17:14:06.265 INFO   : (@waitForNetwork:255) Ip address is:10.0.0.7
+- 17:14:06.265 INFO   : (@ByronSplashScreen::setStatusText:59) Initializing libraries...
+- 17:14:06.281 INFO   : (@BoostNetworkThread::run:54 ##2ebeaa0) starting
+- 17:14:06.281 INFO   : (@BoostNetworkThread::run:54 ##2ebec20) starting
+- 17:14:06.312 INFO   : (@Directory::getPath:746) Factory Resources path = C:/Program Files (x86)/Chroma-Q/Vista3
+- 17:14:06.312 INFO   : (@Directory::getPath:764) FactoryFixtureLibrary path = C:/Program Files (x86)/Chroma-Q/Vista3/FixtureTypeLibrary
+- 17:14:11.812 INFO   : (@FixtureTypeLibraryManager::addLibrary:165) Adding Fixture Library at C:/Program Files (x86)/Chroma-Q/Vista3/FixtureTypeLibrary
+- 17:14:11.812 INFO   : (@ImageInfo::registerDirectory:62) Registering Image directory: C:/Program Files (x86)/Chroma-Q/Vista3/FixtureTypeLibrary/Images
+- 17:14:11.812 INFO   : (@ImageInfo::registerDirectory:62) Registering Image directory: C:/Program Files (x86)/Chroma-Q/Vista3/FixtureTypeLibrary/Images/gobos
+- 17:14:11.812 INFO   : (@ImageInfo::registerDirectory:62) Registering Image directory: C:/Program Files (x86)/Chroma-Q/Vista3/FixtureTypeLibrary/Images/animations
+- 17:14:11.812 INFO   : (@ImageInfo::registerDirectory:62) Registering Image directory: 
+- 17:14:11.828 INFO   : (@ImageInfo::registerDirectory:62) Registering Image directory: C:/Program Files (x86)/Chroma-Q/Vista3/FixtureTypeLibrary/Images/effects
+- 17:14:11.828 INFO   : (@FixtureTypeLibraryManager::addLibrary:165) Adding Fixture Library at C:/Vista 3/Fixtures
+- 17:14:11.843 INFO   : (@ImageInfo::registerDirectory:62) Registering Image directory: C:/Vista 3/Fixtures/Images
+- 17:14:11.843 INFO   : (@ImageInfo::registerDirectory:62) Registering Image directory: 
+- 17:14:11.843 INFO   : (@ImageInfo::registerDirectory:62) Registering Image directory: 
+- 17:14:11.843 INFO   : (@ImageInfo::registerDirectory:62) Registering Image directory: 
+- 17:14:11.843 INFO   : (@ImageInfo::registerDirectory:62) Registering Image directory: 
+- 17:14:11.843 INFO   : (@InitialiseHardwareInterfaceLibrary:10) Initializing Hardware Interface
+- 17:14:11.859 INFO   : (@USB::libusbInit:143) Initializing libusb...
+- 17:14:11.890 INFO   : (@UsbManager::UsbManager:154) Initializing USB Manager
+- 17:14:11.890 INFO   : (@DpuManager::initialiseLocalConfiguration:80) initializing
+- 17:14:11.890 INFO   : (@BoostNetworkThread::run:54 ##2ebf1a8) starting
+- 17:14:11.890 INFO   : (@CopyProtectionManagerImpl::run:167 ##1ea45240) starting
+- 17:14:12.015 INFO   : (@getLocalHostUuid:41) Local hostID: b4b5d082
+- 17:14:12.015 INFO   : (@getLocalHostUuid:49) Local hostID: b4b5d082
+- 17:14:12.093 INFO   : (@DpuManager::initialiseLocalConfiguration:117) Available CPU capability: 4 host type: 0
+- 17:14:12.093 INFO   : (@TimecodeManager::TimecodeManager:71) 
+- 17:14:12.093 INFO   : (@InitialiseAudioLibrary:15) InitializeAudioLibrary
+- 17:14:12.343 INFO   : (@InitialiseShowLibrary:163) Initializing show Library
+- 17:14:12.359 INFO   : (@Console::Console:71) (props) type 100 (Art-Net) vcID: b44d6a80 hwID: b44d6a80
+- 17:14:12.359 INFO   : (@Console::Console:71) (props) type 102 (sACN) vcID: 669aa062 hwID: 669aa062
+- 17:14:12.359 INFO   : (@Console::Console:71) (props) type 101 (Pathport) vcID: 4e55c8af hwID: 4e55c8af
+- 17:14:12.375 INFO   : (@ShowManager::ShowManager:128) 
+- 17:14:12.375 INFO   :NETWORK: (@PlaybackNodeManager::PlaybackNodeManager:252) (No Role): new instance
+- 17:14:12.375 INFO   : (@BoostNetworkThread::run:54 ##1eb1c330) starting
+- 17:14:12.375 INFO   : (@BoostNetworkThread::run:54 ##1eb1c378) starting
+- 17:14:12.375 INFO   : (@BoostNetworkThread::run:54 ##1eb1c3a8) starting
+- 17:14:12.375 INFO2  :NETWORK: (@BoostTcpNetwork::listenToPort:152) (No Role): Listening on port: 22001
+- 17:14:12.375 INFO   : (@BoostNetworkThread::run:54 ##1eb1c3c0) starting
+- 17:14:12.375 INFO2  :NETWORK: (@BoostTcpNetwork::listenToPort:152) (No Role): Listening on port: 22002
+- 17:14:12.375 INFO   : (@BoostNetworkThread::run:54 ##1eb1c390) starting
+- 17:14:12.375 INFO2  :NETWORK: (@BoostTcpNetwork::listenToPort:152) (No Role): Listening on port: 22003
+- 17:14:12.375 INFO2  :NETWORK: (@BoostTcpNetwork::listenToPort:152) (No Role): Listening on port: 22004
+- 17:14:12.390 INFO1  :NETWORK: (@PlaybackNodeManager::heartBeatTimeoutSlot:1001) (No Role): Emitting stateChangedSignal()
+- 17:14:12.390 INFO   : (@BoostNetworkThread::run:54 ##1eb1d590) starting
+- 17:14:12.390 INFO   : (@BoostNetworkThread::run:54 ##1eb1d7a0) starting
+- 17:14:12.390 INFO   : (@TimeController::TimeController:60) Refresh interval millis = 00:00:00.033000
+- 17:14:12.390 INFO   : (@BoostNetworkThread::run:54 ##2a9a2a8) starting
+- 17:14:12.406 INFO   : (@ByronSplashScreen::setStatusText:59) Loading theme...
+- 17:14:13.765 INFO   : (@Directory::getPath:823) FactoryThemes path = C:/Program Files (x86)/Chroma-Q/Vista3/Themes
+- 17:14:13.812 INFO   : (@ByronSplashScreen::setStatusText:59) Loading effects...
+- 17:14:13.828 INFO   : (@Directory::getPath:784) FactoryEffectLibrary path = C:/Program Files (x86)/Chroma-Q/Vista3/EffectLibrary
+- 17:14:15.109 INFO   : (@ByronSplashScreen::setStatusText:59) Initializing main window...
+- 17:14:15.312 INFO   : (@ByronSplashScreen::setStatusText:59) Initializing menus...
+- 17:14:15.375 INFO   : (@ByronSplashScreen::setStatusText:59) Initializing Editor...
+- 17:14:15.390 INFO   : (@ByronSplashScreen::setStatusText:59) Creating editor palettes...
+- 17:14:16.015 INFO   : (@ByronSplashScreen::setStatusText:59) Creating FX editor...
+- 17:14:16.109 INFO   : (@ByronSplashScreen::setStatusText:59) Creating editor palettes...done
+- 17:14:16.125 INFO   : (@ByronSplashScreen::setStatusText:59) Initializing menus and toolbars...
+- 17:14:16.156 INFO   : (@JDialog::JDialog:15) Dialog created - DateTimeEventDialog
+- 17:14:16.203 INFO   : (@JDialog::JDialog:15) Dialog created - JumpDialog
+- 17:14:16.218 INFO   : (@ByronSplashScreen::setStatusText:59) Initializing timeline...
+- 17:14:16.312 INFO   : (@ByronSplashScreen::setStatusText:59) Creating fixture chooser...
+- 17:14:16.343 INFO   : (@ByronSplashScreen::setStatusText:59) Creating timing widgets...
+- 17:14:16.375 INFO1  : (@SessionSettings::getSetting:84) SessionSettings::setting not found for:Extras2_version
+- 17:14:16.375 INFO1  : (@SessionSettings::getSetting:84) SessionSettings::setting not found for:Extras2_layout
+- 17:14:16.375 INFO   : (@ByronSplashScreen::setStatusText:59) Updating editor theme...
+- 17:14:16.406 INFO   : (@ByronSplashScreen::setStatusText:59) Initializing Patch...
+- 17:14:22.218 INFO   : (@ByronSplashScreen::setStatusText:59) Initializing User Configurable Window...
+- 17:14:22.250 INFO   : (@ByronSplashScreen::setStatusText:59) Initializing Playback...
+- 17:14:22.343 INFO   : (@ByronSplashScreen::setStatusText:59) Initializing Console...
+- 17:14:22.375 WARNING: (@IconCache::loadIcon:90) Missing any icon PNGs for console/
+- 17:14:22.422 WARNING: (@IconCache::loadIcon:90) Missing any icon PNGs for console/playAndRelease
+- 17:14:22.437 WARNING: (@IconCache::loadIcon:90) Missing any icon PNGs for console/chaseCrossfadePercent
+- 17:14:22.453 WARNING: (@IconCache::loadIcon:90) Missing any icon PNGs for console/resetPhase
+- 17:14:22.453 WARNING: (@IconCache::loadIcon:90) Missing any icon PNGs for console/resetRate
+- 17:14:22.468 WARNING: (@IconCache::loadIcon:90) Missing any icon PNGs for console/fxRateFader
+- 17:14:22.468 WARNING: (@IconCache::loadIcon:90) Missing any icon PNGs for console/fxSizeFader
+- 17:14:22.468 WARNING: (@IconCache::loadIcon:90) Missing any icon PNGs for console/fxRateAndSizeFader
+- 17:14:22.859 INFO   : (@ByronSplashScreen::setStatusText:59) Updating theme...
+- 17:14:22.875 INFO   : (@ByronSplashScreen::setStatusText:59) Restoring session...
+- 17:14:22.906 INFO   : (@TrackingBackupShowSyncWidget::TrackingBackupShowSyncWidget:24) Creating TrackingBackupShowSyncWidget
+- 17:14:22.906 INFO2  :NETWORK: (@BoostTcpNetwork::listenToPort:152) (No Role): Listening on port: 22125
+- 17:14:22.906 INFO2  :NETWORK: (@DpuProcessManager::destroyExistingProcesses:64) (No Role): Killing any lingering playback node processes
+- 17:14:22.953 INFO2  :NETWORK: (@DpuProcessManager::startupProcesses:77) (No Role): Starting 4 playback node processes
+- 17:14:24.968 INFO   : (@Directory::getPath:838) Playback node exe path = C:/Program Files (x86)/Chroma-Q/Vista3/VistaPlaybackNode.exe
+- 17:14:24.968 INFO   : (@DpuProcessManager::startupProcesses:118) Starting PlaybackNode C:/Program Files (x86)/Chroma-Q/Vista3/VistaPlaybackNode.exe with arguments:--playback-node=0 --parent-id=b4b5d082 --playback-power=0 --node-name=DESKTOP-6RVQOQ4-1
+- 17:14:25.047 INFO   : (@DpuProcessManager::startupProcesses:118) Starting PlaybackNode C:/Program Files (x86)/Chroma-Q/Vista3/VistaPlaybackNode.exe with arguments:--playback-node=1 --parent-id=b4b5d082 --playback-power=0 --node-name=DESKTOP-6RVQOQ4-2
+- 17:14:25.047 INFO   : (@DpuProcessManager::startupProcesses:118) Starting PlaybackNode C:/Program Files (x86)/Chroma-Q/Vista3/VistaPlaybackNode.exe with arguments:--playback-node=2 --parent-id=b4b5d082 --playback-power=0 --node-name=DESKTOP-6RVQOQ4-3
+- 17:14:25.047 INFO   : (@DpuProcessManager::startupProcesses:118) Starting PlaybackNode C:/Program Files (x86)/Chroma-Q/Vista3/VistaPlaybackNode.exe with arguments:--playback-node=3 --parent-id=b4b5d082 --playback-power=0 --node-name=DESKTOP-6RVQOQ4-4
+- 17:14:25.062 INFO   : (@ByronSplashScreen::setStatusText:59) Initializing vista network...
+- 17:14:25.062 INFO2  :NETWORK: (@BoostTcpNetwork::listenToPort:152) (No Role): Listening on port: 22123
+- 17:14:25.062 INFO   : (@BoostTcpConnection::connectToServer:32) host: 127.0.0.1, port: 22123
+- 17:14:25.062 INFO2  :NETWORK: (@BoostTcpNetwork::socketConnected:191 ##1eb1c330) (No Role): (+)Connection established.. local: 127.0.0.1:55537, remote: 127.0.0.1:22123
+- 17:14:25.062 INFO2  :NETWORK: (@BoostTcpNetwork::socketConnected:191 ##2ebec20) (No Role): (+)Connection established.. local: 127.0.0.1:22123, remote: 127.0.0.1:55537
+- 17:14:25.078 INFO2  :NETWORK: (@BoostTcpNetwork::listenToPort:152) (No Role): Listening on port: 22124
+- 17:14:25.078 INFO2  :NETWORK: (@BoostTcpNetwork::listenToPort:152) (No Role): Listening on port: 22121
+- 17:14:25.078 INFO   :NETWORK: (@ArtnetDeviceManager::startDiscovery:636) (No Role): Artnet discovery starting up: Vista Art-Net:2.0:DESKTOP-6RVQOQ4:b4b5d082, broadcast: 10.0.0.255
+- 17:14:25.109 INFO   :NETWORK: (@PlaybackNodeManager::nodeConnectedSlot:541) (No Role): 127.0.0.1 connected
+- 17:14:25.125 INFO   : (@ArtnetDeviceManager::Impl::run:351 ##1e240a60) starting
+- 17:14:25.750 INFO2  :NETWORK: (@BoostTcpNetwork::socketConnected:191 ##2a9a2a8) (No Role): (+)Connection established.. local: 127.0.0.1:22125, remote: 127.0.0.1:55538
+- 17:14:25.750 INFO2  :NETWORK: (@BoostTcpNetwork::socketConnected:191 ##1eb1c390) (No Role): (+)Connection established.. local: 127.0.0.1:22004, remote: 127.0.0.1:55539
+- 17:14:25.750 INFO2  :NETWORK: (@BoostTcpNetwork::socketConnected:191 ##2a9a2a8) (No Role): (+)Connection established.. local: 127.0.0.1:22125, remote: 127.0.0.1:55540
+- 17:14:25.750 INFO2  :NETWORK: (@BoostTcpNetwork::socketConnected:191 ##1eb1c390) (No Role): (+)Connection established.. local: 127.0.0.1:22003, remote: 127.0.0.1:55541
+- 17:14:25.750 INFO2  :NETWORK: (@BoostTcpNetwork::socketConnected:191 ##2a9a2a8) (No Role): (+)Connection established.. local: 127.0.0.1:22125, remote: 127.0.0.1:55542
+- 17:14:25.750 INFO2  :NETWORK: (@BoostTcpNetwork::socketConnected:191 ##1eb1c390) (No Role): (+)Connection established.. local: 127.0.0.1:22002, remote: 127.0.0.1:55543
+- 17:14:25.765 INFO2  :NETWORK: (@BoostTcpNetwork::socketConnected:191 ##2a9a2a8) (No Role): (+)Connection established.. local: 127.0.0.1:22125, remote: 127.0.0.1:55544
+- 17:14:25.765 INFO2  :NETWORK: (@BoostTcpNetwork::socketConnected:191 ##1eb1c390) (No Role): (+)Connection established.. local: 127.0.0.1:22001, remote: 127.0.0.1:55545
+- 17:14:25.859 INFO2  :NETWORK: (@waitForPlaybackNodesToConnect:248) (No Role): Total playback nodes connected: 4 of 4
+- 17:14:25.859 INFO   : (@JDialog::JDialog:15) Dialog created - Dongle Warning Dialog
+- 17:14:30.859 INFO   : (@JDialog::~JDialog:20) Dialog destroyed - Dongle Warning Dialog
+- 17:14:30.859 INFO   : (@JDialog::JDialog:15) Dialog created - UD512 Firmware Update
+- 17:14:30.875 INFO   : (@JDialog::~JDialog:20) Dialog destroyed - UD512 Firmware Update
+- 17:14:30.875 INFO   : (@ShowManager::setShowFilePath:163) C:/Vista 3/Shows/Bardot Show 1.v3s
+- 17:14:30.875 INFO   : (@ShowManager::setShowFilePath:163) C:/Vista 3/Shows/Bardot Show 1.v3s
+- 17:14:30.875 INFO   : (@ShowManager::loadShowFile:323) Loading show file "C:/Vista 3/Shows/Bardot Show 1.v3s"
+- 17:14:30.875 INFO   :NETWORK: (@ShowManager::prepareForShowReplacement:803) (No Role): prepareForShowReplacement: Master
+- 17:14:30.875 INFO1  :NETWORK: (@ZeroConf::assignNodeAsNetworkMain:750) (No Role): Assigning a new network master: local (b4b5d082)
+- 17:14:30.890 INFO   : (@ByronMotherWidget::onTrackingBackupStateChanged:1357) auxiliary: 0
+- 17:14:30.890 INFO   : (@ByronMotherWidget::onTrackingBackupStateChanged:1358) show sync in progress: 0
+- 17:14:30.890 INFO   :NETWORK: (@ShowManager::prepareForShowReplacement:820) (Main): Emitting disablePlayback()
+- 17:14:30.890 INFO   :NETWORK: (@ShowManager::prepareForShowReplacement:823) (Main): Emitting showAboutToLoad()
+- 17:14:30.890 INFO1  :NETWORK: (@PlaybackNodeManager::showAboutToLoadSlot:497) (Main): Emitting stateChangedSignal()
+- 17:14:31.000 INFO1  :NETWORK: (@ZeroConf::assignNodeAsNetworkMain:750) (Main): Assigning a new network master: local (b4b5d082)
+- 17:14:31.000 INFO   :NETWORK: (@PlaybackNodeManager::setSyncProgressState:2174) (Main): Sync Progress State: MAIN_ABOUT_TO_SYNC
+- 17:14:31.000 INFO   :NETWORK: (@PlaybackNodeManager::aboutToSync:770) (Main): Sending ABOUT_TO_SYNC
+- 17:14:31.000 INFO   :NETWORK: (@PlaybackNodeManager::doAboutToSync:902) (Main): Received ABOUT_TO_SYNC
+- 17:14:31.015 INFO   : (@ShowManager::loadShowFile:350) Show Info: Saved on Sat Jan 22 22:22:15 2022, archive version 152, software history: 3.3.21712
+- 17:14:31.031 INFO   : (@Schedule::serialiseData:411) Schedule::serialiseData: fixtureCount = 25 groupCount = 9
+- 17:14:31.031 INFO1  : (@Show::serialiseShowItems:1092) Show::serialiseShowItems[Layout]: itemCount = 1
+- 17:14:31.031 INFO1  : (@Show::serialiseShowItems:1092) Show::serialiseShowItems[View Filter]: itemCount = 4
+- 17:14:31.031 INFO1  : (@Show::serialiseShowItems:1092) Show::serialiseShowItems[Sort]: itemCount = 5
+- 17:14:31.031 INFO1  : (@Show::serialiseShowItems:1092) Show::serialiseShowItems[Timing]: itemCount = 3
+- 17:14:31.031 INFO1  : (@Show::serialiseShowItems:1092) Show::serialiseShowItems[Preset]: itemCount = 7
+- 17:14:31.031 INFO1  : (@Show::serialiseShowItems:1092) Show::serialiseShowItems[Extract]: itemCount = 0
+- 17:14:31.093 INFO1  : (@Show::serialiseShowItems:1092) Show::serialiseShowItems[Cuelist]: itemCount = 19
+- 17:14:31.093 INFO1  : (@Show::serialiseShowItems:1092) Show::serialiseShowItems[Snapshot]: itemCount = 0
+- 17:14:31.093 INFO1  : (@Show::serialiseShowItems:1092) Show::serialiseShowItems[DateTime Event]: itemCount = 0
+- 17:14:31.093 INFO1  : (@Show::serialiseShowItems:1092) Show::serialiseShowItems[FX Master]: itemCount = 3
+- 17:14:31.093 INFO   : (@Console::Console:65) serialised
+- 17:14:31.093 INFO   : (@Console::Console:65) serialised
+- 17:14:31.093 INFO   : (@Console::Console:65) serialised
+- 17:14:31.093 INFO   : (@Console::Console:65) serialised
+- 17:14:31.109 INFO   : (@Console::Console:65) serialised
+- 17:14:31.125 INFO   : (@ScopedTimeLogger::~ScopedTimeLogger:26) Serialise a show took 103 ms.
+- 17:14:31.125 INFO   :NETWORK: (@ShowManager::loadShowFile:400) (Main): Emitting distributeShowToNetwork()
+- 17:14:31.125 INFO1  :NETWORK: (@PlaybackNodeManager::distributeShowToNetworkSlot:528) (Main): Emitting stateChangedSignal()
+- 17:14:31.125 INFO   :NETWORK: (@PlaybackNodeManager::setSyncProgressState:2174) (Main): Sync Progress State: MAIN_PREPARING_TO_SERIALISE_SHOW
+- 17:14:31.203 INFO   : (@ScopedTimeLogger::~ScopedTimeLogger:26) Serialise a show took 72 ms.
+- 17:14:31.203 INFO   :NETWORK: (@PlaybackNodeManager::setSyncProgressState:2174) (Main): Sync Progress State: MAIN_SHOW_SERIALISED
+- 17:14:31.203 INFO   : (@ShowManager::getRelativeShowFilePath:212) Show FilePath relative to 'Shows' directory: Bardot Show 1.v3s
+- 17:14:31.203 INFO   :NETWORK: (@PlaybackNodeManager::dpuSync:646) (Main): Sending SHOW_SYNC
+- 17:14:31.203 INFO   :NETWORK: (@PlaybackNodeManager::setSyncProgressState:2174) (Main): Sync Progress State: MAIN_SENDING_SHOW
+- 17:14:31.203 INFO   :NETWORK: (@PlaybackNodeManager::doDpuSync:789) (Main): Received SHOW_SYNC
+- 17:14:31.203 INFO   :NETWORK: (@PlaybackNodeManager::dpuSyncAck:658) (Main): Sending SHOW_SYNC_ACK from: b4b5d082 (DESKTOP-6RVQOQ4-UI)
+- 17:14:31.203 INFO   :NETWORK: (@PlaybackNodeManager::setSyncProgressState:2174) (Main): Sync Progress State: AUX_SENDING_SYNC_ACKNOWLEDGEMENT
+- 17:14:31.203 INFO   :NETWORK: (@PlaybackNodeManager::doDpuSyncAck:874) (Main): Received SHOW_SYNC_ACK from: b4b5d082 (DESKTOP-6RVQOQ4-UI)
+- 17:14:31.250 INFO   : (@ByronMotherWidget::onTrackingBackupStateChanged:1357) auxiliary: 0
+- 17:14:31.250 INFO   : (@ByronMotherWidget::onTrackingBackupStateChanged:1358) show sync in progress: 0
+- 17:14:31.343 INFO   : (@ByronMotherWidget::onTrackingBackupStateChanged:1357) auxiliary: 0
+- 17:14:31.343 INFO   : (@ByronMotherWidget::onTrackingBackupStateChanged:1358) show sync in progress: 0
+- 17:14:31.343 INFO   :NETWORK: (@PlaybackNodeManager::setSyncProgressState:2174) (Main): Sync Progress State: MAIN_RECEIVED_SYNC_ACKNOWLEDGEMENT
+- 17:14:31.343 INFO   :NETWORK: (@PlaybackNodeManager::dpuSyncComplete:676) (Main): Sending SHOW_SYNC_COMPLETE
+- 17:14:31.343 INFO   :NETWORK: (@PlaybackNodeManager::setSyncProgressState:2174) (Main): Sync Progress State: MAIN_PERFORMING_POST_SYNC_TASKS
+- 17:14:32.359 INFO   :NETWORK: (@ArtnetDeviceManager::startDiscovery:636) (Main): Artnet discovery starting up: Vista Art-Net:2.0:DESKTOP-6RVQOQ4:b4b5d082, broadcast: 10.0.0.255
+- 17:14:32.390 INFO   :NETWORK: (@ShowManager::performPostShowSynchronisationTasks:1051) (Main): Emitting initialisePlayback()
+- 17:14:32.390 INFO   : (@ArtnetDeviceManager::Impl::run:351 ##1e240a60) starting
+- 17:14:32.390 INFO   :NETWORK: (@ShowManager::performPostShowSynchronisationTasks:1055) (Main): Emitting showLoaded()
+- 17:14:32.390 INFO   : (@Directory::getPath:803) FactoryIcons path = C:/Program Files (x86)/Chroma-Q/Vista3/Icons
+- 17:14:32.750 ERROR  : (@ByronSerialControl::onSerialPortError:144) Error reading serial port: 1 (No such file or directory)
+- 17:14:32.750 WARNING: (@ByronSerialControl::openSerialPort:63) failed to open "COM15"
+- 17:14:32.750 INFO   : (@ByronMotherWidget::onTrackingBackupStateChanged:1357) auxiliary: 0
+- 17:14:32.750 INFO   : (@ByronMotherWidget::onTrackingBackupStateChanged:1358) show sync in progress: 0
+- 17:14:32.781 INFO   :NETWORK: (@ShowManager::performPostShowSynchronisationTasks:1058) (Main): Emitting showLoadedNotificationCompleted()
+- 17:14:32.781 INFO1  :NETWORK: (@PlaybackNodeManager::showLoadedNotificationCompletedSlot:516) (Main): Emitting stateChangedSignal()
+- 17:14:33.906 INFO   : (@UsbManager::rescanDevices:296) Finished rescan
+- 17:14:33.906 INFO   : (@ConsoleDriverManager::restoreDriverPool:649) Restoring Broadcast Art-Net (pseudo-)device, id b44d6a80
+- 17:14:33.937 INFO   : (@ConsoleManager::hardwareConnected:844) uuid:b44d6a80 type 100 (Art-Net)
+- 17:14:33.937 INFO   : (@ConsoleManager::onHardwareConnected:875) device UUID: b44d6a80 (type: 100 Art-Net) reconnected: 0
+- 17:14:34.984 INFO   : (@ConsoleDriverManager::restoreDriverPool:674) Restoring Pathport (pseudo-)device, id 4e55c8af
+- 17:14:34.984 INFO   : (@PathportDriver::PathportDriver:608) uuid:4e55c8af
+- 17:14:34.984 INFO   : (@ConsoleManager::hardwareConnected:844) uuid:4e55c8af type 101 (Pathport)
+- 17:14:34.984 INFO   : (@ConsoleManager::onHardwareConnected:875) device UUID: 4e55c8af (type: 101 Pathport) reconnected: 0
+- 17:14:34.047 INFO   : (@PathportDriver::Impl::run:479 ##1f670928) starting
+- 17:14:34.062 INFO   : (@Vista1Impl::connectSender:993 ##1f670928) Local IP set: 10.0.0.7
+- 17:14:34.078 INFO   : (@Vista1Impl::connectSender:993 ##1f670928) Local IP set: 10.0.0.7
+- 17:14:34.078 INFO   : (@Vista1Impl::connectSender:993 ##1f670928) Local IP set: 10.0.0.7
+- 17:14:34.234 INFO   : (@ConsoleDriverManager::restoreDriverPool:696) Restoring Streaming ACN (pseudo-)device, id 669aa062
+- 17:14:34.234 INFO   : (@ConsoleManager::hardwareConnected:844) uuid:669aa062 type 102 (sACN)
+- 17:14:34.234 INFO   : (@ConsoleManager::onHardwareConnected:875) device UUID: 669aa062 (type: 102 sACN) reconnected: 0
+- 17:14:34.281 INFO   : (@StreamingAcnDriver::Impl::run:109 ##f9b6240) starting
+- 17:14:34.437 INFO   :NETWORK: (@PlaybackNodeManager::doDpuSyncAck:874) (Main): Received SHOW_SYNC_ACK from: b4b5d085 (DESKTOP-6RVQOQ4-3)
+- 17:14:34.468 INFO   : (@ByronMotherWidget::onTrackingBackupStateChanged:1357) auxiliary: 0
+- 17:14:34.468 INFO   : (@ByronMotherWidget::onTrackingBackupStateChanged:1358) show sync in progress: 0
+- 17:14:34.468 INFO   :NETWORK: (@PlaybackNodeManager::doDpuSyncAck:874) (Main): Received SHOW_SYNC_ACK from: b4b5d083 (DESKTOP-6RVQOQ4-1)
+- 17:14:34.484 INFO   : (@ByronMotherWidget::onTrackingBackupStateChanged:1357) auxiliary: 0
+- 17:14:34.484 INFO   : (@ByronMotherWidget::onTrackingBackupStateChanged:1358) show sync in progress: 0
+- 17:14:34.484 INFO   :NETWORK: (@PlaybackNodeManager::doDpuSyncAck:874) (Main): Received SHOW_SYNC_ACK from: b4b5d086 (DESKTOP-6RVQOQ4-4)
+- 17:14:34.515 INFO   : (@ByronMotherWidget::onTrackingBackupStateChanged:1357) auxiliary: 0
+- 17:14:34.515 INFO   : (@ByronMotherWidget::onTrackingBackupStateChanged:1358) show sync in progress: 0
+- 17:14:34.515 INFO   :NETWORK: (@PlaybackNodeManager::doDpuSyncAck:874) (Main): Received SHOW_SYNC_ACK from: b4b5d084 (DESKTOP-6RVQOQ4-2)
+- 17:14:34.531 INFO   : (@ByronMotherWidget::onTrackingBackupStateChanged:1357) auxiliary: 0
+- 17:14:34.531 INFO   : (@ByronMotherWidget::onTrackingBackupStateChanged:1358) show sync in progress: 0
+- 17:14:34.593 INFO   : (@ByronMotherWidget::refreshDmxFiltersSlot:1577) Effective channels: 0
+- 17:14:34.593 INFO   : (@ConsoleManager::hardwareConnected:844) uuid:b44d6a80 type 100 (Art-Net)
+- 17:14:34.593 INFO   : (@ConsoleManager::onHardwareConnected:875) device UUID: b44d6a80 (type: 100 Art-Net) reconnected: 0
+- 17:14:34.593 WARNING: (@ArtnetConsoleDriver::doSendMessage:237) ArtnetConsoleDriver: START_SENDING_DMX
+- 17:14:34.625 INFO   : (@ConsoleManager::hardwareConnected:844) uuid:4e55c8af type 101 (Pathport)
+- 17:14:34.625 INFO   : (@ConsoleManager::onHardwareConnected:875) device UUID: 4e55c8af (type: 101 Pathport) reconnected: 0
+- 17:14:34.656 INFO   : (@ConsoleManager::hardwareConnected:844) uuid:669aa062 type 102 (sACN)
+- 17:14:34.656 INFO   : (@ConsoleManager::onHardwareConnected:875) device UUID: 669aa062 (type: 102 sACN) reconnected: 0
+- 17:14:34.703 INFO   : (@ByronMotherWidget::onTrackingBackupStateChanged:1357) auxiliary: 0
+- 17:14:34.703 INFO   : (@ByronMotherWidget::onTrackingBackupStateChanged:1358) show sync in progress: 0
+- 17:14:34.797 WARNING: (@IconCache::loadIcon:90) Missing any icon PNGs for console/grandMaster_L
+- 17:14:35.015 INFO   : (@ByronMotherWidget::reallocatePlaybackUniversesNow:2830) Recreating Playback Universes
+- 17:14:35.015 INFO   : (@PlaybackNodeManager::redistributeFixturesToPlaybackNodes:1822) Ignoring non-playbackNode: b4b5d082 (DESKTOP-6RVQOQ4-UI)
+- 17:14:35.015 WARNING: (@redistributeConnectedUniversesToHostsPolicy:1335) Cannot find hostId for a port: DmxPortAddress: hostId: 841cca3b IP1: 192.168.1.16 IP2: N/A consoleId: a4c5e4d2 pType: 15 (EX) pNumber: 0 (0x0) pAddress:  extra: 
+- 17:14:35.015 WARNING: (@redistributeConnectedUniversesToHostsPolicy:1335) Cannot find hostId for a port: DmxPortAddress: hostId: 841cca3b IP1: 192.168.1.16 IP2: N/A consoleId: a4c5e4d2 pType: 15 (EX) pNumber: 1 (0x1) pAddress:  extra: 
+- 17:14:35.015 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes - A  : dpuId=b4b5d082 pbnId=b4b5d083 (DESKTOP-6RVQOQ4-1) - newUni : set contains 1 items: [0]
+- 17:14:35.015 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes - A  : dpuId=b4b5d082 pbnId=b4b5d084 (DESKTOP-6RVQOQ4-2) - newUni : set contains 0 items: []
+- 17:14:35.015 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes - A  : dpuId=b4b5d082 pbnId=b4b5d085 (DESKTOP-6RVQOQ4-3) - newUni : set contains 0 items: []
+- 17:14:35.015 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes - A  : dpuId=b4b5d082 pbnId=b4b5d086 (DESKTOP-6RVQOQ4-4) - newUni : set contains 0 items: []
+- 17:14:35.015 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes: Distributing uni for playback engine b4b5d083 (DESKTOP-6RVQOQ4-1) on hostID b4b5d082 [10.0.0.7]: set contains 1 items: [0]
+- 17:14:35.015 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes: Distributing uni for playback engine b4b5d084 (DESKTOP-6RVQOQ4-2) on hostID b4b5d082 [10.0.0.7]: set contains 0 items: []
+- 17:14:35.015 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes: Distributing uni for playback engine b4b5d085 (DESKTOP-6RVQOQ4-3) on hostID b4b5d082 [10.0.0.7]: set contains 0 items: []
+- 17:14:35.015 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes: Distributing uni for playback engine b4b5d086 (DESKTOP-6RVQOQ4-4) on hostID b4b5d082 [10.0.0.7]: set contains 0 items: []
+- 17:14:35.015 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes - B  : dpuId=b4b5d082 pbnId=b4b5d083 (DESKTOP-6RVQOQ4-1) - newUni : set contains 1 items: [0]
+- 17:14:35.015 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes - B  : dpuId=b4b5d082 pbnId=b4b5d084 (DESKTOP-6RVQOQ4-2) - newUni : set contains 0 items: []
+*** Message repeated 6 more times ***
+- 17:14:35.031 INFO   : (@logAllocations:1737) Actual universe allocations are as follows:
+- 17:14:35.031 INFO   : (@logIntSet:489) b4b5d083 (DESKTOP-6RVQOQ4-1): set contains 1 items: [0]
+- 17:14:35.031 INFO   : (@logAllocations:1742) Actual pool allocations are as follows:
+- 17:14:35.031 INFO   : (@logUuidSet:1726) b4b5d083 (DESKTOP-6RVQOQ4-1): set contains 0 items: []
+- 17:14:35.031 INFO   : (@logUuidSet:1726) b4b5d084 (DESKTOP-6RVQOQ4-2): set contains 0 items: []
+- 17:14:35.031 INFO   : (@logUuidSet:1726) b4b5d085 (DESKTOP-6RVQOQ4-3): set contains 0 items: []
+- 17:14:35.031 INFO   : (@logUuidSet:1726) b4b5d086 (DESKTOP-6RVQOQ4-4): set contains 0 items: []
+- 17:14:35.031 INFO   : (@PlaybackNodeManager::processMessage_SetConfiguration:1164) (role:1)- empty universes
+- 17:14:35.031 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes - END  : dpuId=b4b5d082 pbnId=b4b5d083 (DESKTOP-6RVQOQ4-1) - newUni : set contains 1 items: [0]
+- 17:14:35.031 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes - END  : dpuId=b4b5d082 pbnId=b4b5d084 (DESKTOP-6RVQOQ4-2) - newUni : set contains 0 items: []
+- 17:14:35.031 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes - END  : dpuId=b4b5d082 pbnId=b4b5d085 (DESKTOP-6RVQOQ4-3) - newUni : set contains 0 items: []
+- 17:14:35.031 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes - END  : dpuId=b4b5d082 pbnId=b4b5d086 (DESKTOP-6RVQOQ4-4) - newUni : set contains 0 items: []
+- 17:14:35.047 INFO   : (@ByronMotherWidget::refreshDmxFiltersSlot:1577) Effective channels: 0
+- 17:14:35.156 INFO1  : (@SessionSettings::getSetting:84) SessionSettings::setting not found for:Console_cw1IsJDW
+- 17:14:35.172 INFO1  : (@SessionSettings::getSetting:84) SessionSettings::setting not found for:Editor_MQP832ee798ConsoleUuid
+- 17:14:35.218 INFO1  : (@SessionSettings::getSetting:84) SessionSettings::setting not found for:Editor_MQP832ee798_layout
+- 17:14:35.218 INFO1  : (@SessionSettings::getSetting:84) SessionSettings::setting not found for:Editor_MQP832ee798_QP_1_cat
+- 17:14:35.218 INFO1  : (@SessionSettings::getSetting:84) SessionSettings::setting not found for:Editor_MQP832ee798_QP_1_page
+- 17:14:35.218 INFO1  : (@SessionSettings::getSetting:84) SessionSettings::setting not found for:Editor_MQP832ee798_QP_1_hasLayoutSettings
+- 17:14:35.218 INFO1  : (@SessionSettings::getSetting:84) SessionSettings::setting not found for:Editor_MQP832ee798_QP_1_vscroll
+- 17:14:35.218 INFO1  : (@SessionSettings::getSetting:84) SessionSettings::setting not found for:Editor_MQP832ee798_QP_1_hscroll
+- 17:14:35.218 INFO1  : (@SessionSettings::getSetting:84) SessionSettings::setting not found for:Editor_MQP832ee798_QP_2_cat
+- 17:14:35.218 INFO1  : (@SessionSettings::getSetting:84) SessionSettings::setting not found for:Editor_MQP832ee798_QP_2_page
+*** Message repeated 32 more times ***
+- 17:14:35.422 INFO   :NETWORK: (@ShowManager::performPostShowSynchronisationTasks:1062) (Main): Emitting enablePlayback()
+- 17:14:35.422 INFO   : (@TimeController::TimeController:60) Refresh interval millis = 00:00:00.033000
+- 17:14:35.422 INFO   : (@PlaybackEngineCoordinator::processShowControlMessage:502) processed effect reset phase
+- 17:14:35.422 INFO   : (@TimeController::run:98 ##1f35fbec) starting
+- 17:14:35.422 INFO   :NETWORK: (@PlaybackNodeManager::setSyncProgressState:2174) (Main): Sync Progress State: NO_SYNC_IN_PROGRESS
+- 17:14:35.422 INFO   :NETWORK: (@PlaybackNodeManager::doDpuSyncComplete:724) (Main): Emitting showSyncIsComplete()
+- 17:14:35.422 INFO   : (@ScopedTimeLogger::~ScopedTimeLogger:26) converting show to binary took 4297 ms.
+- 17:14:35.453 INFO   : (@TimeController::run:140 ##1f35fbec) sending time advance msg with fx resync
+- 17:14:35.453 WARNING: (@EffectRateController::resetAllPhasesToZero:105 ##1f35fbec) current playback time 00:00:00
+- 17:14:35.453 INFO   : (@AutoSaveThread::run:145 ##273f5b0) starting
+- 17:14:35.547 INFO   : (@PlaybackEngine::doRefresh:280) PlaybackEngine: Elapsed time between refreshes was: 0ms
+- 17:14:35.562 INFO   : (@ByronMotherWidget::reallocatePlaybackUniversesNow:2830) Recreating Playback Universes
+- 17:14:35.562 INFO   : (@PlaybackNodeManager::redistributeFixturesToPlaybackNodes:1822) Ignoring non-playbackNode: b4b5d082 (DESKTOP-6RVQOQ4-UI)
+- 17:14:35.562 WARNING: (@redistributeConnectedUniversesToHostsPolicy:1335) Cannot find hostId for a port: DmxPortAddress: hostId: 841cca3b IP1: 192.168.1.16 IP2: N/A consoleId: a4c5e4d2 pType: 15 (EX) pNumber: 0 (0x0) pAddress:  extra: 
+- 17:14:35.562 WARNING: (@redistributeConnectedUniversesToHostsPolicy:1335) Cannot find hostId for a port: DmxPortAddress: hostId: 841cca3b IP1: 192.168.1.16 IP2: N/A consoleId: a4c5e4d2 pType: 15 (EX) pNumber: 1 (0x1) pAddress:  extra: 
+- 17:14:35.562 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes - A  : dpuId=b4b5d082 pbnId=b4b5d083 (DESKTOP-6RVQOQ4-1) - newUni : set contains 1 items: [0]
+- 17:14:35.562 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes - A  : dpuId=b4b5d082 pbnId=b4b5d084 (DESKTOP-6RVQOQ4-2) - newUni : set contains 0 items: []
+- 17:14:35.562 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes - A  : dpuId=b4b5d082 pbnId=b4b5d085 (DESKTOP-6RVQOQ4-3) - newUni : set contains 0 items: []
+- 17:14:35.562 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes - A  : dpuId=b4b5d082 pbnId=b4b5d086 (DESKTOP-6RVQOQ4-4) - newUni : set contains 0 items: []
+- 17:14:35.562 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes: Distributing uni for playback engine b4b5d083 (DESKTOP-6RVQOQ4-1) on hostID b4b5d082 [10.0.0.7]: set contains 1 items: [0]
+- 17:14:35.562 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes: Distributing uni for playback engine b4b5d084 (DESKTOP-6RVQOQ4-2) on hostID b4b5d082 [10.0.0.7]: set contains 0 items: []
+- 17:14:35.562 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes: Distributing uni for playback engine b4b5d085 (DESKTOP-6RVQOQ4-3) on hostID b4b5d082 [10.0.0.7]: set contains 0 items: []
+- 17:14:35.562 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes: Distributing uni for playback engine b4b5d086 (DESKTOP-6RVQOQ4-4) on hostID b4b5d082 [10.0.0.7]: set contains 0 items: []
+- 17:14:35.562 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes - B  : dpuId=b4b5d082 pbnId=b4b5d083 (DESKTOP-6RVQOQ4-1) - newUni : set contains 1 items: [0]
+- 17:14:35.562 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes - B  : dpuId=b4b5d082 pbnId=b4b5d084 (DESKTOP-6RVQOQ4-2) - newUni : set contains 0 items: []
+*** Message repeated 6 more times ***
+- 17:14:35.562 INFO   : (@logAllocations:1737) Actual universe allocations are as follows:
+- 17:14:35.562 INFO   : (@logIntSet:489) b4b5d083 (DESKTOP-6RVQOQ4-1): set contains 1 items: [0]
+- 17:14:35.562 INFO   : (@logAllocations:1742) Actual pool allocations are as follows:
+- 17:14:35.562 INFO   : (@logUuidSet:1726) b4b5d083 (DESKTOP-6RVQOQ4-1): set contains 0 items: []
+- 17:14:35.562 INFO   : (@logUuidSet:1726) b4b5d084 (DESKTOP-6RVQOQ4-2): set contains 0 items: []
+- 17:14:35.562 INFO   : (@logUuidSet:1726) b4b5d085 (DESKTOP-6RVQOQ4-3): set contains 0 items: []
+- 17:14:35.562 INFO   : (@logUuidSet:1726) b4b5d086 (DESKTOP-6RVQOQ4-4): set contains 0 items: []
+- 17:14:35.562 INFO   : (@PlaybackNodeManager::processMessage_SetConfiguration:1164) (role:1)- empty universes
+- 17:14:35.562 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes - END  : dpuId=b4b5d082 pbnId=b4b5d083 (DESKTOP-6RVQOQ4-1) - newUni : set contains 1 items: [0]
+- 17:14:35.562 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes - END  : dpuId=b4b5d082 pbnId=b4b5d084 (DESKTOP-6RVQOQ4-2) - newUni : set contains 0 items: []
+- 17:14:35.562 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes - END  : dpuId=b4b5d082 pbnId=b4b5d085 (DESKTOP-6RVQOQ4-3) - newUni : set contains 0 items: []
+- 17:14:35.562 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes - END  : dpuId=b4b5d082 pbnId=b4b5d086 (DESKTOP-6RVQOQ4-4) - newUni : set contains 0 items: []
+- 17:14:35.562 INFO   : (@ByronMotherWidget::refreshDmxFiltersSlot:1577) Effective channels: 0
+- 17:14:40.125 INFO   : (@ByronApplication::onActionTriggered:164) Save a Copy As...
+- 17:14:40.125 INFO   : (@JDialog::JDialog:15) Dialog created - CommitClipsDialog
+- 17:14:40.125 INFO   : (@JDialog::~JDialog:20) Dialog destroyed - CommitClipsDialog
+- 17:14:48.609 INFO   : (@ShowManager::setShowFilePath:163) C:/Vista 3/Shows/BardotV2.v3s
+- 17:14:48.609 INFO   : (@ShowManager::saveShowFile:467) C:/Vista 3/Shows/BardotV2.v3s
+- 17:14:48.625 INFO1  : (@Show::serialiseShowItems:1092) Show::serialiseShowItems[Layout]: itemCount = 1
+- 17:14:48.625 INFO1  : (@Show::serialiseShowItems:1092) Show::serialiseShowItems[View Filter]: itemCount = 4
+- 17:14:48.625 INFO1  : (@Show::serialiseShowItems:1092) Show::serialiseShowItems[Sort]: itemCount = 5
+- 17:14:48.625 INFO1  : (@Show::serialiseShowItems:1092) Show::serialiseShowItems[Timing]: itemCount = 3
+- 17:14:48.625 INFO1  : (@Show::serialiseShowItems:1092) Show::serialiseShowItems[Preset]: itemCount = 7
+- 17:14:48.625 INFO1  : (@Show::serialiseShowItems:1092) Show::serialiseShowItems[Extract]: itemCount = 0
+- 17:14:48.687 INFO1  : (@Show::serialiseShowItems:1092) Show::serialiseShowItems[Cuelist]: itemCount = 19
+- 17:14:48.687 INFO1  : (@Show::serialiseShowItems:1092) Show::serialiseShowItems[Snapshot]: itemCount = 0
+- 17:14:48.687 INFO1  : (@Show::serialiseShowItems:1092) Show::serialiseShowItems[DateTime Event]: itemCount = 0
+- 17:14:48.687 INFO1  : (@Show::serialiseShowItems:1092) Show::serialiseShowItems[FX Master]: itemCount = 3
+- 17:14:48.703 INFO   : (@ScopedTimeLogger::~ScopedTimeLogger:26) Serialise a show took 81 ms.
+- 17:14:48.703 INFO   : (@ScopedTimeLogger::~ScopedTimeLogger:26) save show took 81 ms.
+- 17:14:48.703 INFO   : (@ShowManager::getRelativeShowFilePath:212) Show FilePath relative to 'Shows' directory: BardotV2.v3s
+- 17:14:48.703 INFO   : (@ShowManager::setShowFilePath:163) C:/Vista 3/Shows/Bardot Show 1.v3s
+- 17:14:55.531 INFO   : (@ByronApplication::onActionTriggered:164) Edit Cuelist...
+- 17:14:55.531 INFO   : (@JDialog::JDialog:15) Dialog created - Select cuelist
+- 17:15:00.000 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) Delete items (type 64)
+- 17:15:00.875 INFO   : (@JDialog::~JDialog:20) Dialog destroyed - Select cuelist
+- 17:15:18.375 INFO   : (@WindowsUsbNativeEventFilter::nativeEventFilter:138) Non-Vista USB device detected. Ignoring.
+- 17:15:18.375 INFO   : (@WindowsUsbNativeEventFilter::nativeEventFilter:138) Non-Vista USB device detected. Ignoring.
+- 17:15:31.125 WARNING: (@MessageDialog::executeMessageBox:21) No fixtures selected
+- 17:15:34.531 INFO   : (@JDialog::JDialog:15) Dialog created - CreateEffectDialog
+- 17:15:36.265 INFO   : (@JDialog::~JDialog:20) Dialog destroyed - CreateEffectDialog
+- 17:15:36.297 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply effect (type 64)
+- 17:15:38.593 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) delete effect (type 64)
+- 17:16:15.968 INFO   : (@ByronApplication::onActionTriggered:164) Clear / Close
+- 17:16:15.968 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) Clear (type 64)
+- 17:16:25.047 INFO   : (@ByronApplication::onActionTriggered:164) New Show...
+- 17:16:35.859 INFO   : (@ShowManager::setShowFilePath:163) C:/Vista 3/Shows/Bardot V2.v3s
+- 17:16:35.859 INFO   :NETWORK: (@ShowManager::prepareForShowReplacement:803) (Main): prepareForShowReplacement: Master
+- 17:16:35.859 INFO1  :NETWORK: (@ZeroConf::assignNodeAsNetworkMain:750) (Main): Assigning a new network master: local (b4b5d082)
+- 17:16:35.859 INFO   :NETWORK: (@ShowManager::prepareForShowReplacement:820) (Main): Emitting disablePlayback()
+- 17:16:35.859 INFO   :NETWORK: (@ShowManager::prepareForShowReplacement:823) (Main): Emitting showAboutToLoad()
+- 17:16:35.875 INFO1  :NETWORK: (@PlaybackNodeManager::showAboutToLoadSlot:497) (Main): Emitting stateChangedSignal()
+- 17:16:36.000 INFO   : (@ByronMotherWidget::onTrackingBackupStateChanged:1357) auxiliary: 0
+- 17:16:36.000 INFO   : (@ByronMotherWidget::onTrackingBackupStateChanged:1358) show sync in progress: 0
+- 17:16:36.000 INFO1  :NETWORK: (@ZeroConf::assignNodeAsNetworkMain:750) (Main): Assigning a new network master: local (b4b5d082)
+- 17:16:36.000 INFO   :NETWORK: (@PlaybackNodeManager::setSyncProgressState:2174) (Main): Sync Progress State: MAIN_ABOUT_TO_SYNC
+- 17:16:36.000 INFO   :NETWORK: (@PlaybackNodeManager::aboutToSync:770) (Main): Sending ABOUT_TO_SYNC
+- 17:16:36.000 INFO   :NETWORK: (@PlaybackNodeManager::doAboutToSync:902) (Main): Received ABOUT_TO_SYNC
+- 17:16:36.015 ERROR  : (@ByronSerialControl::onSerialPortError:144) Error reading serial port: 13 (Device is not open)
+- 17:16:36.015 INFO   : (@Console::Console:71) (props) type 100 (Art-Net) vcID: b44d6a80 hwID: b44d6a80
+- 17:16:36.031 INFO   : (@Console::Console:71) (props) type 102 (sACN) vcID: 669aa062 hwID: 669aa062
+- 17:16:36.031 INFO   : (@Console::Console:71) (props) type 101 (Pathport) vcID: 4e55c8af hwID: 4e55c8af
+- 17:16:36.031 INFO   : (@ScopedTimeLogger::~ScopedTimeLogger:26) Serialise a show took 3 ms.
+- 17:16:36.031 INFO   : (@Console::Console:65) serialised
+- 17:16:36.031 INFO   : (@Console::Console:65) serialised
+- 17:16:36.031 INFO   : (@Console::Console:65) serialised
+- 17:16:36.031 INFO   : (@ScopedTimeLogger::~ScopedTimeLogger:26) Serialise a show took 7 ms.
+- 17:16:36.047 INFO   :NETWORK: (@ShowManager::createNewShow:712) (Main): Emitting initialisePlayback()
+- 17:16:36.047 INFO   : (@ShowManager::setShowFilePath:163) C:/Vista 3/Shows/Bardot V2.v3s
+- 17:16:36.062 INFO   :NETWORK: (@ShowManager::createNewShow:742) (Main): Emitting distributeShowToNetwork()
+- 17:16:36.062 INFO1  :NETWORK: (@PlaybackNodeManager::distributeShowToNetworkSlot:528) (Main): Emitting stateChangedSignal()
+- 17:16:36.062 INFO   :NETWORK: (@PlaybackNodeManager::setSyncProgressState:2174) (Main): Sync Progress State: MAIN_PREPARING_TO_SERIALISE_SHOW
+- 17:16:36.062 INFO   : (@ScopedTimeLogger::~ScopedTimeLogger:26) Serialise a show took 3 ms.
+- 17:16:36.062 INFO   :NETWORK: (@PlaybackNodeManager::setSyncProgressState:2174) (Main): Sync Progress State: MAIN_SHOW_SERIALISED
+- 17:16:36.062 INFO   : (@ShowManager::getRelativeShowFilePath:212) Show FilePath relative to 'Shows' directory: Bardot V2.v3s
+- 17:16:36.062 INFO   :NETWORK: (@PlaybackNodeManager::dpuSync:646) (Main): Sending SHOW_SYNC
+- 17:16:36.062 INFO   :NETWORK: (@PlaybackNodeManager::setSyncProgressState:2174) (Main): Sync Progress State: MAIN_SENDING_SHOW
+- 17:16:36.062 INFO   :NETWORK: (@PlaybackNodeManager::doDpuSync:789) (Main): Received SHOW_SYNC
+- 17:16:36.062 INFO   :NETWORK: (@PlaybackNodeManager::dpuSyncAck:658) (Main): Sending SHOW_SYNC_ACK from: b4b5d082 (DESKTOP-6RVQOQ4-UI)
+- 17:16:36.062 INFO   :NETWORK: (@PlaybackNodeManager::setSyncProgressState:2174) (Main): Sync Progress State: AUX_SENDING_SYNC_ACKNOWLEDGEMENT
+- 17:16:36.062 INFO   :NETWORK: (@PlaybackNodeManager::doDpuSyncAck:874) (Main): Received SHOW_SYNC_ACK from: b4b5d082 (DESKTOP-6RVQOQ4-UI)
+- 17:16:36.093 INFO   : (@ByronMotherWidget::onTrackingBackupStateChanged:1357) auxiliary: 0
+- 17:16:36.093 INFO   : (@ByronMotherWidget::onTrackingBackupStateChanged:1358) show sync in progress: 0
+- 17:16:36.109 INFO   : (@ByronMotherWidget::onTrackingBackupStateChanged:1357) auxiliary: 0
+- 17:16:36.109 INFO   : (@ByronMotherWidget::onTrackingBackupStateChanged:1358) show sync in progress: 0
+- 17:16:36.109 INFO   :NETWORK: (@PlaybackNodeManager::setSyncProgressState:2174) (Main): Sync Progress State: MAIN_RECEIVED_SYNC_ACKNOWLEDGEMENT
+- 17:16:36.109 INFO   :NETWORK: (@PlaybackNodeManager::dpuSyncComplete:676) (Main): Sending SHOW_SYNC_COMPLETE
+- 17:16:36.109 INFO   :NETWORK: (@PlaybackNodeManager::setSyncProgressState:2174) (Main): Sync Progress State: MAIN_PERFORMING_POST_SYNC_TASKS
+- 17:16:37.125 INFO   :NETWORK: (@ArtnetDeviceManager::startDiscovery:636) (Main): Artnet discovery starting up: Vista Art-Net:2.0:DESKTOP-6RVQOQ4:b4b5d082, broadcast: 10.0.0.255
+- 17:16:37.140 INFO   :NETWORK: (@ShowManager::performPostShowSynchronisationTasks:1051) (Main): Emitting initialisePlayback()
+- 17:16:37.140 INFO   :NETWORK: (@ShowManager::performPostShowSynchronisationTasks:1055) (Main): Emitting showLoaded()
+- 17:16:37.140 INFO   : (@ArtnetDeviceManager::Impl::run:351 ##1e240a60) starting
+- 17:16:37.156 ERROR  : (@ByronSerialControl::onSerialPortError:144) Error reading serial port: 1 (No such file or directory)
+- 17:16:37.156 WARNING: (@ByronSerialControl::openSerialPort:63) failed to open "COM15"
+- 17:16:37.156 INFO   : (@ByronMotherWidget::onTrackingBackupStateChanged:1357) auxiliary: 0
+- 17:16:37.156 INFO   : (@ByronMotherWidget::onTrackingBackupStateChanged:1358) show sync in progress: 0
+- 17:16:37.172 INFO   :NETWORK: (@ShowManager::performPostShowSynchronisationTasks:1058) (Main): Emitting showLoadedNotificationCompleted()
+- 17:16:37.172 INFO1  :NETWORK: (@PlaybackNodeManager::showLoadedNotificationCompletedSlot:516) (Main): Emitting stateChangedSignal()
+- 17:16:38.297 INFO   : (@UsbManager::rescanDevices:296) Finished rescan
+- 17:16:38.328 WARNING: (@ArtnetConsoleDriver::doSendMessage:237) ArtnetConsoleDriver: START_SENDING_DMX
+- 17:16:38.453 INFO1  : (@SessionSettings::getSetting:84) SessionSettings::setting not found for:topLevelView
+- 17:16:38.453 INFO1  : (@SessionSettings::getSetting:84) SessionSettings::setting not found for:editorView
+- 17:16:38.468 INFO   :NETWORK: (@ShowManager::performPostShowSynchronisationTasks:1062) (Main): Emitting enablePlayback()
+- 17:16:38.468 INFO   : (@TimeController::TimeController:60) Refresh interval millis = 00:00:00.033000
+- 17:16:38.468 INFO   : (@PlaybackEngineCoordinator::processShowControlMessage:502) processed effect reset phase
+- 17:16:38.468 INFO   :NETWORK: (@PlaybackNodeManager::setSyncProgressState:2174) (Main): Sync Progress State: NO_SYNC_IN_PROGRESS
+- 17:16:38.468 INFO   :NETWORK: (@PlaybackNodeManager::doDpuSyncComplete:724) (Main): Emitting showSyncIsComplete()
+- 17:16:38.468 INFO1  : (@SessionSettings::getSetting:84) SessionSettings::setting not found for:layout
+- 17:16:38.468 INFO1  : (@SessionSettings::getSetting:84) SessionSettings::setting not found for:mainGeometry
+- 17:16:38.468 INFO1  : (@SessionSettings::getSetting:84) SessionSettings::setting not found for:External1_visible
+- 17:16:38.468 INFO1  : (@SessionSettings::getSetting:84) SessionSettings::setting not found for:External1_externalScreenIndex
+- 17:16:38.468 INFO1  : (@SessionSettings::getSetting:84) SessionSettings::setting not found for:External1_windowState
+- 17:16:38.468 INFO1  : (@SessionSettings::getSetting:84) SessionSettings::setting not found for:External1_version
+- 17:16:38.468 INFO1  : (@SessionSettings::getSetting:84) SessionSettings::setting not found for:External1_layout
+- 17:16:38.468 INFO1  : (@SessionSettings::getSetting:84) SessionSettings::setting not found for:External1_version
+- 17:16:38.468 INFO1  : (@SessionSettings::getSetting:84) SessionSettings::setting not found for:External1_layout
+- 17:16:38.468 INFO1  : (@SessionSettings::getSetting:84) SessionSettings::setting not found for:External2_visible
+*** Message repeated 2 more times ***
+- 17:16:38.484 INFO   : (@TimeController::run:98 ##90cdd54) starting
+- 17:16:38.484 INFO1  : (@SessionSettings::getSetting:84) SessionSettings::setting not found for:External2_version
+- 17:16:38.484 INFO1  : (@SessionSettings::getSetting:84) SessionSettings::setting not found for:External2_layout
+- 17:16:38.484 INFO1  : (@SessionSettings::getSetting:84) SessionSettings::setting not found for:External2_version
+- 17:16:38.484 INFO1  : (@SessionSettings::getSetting:84) SessionSettings::setting not found for:External2_layout
+- 17:16:38.484 INFO1  : (@SessionSettings::getSetting:84) SessionSettings::setting not found for:softkeyHelp
+- 17:16:38.484 INFO1  : (@SessionSettings::getSetting:84) SessionSettings::setting not found for:topLevelView
+- 17:16:38.484 INFO1  : (@SessionSettings::getSetting:84) SessionSettings::setting not found for:editorView
+- 17:16:38.500 INFO   :NETWORK: (@PlaybackNodeManager::doDpuSyncAck:874) (Main): Received SHOW_SYNC_ACK from: b4b5d084 (DESKTOP-6RVQOQ4-2)
+- 17:16:38.531 INFO   : (@TimeController::run:140 ##90cdd54) sending time advance msg with fx resync
+- 17:16:38.531 WARNING: (@EffectRateController::resetAllPhasesToZero:105 ##90cdd54) current playback time 17:16:35.855535
+- 17:16:38.531 INFO   : (@ByronMotherWidget::onTrackingBackupStateChanged:1357) auxiliary: 0
+- 17:16:38.531 INFO   : (@ByronMotherWidget::onTrackingBackupStateChanged:1358) show sync in progress: 0
+- 17:16:38.531 INFO   :NETWORK: (@PlaybackNodeManager::doDpuSyncAck:874) (Main): Received SHOW_SYNC_ACK from: b4b5d086 (DESKTOP-6RVQOQ4-4)
+- 17:16:38.562 INFO   : (@ByronMotherWidget::onTrackingBackupStateChanged:1357) auxiliary: 0
+- 17:16:38.562 INFO   : (@ByronMotherWidget::onTrackingBackupStateChanged:1358) show sync in progress: 0
+- 17:16:38.562 INFO   :NETWORK: (@PlaybackNodeManager::doDpuSyncAck:874) (Main): Received SHOW_SYNC_ACK from: b4b5d085 (DESKTOP-6RVQOQ4-3)
+- 17:16:38.578 INFO   : (@ByronMotherWidget::onTrackingBackupStateChanged:1357) auxiliary: 0
+- 17:16:38.578 INFO   : (@ByronMotherWidget::onTrackingBackupStateChanged:1358) show sync in progress: 0
+- 17:16:38.578 INFO   :NETWORK: (@PlaybackNodeManager::doDpuSyncAck:874) (Main): Received SHOW_SYNC_ACK from: b4b5d083 (DESKTOP-6RVQOQ4-1)
+- 17:16:38.578 INFO   : (@ByronMotherWidget::onTrackingBackupStateChanged:1357) auxiliary: 0
+- 17:16:38.578 INFO   : (@ByronMotherWidget::onTrackingBackupStateChanged:1358) show sync in progress: 0
+- 17:16:38.593 INFO   : (@ByronMotherWidget::refreshDmxFiltersSlot:1577) Effective channels: 0
+- 17:16:38.656 INFO   : (@ByronMotherWidget::reallocatePlaybackUniversesNow:2830) Recreating Playback Universes
+- 17:16:38.656 INFO   : (@PlaybackNodeManager::redistributeFixturesToPlaybackNodes:1822) Ignoring non-playbackNode: b4b5d082 (DESKTOP-6RVQOQ4-UI)
+- 17:16:38.656 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes - A  : dpuId=b4b5d082 pbnId=b4b5d083 (DESKTOP-6RVQOQ4-1) - newUni : set contains 0 items: []
+- 17:16:38.656 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes - A  : dpuId=b4b5d082 pbnId=b4b5d084 (DESKTOP-6RVQOQ4-2) - newUni : set contains 0 items: []
+- 17:16:38.656 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes - A  : dpuId=b4b5d082 pbnId=b4b5d085 (DESKTOP-6RVQOQ4-3) - newUni : set contains 0 items: []
+- 17:16:38.656 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes - A  : dpuId=b4b5d082 pbnId=b4b5d086 (DESKTOP-6RVQOQ4-4) - newUni : set contains 0 items: []
+- 17:16:38.656 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes: Distributing uni for playback engine b4b5d083 (DESKTOP-6RVQOQ4-1) on hostID b4b5d082 [10.0.0.7]: set contains 0 items: []
+- 17:16:38.656 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes: Distributing uni for playback engine b4b5d084 (DESKTOP-6RVQOQ4-2) on hostID b4b5d082 [10.0.0.7]: set contains 0 items: []
+- 17:16:38.656 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes: Distributing uni for playback engine b4b5d085 (DESKTOP-6RVQOQ4-3) on hostID b4b5d082 [10.0.0.7]: set contains 0 items: []
+- 17:16:38.656 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes: Distributing uni for playback engine b4b5d086 (DESKTOP-6RVQOQ4-4) on hostID b4b5d082 [10.0.0.7]: set contains 0 items: []
+- 17:16:38.656 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes - B  : dpuId=b4b5d082 pbnId=b4b5d083 (DESKTOP-6RVQOQ4-1) - newUni : set contains 0 items: []
+- 17:16:38.656 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes - B  : dpuId=b4b5d082 pbnId=b4b5d084 (DESKTOP-6RVQOQ4-2) - newUni : set contains 0 items: []
+*** Message repeated 6 more times ***
+- 17:16:38.656 INFO   : (@logAllocations:1737) Actual universe allocations are as follows:
+- 17:16:38.656 INFO   : (@logAllocations:1742) Actual pool allocations are as follows:
+- 17:16:38.656 INFO   : (@logUuidSet:1726) b4b5d083 (DESKTOP-6RVQOQ4-1): set contains 0 items: []
+- 17:16:38.656 INFO   : (@logUuidSet:1726) b4b5d084 (DESKTOP-6RVQOQ4-2): set contains 0 items: []
+- 17:16:38.656 INFO   : (@logUuidSet:1726) b4b5d085 (DESKTOP-6RVQOQ4-3): set contains 0 items: []
+- 17:16:38.656 INFO   : (@logUuidSet:1726) b4b5d086 (DESKTOP-6RVQOQ4-4): set contains 0 items: []
+- 17:16:38.656 INFO   : (@PlaybackNodeManager::processMessage_SetConfiguration:1164) (role:1)- empty universes
+- 17:16:38.656 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes - END  : dpuId=b4b5d082 pbnId=b4b5d083 (DESKTOP-6RVQOQ4-1) - newUni : set contains 0 items: []
+- 17:16:38.656 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes - END  : dpuId=b4b5d082 pbnId=b4b5d084 (DESKTOP-6RVQOQ4-2) - newUni : set contains 0 items: []
+- 17:16:38.656 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes - END  : dpuId=b4b5d082 pbnId=b4b5d085 (DESKTOP-6RVQOQ4-3) - newUni : set contains 0 items: []
+- 17:16:38.656 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes - END  : dpuId=b4b5d082 pbnId=b4b5d086 (DESKTOP-6RVQOQ4-4) - newUni : set contains 0 items: []
+- 17:16:38.672 INFO   : (@ByronMotherWidget::refreshDmxFiltersSlot:1577) Effective channels: 0
+- 17:16:38.672 INFO   : (@PlaybackEngine::doRefresh:280) PlaybackEngine: Elapsed time between refreshes was: 2835ms
+- 17:16:38.672 INFO   : (@ConsoleManager::hardwareConnected:844) uuid:b44d6a80 type 100 (Art-Net)
+- 17:16:38.672 INFO   : (@ConsoleManager::onHardwareConnected:875) device UUID: b44d6a80 (type: 100 Art-Net) reconnected: 0
+- 17:16:38.672 WARNING: (@ArtnetConsoleDriver::doSendMessage:237) ArtnetConsoleDriver: START_SENDING_DMX
+- 17:16:38.734 INFO   : (@ConsoleManager::hardwareConnected:844) uuid:4e55c8af type 101 (Pathport)
+- 17:16:38.734 INFO   : (@ConsoleManager::onHardwareConnected:875) device UUID: 4e55c8af (type: 101 Pathport) reconnected: 0
+- 17:16:38.750 INFO   : (@ConsoleManager::hardwareConnected:844) uuid:669aa062 type 102 (sACN)
+- 17:16:38.750 INFO   : (@ConsoleManager::onHardwareConnected:875) device UUID: 669aa062 (type: 102 sACN) reconnected: 0
+- 17:16:38.797 INFO   : (@ByronMotherWidget::onTrackingBackupStateChanged:1357) auxiliary: 0
+- 17:16:38.797 INFO   : (@ByronMotherWidget::onTrackingBackupStateChanged:1358) show sync in progress: 0
+- 17:16:39.000 INFO1  : (@SessionSettings::getSetting:84) SessionSettings::setting not found for:Patch_layout
+- 17:16:39.000 INFO1  : (@SessionSettings::getSetting:84) SessionSettings::setting not found for:Patch_customUniverseNames
+- 17:16:41.468 INFO1  : (@SessionSettings::getSetting:84) SessionSettings::setting not found for:Console_cwCount
+- 17:16:41.468 INFO1  : (@SessionSettings::getSetting:84) SessionSettings::setting not found for:Console_state
+- 17:16:41.468 INFO1  : (@SessionSettings::getSetting:84) SessionSettings::setting not found for:Editor_version
+- 17:16:41.500 INFO1  : (@SessionSettings::getSetting:84) SessionSettings::setting not found for:Editor_MQP9da1e350ConsoleUuid
+- 17:16:41.531 INFO1  : (@SessionSettings::getSetting:84) SessionSettings::setting not found for:Editor_MQP9da1e350_locked
+- 17:16:41.531 INFO1  : (@SessionSettings::getSetting:84) SessionSettings::setting not found for:Editor_MQP9da1e350_compactMode
+- 17:16:41.531 INFO1  : (@SessionSettings::getSetting:84) SessionSettings::setting not found for:Editor_MQP9da1e350_layout
+- 17:16:41.531 INFO1  : (@SessionSettings::getSetting:84) SessionSettings::setting not found for:Editor_MQP9da1e350_QP_1_cat
+*** Message repeated 103 more times ***
+- 17:16:41.578 INFO   : (@ByronMotherWidget::reallocatePlaybackUniversesNow:2830) Recreating Playback Universes
+- 17:16:41.578 INFO   : (@PlaybackNodeManager::redistributeFixturesToPlaybackNodes:1822) Ignoring non-playbackNode: b4b5d082 (DESKTOP-6RVQOQ4-UI)
+- 17:16:41.578 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes - A  : dpuId=b4b5d082 pbnId=b4b5d083 (DESKTOP-6RVQOQ4-1) - newUni : set contains 0 items: []
+- 17:16:41.578 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes - A  : dpuId=b4b5d082 pbnId=b4b5d084 (DESKTOP-6RVQOQ4-2) - newUni : set contains 0 items: []
+- 17:16:41.578 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes - A  : dpuId=b4b5d082 pbnId=b4b5d085 (DESKTOP-6RVQOQ4-3) - newUni : set contains 0 items: []
+- 17:16:41.578 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes - A  : dpuId=b4b5d082 pbnId=b4b5d086 (DESKTOP-6RVQOQ4-4) - newUni : set contains 0 items: []
+- 17:16:41.578 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes: Distributing uni for playback engine b4b5d083 (DESKTOP-6RVQOQ4-1) on hostID b4b5d082 [10.0.0.7]: set contains 0 items: []
+- 17:16:41.578 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes: Distributing uni for playback engine b4b5d084 (DESKTOP-6RVQOQ4-2) on hostID b4b5d082 [10.0.0.7]: set contains 0 items: []
+- 17:16:41.578 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes: Distributing uni for playback engine b4b5d085 (DESKTOP-6RVQOQ4-3) on hostID b4b5d082 [10.0.0.7]: set contains 0 items: []
+- 17:16:41.578 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes: Distributing uni for playback engine b4b5d086 (DESKTOP-6RVQOQ4-4) on hostID b4b5d082 [10.0.0.7]: set contains 0 items: []
+- 17:16:41.578 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes - B  : dpuId=b4b5d082 pbnId=b4b5d083 (DESKTOP-6RVQOQ4-1) - newUni : set contains 0 items: []
+- 17:16:41.578 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes - B  : dpuId=b4b5d082 pbnId=b4b5d084 (DESKTOP-6RVQOQ4-2) - newUni : set contains 0 items: []
+*** Message repeated 6 more times ***
+- 17:16:41.578 INFO   : (@logAllocations:1737) Actual universe allocations are as follows:
+- 17:16:41.578 INFO   : (@logAllocations:1742) Actual pool allocations are as follows:
+- 17:16:41.578 INFO   : (@logUuidSet:1726) b4b5d083 (DESKTOP-6RVQOQ4-1): set contains 0 items: []
+- 17:16:41.578 INFO   : (@logUuidSet:1726) b4b5d084 (DESKTOP-6RVQOQ4-2): set contains 0 items: []
+- 17:16:41.578 INFO   : (@logUuidSet:1726) b4b5d085 (DESKTOP-6RVQOQ4-3): set contains 0 items: []
+- 17:16:41.578 INFO   : (@logUuidSet:1726) b4b5d086 (DESKTOP-6RVQOQ4-4): set contains 0 items: []
+- 17:16:41.578 INFO   : (@PlaybackNodeManager::processMessage_SetConfiguration:1164) (role:1)- empty universes
+- 17:16:41.578 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes - END  : dpuId=b4b5d082 pbnId=b4b5d083 (DESKTOP-6RVQOQ4-1) - newUni : set contains 0 items: []
+- 17:16:41.578 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes - END  : dpuId=b4b5d082 pbnId=b4b5d084 (DESKTOP-6RVQOQ4-2) - newUni : set contains 0 items: []
+- 17:16:41.578 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes - END  : dpuId=b4b5d082 pbnId=b4b5d085 (DESKTOP-6RVQOQ4-3) - newUni : set contains 0 items: []
+- 17:16:41.578 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes - END  : dpuId=b4b5d082 pbnId=b4b5d086 (DESKTOP-6RVQOQ4-4) - newUni : set contains 0 items: []
+- 17:16:41.578 INFO   : (@ByronMotherWidget::refreshDmxFiltersSlot:1577) Effective channels: 0
+- 17:16:41.578 INFO   : (@PlaybackEngine::doRefresh:280) PlaybackEngine: Elapsed time between refreshes was: 2790ms
+- 17:16:46.437 INFO   : (@WindowsUsbNativeEventFilter::nativeEventFilter:138) Non-Vista USB device detected. Ignoring.
+- 17:16:46.453 INFO   : (@WindowsUsbNativeEventFilter::nativeEventFilter:138) Non-Vista USB device detected. Ignoring.
+- 17:16:49.375 INFO   : (@WindowsUsbNativeEventFilter::nativeEventFilter:138) Non-Vista USB device detected. Ignoring.
+- 17:16:49.375 INFO   : (@WindowsUsbNativeEventFilter::nativeEventFilter:138) Non-Vista USB device detected. Ignoring.
+- 17:18:33.859 INFO   : (@ByronMotherWidget::refreshDmxFiltersSlot:1577) Effective channels: 0
+- 17:18:40.172 INFO   : (@ByronMotherWidget::refreshDmxFiltersSlot:1577) Effective channels: 0
+- 17:18:57.250 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) patch fixtures (type 64)
+- 17:18:57.250 INFO   : (@ByronMotherWidget::refreshDmxFiltersSlot:1577) Effective channels: 0
+- 17:18:57.750 INFO   : (@ByronMotherWidget::reallocatePlaybackUniversesNow:2830) Recreating Playback Universes
+- 17:18:57.750 INFO   : (@PlaybackNodeManager::redistributeFixturesToPlaybackNodes:1822) Ignoring non-playbackNode: b4b5d082 (DESKTOP-6RVQOQ4-UI)
+- 17:18:57.750 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes - A  : dpuId=b4b5d082 pbnId=b4b5d083 (DESKTOP-6RVQOQ4-1) - newUni : set contains 1 items: [0]
+- 17:18:57.750 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes - A  : dpuId=b4b5d082 pbnId=b4b5d084 (DESKTOP-6RVQOQ4-2) - newUni : set contains 0 items: []
+- 17:18:57.750 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes - A  : dpuId=b4b5d082 pbnId=b4b5d085 (DESKTOP-6RVQOQ4-3) - newUni : set contains 0 items: []
+- 17:18:57.750 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes - A  : dpuId=b4b5d082 pbnId=b4b5d086 (DESKTOP-6RVQOQ4-4) - newUni : set contains 0 items: []
+- 17:18:57.750 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes: Distributing uni for playback engine b4b5d083 (DESKTOP-6RVQOQ4-1) on hostID b4b5d082 [10.0.0.7]: set contains 1 items: [0]
+- 17:18:57.750 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes: Distributing uni for playback engine b4b5d084 (DESKTOP-6RVQOQ4-2) on hostID b4b5d082 [10.0.0.7]: set contains 0 items: []
+- 17:18:57.750 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes: Distributing uni for playback engine b4b5d085 (DESKTOP-6RVQOQ4-3) on hostID b4b5d082 [10.0.0.7]: set contains 0 items: []
+- 17:18:57.750 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes: Distributing uni for playback engine b4b5d086 (DESKTOP-6RVQOQ4-4) on hostID b4b5d082 [10.0.0.7]: set contains 0 items: []
+- 17:18:57.750 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes - B  : dpuId=b4b5d082 pbnId=b4b5d083 (DESKTOP-6RVQOQ4-1) - newUni : set contains 1 items: [0]
+- 17:18:57.750 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes - B  : dpuId=b4b5d082 pbnId=b4b5d084 (DESKTOP-6RVQOQ4-2) - newUni : set contains 0 items: []
+*** Message repeated 6 more times ***
+- 17:18:57.750 INFO   : (@logAllocations:1737) Actual universe allocations are as follows:
+- 17:18:57.750 INFO   : (@logIntSet:489) b4b5d083 (DESKTOP-6RVQOQ4-1): set contains 1 items: [0]
+- 17:18:57.750 INFO   : (@logAllocations:1742) Actual pool allocations are as follows:
+- 17:18:57.750 INFO   : (@logUuidSet:1726) b4b5d083 (DESKTOP-6RVQOQ4-1): set contains 0 items: []
+- 17:18:57.750 INFO   : (@logUuidSet:1726) b4b5d084 (DESKTOP-6RVQOQ4-2): set contains 0 items: []
+- 17:18:57.750 INFO   : (@logUuidSet:1726) b4b5d085 (DESKTOP-6RVQOQ4-3): set contains 0 items: []
+- 17:18:57.750 INFO   : (@logUuidSet:1726) b4b5d086 (DESKTOP-6RVQOQ4-4): set contains 0 items: []
+- 17:18:57.750 INFO   : (@PlaybackNodeManager::processMessage_SetConfiguration:1164) (role:1)- empty universes
+- 17:18:57.750 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes - END  : dpuId=b4b5d082 pbnId=b4b5d083 (DESKTOP-6RVQOQ4-1) - newUni : set contains 1 items: [0]
+- 17:18:57.750 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes - END  : dpuId=b4b5d082 pbnId=b4b5d084 (DESKTOP-6RVQOQ4-2) - newUni : set contains 0 items: []
+- 17:18:57.750 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes - END  : dpuId=b4b5d082 pbnId=b4b5d085 (DESKTOP-6RVQOQ4-3) - newUni : set contains 0 items: []
+- 17:18:57.750 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes - END  : dpuId=b4b5d082 pbnId=b4b5d086 (DESKTOP-6RVQOQ4-4) - newUni : set contains 0 items: []
+- 17:18:57.750 INFO   : (@ByronMotherWidget::refreshDmxFiltersSlot:1577) Effective channels: 0
+- 17:19:39.687 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) patch fixtures (type 64)
+- 17:19:39.687 INFO   : (@ByronMotherWidget::refreshDmxFiltersSlot:1577) Effective channels: 0
+- 17:19:40.187 INFO   : (@ByronMotherWidget::reallocatePlaybackUniversesNow:2830) Recreating Playback Universes
+- 17:19:40.187 INFO   : (@PlaybackNodeManager::redistributeFixturesToPlaybackNodes:1822) Ignoring non-playbackNode: b4b5d082 (DESKTOP-6RVQOQ4-UI)
+- 17:19:40.187 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes - A  : dpuId=b4b5d082 pbnId=b4b5d083 (DESKTOP-6RVQOQ4-1) - newUni : set contains 1 items: [0]
+- 17:19:40.187 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes - A  : dpuId=b4b5d082 pbnId=b4b5d084 (DESKTOP-6RVQOQ4-2) - newUni : set contains 0 items: []
+- 17:19:40.187 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes - A  : dpuId=b4b5d082 pbnId=b4b5d085 (DESKTOP-6RVQOQ4-3) - newUni : set contains 0 items: []
+- 17:19:40.187 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes - A  : dpuId=b4b5d082 pbnId=b4b5d086 (DESKTOP-6RVQOQ4-4) - newUni : set contains 0 items: []
+- 17:19:40.187 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes: Distributing uni for playback engine b4b5d083 (DESKTOP-6RVQOQ4-1) on hostID b4b5d082 [10.0.0.7]: set contains 1 items: [0]
+- 17:19:40.187 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes: Distributing uni for playback engine b4b5d084 (DESKTOP-6RVQOQ4-2) on hostID b4b5d082 [10.0.0.7]: set contains 0 items: []
+- 17:19:40.187 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes: Distributing uni for playback engine b4b5d085 (DESKTOP-6RVQOQ4-3) on hostID b4b5d082 [10.0.0.7]: set contains 0 items: []
+- 17:19:40.187 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes: Distributing uni for playback engine b4b5d086 (DESKTOP-6RVQOQ4-4) on hostID b4b5d082 [10.0.0.7]: set contains 0 items: []
+- 17:19:40.187 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes - B  : dpuId=b4b5d082 pbnId=b4b5d083 (DESKTOP-6RVQOQ4-1) - newUni : set contains 1 items: [0]
+- 17:19:40.187 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes - B  : dpuId=b4b5d082 pbnId=b4b5d084 (DESKTOP-6RVQOQ4-2) - newUni : set contains 0 items: []
+*** Message repeated 6 more times ***
+- 17:19:40.187 INFO   : (@logAllocations:1737) Actual universe allocations are as follows:
+- 17:19:40.187 INFO   : (@logIntSet:489) b4b5d083 (DESKTOP-6RVQOQ4-1): set contains 1 items: [0]
+- 17:19:40.187 INFO   : (@logAllocations:1742) Actual pool allocations are as follows:
+- 17:19:40.187 INFO   : (@logUuidSet:1726) b4b5d083 (DESKTOP-6RVQOQ4-1): set contains 0 items: []
+- 17:19:40.187 INFO   : (@logUuidSet:1726) b4b5d084 (DESKTOP-6RVQOQ4-2): set contains 0 items: []
+- 17:19:40.187 INFO   : (@logUuidSet:1726) b4b5d085 (DESKTOP-6RVQOQ4-3): set contains 0 items: []
+- 17:19:40.187 INFO   : (@logUuidSet:1726) b4b5d086 (DESKTOP-6RVQOQ4-4): set contains 0 items: []
+- 17:19:40.187 INFO   : (@PlaybackNodeManager::processMessage_SetConfiguration:1164) (role:1)- empty universes
+- 17:19:40.187 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes - END  : dpuId=b4b5d082 pbnId=b4b5d083 (DESKTOP-6RVQOQ4-1) - newUni : set contains 1 items: [0]
+- 17:19:40.187 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes - END  : dpuId=b4b5d082 pbnId=b4b5d084 (DESKTOP-6RVQOQ4-2) - newUni : set contains 0 items: []
+- 17:19:40.187 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes - END  : dpuId=b4b5d082 pbnId=b4b5d085 (DESKTOP-6RVQOQ4-3) - newUni : set contains 0 items: []
+- 17:19:40.187 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes - END  : dpuId=b4b5d082 pbnId=b4b5d086 (DESKTOP-6RVQOQ4-4) - newUni : set contains 0 items: []
+- 17:19:40.187 INFO   : (@ByronMotherWidget::refreshDmxFiltersSlot:1577) Effective channels: 0
+- 17:19:55.797 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) patch fixtures (type 64)
+- 17:19:55.797 INFO   : (@ByronMotherWidget::refreshDmxFiltersSlot:1577) Effective channels: 0
+- 17:19:56.297 INFO   : (@ByronMotherWidget::reallocatePlaybackUniversesNow:2830) Recreating Playback Universes
+- 17:19:56.297 INFO   : (@PlaybackNodeManager::redistributeFixturesToPlaybackNodes:1822) Ignoring non-playbackNode: b4b5d082 (DESKTOP-6RVQOQ4-UI)
+- 17:19:56.297 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes - A  : dpuId=b4b5d082 pbnId=b4b5d083 (DESKTOP-6RVQOQ4-1) - newUni : set contains 1 items: [0]
+- 17:19:56.297 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes - A  : dpuId=b4b5d082 pbnId=b4b5d084 (DESKTOP-6RVQOQ4-2) - newUni : set contains 0 items: []
+- 17:19:56.297 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes - A  : dpuId=b4b5d082 pbnId=b4b5d085 (DESKTOP-6RVQOQ4-3) - newUni : set contains 0 items: []
+- 17:19:56.297 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes - A  : dpuId=b4b5d082 pbnId=b4b5d086 (DESKTOP-6RVQOQ4-4) - newUni : set contains 0 items: []
+- 17:19:56.297 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes: Distributing uni for playback engine b4b5d083 (DESKTOP-6RVQOQ4-1) on hostID b4b5d082 [10.0.0.7]: set contains 1 items: [0]
+- 17:19:56.297 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes: Distributing uni for playback engine b4b5d084 (DESKTOP-6RVQOQ4-2) on hostID b4b5d082 [10.0.0.7]: set contains 0 items: []
+- 17:19:56.297 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes: Distributing uni for playback engine b4b5d085 (DESKTOP-6RVQOQ4-3) on hostID b4b5d082 [10.0.0.7]: set contains 0 items: []
+- 17:19:56.297 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes: Distributing uni for playback engine b4b5d086 (DESKTOP-6RVQOQ4-4) on hostID b4b5d082 [10.0.0.7]: set contains 0 items: []
+- 17:19:56.297 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes - B  : dpuId=b4b5d082 pbnId=b4b5d083 (DESKTOP-6RVQOQ4-1) - newUni : set contains 1 items: [0]
+- 17:19:56.297 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes - B  : dpuId=b4b5d082 pbnId=b4b5d084 (DESKTOP-6RVQOQ4-2) - newUni : set contains 0 items: []
+*** Message repeated 6 more times ***
+- 17:19:56.297 INFO   : (@logAllocations:1737) Actual universe allocations are as follows:
+- 17:19:56.297 INFO   : (@logIntSet:489) b4b5d083 (DESKTOP-6RVQOQ4-1): set contains 1 items: [0]
+- 17:19:56.297 INFO   : (@logAllocations:1742) Actual pool allocations are as follows:
+- 17:19:56.297 INFO   : (@logUuidSet:1726) b4b5d083 (DESKTOP-6RVQOQ4-1): set contains 0 items: []
+- 17:19:56.297 INFO   : (@logUuidSet:1726) b4b5d084 (DESKTOP-6RVQOQ4-2): set contains 0 items: []
+- 17:19:56.297 INFO   : (@logUuidSet:1726) b4b5d085 (DESKTOP-6RVQOQ4-3): set contains 0 items: []
+- 17:19:56.297 INFO   : (@logUuidSet:1726) b4b5d086 (DESKTOP-6RVQOQ4-4): set contains 0 items: []
+- 17:19:56.297 INFO   : (@PlaybackNodeManager::processMessage_SetConfiguration:1164) (role:1)- empty universes
+- 17:19:56.297 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes - END  : dpuId=b4b5d082 pbnId=b4b5d083 (DESKTOP-6RVQOQ4-1) - newUni : set contains 1 items: [0]
+- 17:19:56.297 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes - END  : dpuId=b4b5d082 pbnId=b4b5d084 (DESKTOP-6RVQOQ4-2) - newUni : set contains 0 items: []
+- 17:19:56.297 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes - END  : dpuId=b4b5d082 pbnId=b4b5d085 (DESKTOP-6RVQOQ4-3) - newUni : set contains 0 items: []
+- 17:19:56.297 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes - END  : dpuId=b4b5d082 pbnId=b4b5d086 (DESKTOP-6RVQOQ4-4) - newUni : set contains 0 items: []
+- 17:19:56.297 INFO   : (@ByronMotherWidget::refreshDmxFiltersSlot:1577) Effective channels: 0
+- 17:20:13.359 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) patch fixtures (type 64)
+- 17:20:13.375 INFO   : (@ByronMotherWidget::refreshDmxFiltersSlot:1577) Effective channels: 0
+- 17:20:13.875 INFO   : (@ByronMotherWidget::reallocatePlaybackUniversesNow:2830) Recreating Playback Universes
+- 17:20:13.875 INFO   : (@PlaybackNodeManager::redistributeFixturesToPlaybackNodes:1822) Ignoring non-playbackNode: b4b5d082 (DESKTOP-6RVQOQ4-UI)
+- 17:20:13.875 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes - A  : dpuId=b4b5d082 pbnId=b4b5d083 (DESKTOP-6RVQOQ4-1) - newUni : set contains 1 items: [0]
+- 17:20:13.875 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes - A  : dpuId=b4b5d082 pbnId=b4b5d084 (DESKTOP-6RVQOQ4-2) - newUni : set contains 0 items: []
+- 17:20:13.875 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes - A  : dpuId=b4b5d082 pbnId=b4b5d085 (DESKTOP-6RVQOQ4-3) - newUni : set contains 0 items: []
+- 17:20:13.875 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes - A  : dpuId=b4b5d082 pbnId=b4b5d086 (DESKTOP-6RVQOQ4-4) - newUni : set contains 0 items: []
+- 17:20:13.875 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes: Distributing uni for playback engine b4b5d083 (DESKTOP-6RVQOQ4-1) on hostID b4b5d082 [10.0.0.7]: set contains 1 items: [0]
+- 17:20:13.875 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes: Distributing uni for playback engine b4b5d084 (DESKTOP-6RVQOQ4-2) on hostID b4b5d082 [10.0.0.7]: set contains 0 items: []
+- 17:20:13.875 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes: Distributing uni for playback engine b4b5d085 (DESKTOP-6RVQOQ4-3) on hostID b4b5d082 [10.0.0.7]: set contains 0 items: []
+- 17:20:13.875 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes: Distributing uni for playback engine b4b5d086 (DESKTOP-6RVQOQ4-4) on hostID b4b5d082 [10.0.0.7]: set contains 0 items: []
+- 17:20:13.875 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes - B  : dpuId=b4b5d082 pbnId=b4b5d083 (DESKTOP-6RVQOQ4-1) - newUni : set contains 1 items: [0]
+- 17:20:13.875 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes - B  : dpuId=b4b5d082 pbnId=b4b5d084 (DESKTOP-6RVQOQ4-2) - newUni : set contains 0 items: []
+*** Message repeated 6 more times ***
+- 17:20:13.875 INFO   : (@logAllocations:1737) Actual universe allocations are as follows:
+- 17:20:13.875 INFO   : (@logIntSet:489) b4b5d083 (DESKTOP-6RVQOQ4-1): set contains 1 items: [0]
+- 17:20:13.875 INFO   : (@logAllocations:1742) Actual pool allocations are as follows:
+- 17:20:13.875 INFO   : (@logUuidSet:1726) b4b5d083 (DESKTOP-6RVQOQ4-1): set contains 0 items: []
+- 17:20:13.875 INFO   : (@logUuidSet:1726) b4b5d084 (DESKTOP-6RVQOQ4-2): set contains 0 items: []
+- 17:20:13.875 INFO   : (@logUuidSet:1726) b4b5d085 (DESKTOP-6RVQOQ4-3): set contains 0 items: []
+- 17:20:13.875 INFO   : (@logUuidSet:1726) b4b5d086 (DESKTOP-6RVQOQ4-4): set contains 0 items: []
+- 17:20:13.875 INFO   : (@PlaybackNodeManager::processMessage_SetConfiguration:1164) (role:1)- empty universes
+- 17:20:13.875 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes - END  : dpuId=b4b5d082 pbnId=b4b5d083 (DESKTOP-6RVQOQ4-1) - newUni : set contains 1 items: [0]
+- 17:20:13.875 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes - END  : dpuId=b4b5d082 pbnId=b4b5d084 (DESKTOP-6RVQOQ4-2) - newUni : set contains 0 items: []
+- 17:20:13.875 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes - END  : dpuId=b4b5d082 pbnId=b4b5d085 (DESKTOP-6RVQOQ4-3) - newUni : set contains 0 items: []
+- 17:20:13.875 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes - END  : dpuId=b4b5d082 pbnId=b4b5d086 (DESKTOP-6RVQOQ4-4) - newUni : set contains 0 items: []
+- 17:20:13.875 INFO   : (@ByronMotherWidget::refreshDmxFiltersSlot:1577) Effective channels: 0
+- 17:20:15.422 INFO   : (@ByronApplication::onActionTriggered:164) Undo patch fixtures
+- 17:20:15.437 INFO   : (@ByronMotherWidget::refreshDmxFiltersSlot:1577) Effective channels: 0
+- 17:20:15.453 INFO   : (@FixtureOutputCache::Impl::getIteratorForFixture:105) FixtureOutputCache is invalid, fixture:'' not found
+- 17:20:15.453 INFO   : (@FixtureOutputCache::Impl::getIteratorForFixture:105) FixtureOutputCache is invalid, fixture:'' not found
+- 17:20:15.453 INFO   : (@FixtureOutputCache::Impl::getIteratorForFixture:105) FixtureOutputCache is invalid, fixture:'' not found
+- 17:20:15.453 INFO   : (@FixtureOutputCache::Impl::getIteratorForFixture:105) FixtureOutputCache is invalid, fixture:'' not found
+- 17:20:15.453 INFO   : (@FixtureOutputCache::Impl::getIteratorForFixture:105) FixtureOutputCache is invalid, fixture:'' not found
+- 17:20:15.453 INFO   : (@FixtureOutputCache::Impl::getIteratorForFixture:105) FixtureOutputCache is invalid, fixture:'' not found
+- 17:20:15.453 INFO   : (@FixtureOutputCache::Impl::getIteratorForFixture:105) FixtureOutputCache is invalid, fixture:'' not found
+- 17:20:15.453 INFO   : (@FixtureOutputCache::Impl::getIteratorForFixture:105) FixtureOutputCache is invalid, fixture:'' not found
+- 17:20:15.453 INFO   : (@FixtureOutputCache::Impl::getIteratorForFixture:105) FixtureOutputCache is invalid, fixture:'' not found
+- 17:20:15.453 INFO   : (@FixtureOutputCache::Impl::getIteratorForFixture:105) FixtureOutputCache is invalid, fixture:'' not found
+*** Message repeated 74 more times ***
+- 17:20:15.937 INFO   : (@ByronMotherWidget::reallocatePlaybackUniversesNow:2830) Recreating Playback Universes
+- 17:20:15.937 INFO   : (@PlaybackNodeManager::redistributeFixturesToPlaybackNodes:1822) Ignoring non-playbackNode: b4b5d082 (DESKTOP-6RVQOQ4-UI)
+- 17:20:15.937 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes - A  : dpuId=b4b5d082 pbnId=b4b5d083 (DESKTOP-6RVQOQ4-1) - newUni : set contains 1 items: [0]
+- 17:20:15.937 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes - A  : dpuId=b4b5d082 pbnId=b4b5d084 (DESKTOP-6RVQOQ4-2) - newUni : set contains 0 items: []
+- 17:20:15.937 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes - A  : dpuId=b4b5d082 pbnId=b4b5d085 (DESKTOP-6RVQOQ4-3) - newUni : set contains 0 items: []
+- 17:20:15.937 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes - A  : dpuId=b4b5d082 pbnId=b4b5d086 (DESKTOP-6RVQOQ4-4) - newUni : set contains 0 items: []
+- 17:20:15.937 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes: Distributing uni for playback engine b4b5d083 (DESKTOP-6RVQOQ4-1) on hostID b4b5d082 [10.0.0.7]: set contains 1 items: [0]
+- 17:20:15.937 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes: Distributing uni for playback engine b4b5d084 (DESKTOP-6RVQOQ4-2) on hostID b4b5d082 [10.0.0.7]: set contains 0 items: []
+- 17:20:15.937 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes: Distributing uni for playback engine b4b5d085 (DESKTOP-6RVQOQ4-3) on hostID b4b5d082 [10.0.0.7]: set contains 0 items: []
+- 17:20:15.937 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes: Distributing uni for playback engine b4b5d086 (DESKTOP-6RVQOQ4-4) on hostID b4b5d082 [10.0.0.7]: set contains 0 items: []
+- 17:20:15.937 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes - B  : dpuId=b4b5d082 pbnId=b4b5d083 (DESKTOP-6RVQOQ4-1) - newUni : set contains 1 items: [0]
+- 17:20:15.937 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes - B  : dpuId=b4b5d082 pbnId=b4b5d084 (DESKTOP-6RVQOQ4-2) - newUni : set contains 0 items: []
+*** Message repeated 6 more times ***
+- 17:20:15.937 INFO   : (@logAllocations:1737) Actual universe allocations are as follows:
+- 17:20:15.937 INFO   : (@logIntSet:489) b4b5d083 (DESKTOP-6RVQOQ4-1): set contains 1 items: [0]
+- 17:20:15.937 INFO   : (@logAllocations:1742) Actual pool allocations are as follows:
+- 17:20:15.937 INFO   : (@logUuidSet:1726) b4b5d083 (DESKTOP-6RVQOQ4-1): set contains 0 items: []
+- 17:20:15.937 INFO   : (@logUuidSet:1726) b4b5d084 (DESKTOP-6RVQOQ4-2): set contains 0 items: []
+- 17:20:15.937 INFO   : (@logUuidSet:1726) b4b5d085 (DESKTOP-6RVQOQ4-3): set contains 0 items: []
+- 17:20:15.937 INFO   : (@logUuidSet:1726) b4b5d086 (DESKTOP-6RVQOQ4-4): set contains 0 items: []
+- 17:20:15.937 INFO   : (@PlaybackNodeManager::processMessage_SetConfiguration:1164) (role:1)- empty universes
+- 17:20:15.937 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes - END  : dpuId=b4b5d082 pbnId=b4b5d083 (DESKTOP-6RVQOQ4-1) - newUni : set contains 1 items: [0]
+- 17:20:15.937 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes - END  : dpuId=b4b5d082 pbnId=b4b5d084 (DESKTOP-6RVQOQ4-2) - newUni : set contains 0 items: []
+- 17:20:15.937 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes - END  : dpuId=b4b5d082 pbnId=b4b5d085 (DESKTOP-6RVQOQ4-3) - newUni : set contains 0 items: []
+- 17:20:15.937 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes - END  : dpuId=b4b5d082 pbnId=b4b5d086 (DESKTOP-6RVQOQ4-4) - newUni : set contains 0 items: []
+- 17:20:15.937 INFO   : (@ByronMotherWidget::refreshDmxFiltersSlot:1577) Effective channels: 0
+- 17:20:17.265 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) patch fixtures (type 64)
+- 17:20:17.281 INFO   : (@ByronMotherWidget::refreshDmxFiltersSlot:1577) Effective channels: 0
+- 17:20:17.781 INFO   : (@ByronMotherWidget::reallocatePlaybackUniversesNow:2830) Recreating Playback Universes
+- 17:20:17.781 INFO   : (@PlaybackNodeManager::redistributeFixturesToPlaybackNodes:1822) Ignoring non-playbackNode: b4b5d082 (DESKTOP-6RVQOQ4-UI)
+- 17:20:17.781 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes - A  : dpuId=b4b5d082 pbnId=b4b5d083 (DESKTOP-6RVQOQ4-1) - newUni : set contains 1 items: [0]
+- 17:20:17.781 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes - A  : dpuId=b4b5d082 pbnId=b4b5d084 (DESKTOP-6RVQOQ4-2) - newUni : set contains 0 items: []
+- 17:20:17.781 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes - A  : dpuId=b4b5d082 pbnId=b4b5d085 (DESKTOP-6RVQOQ4-3) - newUni : set contains 0 items: []
+- 17:20:17.781 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes - A  : dpuId=b4b5d082 pbnId=b4b5d086 (DESKTOP-6RVQOQ4-4) - newUni : set contains 0 items: []
+- 17:20:17.781 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes: Distributing uni for playback engine b4b5d083 (DESKTOP-6RVQOQ4-1) on hostID b4b5d082 [10.0.0.7]: set contains 1 items: [0]
+- 17:20:17.781 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes: Distributing uni for playback engine b4b5d084 (DESKTOP-6RVQOQ4-2) on hostID b4b5d082 [10.0.0.7]: set contains 0 items: []
+- 17:20:17.781 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes: Distributing uni for playback engine b4b5d085 (DESKTOP-6RVQOQ4-3) on hostID b4b5d082 [10.0.0.7]: set contains 0 items: []
+- 17:20:17.781 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes: Distributing uni for playback engine b4b5d086 (DESKTOP-6RVQOQ4-4) on hostID b4b5d082 [10.0.0.7]: set contains 0 items: []
+- 17:20:17.781 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes - B  : dpuId=b4b5d082 pbnId=b4b5d083 (DESKTOP-6RVQOQ4-1) - newUni : set contains 1 items: [0]
+- 17:20:17.781 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes - B  : dpuId=b4b5d082 pbnId=b4b5d084 (DESKTOP-6RVQOQ4-2) - newUni : set contains 0 items: []
+*** Message repeated 6 more times ***
+- 17:20:17.781 INFO   : (@logAllocations:1737) Actual universe allocations are as follows:
+- 17:20:17.781 INFO   : (@logIntSet:489) b4b5d083 (DESKTOP-6RVQOQ4-1): set contains 1 items: [0]
+- 17:20:17.781 INFO   : (@logAllocations:1742) Actual pool allocations are as follows:
+- 17:20:17.781 INFO   : (@logUuidSet:1726) b4b5d083 (DESKTOP-6RVQOQ4-1): set contains 0 items: []
+- 17:20:17.781 INFO   : (@logUuidSet:1726) b4b5d084 (DESKTOP-6RVQOQ4-2): set contains 0 items: []
+- 17:20:17.781 INFO   : (@logUuidSet:1726) b4b5d085 (DESKTOP-6RVQOQ4-3): set contains 0 items: []
+- 17:20:17.781 INFO   : (@logUuidSet:1726) b4b5d086 (DESKTOP-6RVQOQ4-4): set contains 0 items: []
+- 17:20:17.781 INFO   : (@PlaybackNodeManager::processMessage_SetConfiguration:1164) (role:1)- empty universes
+- 17:20:17.781 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes - END  : dpuId=b4b5d082 pbnId=b4b5d083 (DESKTOP-6RVQOQ4-1) - newUni : set contains 1 items: [0]
+- 17:20:17.781 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes - END  : dpuId=b4b5d082 pbnId=b4b5d084 (DESKTOP-6RVQOQ4-2) - newUni : set contains 0 items: []
+- 17:20:17.781 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes - END  : dpuId=b4b5d082 pbnId=b4b5d085 (DESKTOP-6RVQOQ4-3) - newUni : set contains 0 items: []
+- 17:20:17.781 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes - END  : dpuId=b4b5d082 pbnId=b4b5d086 (DESKTOP-6RVQOQ4-4) - newUni : set contains 0 items: []
+- 17:20:17.781 INFO   : (@ByronMotherWidget::refreshDmxFiltersSlot:1577) Effective channels: 0
+- 17:20:18.640 INFO   : (@ByronApplication::onActionTriggered:164) Undo patch fixtures
+- 17:20:18.656 INFO   : (@ByronMotherWidget::refreshDmxFiltersSlot:1577) Effective channels: 0
+- 17:20:18.672 INFO   : (@FixtureOutputCache::Impl::getIteratorForFixture:105) FixtureOutputCache is invalid, fixture:'' not found
+- 17:20:18.672 INFO   : (@FixtureOutputCache::Impl::getIteratorForFixture:105) FixtureOutputCache is invalid, fixture:'' not found
+- 17:20:18.672 INFO   : (@FixtureOutputCache::Impl::getIteratorForFixture:105) FixtureOutputCache is invalid, fixture:'' not found
+- 17:20:18.672 INFO   : (@FixtureOutputCache::Impl::getIteratorForFixture:105) FixtureOutputCache is invalid, fixture:'' not found
+- 17:20:18.672 INFO   : (@FixtureOutputCache::Impl::getIteratorForFixture:105) FixtureOutputCache is invalid, fixture:'' not found
+- 17:20:18.672 INFO   : (@FixtureOutputCache::Impl::getIteratorForFixture:105) FixtureOutputCache is invalid, fixture:'' not found
+- 17:20:18.672 INFO   : (@FixtureOutputCache::Impl::getIteratorForFixture:105) FixtureOutputCache is invalid, fixture:'' not found
+- 17:20:18.672 INFO   : (@FixtureOutputCache::Impl::getIteratorForFixture:105) FixtureOutputCache is invalid, fixture:'' not found
+- 17:20:18.672 INFO   : (@FixtureOutputCache::Impl::getIteratorForFixture:105) FixtureOutputCache is invalid, fixture:'' not found
+- 17:20:18.672 INFO   : (@FixtureOutputCache::Impl::getIteratorForFixture:105) FixtureOutputCache is invalid, fixture:'' not found
+*** Message repeated 4 more times ***
+- 17:20:19.156 INFO   : (@ByronMotherWidget::reallocatePlaybackUniversesNow:2830) Recreating Playback Universes
+- 17:20:19.156 INFO   : (@PlaybackNodeManager::redistributeFixturesToPlaybackNodes:1822) Ignoring non-playbackNode: b4b5d082 (DESKTOP-6RVQOQ4-UI)
+- 17:20:19.156 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes - A  : dpuId=b4b5d082 pbnId=b4b5d083 (DESKTOP-6RVQOQ4-1) - newUni : set contains 1 items: [0]
+- 17:20:19.156 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes - A  : dpuId=b4b5d082 pbnId=b4b5d084 (DESKTOP-6RVQOQ4-2) - newUni : set contains 0 items: []
+- 17:20:19.156 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes - A  : dpuId=b4b5d082 pbnId=b4b5d085 (DESKTOP-6RVQOQ4-3) - newUni : set contains 0 items: []
+- 17:20:19.156 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes - A  : dpuId=b4b5d082 pbnId=b4b5d086 (DESKTOP-6RVQOQ4-4) - newUni : set contains 0 items: []
+- 17:20:19.156 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes: Distributing uni for playback engine b4b5d083 (DESKTOP-6RVQOQ4-1) on hostID b4b5d082 [10.0.0.7]: set contains 1 items: [0]
+- 17:20:19.156 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes: Distributing uni for playback engine b4b5d084 (DESKTOP-6RVQOQ4-2) on hostID b4b5d082 [10.0.0.7]: set contains 0 items: []
+- 17:20:19.156 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes: Distributing uni for playback engine b4b5d085 (DESKTOP-6RVQOQ4-3) on hostID b4b5d082 [10.0.0.7]: set contains 0 items: []
+- 17:20:19.156 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes: Distributing uni for playback engine b4b5d086 (DESKTOP-6RVQOQ4-4) on hostID b4b5d082 [10.0.0.7]: set contains 0 items: []
+- 17:20:19.156 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes - B  : dpuId=b4b5d082 pbnId=b4b5d083 (DESKTOP-6RVQOQ4-1) - newUni : set contains 1 items: [0]
+- 17:20:19.156 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes - B  : dpuId=b4b5d082 pbnId=b4b5d084 (DESKTOP-6RVQOQ4-2) - newUni : set contains 0 items: []
+*** Message repeated 6 more times ***
+- 17:20:19.156 INFO   : (@logAllocations:1737) Actual universe allocations are as follows:
+- 17:20:19.156 INFO   : (@logIntSet:489) b4b5d083 (DESKTOP-6RVQOQ4-1): set contains 1 items: [0]
+- 17:20:19.156 INFO   : (@logAllocations:1742) Actual pool allocations are as follows:
+- 17:20:19.156 INFO   : (@logUuidSet:1726) b4b5d083 (DESKTOP-6RVQOQ4-1): set contains 0 items: []
+- 17:20:19.156 INFO   : (@logUuidSet:1726) b4b5d084 (DESKTOP-6RVQOQ4-2): set contains 0 items: []
+- 17:20:19.156 INFO   : (@logUuidSet:1726) b4b5d085 (DESKTOP-6RVQOQ4-3): set contains 0 items: []
+- 17:20:19.156 INFO   : (@logUuidSet:1726) b4b5d086 (DESKTOP-6RVQOQ4-4): set contains 0 items: []
+- 17:20:19.156 INFO   : (@PlaybackNodeManager::processMessage_SetConfiguration:1164) (role:1)- empty universes
+- 17:20:19.156 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes - END  : dpuId=b4b5d082 pbnId=b4b5d083 (DESKTOP-6RVQOQ4-1) - newUni : set contains 1 items: [0]
+- 17:20:19.156 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes - END  : dpuId=b4b5d082 pbnId=b4b5d084 (DESKTOP-6RVQOQ4-2) - newUni : set contains 0 items: []
+- 17:20:19.156 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes - END  : dpuId=b4b5d082 pbnId=b4b5d085 (DESKTOP-6RVQOQ4-3) - newUni : set contains 0 items: []
+- 17:20:19.156 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes - END  : dpuId=b4b5d082 pbnId=b4b5d086 (DESKTOP-6RVQOQ4-4) - newUni : set contains 0 items: []
+- 17:20:19.156 INFO   : (@ByronMotherWidget::refreshDmxFiltersSlot:1577) Effective channels: 0
+- 17:20:26.875 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) patch fixtures (type 64)
+- 17:20:26.875 INFO   : (@ByronMotherWidget::refreshDmxFiltersSlot:1577) Effective channels: 0
+- 17:20:27.375 INFO   : (@ByronMotherWidget::reallocatePlaybackUniversesNow:2830) Recreating Playback Universes
+- 17:20:27.375 INFO   : (@PlaybackNodeManager::redistributeFixturesToPlaybackNodes:1822) Ignoring non-playbackNode: b4b5d082 (DESKTOP-6RVQOQ4-UI)
+- 17:20:27.375 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes - A  : dpuId=b4b5d082 pbnId=b4b5d083 (DESKTOP-6RVQOQ4-1) - newUni : set contains 1 items: [0]
+- 17:20:27.375 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes - A  : dpuId=b4b5d082 pbnId=b4b5d084 (DESKTOP-6RVQOQ4-2) - newUni : set contains 0 items: []
+- 17:20:27.375 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes - A  : dpuId=b4b5d082 pbnId=b4b5d085 (DESKTOP-6RVQOQ4-3) - newUni : set contains 0 items: []
+- 17:20:27.375 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes - A  : dpuId=b4b5d082 pbnId=b4b5d086 (DESKTOP-6RVQOQ4-4) - newUni : set contains 0 items: []
+- 17:20:27.375 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes: Distributing uni for playback engine b4b5d083 (DESKTOP-6RVQOQ4-1) on hostID b4b5d082 [10.0.0.7]: set contains 1 items: [0]
+- 17:20:27.375 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes: Distributing uni for playback engine b4b5d084 (DESKTOP-6RVQOQ4-2) on hostID b4b5d082 [10.0.0.7]: set contains 0 items: []
+- 17:20:27.375 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes: Distributing uni for playback engine b4b5d085 (DESKTOP-6RVQOQ4-3) on hostID b4b5d082 [10.0.0.7]: set contains 0 items: []
+- 17:20:27.375 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes: Distributing uni for playback engine b4b5d086 (DESKTOP-6RVQOQ4-4) on hostID b4b5d082 [10.0.0.7]: set contains 0 items: []
+- 17:20:27.375 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes - B  : dpuId=b4b5d082 pbnId=b4b5d083 (DESKTOP-6RVQOQ4-1) - newUni : set contains 1 items: [0]
+- 17:20:27.375 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes - B  : dpuId=b4b5d082 pbnId=b4b5d084 (DESKTOP-6RVQOQ4-2) - newUni : set contains 0 items: []
+*** Message repeated 6 more times ***
+- 17:20:27.375 INFO   : (@logAllocations:1737) Actual universe allocations are as follows:
+- 17:20:27.375 INFO   : (@logIntSet:489) b4b5d083 (DESKTOP-6RVQOQ4-1): set contains 1 items: [0]
+- 17:20:27.375 INFO   : (@logAllocations:1742) Actual pool allocations are as follows:
+- 17:20:27.375 INFO   : (@logUuidSet:1726) b4b5d083 (DESKTOP-6RVQOQ4-1): set contains 0 items: []
+- 17:20:27.375 INFO   : (@logUuidSet:1726) b4b5d084 (DESKTOP-6RVQOQ4-2): set contains 0 items: []
+- 17:20:27.375 INFO   : (@logUuidSet:1726) b4b5d085 (DESKTOP-6RVQOQ4-3): set contains 0 items: []
+- 17:20:27.375 INFO   : (@logUuidSet:1726) b4b5d086 (DESKTOP-6RVQOQ4-4): set contains 0 items: []
+- 17:20:27.375 INFO   : (@PlaybackNodeManager::processMessage_SetConfiguration:1164) (role:1)- empty universes
+- 17:20:27.375 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes - END  : dpuId=b4b5d082 pbnId=b4b5d083 (DESKTOP-6RVQOQ4-1) - newUni : set contains 1 items: [0]
+- 17:20:27.375 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes - END  : dpuId=b4b5d082 pbnId=b4b5d084 (DESKTOP-6RVQOQ4-2) - newUni : set contains 0 items: []
+- 17:20:27.375 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes - END  : dpuId=b4b5d082 pbnId=b4b5d085 (DESKTOP-6RVQOQ4-3) - newUni : set contains 0 items: []
+- 17:20:27.375 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes - END  : dpuId=b4b5d082 pbnId=b4b5d086 (DESKTOP-6RVQOQ4-4) - newUni : set contains 0 items: []
+- 17:20:27.390 INFO   : (@ByronMotherWidget::refreshDmxFiltersSlot:1577) Effective channels: 0
+- 17:20:35.922 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) patch fixtures (type 64)
+- 17:20:35.922 INFO   : (@ByronMotherWidget::refreshDmxFiltersSlot:1577) Effective channels: 0
+- 17:20:36.422 INFO   : (@ByronMotherWidget::reallocatePlaybackUniversesNow:2830) Recreating Playback Universes
+- 17:20:36.422 INFO   : (@PlaybackNodeManager::redistributeFixturesToPlaybackNodes:1822) Ignoring non-playbackNode: b4b5d082 (DESKTOP-6RVQOQ4-UI)
+- 17:20:36.422 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes - A  : dpuId=b4b5d082 pbnId=b4b5d083 (DESKTOP-6RVQOQ4-1) - newUni : set contains 1 items: [0]
+- 17:20:36.422 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes - A  : dpuId=b4b5d082 pbnId=b4b5d084 (DESKTOP-6RVQOQ4-2) - newUni : set contains 0 items: []
+- 17:20:36.422 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes - A  : dpuId=b4b5d082 pbnId=b4b5d085 (DESKTOP-6RVQOQ4-3) - newUni : set contains 0 items: []
+- 17:20:36.422 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes - A  : dpuId=b4b5d082 pbnId=b4b5d086 (DESKTOP-6RVQOQ4-4) - newUni : set contains 0 items: []
+- 17:20:36.422 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes: Distributing uni for playback engine b4b5d083 (DESKTOP-6RVQOQ4-1) on hostID b4b5d082 [10.0.0.7]: set contains 1 items: [0]
+- 17:20:36.422 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes: Distributing uni for playback engine b4b5d084 (DESKTOP-6RVQOQ4-2) on hostID b4b5d082 [10.0.0.7]: set contains 0 items: []
+- 17:20:36.422 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes: Distributing uni for playback engine b4b5d085 (DESKTOP-6RVQOQ4-3) on hostID b4b5d082 [10.0.0.7]: set contains 0 items: []
+- 17:20:36.422 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes: Distributing uni for playback engine b4b5d086 (DESKTOP-6RVQOQ4-4) on hostID b4b5d082 [10.0.0.7]: set contains 0 items: []
+- 17:20:36.422 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes - B  : dpuId=b4b5d082 pbnId=b4b5d083 (DESKTOP-6RVQOQ4-1) - newUni : set contains 1 items: [0]
+- 17:20:36.422 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes - B  : dpuId=b4b5d082 pbnId=b4b5d084 (DESKTOP-6RVQOQ4-2) - newUni : set contains 0 items: []
+*** Message repeated 6 more times ***
+- 17:20:36.422 INFO   : (@logAllocations:1737) Actual universe allocations are as follows:
+- 17:20:36.422 INFO   : (@logIntSet:489) b4b5d083 (DESKTOP-6RVQOQ4-1): set contains 1 items: [0]
+- 17:20:36.422 INFO   : (@logAllocations:1742) Actual pool allocations are as follows:
+- 17:20:36.422 INFO   : (@logUuidSet:1726) b4b5d083 (DESKTOP-6RVQOQ4-1): set contains 0 items: []
+- 17:20:36.422 INFO   : (@logUuidSet:1726) b4b5d084 (DESKTOP-6RVQOQ4-2): set contains 0 items: []
+- 17:20:36.422 INFO   : (@logUuidSet:1726) b4b5d085 (DESKTOP-6RVQOQ4-3): set contains 0 items: []
+- 17:20:36.422 INFO   : (@logUuidSet:1726) b4b5d086 (DESKTOP-6RVQOQ4-4): set contains 0 items: []
+- 17:20:36.422 INFO   : (@PlaybackNodeManager::processMessage_SetConfiguration:1164) (role:1)- empty universes
+- 17:20:36.422 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes - END  : dpuId=b4b5d082 pbnId=b4b5d083 (DESKTOP-6RVQOQ4-1) - newUni : set contains 1 items: [0]
+- 17:20:36.422 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes - END  : dpuId=b4b5d082 pbnId=b4b5d084 (DESKTOP-6RVQOQ4-2) - newUni : set contains 0 items: []
+- 17:20:36.422 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes - END  : dpuId=b4b5d082 pbnId=b4b5d085 (DESKTOP-6RVQOQ4-3) - newUni : set contains 0 items: []
+- 17:20:36.422 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes - END  : dpuId=b4b5d082 pbnId=b4b5d086 (DESKTOP-6RVQOQ4-4) - newUni : set contains 0 items: []
+- 17:20:36.422 INFO   : (@ByronMotherWidget::refreshDmxFiltersSlot:1577) Effective channels: 0
+- 17:21:00.953 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) patch fixtures (type 64)
+- 17:21:00.968 INFO   : (@ByronMotherWidget::refreshDmxFiltersSlot:1577) Effective channels: 0
+- 17:21:01.468 INFO   : (@ByronMotherWidget::reallocatePlaybackUniversesNow:2830) Recreating Playback Universes
+- 17:21:01.468 INFO   : (@PlaybackNodeManager::redistributeFixturesToPlaybackNodes:1822) Ignoring non-playbackNode: b4b5d082 (DESKTOP-6RVQOQ4-UI)
+- 17:21:01.468 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes - A  : dpuId=b4b5d082 pbnId=b4b5d083 (DESKTOP-6RVQOQ4-1) - newUni : set contains 1 items: [0]
+- 17:21:01.468 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes - A  : dpuId=b4b5d082 pbnId=b4b5d084 (DESKTOP-6RVQOQ4-2) - newUni : set contains 0 items: []
+- 17:21:01.468 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes - A  : dpuId=b4b5d082 pbnId=b4b5d085 (DESKTOP-6RVQOQ4-3) - newUni : set contains 0 items: []
+- 17:21:01.468 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes - A  : dpuId=b4b5d082 pbnId=b4b5d086 (DESKTOP-6RVQOQ4-4) - newUni : set contains 0 items: []
+- 17:21:01.468 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes: Distributing uni for playback engine b4b5d083 (DESKTOP-6RVQOQ4-1) on hostID b4b5d082 [10.0.0.7]: set contains 1 items: [0]
+- 17:21:01.468 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes: Distributing uni for playback engine b4b5d084 (DESKTOP-6RVQOQ4-2) on hostID b4b5d082 [10.0.0.7]: set contains 0 items: []
+- 17:21:01.468 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes: Distributing uni for playback engine b4b5d085 (DESKTOP-6RVQOQ4-3) on hostID b4b5d082 [10.0.0.7]: set contains 0 items: []
+- 17:21:01.468 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes: Distributing uni for playback engine b4b5d086 (DESKTOP-6RVQOQ4-4) on hostID b4b5d082 [10.0.0.7]: set contains 0 items: []
+- 17:21:01.468 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes - B  : dpuId=b4b5d082 pbnId=b4b5d083 (DESKTOP-6RVQOQ4-1) - newUni : set contains 1 items: [0]
+- 17:21:01.468 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes - B  : dpuId=b4b5d082 pbnId=b4b5d084 (DESKTOP-6RVQOQ4-2) - newUni : set contains 0 items: []
+*** Message repeated 6 more times ***
+- 17:21:01.468 INFO   : (@logAllocations:1737) Actual universe allocations are as follows:
+- 17:21:01.468 INFO   : (@logIntSet:489) b4b5d083 (DESKTOP-6RVQOQ4-1): set contains 1 items: [0]
+- 17:21:01.468 INFO   : (@logAllocations:1742) Actual pool allocations are as follows:
+- 17:21:01.468 INFO   : (@logUuidSet:1726) b4b5d083 (DESKTOP-6RVQOQ4-1): set contains 0 items: []
+- 17:21:01.468 INFO   : (@logUuidSet:1726) b4b5d084 (DESKTOP-6RVQOQ4-2): set contains 0 items: []
+- 17:21:01.468 INFO   : (@logUuidSet:1726) b4b5d085 (DESKTOP-6RVQOQ4-3): set contains 0 items: []
+- 17:21:01.468 INFO   : (@logUuidSet:1726) b4b5d086 (DESKTOP-6RVQOQ4-4): set contains 0 items: []
+- 17:21:01.468 INFO   : (@PlaybackNodeManager::processMessage_SetConfiguration:1164) (role:1)- empty universes
+- 17:21:01.468 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes - END  : dpuId=b4b5d082 pbnId=b4b5d083 (DESKTOP-6RVQOQ4-1) - newUni : set contains 1 items: [0]
+- 17:21:01.468 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes - END  : dpuId=b4b5d082 pbnId=b4b5d084 (DESKTOP-6RVQOQ4-2) - newUni : set contains 0 items: []
+- 17:21:01.468 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes - END  : dpuId=b4b5d082 pbnId=b4b5d085 (DESKTOP-6RVQOQ4-3) - newUni : set contains 0 items: []
+- 17:21:01.468 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes - END  : dpuId=b4b5d082 pbnId=b4b5d086 (DESKTOP-6RVQOQ4-4) - newUni : set contains 0 items: []
+- 17:21:01.468 INFO   : (@ByronMotherWidget::refreshDmxFiltersSlot:1577) Effective channels: 0
+- 17:21:09.484 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) patch fixtures (type 64)
+- 17:21:09.500 INFO   : (@ByronMotherWidget::refreshDmxFiltersSlot:1577) Effective channels: 0
+- 17:21:10.000 INFO   : (@ByronMotherWidget::reallocatePlaybackUniversesNow:2830) Recreating Playback Universes
+- 17:21:10.000 INFO   : (@PlaybackNodeManager::redistributeFixturesToPlaybackNodes:1822) Ignoring non-playbackNode: b4b5d082 (DESKTOP-6RVQOQ4-UI)
+- 17:21:10.000 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes - A  : dpuId=b4b5d082 pbnId=b4b5d083 (DESKTOP-6RVQOQ4-1) - newUni : set contains 1 items: [0]
+- 17:21:10.000 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes - A  : dpuId=b4b5d082 pbnId=b4b5d084 (DESKTOP-6RVQOQ4-2) - newUni : set contains 0 items: []
+- 17:21:10.000 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes - A  : dpuId=b4b5d082 pbnId=b4b5d085 (DESKTOP-6RVQOQ4-3) - newUni : set contains 0 items: []
+- 17:21:10.000 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes - A  : dpuId=b4b5d082 pbnId=b4b5d086 (DESKTOP-6RVQOQ4-4) - newUni : set contains 0 items: []
+- 17:21:10.000 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes: Distributing uni for playback engine b4b5d083 (DESKTOP-6RVQOQ4-1) on hostID b4b5d082 [10.0.0.7]: set contains 1 items: [0]
+- 17:21:10.000 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes: Distributing uni for playback engine b4b5d084 (DESKTOP-6RVQOQ4-2) on hostID b4b5d082 [10.0.0.7]: set contains 0 items: []
+- 17:21:10.000 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes: Distributing uni for playback engine b4b5d085 (DESKTOP-6RVQOQ4-3) on hostID b4b5d082 [10.0.0.7]: set contains 0 items: []
+- 17:21:10.000 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes: Distributing uni for playback engine b4b5d086 (DESKTOP-6RVQOQ4-4) on hostID b4b5d082 [10.0.0.7]: set contains 0 items: []
+- 17:21:10.000 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes - B  : dpuId=b4b5d082 pbnId=b4b5d083 (DESKTOP-6RVQOQ4-1) - newUni : set contains 1 items: [0]
+- 17:21:10.000 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes - B  : dpuId=b4b5d082 pbnId=b4b5d084 (DESKTOP-6RVQOQ4-2) - newUni : set contains 0 items: []
+*** Message repeated 6 more times ***
+- 17:21:10.000 INFO   : (@logAllocations:1737) Actual universe allocations are as follows:
+- 17:21:10.000 INFO   : (@logIntSet:489) b4b5d083 (DESKTOP-6RVQOQ4-1): set contains 1 items: [0]
+- 17:21:10.000 INFO   : (@logAllocations:1742) Actual pool allocations are as follows:
+- 17:21:10.000 INFO   : (@logUuidSet:1726) b4b5d083 (DESKTOP-6RVQOQ4-1): set contains 0 items: []
+- 17:21:10.000 INFO   : (@logUuidSet:1726) b4b5d084 (DESKTOP-6RVQOQ4-2): set contains 0 items: []
+- 17:21:10.000 INFO   : (@logUuidSet:1726) b4b5d085 (DESKTOP-6RVQOQ4-3): set contains 0 items: []
+- 17:21:10.000 INFO   : (@logUuidSet:1726) b4b5d086 (DESKTOP-6RVQOQ4-4): set contains 0 items: []
+- 17:21:10.000 INFO   : (@PlaybackNodeManager::processMessage_SetConfiguration:1164) (role:1)- empty universes
+- 17:21:10.000 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes - END  : dpuId=b4b5d082 pbnId=b4b5d083 (DESKTOP-6RVQOQ4-1) - newUni : set contains 1 items: [0]
+- 17:21:10.000 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes - END  : dpuId=b4b5d082 pbnId=b4b5d084 (DESKTOP-6RVQOQ4-2) - newUni : set contains 0 items: []
+- 17:21:10.000 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes - END  : dpuId=b4b5d082 pbnId=b4b5d085 (DESKTOP-6RVQOQ4-3) - newUni : set contains 0 items: []
+- 17:21:10.000 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes - END  : dpuId=b4b5d082 pbnId=b4b5d086 (DESKTOP-6RVQOQ4-4) - newUni : set contains 0 items: []
+- 17:21:10.000 INFO   : (@ByronMotherWidget::refreshDmxFiltersSlot:1577) Effective channels: 0
+- 17:21:12.797 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) patch fixtures (type 64)
+- 17:21:12.812 INFO   : (@ByronMotherWidget::refreshDmxFiltersSlot:1577) Effective channels: 0
+- 17:21:13.312 INFO   : (@ByronMotherWidget::reallocatePlaybackUniversesNow:2830) Recreating Playback Universes
+- 17:21:13.312 INFO   : (@PlaybackNodeManager::redistributeFixturesToPlaybackNodes:1822) Ignoring non-playbackNode: b4b5d082 (DESKTOP-6RVQOQ4-UI)
+- 17:21:13.312 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes - A  : dpuId=b4b5d082 pbnId=b4b5d083 (DESKTOP-6RVQOQ4-1) - newUni : set contains 1 items: [0]
+- 17:21:13.312 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes - A  : dpuId=b4b5d082 pbnId=b4b5d084 (DESKTOP-6RVQOQ4-2) - newUni : set contains 0 items: []
+- 17:21:13.312 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes - A  : dpuId=b4b5d082 pbnId=b4b5d085 (DESKTOP-6RVQOQ4-3) - newUni : set contains 0 items: []
+- 17:21:13.312 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes - A  : dpuId=b4b5d082 pbnId=b4b5d086 (DESKTOP-6RVQOQ4-4) - newUni : set contains 0 items: []
+- 17:21:13.312 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes: Distributing uni for playback engine b4b5d083 (DESKTOP-6RVQOQ4-1) on hostID b4b5d082 [10.0.0.7]: set contains 1 items: [0]
+- 17:21:13.312 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes: Distributing uni for playback engine b4b5d084 (DESKTOP-6RVQOQ4-2) on hostID b4b5d082 [10.0.0.7]: set contains 0 items: []
+- 17:21:13.312 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes: Distributing uni for playback engine b4b5d085 (DESKTOP-6RVQOQ4-3) on hostID b4b5d082 [10.0.0.7]: set contains 0 items: []
+- 17:21:13.312 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes: Distributing uni for playback engine b4b5d086 (DESKTOP-6RVQOQ4-4) on hostID b4b5d082 [10.0.0.7]: set contains 0 items: []
+- 17:21:13.312 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes - B  : dpuId=b4b5d082 pbnId=b4b5d083 (DESKTOP-6RVQOQ4-1) - newUni : set contains 1 items: [0]
+- 17:21:13.312 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes - B  : dpuId=b4b5d082 pbnId=b4b5d084 (DESKTOP-6RVQOQ4-2) - newUni : set contains 0 items: []
+*** Message repeated 6 more times ***
+- 17:21:13.312 INFO   : (@logAllocations:1737) Actual universe allocations are as follows:
+- 17:21:13.312 INFO   : (@logIntSet:489) b4b5d083 (DESKTOP-6RVQOQ4-1): set contains 1 items: [0]
+- 17:21:13.312 INFO   : (@logAllocations:1742) Actual pool allocations are as follows:
+- 17:21:13.312 INFO   : (@logUuidSet:1726) b4b5d083 (DESKTOP-6RVQOQ4-1): set contains 0 items: []
+- 17:21:13.312 INFO   : (@logUuidSet:1726) b4b5d084 (DESKTOP-6RVQOQ4-2): set contains 0 items: []
+- 17:21:13.312 INFO   : (@logUuidSet:1726) b4b5d085 (DESKTOP-6RVQOQ4-3): set contains 0 items: []
+- 17:21:13.312 INFO   : (@logUuidSet:1726) b4b5d086 (DESKTOP-6RVQOQ4-4): set contains 0 items: []
+- 17:21:13.312 INFO   : (@PlaybackNodeManager::processMessage_SetConfiguration:1164) (role:1)- empty universes
+- 17:21:13.312 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes - END  : dpuId=b4b5d082 pbnId=b4b5d083 (DESKTOP-6RVQOQ4-1) - newUni : set contains 1 items: [0]
+- 17:21:13.312 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes - END  : dpuId=b4b5d082 pbnId=b4b5d084 (DESKTOP-6RVQOQ4-2) - newUni : set contains 0 items: []
+- 17:21:13.312 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes - END  : dpuId=b4b5d082 pbnId=b4b5d085 (DESKTOP-6RVQOQ4-3) - newUni : set contains 0 items: []
+- 17:21:13.312 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes - END  : dpuId=b4b5d082 pbnId=b4b5d086 (DESKTOP-6RVQOQ4-4) - newUni : set contains 0 items: []
+- 17:21:13.312 INFO   : (@ByronMotherWidget::refreshDmxFiltersSlot:1577) Effective channels: 0
+- 17:21:13.359 INFO   : (@ByronApplication::onActionTriggered:164) Undo patch fixtures
+- 17:21:13.359 INFO   : (@ByronMotherWidget::refreshDmxFiltersSlot:1577) Effective channels: 0
+- 17:21:13.859 INFO   : (@ByronMotherWidget::reallocatePlaybackUniversesNow:2830) Recreating Playback Universes
+- 17:21:13.859 INFO   : (@PlaybackNodeManager::redistributeFixturesToPlaybackNodes:1822) Ignoring non-playbackNode: b4b5d082 (DESKTOP-6RVQOQ4-UI)
+- 17:21:13.859 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes - A  : dpuId=b4b5d082 pbnId=b4b5d083 (DESKTOP-6RVQOQ4-1) - newUni : set contains 1 items: [0]
+- 17:21:13.859 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes - A  : dpuId=b4b5d082 pbnId=b4b5d084 (DESKTOP-6RVQOQ4-2) - newUni : set contains 0 items: []
+- 17:21:13.859 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes - A  : dpuId=b4b5d082 pbnId=b4b5d085 (DESKTOP-6RVQOQ4-3) - newUni : set contains 0 items: []
+- 17:21:13.859 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes - A  : dpuId=b4b5d082 pbnId=b4b5d086 (DESKTOP-6RVQOQ4-4) - newUni : set contains 0 items: []
+- 17:21:13.859 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes: Distributing uni for playback engine b4b5d083 (DESKTOP-6RVQOQ4-1) on hostID b4b5d082 [10.0.0.7]: set contains 1 items: [0]
+- 17:21:13.859 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes: Distributing uni for playback engine b4b5d084 (DESKTOP-6RVQOQ4-2) on hostID b4b5d082 [10.0.0.7]: set contains 0 items: []
+- 17:21:13.859 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes: Distributing uni for playback engine b4b5d085 (DESKTOP-6RVQOQ4-3) on hostID b4b5d082 [10.0.0.7]: set contains 0 items: []
+- 17:21:13.859 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes: Distributing uni for playback engine b4b5d086 (DESKTOP-6RVQOQ4-4) on hostID b4b5d082 [10.0.0.7]: set contains 0 items: []
+- 17:21:13.859 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes - B  : dpuId=b4b5d082 pbnId=b4b5d083 (DESKTOP-6RVQOQ4-1) - newUni : set contains 1 items: [0]
+- 17:21:13.859 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes - B  : dpuId=b4b5d082 pbnId=b4b5d084 (DESKTOP-6RVQOQ4-2) - newUni : set contains 0 items: []
+*** Message repeated 6 more times ***
+- 17:21:13.859 INFO   : (@logAllocations:1737) Actual universe allocations are as follows:
+- 17:21:13.859 INFO   : (@logIntSet:489) b4b5d083 (DESKTOP-6RVQOQ4-1): set contains 1 items: [0]
+- 17:21:13.859 INFO   : (@logAllocations:1742) Actual pool allocations are as follows:
+- 17:21:13.859 INFO   : (@logUuidSet:1726) b4b5d083 (DESKTOP-6RVQOQ4-1): set contains 0 items: []
+- 17:21:13.859 INFO   : (@logUuidSet:1726) b4b5d084 (DESKTOP-6RVQOQ4-2): set contains 0 items: []
+- 17:21:13.859 INFO   : (@logUuidSet:1726) b4b5d085 (DESKTOP-6RVQOQ4-3): set contains 0 items: []
+- 17:21:13.859 INFO   : (@logUuidSet:1726) b4b5d086 (DESKTOP-6RVQOQ4-4): set contains 0 items: []
+- 17:21:13.859 INFO   : (@PlaybackNodeManager::processMessage_SetConfiguration:1164) (role:1)- empty universes
+- 17:21:13.859 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes - END  : dpuId=b4b5d082 pbnId=b4b5d083 (DESKTOP-6RVQOQ4-1) - newUni : set contains 1 items: [0]
+- 17:21:13.859 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes - END  : dpuId=b4b5d082 pbnId=b4b5d084 (DESKTOP-6RVQOQ4-2) - newUni : set contains 0 items: []
+- 17:21:13.859 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes - END  : dpuId=b4b5d082 pbnId=b4b5d085 (DESKTOP-6RVQOQ4-3) - newUni : set contains 0 items: []
+- 17:21:13.859 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes - END  : dpuId=b4b5d082 pbnId=b4b5d086 (DESKTOP-6RVQOQ4-4) - newUni : set contains 0 items: []
+- 17:21:13.859 INFO   : (@ByronMotherWidget::refreshDmxFiltersSlot:1577) Effective channels: 0
+- 17:21:16.203 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) patch fixtures (type 64)
+- 17:21:16.203 INFO   : (@ByronMotherWidget::refreshDmxFiltersSlot:1577) Effective channels: 0
+- 17:21:16.859 INFO   : (@ByronMotherWidget::reallocatePlaybackUniversesNow:2830) Recreating Playback Universes
+- 17:21:16.859 INFO   : (@PlaybackNodeManager::redistributeFixturesToPlaybackNodes:1822) Ignoring non-playbackNode: b4b5d082 (DESKTOP-6RVQOQ4-UI)
+- 17:21:16.859 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes - A  : dpuId=b4b5d082 pbnId=b4b5d083 (DESKTOP-6RVQOQ4-1) - newUni : set contains 1 items: [0]
+- 17:21:16.859 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes - A  : dpuId=b4b5d082 pbnId=b4b5d084 (DESKTOP-6RVQOQ4-2) - newUni : set contains 0 items: []
+- 17:21:16.859 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes - A  : dpuId=b4b5d082 pbnId=b4b5d085 (DESKTOP-6RVQOQ4-3) - newUni : set contains 0 items: []
+- 17:21:16.859 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes - A  : dpuId=b4b5d082 pbnId=b4b5d086 (DESKTOP-6RVQOQ4-4) - newUni : set contains 0 items: []
+- 17:21:16.859 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes: Distributing uni for playback engine b4b5d083 (DESKTOP-6RVQOQ4-1) on hostID b4b5d082 [10.0.0.7]: set contains 1 items: [0]
+- 17:21:16.859 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes: Distributing uni for playback engine b4b5d084 (DESKTOP-6RVQOQ4-2) on hostID b4b5d082 [10.0.0.7]: set contains 0 items: []
+- 17:21:16.859 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes: Distributing uni for playback engine b4b5d085 (DESKTOP-6RVQOQ4-3) on hostID b4b5d082 [10.0.0.7]: set contains 0 items: []
+- 17:21:16.859 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes: Distributing uni for playback engine b4b5d086 (DESKTOP-6RVQOQ4-4) on hostID b4b5d082 [10.0.0.7]: set contains 0 items: []
+- 17:21:16.859 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes - B  : dpuId=b4b5d082 pbnId=b4b5d083 (DESKTOP-6RVQOQ4-1) - newUni : set contains 1 items: [0]
+- 17:21:16.859 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes - B  : dpuId=b4b5d082 pbnId=b4b5d084 (DESKTOP-6RVQOQ4-2) - newUni : set contains 0 items: []
+*** Message repeated 6 more times ***
+- 17:21:16.859 INFO   : (@logAllocations:1737) Actual universe allocations are as follows:
+- 17:21:16.859 INFO   : (@logIntSet:489) b4b5d083 (DESKTOP-6RVQOQ4-1): set contains 1 items: [0]
+- 17:21:16.859 INFO   : (@logAllocations:1742) Actual pool allocations are as follows:
+- 17:21:16.859 INFO   : (@logUuidSet:1726) b4b5d083 (DESKTOP-6RVQOQ4-1): set contains 0 items: []
+- 17:21:16.859 INFO   : (@logUuidSet:1726) b4b5d084 (DESKTOP-6RVQOQ4-2): set contains 0 items: []
+- 17:21:16.859 INFO   : (@logUuidSet:1726) b4b5d085 (DESKTOP-6RVQOQ4-3): set contains 0 items: []
+- 17:21:16.859 INFO   : (@logUuidSet:1726) b4b5d086 (DESKTOP-6RVQOQ4-4): set contains 0 items: []
+- 17:21:16.859 INFO   : (@PlaybackNodeManager::processMessage_SetConfiguration:1164) (role:1)- empty universes
+- 17:21:16.859 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes - END  : dpuId=b4b5d082 pbnId=b4b5d083 (DESKTOP-6RVQOQ4-1) - newUni : set contains 1 items: [0]
+- 17:21:16.859 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes - END  : dpuId=b4b5d082 pbnId=b4b5d084 (DESKTOP-6RVQOQ4-2) - newUni : set contains 0 items: []
+- 17:21:16.859 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes - END  : dpuId=b4b5d082 pbnId=b4b5d085 (DESKTOP-6RVQOQ4-3) - newUni : set contains 0 items: []
+- 17:21:16.859 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes - END  : dpuId=b4b5d082 pbnId=b4b5d086 (DESKTOP-6RVQOQ4-4) - newUni : set contains 0 items: []
+- 17:21:16.875 INFO   : (@ByronMotherWidget::refreshDmxFiltersSlot:1577) Effective channels: 0
+- 17:21:45.000 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) patch fixtures (type 64)
+- 17:21:45.000 INFO   : (@ByronMotherWidget::refreshDmxFiltersSlot:1577) Effective channels: 0
+- 17:21:45.500 INFO   : (@ByronMotherWidget::reallocatePlaybackUniversesNow:2830) Recreating Playback Universes
+- 17:21:45.500 INFO   : (@PlaybackNodeManager::redistributeFixturesToPlaybackNodes:1822) Ignoring non-playbackNode: b4b5d082 (DESKTOP-6RVQOQ4-UI)
+- 17:21:45.500 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes - A  : dpuId=b4b5d082 pbnId=b4b5d083 (DESKTOP-6RVQOQ4-1) - newUni : set contains 1 items: [0]
+- 17:21:45.500 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes - A  : dpuId=b4b5d082 pbnId=b4b5d084 (DESKTOP-6RVQOQ4-2) - newUni : set contains 0 items: []
+- 17:21:45.500 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes - A  : dpuId=b4b5d082 pbnId=b4b5d085 (DESKTOP-6RVQOQ4-3) - newUni : set contains 0 items: []
+- 17:21:45.500 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes - A  : dpuId=b4b5d082 pbnId=b4b5d086 (DESKTOP-6RVQOQ4-4) - newUni : set contains 0 items: []
+- 17:21:45.500 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes: Distributing uni for playback engine b4b5d083 (DESKTOP-6RVQOQ4-1) on hostID b4b5d082 [10.0.0.7]: set contains 1 items: [0]
+- 17:21:45.500 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes: Distributing uni for playback engine b4b5d084 (DESKTOP-6RVQOQ4-2) on hostID b4b5d082 [10.0.0.7]: set contains 0 items: []
+- 17:21:45.500 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes: Distributing uni for playback engine b4b5d085 (DESKTOP-6RVQOQ4-3) on hostID b4b5d082 [10.0.0.7]: set contains 0 items: []
+- 17:21:45.500 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes: Distributing uni for playback engine b4b5d086 (DESKTOP-6RVQOQ4-4) on hostID b4b5d082 [10.0.0.7]: set contains 0 items: []
+- 17:21:45.500 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes - B  : dpuId=b4b5d082 pbnId=b4b5d083 (DESKTOP-6RVQOQ4-1) - newUni : set contains 1 items: [0]
+- 17:21:45.500 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes - B  : dpuId=b4b5d082 pbnId=b4b5d084 (DESKTOP-6RVQOQ4-2) - newUni : set contains 0 items: []
+*** Message repeated 6 more times ***
+- 17:21:45.500 INFO   : (@logAllocations:1737) Actual universe allocations are as follows:
+- 17:21:45.500 INFO   : (@logIntSet:489) b4b5d083 (DESKTOP-6RVQOQ4-1): set contains 1 items: [0]
+- 17:21:45.500 INFO   : (@logAllocations:1742) Actual pool allocations are as follows:
+- 17:21:45.500 INFO   : (@logUuidSet:1726) b4b5d083 (DESKTOP-6RVQOQ4-1): set contains 0 items: []
+- 17:21:45.500 INFO   : (@logUuidSet:1726) b4b5d084 (DESKTOP-6RVQOQ4-2): set contains 0 items: []
+- 17:21:45.500 INFO   : (@logUuidSet:1726) b4b5d085 (DESKTOP-6RVQOQ4-3): set contains 0 items: []
+- 17:21:45.500 INFO   : (@logUuidSet:1726) b4b5d086 (DESKTOP-6RVQOQ4-4): set contains 0 items: []
+- 17:21:45.500 INFO   : (@PlaybackNodeManager::processMessage_SetConfiguration:1164) (role:1)- empty universes
+- 17:21:45.500 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes - END  : dpuId=b4b5d082 pbnId=b4b5d083 (DESKTOP-6RVQOQ4-1) - newUni : set contains 1 items: [0]
+- 17:21:45.500 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes - END  : dpuId=b4b5d082 pbnId=b4b5d084 (DESKTOP-6RVQOQ4-2) - newUni : set contains 0 items: []
+- 17:21:45.500 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes - END  : dpuId=b4b5d082 pbnId=b4b5d085 (DESKTOP-6RVQOQ4-3) - newUni : set contains 0 items: []
+- 17:21:45.500 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes - END  : dpuId=b4b5d082 pbnId=b4b5d086 (DESKTOP-6RVQOQ4-4) - newUni : set contains 0 items: []
+- 17:21:45.500 INFO   : (@ByronMotherWidget::refreshDmxFiltersSlot:1577) Effective channels: 0
+- 17:21:45.562 INFO   : (@AutoSaveThread::trySave:238 ##273f5b0) Autosave started
+- 17:21:45.562 INFO1  : (@Show::serialiseShowItems:1092 ##273f5b0) Show::serialiseShowItems[Layout]: itemCount = 1
+- 17:21:45.562 INFO1  : (@Show::serialiseShowItems:1092 ##273f5b0) Show::serialiseShowItems[View Filter]: itemCount = 4
+- 17:21:45.562 INFO1  : (@Show::serialiseShowItems:1092 ##273f5b0) Show::serialiseShowItems[Sort]: itemCount = 5
+- 17:21:45.562 INFO1  : (@Show::serialiseShowItems:1092 ##273f5b0) Show::serialiseShowItems[Timing]: itemCount = 3
+- 17:21:45.562 INFO1  : (@Show::serialiseShowItems:1092 ##273f5b0) Show::serialiseShowItems[Preset]: itemCount = 0
+- 17:21:45.562 INFO1  : (@Show::serialiseShowItems:1092 ##273f5b0) Show::serialiseShowItems[Extract]: itemCount = 0
+- 17:21:45.562 INFO1  : (@Show::serialiseShowItems:1092 ##273f5b0) Show::serialiseShowItems[Cuelist]: itemCount = 0
+- 17:21:45.562 INFO1  : (@Show::serialiseShowItems:1092 ##273f5b0) Show::serialiseShowItems[Snapshot]: itemCount = 0
+- 17:21:45.562 INFO1  : (@Show::serialiseShowItems:1092 ##273f5b0) Show::serialiseShowItems[DateTime Event]: itemCount = 0
+- 17:21:45.562 INFO1  : (@Show::serialiseShowItems:1092 ##273f5b0) Show::serialiseShowItems[FX Master]: itemCount = 2
+- 17:21:45.562 INFO   : (@ScopedTimeLogger::~ScopedTimeLogger:26 ##273f5b0) Serialise a show took 8 ms.
+- 17:21:45.562 INFO   : (@AutoSaveThread::trySave:267 ##273f5b0) AutoSave completed in 8 ms
+- 17:21:48.281 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) patch fixtures (type 64)
+- 17:21:48.297 INFO   : (@ByronMotherWidget::refreshDmxFiltersSlot:1577) Effective channels: 0
+- 17:21:48.797 INFO   : (@ByronMotherWidget::reallocatePlaybackUniversesNow:2830) Recreating Playback Universes
+- 17:21:48.797 INFO   : (@PlaybackNodeManager::redistributeFixturesToPlaybackNodes:1822) Ignoring non-playbackNode: b4b5d082 (DESKTOP-6RVQOQ4-UI)
+- 17:21:48.797 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes - A  : dpuId=b4b5d082 pbnId=b4b5d083 (DESKTOP-6RVQOQ4-1) - newUni : set contains 1 items: [0]
+- 17:21:48.797 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes - A  : dpuId=b4b5d082 pbnId=b4b5d084 (DESKTOP-6RVQOQ4-2) - newUni : set contains 0 items: []
+- 17:21:48.797 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes - A  : dpuId=b4b5d082 pbnId=b4b5d085 (DESKTOP-6RVQOQ4-3) - newUni : set contains 0 items: []
+- 17:21:48.797 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes - A  : dpuId=b4b5d082 pbnId=b4b5d086 (DESKTOP-6RVQOQ4-4) - newUni : set contains 0 items: []
+- 17:21:48.797 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes: Distributing uni for playback engine b4b5d083 (DESKTOP-6RVQOQ4-1) on hostID b4b5d082 [10.0.0.7]: set contains 1 items: [0]
+- 17:21:48.797 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes: Distributing uni for playback engine b4b5d084 (DESKTOP-6RVQOQ4-2) on hostID b4b5d082 [10.0.0.7]: set contains 0 items: []
+- 17:21:48.797 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes: Distributing uni for playback engine b4b5d085 (DESKTOP-6RVQOQ4-3) on hostID b4b5d082 [10.0.0.7]: set contains 0 items: []
+- 17:21:48.797 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes: Distributing uni for playback engine b4b5d086 (DESKTOP-6RVQOQ4-4) on hostID b4b5d082 [10.0.0.7]: set contains 0 items: []
+- 17:21:48.797 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes - B  : dpuId=b4b5d082 pbnId=b4b5d083 (DESKTOP-6RVQOQ4-1) - newUni : set contains 1 items: [0]
+- 17:21:48.797 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes - B  : dpuId=b4b5d082 pbnId=b4b5d084 (DESKTOP-6RVQOQ4-2) - newUni : set contains 0 items: []
+*** Message repeated 6 more times ***
+- 17:21:48.797 INFO   : (@logAllocations:1737) Actual universe allocations are as follows:
+- 17:21:48.797 INFO   : (@logIntSet:489) b4b5d083 (DESKTOP-6RVQOQ4-1): set contains 1 items: [0]
+- 17:21:48.797 INFO   : (@logAllocations:1742) Actual pool allocations are as follows:
+- 17:21:48.797 INFO   : (@logUuidSet:1726) b4b5d083 (DESKTOP-6RVQOQ4-1): set contains 0 items: []
+- 17:21:48.797 INFO   : (@logUuidSet:1726) b4b5d084 (DESKTOP-6RVQOQ4-2): set contains 0 items: []
+- 17:21:48.797 INFO   : (@logUuidSet:1726) b4b5d085 (DESKTOP-6RVQOQ4-3): set contains 0 items: []
+- 17:21:48.797 INFO   : (@logUuidSet:1726) b4b5d086 (DESKTOP-6RVQOQ4-4): set contains 0 items: []
+- 17:21:48.797 INFO   : (@PlaybackNodeManager::processMessage_SetConfiguration:1164) (role:1)- empty universes
+- 17:21:48.797 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes - END  : dpuId=b4b5d082 pbnId=b4b5d083 (DESKTOP-6RVQOQ4-1) - newUni : set contains 1 items: [0]
+- 17:21:48.797 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes - END  : dpuId=b4b5d082 pbnId=b4b5d084 (DESKTOP-6RVQOQ4-2) - newUni : set contains 0 items: []
+- 17:21:48.797 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes - END  : dpuId=b4b5d082 pbnId=b4b5d085 (DESKTOP-6RVQOQ4-3) - newUni : set contains 0 items: []
+- 17:21:48.797 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes - END  : dpuId=b4b5d082 pbnId=b4b5d086 (DESKTOP-6RVQOQ4-4) - newUni : set contains 0 items: []
+- 17:21:48.797 INFO   : (@ByronMotherWidget::refreshDmxFiltersSlot:1577) Effective channels: 0
+- 17:21:56.437 INFO   : (@ConsoleWorkspaceModifier::addVirtualConsole:19) EX
+- 17:21:56.453 INFO   : (@Console::Console:80) (t,id) type 25 (EX) vcID: 4714f567 hwID: 0
+- 17:21:56.453 INFO   : (@ConsoleWorkspaceCommand::addConsole:117) ConsoleWorkspaceCommand::ConsoleWorkspaceCommand::addConsole adding console vcID: 4714f567 hwID: 0 to workspace
+- 17:21:56.468 INFO   : (@ByronMotherWidget::onTrackingBackupStateChanged:1357) auxiliary: 0
+- 17:21:56.468 INFO   : (@ByronMotherWidget::onTrackingBackupStateChanged:1358) show sync in progress: 0
+- 17:21:56.953 INFO   : (@ByronMotherWidget::reallocatePlaybackUniversesNow:2830) Recreating Playback Universes
+- 17:21:56.953 INFO   : (@PlaybackNodeManager::redistributeFixturesToPlaybackNodes:1822) Ignoring non-playbackNode: b4b5d082 (DESKTOP-6RVQOQ4-UI)
+- 17:21:56.953 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes - A  : dpuId=b4b5d082 pbnId=b4b5d083 (DESKTOP-6RVQOQ4-1) - newUni : set contains 1 items: [0]
+- 17:21:56.953 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes - A  : dpuId=b4b5d082 pbnId=b4b5d084 (DESKTOP-6RVQOQ4-2) - newUni : set contains 0 items: []
+- 17:21:56.953 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes - A  : dpuId=b4b5d082 pbnId=b4b5d085 (DESKTOP-6RVQOQ4-3) - newUni : set contains 0 items: []
+- 17:21:56.953 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes - A  : dpuId=b4b5d082 pbnId=b4b5d086 (DESKTOP-6RVQOQ4-4) - newUni : set contains 0 items: []
+- 17:21:56.953 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes: Distributing uni for playback engine b4b5d083 (DESKTOP-6RVQOQ4-1) on hostID b4b5d082 [10.0.0.7]: set contains 1 items: [0]
+- 17:21:56.953 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes: Distributing uni for playback engine b4b5d084 (DESKTOP-6RVQOQ4-2) on hostID b4b5d082 [10.0.0.7]: set contains 0 items: []
+- 17:21:56.953 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes: Distributing uni for playback engine b4b5d085 (DESKTOP-6RVQOQ4-3) on hostID b4b5d082 [10.0.0.7]: set contains 0 items: []
+- 17:21:56.953 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes: Distributing uni for playback engine b4b5d086 (DESKTOP-6RVQOQ4-4) on hostID b4b5d082 [10.0.0.7]: set contains 0 items: []
+- 17:21:56.953 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes - B  : dpuId=b4b5d082 pbnId=b4b5d083 (DESKTOP-6RVQOQ4-1) - newUni : set contains 1 items: [0]
+- 17:21:56.953 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes - B  : dpuId=b4b5d082 pbnId=b4b5d084 (DESKTOP-6RVQOQ4-2) - newUni : set contains 0 items: []
+*** Message repeated 6 more times ***
+- 17:21:56.953 INFO   : (@logAllocations:1737) Actual universe allocations are as follows:
+- 17:21:56.953 INFO   : (@logIntSet:489) b4b5d083 (DESKTOP-6RVQOQ4-1): set contains 1 items: [0]
+- 17:21:56.953 INFO   : (@logAllocations:1742) Actual pool allocations are as follows:
+- 17:21:56.953 INFO   : (@logUuidSet:1726) b4b5d083 (DESKTOP-6RVQOQ4-1): set contains 0 items: []
+- 17:21:56.953 INFO   : (@logUuidSet:1726) b4b5d084 (DESKTOP-6RVQOQ4-2): set contains 0 items: []
+- 17:21:56.953 INFO   : (@logUuidSet:1726) b4b5d085 (DESKTOP-6RVQOQ4-3): set contains 0 items: []
+- 17:21:56.953 INFO   : (@logUuidSet:1726) b4b5d086 (DESKTOP-6RVQOQ4-4): set contains 0 items: []
+- 17:21:56.953 INFO   : (@PlaybackNodeManager::processMessage_SetConfiguration:1164) (role:1)- empty universes
+- 17:21:56.953 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes - END  : dpuId=b4b5d082 pbnId=b4b5d083 (DESKTOP-6RVQOQ4-1) - newUni : set contains 1 items: [0]
+- 17:21:56.953 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes - END  : dpuId=b4b5d082 pbnId=b4b5d084 (DESKTOP-6RVQOQ4-2) - newUni : set contains 0 items: []
+- 17:21:56.953 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes - END  : dpuId=b4b5d082 pbnId=b4b5d085 (DESKTOP-6RVQOQ4-3) - newUni : set contains 0 items: []
+- 17:21:56.953 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes - END  : dpuId=b4b5d082 pbnId=b4b5d086 (DESKTOP-6RVQOQ4-4) - newUni : set contains 0 items: []
+- 17:21:56.953 INFO   : (@ByronMotherWidget::refreshDmxFiltersSlot:1577) Effective channels: 0
+- 17:22:08.234 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) layout change (type 64)
+- 17:22:08.359 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) layout change (type 64)
+- 17:22:08.484 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) layout change (type 64)
+- 17:22:08.859 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) layout change (type 64)
+- 17:22:09.359 INFO   : (@ByronApplication::onActionTriggered:164) Undo layout change
+- 17:22:10.875 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) layout change (type 64)
+- 17:22:10.875 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) layout change (type 64)
+- 17:22:10.875 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) layout change (type 64)
+- 17:22:10.875 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) layout change (type 64)
+- 17:22:10.875 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) layout change (type 64)
+- 17:22:10.875 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) layout change (type 64)
+- 17:22:10.875 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) layout change (type 64)
+- 17:22:10.875 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) layout change (type 64)
+- 17:22:10.875 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) layout change (type 64)
+*** Message repeated 269 more times ***
+- 17:22:36.734 INFO   : (@ByronApplication::onActionTriggered:164) Undo layout change
+- 17:22:39.797 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) layout change (type 64)
+- 17:22:39.797 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) layout change (type 64)
+- 17:22:39.797 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) layout change (type 64)
+- 17:22:39.797 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) layout change (type 64)
+- 17:22:39.797 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) layout change (type 64)
+- 17:22:39.906 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) layout change (type 64)
+- 17:22:39.906 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) layout change (type 64)
+- 17:22:39.922 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) layout change (type 64)
+- 17:22:39.922 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) layout change (type 64)
+*** Message repeated 240 more times ***
+- 17:23:06.172 INFO   : (@ByronMotherWidget::refreshDmxFiltersSlot:1577) Effective channels: 0
+- 17:23:06.578 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) layout change (type 64)
+- 17:23:06.578 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) layout change (type 64)
+- 17:23:06.578 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) layout change (type 64)
+- 17:23:06.578 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) layout change (type 64)
+- 17:23:06.578 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) layout change (type 64)
+- 17:23:06.703 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) layout change (type 64)
+- 17:23:06.703 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) layout change (type 64)
+- 17:23:06.703 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) layout change (type 64)
+- 17:23:06.703 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) layout change (type 64)
+*** Message repeated 53 more times ***
+- 17:23:11.609 INFO   : (@ByronMotherWidget::refreshDmxFiltersSlot:1577) Effective channels: 0
+- 17:23:12.656 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) layout change (type 64)
+- 17:23:12.656 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) layout change (type 64)
+- 17:23:12.656 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) layout change (type 64)
+- 17:23:12.656 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) layout change (type 64)
+- 17:23:12.656 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) layout change (type 64)
+- 17:23:12.656 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) layout change (type 64)
+- 17:23:12.750 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) layout change (type 64)
+- 17:23:12.750 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) layout change (type 64)
+- 17:23:12.750 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) layout change (type 64)
+*** Message repeated 169 more times ***
+- 17:24:12.562 INFO   : (@ByronMotherWidget::refreshDmxFiltersSlot:1577) Effective channels: 0
+- 17:24:13.062 INFO   : (@ByronMotherWidget::reallocatePlaybackUniversesNow:2830) Recreating Playback Universes
+- 17:24:13.062 INFO   : (@PlaybackNodeManager::redistributeFixturesToPlaybackNodes:1822) Ignoring non-playbackNode: b4b5d082 (DESKTOP-6RVQOQ4-UI)
+- 17:24:13.062 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes - A  : dpuId=b4b5d082 pbnId=b4b5d083 (DESKTOP-6RVQOQ4-1) - newUni : set contains 1 items: [0]
+- 17:24:13.062 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes - A  : dpuId=b4b5d082 pbnId=b4b5d084 (DESKTOP-6RVQOQ4-2) - newUni : set contains 0 items: []
+- 17:24:13.062 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes - A  : dpuId=b4b5d082 pbnId=b4b5d085 (DESKTOP-6RVQOQ4-3) - newUni : set contains 0 items: []
+- 17:24:13.062 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes - A  : dpuId=b4b5d082 pbnId=b4b5d086 (DESKTOP-6RVQOQ4-4) - newUni : set contains 0 items: []
+- 17:24:13.062 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes: Distributing uni for playback engine b4b5d083 (DESKTOP-6RVQOQ4-1) on hostID b4b5d082 [10.0.0.7]: set contains 1 items: [0]
+- 17:24:13.062 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes: Distributing uni for playback engine b4b5d084 (DESKTOP-6RVQOQ4-2) on hostID b4b5d082 [10.0.0.7]: set contains 0 items: []
+- 17:24:13.062 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes: Distributing uni for playback engine b4b5d085 (DESKTOP-6RVQOQ4-3) on hostID b4b5d082 [10.0.0.7]: set contains 0 items: []
+- 17:24:13.062 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes: Distributing uni for playback engine b4b5d086 (DESKTOP-6RVQOQ4-4) on hostID b4b5d082 [10.0.0.7]: set contains 0 items: []
+- 17:24:13.062 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes - B  : dpuId=b4b5d082 pbnId=b4b5d083 (DESKTOP-6RVQOQ4-1) - newUni : set contains 1 items: [0]
+- 17:24:13.062 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes - B  : dpuId=b4b5d082 pbnId=b4b5d084 (DESKTOP-6RVQOQ4-2) - newUni : set contains 0 items: []
+*** Message repeated 6 more times ***
+- 17:24:13.062 INFO   : (@logAllocations:1737) Actual universe allocations are as follows:
+- 17:24:13.062 INFO   : (@logIntSet:489) b4b5d083 (DESKTOP-6RVQOQ4-1): set contains 1 items: [0]
+- 17:24:13.062 INFO   : (@logAllocations:1742) Actual pool allocations are as follows:
+- 17:24:13.062 INFO   : (@logUuidSet:1726) b4b5d083 (DESKTOP-6RVQOQ4-1): set contains 0 items: []
+- 17:24:13.062 INFO   : (@logUuidSet:1726) b4b5d084 (DESKTOP-6RVQOQ4-2): set contains 0 items: []
+- 17:24:13.062 INFO   : (@logUuidSet:1726) b4b5d085 (DESKTOP-6RVQOQ4-3): set contains 0 items: []
+- 17:24:13.062 INFO   : (@logUuidSet:1726) b4b5d086 (DESKTOP-6RVQOQ4-4): set contains 0 items: []
+- 17:24:13.062 INFO   : (@PlaybackNodeManager::processMessage_SetConfiguration:1164) (role:1)- empty universes
+- 17:24:13.062 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes - END  : dpuId=b4b5d082 pbnId=b4b5d083 (DESKTOP-6RVQOQ4-1) - newUni : set contains 1 items: [0]
+- 17:24:13.062 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes - END  : dpuId=b4b5d082 pbnId=b4b5d084 (DESKTOP-6RVQOQ4-2) - newUni : set contains 0 items: []
+- 17:24:13.062 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes - END  : dpuId=b4b5d082 pbnId=b4b5d085 (DESKTOP-6RVQOQ4-3) - newUni : set contains 0 items: []
+- 17:24:13.062 INFO   : (@logIntSet:489) PlaybackNodeManager::redistributeFixturesToPlaybackNodes - END  : dpuId=b4b5d082 pbnId=b4b5d086 (DESKTOP-6RVQOQ4-4) - newUni : set contains 0 items: []
+- 17:24:13.062 INFO   : (@ByronMotherWidget::refreshDmxFiltersSlot:1577) Effective channels: 0
+- 17:24:26.890 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) layout change (type 64)
+- 17:24:26.890 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) layout change (type 64)
+- 17:24:27.000 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) layout change (type 64)
+- 17:24:27.000 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) layout change (type 64)
+- 17:24:27.109 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) layout change (type 64)
+- 17:24:27.109 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) layout change (type 64)
+- 17:24:27.218 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) layout change (type 64)
+- 17:24:27.234 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) layout change (type 64)
+- 17:24:27.328 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) layout change (type 64)
+- 17:24:27.343 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) layout change (type 64)
+*** Message repeated 81 more times ***
+- 17:24:51.687 INFO   : (@ByronApplication::onActionTriggered:164) Save Show
+- 17:24:51.687 INFO   : (@JDialog::JDialog:15) Dialog created - CommitClipsDialog
+- 17:24:51.687 INFO   : (@JDialog::~JDialog:20) Dialog destroyed - CommitClipsDialog
+- 17:24:51.687 INFO   : (@ShowManager::saveShowFile:467) C:/Vista 3/Shows/Bardot V2.v3s
+- 17:24:51.703 INFO1  : (@Show::serialiseShowItems:1092) Show::serialiseShowItems[Layout]: itemCount = 1
+- 17:24:51.703 INFO1  : (@Show::serialiseShowItems:1092) Show::serialiseShowItems[View Filter]: itemCount = 4
+- 17:24:51.703 INFO1  : (@Show::serialiseShowItems:1092) Show::serialiseShowItems[Sort]: itemCount = 5
+- 17:24:51.703 INFO1  : (@Show::serialiseShowItems:1092) Show::serialiseShowItems[Timing]: itemCount = 3
+- 17:24:51.703 INFO1  : (@Show::serialiseShowItems:1092) Show::serialiseShowItems[Preset]: itemCount = 0
+- 17:24:51.703 INFO1  : (@Show::serialiseShowItems:1092) Show::serialiseShowItems[Extract]: itemCount = 0
+- 17:24:51.703 INFO1  : (@Show::serialiseShowItems:1092) Show::serialiseShowItems[Cuelist]: itemCount = 0
+- 17:24:51.703 INFO1  : (@Show::serialiseShowItems:1092) Show::serialiseShowItems[Snapshot]: itemCount = 0
+- 17:24:51.703 INFO1  : (@Show::serialiseShowItems:1092) Show::serialiseShowItems[DateTime Event]: itemCount = 0
+- 17:24:51.703 INFO1  : (@Show::serialiseShowItems:1092) Show::serialiseShowItems[FX Master]: itemCount = 2
+- 17:24:51.734 INFO   : (@ScopedTimeLogger::~ScopedTimeLogger:26) Serialise a show took 37 ms.
+- 17:24:51.734 INFO   : (@ScopedTimeLogger::~ScopedTimeLogger:26) save show took 38 ms.
+- 17:24:51.734 INFO   : (@ShowManager::getRelativeShowFilePath:212) Show FilePath relative to 'Shows' directory: Bardot V2.v3s
+- 17:25:14.953 INFO   : (@ByronApplication::onActionTriggered:164) New Layout...
+- 17:25:52.984 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) add layout (type 64)
+- 17:25:57.859 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) layout change (type 64)
+- 17:25:57.968 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) layout change (type 64)
+- 17:25:58.062 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) layout change (type 64)
+- 17:25:58.172 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) layout change (type 64)
+- 17:25:58.281 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) layout change (type 64)
+- 17:25:58.375 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) layout change (type 64)
+- 17:25:58.484 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) layout change (type 64)
+- 17:25:58.593 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) layout change (type 64)
+- 17:25:58.703 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) layout change (type 64)
+*** Message repeated 8 more times ***
+- 17:26:27.203 INFO   : (@ByronApplication::onActionTriggered:164) Highlight
+- 17:26:27.218 INFO   : (@PlaybackFunctions::jumpToStep:855) 0 Highlight Cuelist [cue 0,0ms,Released]0
+- 17:26:27.218 INFO   : (@PlaybackFunctions::jumpToStep:868) 0 Highlight Cuelist [cue 0,2000ms,Playing][at exit]
+- 17:26:32.984 INFO   : (@ByronApplication::onActionTriggered:164) Highlight
+- 17:26:32.984 INFO   : (@PlaybackFunctions::release:593) 0 Highlight Cuelist [cue 0,2000ms,Playing]2
+- 17:26:32.984 INFO   : (@PlaybackFunctions::release:621) 0 Highlight Cuelist [cue 0,0ms,Released][at exit]
+- 17:26:34.390 INFO   : (@ByronApplication::onActionTriggered:164) User Preferences...
+- 17:26:34.390 INFO   : (@JDialog::JDialog:15) Dialog created - UserPreferencesDialog
+- 17:26:34.437 INFO   : (@MidiPortManager::getMidiPorts:158) Found Midi Port: Bome MIDI Translator 1
+- 17:26:34.437 INFO   : (@MidiPortManager::getMidiPorts:158) Found Midi Port: Launchpad S
+- 17:26:46.531 INFO   : (@JDialog::JDialog:15) Dialog created - ChooseNetworkInterfaceDialog
+- 17:26:48.687 INFO   : (@JDialog::~JDialog:20) Dialog destroyed - ChooseNetworkInterfaceDialog
+- 17:26:52.906 INFO   : (@JDialog::JDialog:15) Dialog created - CommitClipsDialog
+- 17:26:52.906 INFO   : (@JDialog::~JDialog:20) Dialog destroyed - CommitClipsDialog
+- 17:26:52.906 INFO   : (@ShowManager::saveShowFile:467) C:/Vista 3/Shows/Bardot V2.v3s
+- 17:26:52.922 INFO1  : (@Show::serialiseShowItems:1092) Show::serialiseShowItems[Layout]: itemCount = 2
+- 17:26:52.922 INFO1  : (@Show::serialiseShowItems:1092) Show::serialiseShowItems[View Filter]: itemCount = 4
+- 17:26:52.922 INFO1  : (@Show::serialiseShowItems:1092) Show::serialiseShowItems[Sort]: itemCount = 5
+- 17:26:52.922 INFO1  : (@Show::serialiseShowItems:1092) Show::serialiseShowItems[Timing]: itemCount = 3
+- 17:26:52.922 INFO1  : (@Show::serialiseShowItems:1092) Show::serialiseShowItems[Preset]: itemCount = 0
+- 17:26:52.922 INFO1  : (@Show::serialiseShowItems:1092) Show::serialiseShowItems[Extract]: itemCount = 0
+- 17:26:52.922 INFO1  : (@Show::serialiseShowItems:1092) Show::serialiseShowItems[Cuelist]: itemCount = 0
+- 17:26:52.922 INFO1  : (@Show::serialiseShowItems:1092) Show::serialiseShowItems[Snapshot]: itemCount = 0
+- 17:26:52.922 INFO1  : (@Show::serialiseShowItems:1092) Show::serialiseShowItems[DateTime Event]: itemCount = 0
+- 17:26:52.922 INFO1  : (@Show::serialiseShowItems:1092) Show::serialiseShowItems[FX Master]: itemCount = 2
+- 17:26:52.922 INFO   : (@ScopedTimeLogger::~ScopedTimeLogger:26) Serialise a show took 14 ms.
+- 17:26:52.922 INFO   : (@ScopedTimeLogger::~ScopedTimeLogger:26) save show took 14 ms.
+- 17:26:52.937 INFO   : (@ShowManager::getRelativeShowFilePath:212) Show FilePath relative to 'Shows' directory: Bardot V2.v3s
+- 17:26:53.125 INFO   : (@JDialog::~JDialog:20) Dialog destroyed - UserPreferencesDialog
+- 17:26:53.140 INFO   : (@main:589) exiting

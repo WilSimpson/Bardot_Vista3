@@ -1,44 +1,1708 @@
-- 18:41:41.000 INFO   : (@main:150) Sat Apr 17 18:41:41 2021
-- 18:41:41.000 INFO   : (@main:151) OS: Windows 10 (10.0), CPU: x86_64, Logical Cores: 12
-- 18:41:41.000 INFO   : (@`anonymous-namespace'::getThisExecutableDirPath:86) Path to executable: C:/Program Files (x86)/Chroma-Q/Vista3/VistaPlaybackNode.exe
-- 18:41:41.000 INFO   : (@Directory::getPath:848) QtPlugins path = C:/Program Files (x86)/Chroma-Q/Vista3/plugins
-- 18:41:41.000 INFO   : (@main:161) Starting C:/Program Files (x86)/Chroma-Q/Vista3/VistaPlaybackNode.exe
-- 18:41:41.000 INFO   : (@main:164) default plugin path: c:/Qt/Qt5.8.0/plugins
-- 18:41:41.000 INFO   : (@BoostNetworkThread::run:54 ##18a2378) starting
-- 18:41:41.000 INFO   : (@BoostNetworkThread::run:54 ##18a2408) starting
-- 18:41:41.000 INFO   : (@InitialiseHardwareInterfaceLibrary:10) Initializing Hardware Interface
-- 18:41:41.000 INFO   : (@USB::libusbInit:143) Initializing libusb...
-- 18:41:41.015 INFO   : (@UsbManager::UsbManager:154) Initializing USB Manager
-- 18:41:41.015 INFO   : (@DpuManager::initialiseLocalConfiguration:80) initializing
-- 18:41:41.015 INFO   : (@BoostNetworkThread::run:54 ##18a28a0) starting
-- 18:41:41.015 INFO   : (@getLocalHostUuid:41) Local hostID: 841cca3b
-- 18:41:41.015 INFO   : (@getLocalHostUuid:49) Local hostID: 841cca3b
-- 18:41:41.031 INFO   : (@DpuManager::initialiseLocalConfiguration:117) Available CPU capability: 12 host type: 0
-- 18:41:41.031 INFO   : (@TimecodeManager::TimecodeManager:71) 
-- 18:41:41.031 INFO   : (@InitialiseShowLibrary:163) Initializing show Library
-- 18:41:41.031 INFO   : (@Console::Console:71) (props) type 100 (Art-Net) vcID: b44d6a80 hwID: b44d6a80
-- 18:41:41.031 INFO   : (@Console::Console:71) (props) type 102 (sACN) vcID: 669aa062 hwID: 669aa062
-- 18:41:41.031 INFO   : (@Console::Console:71) (props) type 101 (Pathport) vcID: 4e55c8af hwID: 4e55c8af
-- 18:41:41.031 INFO   : (@Directory::getPath:858) Preferences path = C:\\Vista 3
-- 18:41:41.031 INFO   : (@ShowManager::ShowManager:128) 
-- 18:41:41.031 INFO   :NETWORK: (@PlaybackNodeManager::PlaybackNodeManager:252) VistaPlaybackNode_2: new instance
-- 18:41:41.031 INFO   : (@BoostNetworkThread::run:54 ##18d3a28) starting
-- 18:41:41.031 INFO   : (@BoostNetworkThread::run:54 ##18d3bc0) starting
-- 18:41:41.031 INFO   : (@BoostNetworkThread::run:54 ##18d3c98) starting
-- 18:41:41.031 INFO   : (@BoostNetworkThread::run:54 ##18d3d58) starting
-- 18:41:41.031 INFO   : (@BoostNetworkThread::run:54 ##18d3c20) starting
-- 18:41:41.031 INFO   : (@BoostNetworkThread::run:54 ##18e5f00) starting
-- 18:41:41.031 INFO   : (@BoostNetworkThread::run:54 ##18e6098) starting
-- 18:41:41.031 INFO   : (@BoostNetworkThread::run:54 ##18e5de0) starting
-- 18:41:41.031 INFO   : (@Directory::getPath:746) Factory Resources path = C:/Program Files (x86)/Chroma-Q/Vista3
-- 18:41:41.031 INFO   : (@Directory::getPath:784) FactoryEffectLibrary path = C:/Program Files (x86)/Chroma-Q/Vista3/EffectLibrary
-- 18:41:41.062 INFO   : (@Directory::getPath:779) UserEffectLibrary path = C:\\Vista 3/Effects
-- 18:41:41.062 INFO   : (@BoostTcpConnection::connectToServer:32) host: 127.0.0.1, port: 22125
-- 18:41:41.062 INFO   : (@BoostTcpConnection::connectToServer:32) host: 127.0.0.1, port: 22002
-- 18:41:41.062 INFO2  :NETWORK: (@BoostTcpNetwork::socketConnected:191 ##18e5de0) VistaPlaybackNode_2: (+)Connection established.. local: 127.0.0.1:52146, remote: 127.0.0.1:22125
-- 18:41:41.062 INFO2  :NETWORK: (@BoostTcpNetwork::socketConnected:191 ##18a2408) VistaPlaybackNode_2: (+)Connection established.. local: 127.0.0.1:52147, remote: 127.0.0.1:22002
-- 18:41:41.062 INFO   :NETWORK: (@PlaybackNodeManager::nodeConnectedSlot:541) VistaPlaybackNode_2: 127.0.0.1 connected
-- 18:41:57.718 WARNING:NETWORK: (@BoostTcpNetwork::outputNetworkError:395 ##18e5de0) VistaPlaybackNode_2: A socket error has occurred.. local: 127.0.0.1:52146, remote: 127.0.0.1:22125 - An existing connection was forcibly closed by the remote host
-- 18:41:57.718 INFO2  :NETWORK: (@BoostTcpNetwork::removeConnection:223 ##18e5de0) VistaPlaybackNode_2: (-)Connection removed
-- 18:41:57.734 INFO   :NETWORK: (@BoostTcpConnection::close:116 ##18e5de0) VistaPlaybackNode_2: Connection closed.. local: 127.0.0.1:52146, remote: 127.0.0.1:22125
-- 18:41:57.734 INFO   :NETWORK: (@BoostTcpConnection::close:116 ##18e5de0) VistaPlaybackNode_2: Connection closed.. local: 127.0.0.1:52146, remote: 127.0.0.1:22125
+- 15:34:24.000 INFO   : (@main:150) Wed Feb 16 15:34:24 2022
+- 15:34:24.000 INFO   : (@main:151) OS: Windows 10 (10.0), CPU: x86_64, Logical Cores: 4
+- 15:34:24.000 INFO   : (@`anonymous-namespace'::getThisExecutableDirPath:86) Path to executable: C:/Program Files (x86)/Chroma-Q/Vista3/VistaPlaybackNode.exe
+- 15:34:24.000 INFO   : (@Directory::getPath:848) QtPlugins path = C:/Program Files (x86)/Chroma-Q/Vista3/plugins
+- 15:34:24.016 INFO   : (@main:161) Starting C:/Program Files (x86)/Chroma-Q/Vista3/VistaPlaybackNode.exe
+- 15:34:24.016 INFO   : (@main:164) default plugin path: c:/Qt/Qt5.8.0/plugins
+- 15:34:24.031 INFO   : (@InitialiseHardwareInterfaceLibrary:10) Initializing Hardware Interface
+- 15:34:24.031 INFO   : (@BoostNetworkThread::run:54 ##1bd2000) starting
+- 15:34:24.031 INFO   : (@BoostNetworkThread::run:54 ##1bd2480) starting
+- 15:34:24.063 INFO   : (@USB::libusbInit:143) Initializing libusb...
+- 15:34:24.063 INFO   : (@UsbManager::UsbManager:154) Initializing USB Manager
+- 15:34:24.078 INFO   : (@BoostNetworkThread::run:54 ##1bd0a40) starting
+- 15:34:24.078 INFO   : (@DpuManager::initialiseLocalConfiguration:80) initializing
+- 15:34:24.094 INFO   : (@getLocalHostUuid:41) Local hostID: fc656419
+- 15:34:24.094 INFO   : (@getLocalHostUuid:49) Local hostID: fc656419
+- 15:34:24.188 INFO   : (@DpuManager::initialiseLocalConfiguration:117) Available CPU capability: 4 host type: 11527168
+- 15:34:24.188 INFO   : (@TimecodeManager::TimecodeManager:71) 
+- 15:34:24.188 INFO   : (@InitialiseShowLibrary:163) Initializing show Library
+- 15:34:24.188 INFO   : (@Console::Console:71) (props) type 100 (Art-Net) vcID: b44d6a80 hwID: b44d6a80
+- 15:34:24.188 INFO   : (@Console::Console:71) (props) type 102 (sACN) vcID: 669aa062 hwID: 669aa062
+- 15:34:24.188 INFO   : (@Console::Console:71) (props) type 101 (Pathport) vcID: 4e55c8af hwID: 4e55c8af
+- 15:34:24.188 INFO   : (@Directory::getPath:858) Preferences path = C:\Vista 3
+- 15:34:24.188 INFO   : (@ShowManager::ShowManager:128) 
+- 15:34:24.188 INFO   :NETWORK: (@PlaybackNodeManager::PlaybackNodeManager:252) VistaPlaybackNode_2: new instance
+- 15:34:24.188 INFO   : (@Directory::getPath:746) Factory Resources path = C:/Program Files (x86)/Chroma-Q/Vista3
+- 15:34:24.188 INFO   : (@Directory::getPath:784) FactoryEffectLibrary path = C:/Program Files (x86)/Chroma-Q/Vista3/EffectLibrary
+- 15:34:24.203 INFO   : (@BoostNetworkThread::run:54 ##1c06c78) starting
+- 15:34:24.203 INFO   : (@BoostNetworkThread::run:54 ##1c06b58) starting
+- 15:34:24.203 INFO   : (@BoostNetworkThread::run:54 ##1c06b70) starting
+- 15:34:24.203 INFO   : (@BoostNetworkThread::run:54 ##1c06d50) starting
+- 15:34:24.203 INFO   : (@BoostNetworkThread::run:54 ##1c06b88) starting
+- 15:34:24.203 INFO   : (@BoostNetworkThread::run:54 ##1be3b50) starting
+- 15:34:24.203 INFO   : (@BoostNetworkThread::run:54 ##1be3bb0) starting
+- 15:34:24.203 INFO   : (@BoostNetworkThread::run:54 ##1be3a30) starting
+- 15:34:24.281 INFO   : (@Directory::getPath:779) UserEffectLibrary path = C:\Vista 3/Effects
+- 15:34:24.281 INFO   : (@BoostTcpConnection::connectToServer:32) host: 127.0.0.1, port: 22125
+- 15:34:24.297 INFO   : (@BoostTcpConnection::connectToServer:32) host: 127.0.0.1, port: 22002
+- 15:34:24.297 INFO2  :NETWORK: (@BoostTcpNetwork::socketConnected:191 ##1be3a30) VistaPlaybackNode_2: (+)Connection established.. local: 127.0.0.1:53584, remote: 127.0.0.1:22125
+- 15:34:24.297 INFO2  :NETWORK: (@BoostTcpNetwork::socketConnected:191 ##1bd2480) VistaPlaybackNode_2: (+)Connection established.. local: 127.0.0.1:53585, remote: 127.0.0.1:22002
+- 15:34:24.297 INFO   :NETWORK: (@PlaybackNodeManager::nodeConnectedSlot:541) VistaPlaybackNode_2: 127.0.0.1 connected
+- 15:34:26.266 INFO   :NETWORK: (@PlaybackNodeManager::doAboutToSync:902) VistaPlaybackNode_2: Received ABOUT_TO_SYNC
+- 15:34:26.266 INFO   :NETWORK: (@PlaybackNodeManager::setSyncProgressState:2174) VistaPlaybackNode_2: Sync Progress State: AUX_ABOUT_TO_SYNC
+- 15:34:27.438 INFO   :NETWORK: (@PlaybackNodeManager::doDpuSync:789) VistaPlaybackNode_2: Received SHOW_SYNC
+- 15:34:27.438 INFO   :NETWORK: (@PlaybackNodeManager::setSyncProgressState:2174) VistaPlaybackNode_2: Sync Progress State: AUX_RECEIVED_SHOW_ABOUT_TO_DESERIALISE
+- 15:34:27.438 INFO   :NETWORK: (@ShowManager::prepareForShowReplacement:803) VistaPlaybackNode_2: prepareForShowReplacement: Auxiliary
+- 15:34:27.438 INFO   :NETWORK: (@ShowManager::prepareForShowReplacement:820) VistaPlaybackNode_2: Emitting disablePlayback()
+- 15:34:27.438 INFO   :NETWORK: (@ShowManager::prepareForShowReplacement:823) VistaPlaybackNode_2: Emitting showAboutToLoad()
+- 15:34:27.438 INFO1  :NETWORK: (@PlaybackNodeManager::showAboutToLoadSlot:497) VistaPlaybackNode_2: Emitting stateChangedSignal()
+- 15:34:27.516 INFO   : (@Console::Console:65) serialised
+- 15:34:27.516 INFO   : (@Console::Console:65) serialised
+- 15:34:27.516 INFO   : (@Console::Console:65) serialised
+- 15:34:27.516 INFO   : (@Console::Console:65) serialised
+- 15:34:27.547 INFO   : (@Console::Console:65) serialised
+- 15:34:27.547 INFO   : (@ScopedTimeLogger::~ScopedTimeLogger:26) Serialise a show took 106 ms.
+- 15:34:27.547 INFO   : (@Directory::getPath:751) UserFixtureLibrary path = C:\Vista 3/Fixtures
+- 15:34:27.547 INFO   : (@Directory::getPath:863) UserFixtureArrangementLibrary path = C:\Vista 3/Fixtures/CustomArrangements
+- 15:34:27.547 INFO   :NETWORK: (@PlaybackNodeManager::setSyncProgressState:2174) VistaPlaybackNode_2: Sync Progress State: AUX_SHOW_DESERIALISED
+- 15:34:27.547 INFO   :NETWORK: (@PlaybackNodeManager::dpuSyncAck:658) VistaPlaybackNode_2: Sending SHOW_SYNC_ACK from: fc65641b
+- 15:34:27.547 INFO   :NETWORK: (@PlaybackNodeManager::setSyncProgressState:2174) VistaPlaybackNode_2: Sync Progress State: AUX_SENDING_SYNC_ACKNOWLEDGEMENT
+- 15:34:27.547 INFO   :NETWORK: (@PlaybackNodeManager::doDpuSyncAck:874) VistaPlaybackNode_2: Received SHOW_SYNC_ACK from: fc65641b
+- 15:34:27.547 WARNING:NETWORK: (@PlaybackNodeManager::doDpuSyncAck:880) VistaPlaybackNode_2: Received SHOW_SYNC_ACK from unknown playback node: fc65641b
+- 15:34:27.547 INFO   :NETWORK: (@PlaybackNodeManager::doDpuSyncAck:874) VistaPlaybackNode_2: Received SHOW_SYNC_ACK from: fc656419
+- 15:34:27.547 WARNING:NETWORK: (@PlaybackNodeManager::doDpuSyncAck:880) VistaPlaybackNode_2: Received SHOW_SYNC_ACK from unknown playback node: fc656419
+- 15:34:29.078 INFO   :NETWORK: (@PlaybackNodeManager::doDpuSyncComplete:710) VistaPlaybackNode_2: Received SHOW_SYNC_COMPLETE message from master
+- 15:34:29.078 INFO   :NETWORK: (@PlaybackNodeManager::setSyncProgressState:2174) VistaPlaybackNode_2: Sync Progress State: AUX_PERFORMING_POST_SYNC_TASKS
+- 15:34:29.094 INFO   :NETWORK: (@ShowManager::performPostShowSynchronisationTasks:1051) VistaPlaybackNode_2: Emitting initialisePlayback()
+- 15:34:29.094 INFO   :NETWORK: (@ShowManager::performPostShowSynchronisationTasks:1055) VistaPlaybackNode_2: Emitting showLoaded()
+- 15:34:29.094 INFO   :NETWORK: (@ShowManager::performPostShowSynchronisationTasks:1058) VistaPlaybackNode_2: Emitting showLoadedNotificationCompleted()
+- 15:34:29.094 INFO1  :NETWORK: (@PlaybackNodeManager::showLoadedNotificationCompletedSlot:516) VistaPlaybackNode_2: Emitting stateChangedSignal()
+- 15:34:29.094 INFO   :NETWORK: (@ShowManager::performPostShowSynchronisationTasks:1062) VistaPlaybackNode_2: Emitting enablePlayback()
+- 15:34:29.094 INFO   : (@logIntSet:489) PlaybackEngineCoordinator::setPlaybackUniverses: set contains 0 items: []
+- 15:34:29.094 INFO   :NETWORK: (@PlaybackNodeManager::setSyncProgressState:2174) VistaPlaybackNode_2: Sync Progress State: NO_SYNC_IN_PROGRESS
+- 15:34:29.109 WARNING: (@EffectRateController::resetAllPhasesToZero:105) current playback time 00:00:00
+- 15:34:29.109 INFO   : (@PlaybackEngine::doRefresh:266) New set of assigned fixtures follows:
+- 15:34:29.109 INFO   : (@PlaybackEngine::doRefresh:280) PlaybackEngine: Elapsed time between refreshes was: 0ms
+- 15:34:29.297 INFO1  :NETWORK: (@PlaybackNodeManager::checkTimeControllerFailover:2049) VistaPlaybackNode_2: isSynchronised changed to: 1
+- 15:34:29.297 INFO   : (@PlaybackNodeManager::processMessage_SetConfiguration:1164) (role:0)- empty universes
+- 15:34:29.297 INFO   : (@logIntSet:489) PlaybackEngineCoordinator::setPlaybackUniverses: set contains 0 items: []
+- 15:34:29.313 INFO   : (@PlaybackEngine::doRefresh:266) New set of assigned fixtures follows:
+- 15:34:30.797 INFO   : (@PlaybackNodeManager::processMessage_SetConfiguration:1164) (role:0)- empty universes
+- 15:34:30.797 INFO   : (@logIntSet:489) PlaybackEngineCoordinator::setPlaybackUniverses: set contains 0 items: []
+- 15:34:30.813 INFO   : (@PlaybackEngine::doRefresh:266) New set of assigned fixtures follows:
+- 15:34:47.328 INFO   :NETWORK: (@PlaybackNodeManager::doAboutToSync:902) VistaPlaybackNode_2: Received ABOUT_TO_SYNC
+- 15:34:47.328 INFO   :NETWORK: (@PlaybackNodeManager::setSyncProgressState:2174) VistaPlaybackNode_2: Sync Progress State: AUX_ABOUT_TO_SYNC
+- 15:34:48.500 INFO   :NETWORK: (@PlaybackNodeManager::doDpuSync:789) VistaPlaybackNode_2: Received SHOW_SYNC
+- 15:34:48.500 INFO   :NETWORK: (@PlaybackNodeManager::setSyncProgressState:2174) VistaPlaybackNode_2: Sync Progress State: AUX_RECEIVED_SHOW_ABOUT_TO_DESERIALISE
+- 15:34:48.500 INFO   :NETWORK: (@ShowManager::prepareForShowReplacement:803) VistaPlaybackNode_2: prepareForShowReplacement: Auxiliary
+- 15:34:48.500 INFO   :NETWORK: (@ShowManager::prepareForShowReplacement:820) VistaPlaybackNode_2: Emitting disablePlayback()
+- 15:34:48.500 INFO   :NETWORK: (@ShowManager::prepareForShowReplacement:823) VistaPlaybackNode_2: Emitting showAboutToLoad()
+- 15:34:48.500 INFO1  :NETWORK: (@PlaybackNodeManager::showAboutToLoadSlot:497) VistaPlaybackNode_2: Emitting stateChangedSignal()
+- 15:34:48.578 INFO   : (@Console::Console:65) serialised
+- 15:34:48.578 INFO   : (@Console::Console:65) serialised
+- 15:34:48.578 INFO   : (@Console::Console:65) serialised
+- 15:34:48.578 INFO   : (@Console::Console:65) serialised
+- 15:34:48.594 INFO   : (@Console::Console:65) serialised
+- 15:34:48.594 INFO   : (@ScopedTimeLogger::~ScopedTimeLogger:26) Serialise a show took 81 ms.
+- 15:34:48.594 INFO   :NETWORK: (@PlaybackNodeManager::setSyncProgressState:2174) VistaPlaybackNode_2: Sync Progress State: AUX_SHOW_DESERIALISED
+- 15:34:48.594 INFO   :NETWORK: (@PlaybackNodeManager::dpuSyncAck:658) VistaPlaybackNode_2: Sending SHOW_SYNC_ACK from: fc65641b (DESKTOP-6RVQOQ4-2)
+- 15:34:48.594 INFO   :NETWORK: (@PlaybackNodeManager::setSyncProgressState:2174) VistaPlaybackNode_2: Sync Progress State: AUX_SENDING_SYNC_ACKNOWLEDGEMENT
+- 15:34:48.594 INFO   :NETWORK: (@PlaybackNodeManager::doDpuSyncAck:874) VistaPlaybackNode_2: Received SHOW_SYNC_ACK from: fc65641b (DESKTOP-6RVQOQ4-2)
+- 15:34:48.609 INFO   :NETWORK: (@PlaybackNodeManager::doDpuSyncAck:874) VistaPlaybackNode_2: Received SHOW_SYNC_ACK from: fc656419 (DESKTOP-6RVQOQ4-UI)
+- 15:34:49.672 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) layout change (type 64)
+- 15:34:49.688 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) layout change (type 64)
+- 15:34:49.688 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) layout change (type 64)
+- 15:34:49.688 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) layout change (type 64)
+- 15:34:49.688 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) layout change (type 64)
+- 15:34:49.297 INFO   : (@PlaybackNodeManager::processMessage_SetConfiguration:1164) (role:0)- empty universes
+- 15:34:49.297 INFO   : (@logIntSet:489) PlaybackEngineCoordinator::setPlaybackUniverses: set contains 0 items: []
+- 15:34:50.719 INFO   :NETWORK: (@PlaybackNodeManager::doDpuSyncComplete:710) VistaPlaybackNode_2: Received SHOW_SYNC_COMPLETE message from master
+- 15:34:50.719 INFO   :NETWORK: (@PlaybackNodeManager::setSyncProgressState:2174) VistaPlaybackNode_2: Sync Progress State: AUX_PERFORMING_POST_SYNC_TASKS
+- 15:34:50.750 INFO   :NETWORK: (@ShowManager::performPostShowSynchronisationTasks:1051) VistaPlaybackNode_2: Emitting initialisePlayback()
+- 15:34:50.750 INFO   :NETWORK: (@ShowManager::performPostShowSynchronisationTasks:1055) VistaPlaybackNode_2: Emitting showLoaded()
+- 15:34:50.750 INFO   :NETWORK: (@ShowManager::performPostShowSynchronisationTasks:1058) VistaPlaybackNode_2: Emitting showLoadedNotificationCompleted()
+- 15:34:50.766 INFO1  :NETWORK: (@PlaybackNodeManager::showLoadedNotificationCompletedSlot:516) VistaPlaybackNode_2: Emitting stateChangedSignal()
+- 15:34:50.766 INFO   :NETWORK: (@ShowManager::performPostShowSynchronisationTasks:1062) VistaPlaybackNode_2: Emitting enablePlayback()
+- 15:34:50.766 INFO   : (@logIntSet:489) PlaybackEngineCoordinator::setPlaybackUniverses: set contains 0 items: []
+- 15:34:50.766 INFO   :NETWORK: (@PlaybackNodeManager::setSyncProgressState:2174) VistaPlaybackNode_2: Sync Progress State: NO_SYNC_IN_PROGRESS
+- 15:34:50.766 WARNING: (@EffectRateController::resetAllPhasesToZero:105) current playback time 15:34:47.920059
+- 15:34:50.766 INFO   : (@PlaybackEngine::doRefresh:266) New set of assigned fixtures follows:
+- 15:34:50.766 INFO   : (@PlaybackEngine::doRefresh:280) PlaybackEngine: Elapsed time between refreshes was: 2497ms
+- 15:34:50.844 INFO   : (@PlaybackNodeManager::processMessage_SetConfiguration:1164) (role:0)- empty universes
+- 15:34:50.844 INFO   : (@logIntSet:489) PlaybackEngineCoordinator::setPlaybackUniverses: set contains 0 items: []
+- 15:34:50.859 INFO   : (@PlaybackEngine::doRefresh:266) New set of assigned fixtures follows:
+- 15:34:51.344 INFO   : (@PlaybackNodeManager::processMessage_SetConfiguration:1164) (role:0)- empty universes
+- 15:34:51.344 INFO   : (@logIntSet:489) PlaybackEngineCoordinator::setPlaybackUniverses: set contains 0 items: []
+- 15:34:51.359 INFO   : (@PlaybackEngine::doRefresh:266) New set of assigned fixtures follows:
+- 15:34:51.234 WARNING: (@FixtureStatusManager::doPanelDataRequest:472) Playback status missing for fixture 14
+- 15:34:51.234 WARNING: (@FixtureStatusManager::doPanelDataRequest:472) Playback status missing for fixture 8
+- 15:34:51.234 WARNING: (@FixtureStatusManager::doPanelDataRequest:472) Playback status missing for fixture 5
+- 15:34:51.234 WARNING: (@FixtureStatusManager::doPanelDataRequest:472) Playback status missing for fixture 12
+- 15:34:51.234 WARNING: (@FixtureStatusManager::doPanelDataRequest:472) Playback status missing for fixture 13
+- 15:34:51.234 WARNING: (@FixtureStatusManager::doPanelDataRequest:472) Playback status missing for fixture 11
+- 15:34:51.234 WARNING: (@FixtureStatusManager::doPanelDataRequest:472) Playback status missing for fixture 6
+- 15:34:51.234 WARNING: (@FixtureStatusManager::doPanelDataRequest:472) Playback status missing for fixture 7
+- 15:34:51.234 WARNING: (@FixtureStatusManager::doPanelDataRequest:472) Playback status missing for fixture 10
+- 15:34:51.234 WARNING: (@FixtureStatusManager::doPanelDataRequest:472) Playback status missing for fixture 9
+- 15:34:53.344 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 15:34:53.359 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 15:34:53.375 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 15:34:53.375 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 15:34:53.391 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 15:34:53.391 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 15:34:53.406 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 15:34:53.406 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 15:34:53.422 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 15:34:53.422 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+*** Message repeated 14 more times ***
+- 15:35:05.109 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) layout change (type 64)
+- 15:35:05.250 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) layout change (type 64)
+- 15:35:06.375 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) layout change (type 64)
+- 15:35:06.375 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) layout change (type 64)
+- 15:35:07.516 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) layout change (type 64)
+- 15:35:07.641 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) layout change (type 64)
+- 15:35:07.766 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) layout change (type 64)
+- 15:35:07.984 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) layout change (type 64)
+- 15:35:08.703 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) layout change (type 64)
+- 15:35:08.844 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) layout change (type 64)
+*** Message repeated 73 more times ***
+- 15:35:40.422 INFO   : (@ClipPlayerManager::logPlaybackState:899) Highlight Cuelist [cue 0,2000ms,Playing]
+- 15:35:52.063 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) arrange in grid (type 64)
+- 15:36:21.125 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) arrange in grid (type 64)
+- 15:36:55.422 INFO   : (@ClipPlayerManager::logPlaybackState:899) Highlight Cuelist [cue 0,2000ms,Playing]
+- 15:36:55.734 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) arrange in grid (type 64)
+- 15:37:16.828 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) layout change (type 64)
+- 15:37:16.953 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) layout change (type 64)
+- 15:37:16.047 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) layout change (type 64)
+- 15:37:16.172 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) layout change (type 64)
+- 15:37:16.297 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) layout change (type 64)
+- 15:37:17.391 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) layout change (type 64)
+- 15:37:17.500 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) layout change (type 64)
+- 15:37:17.703 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) layout change (type 64)
+*** Message repeated 380 more times ***
+- 15:38:10.422 INFO   : (@ClipPlayerManager::logPlaybackState:899) Highlight Cuelist [cue 0,2000ms,Playing]
+- 15:38:10.484 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) layout change (type 64)
+- 15:38:10.500 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) layout change (type 64)
+- 15:38:10.500 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) layout change (type 64)
+- 15:38:10.500 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) layout change (type 64)
+- 15:38:10.500 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) layout change (type 64)
+- 15:38:10.500 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) layout change (type 64)
+- 15:38:10.500 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) layout change (type 64)
+- 15:38:10.500 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) layout change (type 64)
+- 15:38:10.500 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) layout change (type 64)
+*** Message repeated 386 more times ***
+- 15:39:25.422 INFO   : (@ClipPlayerManager::logPlaybackState:899) Highlight Cuelist [cue 0,2000ms,Playing]
+- 15:39:34.609 INFO   :NETWORK: (@PlaybackNodeManager::doShowSavedOnMain:742) VistaPlaybackNode_2: Received SHOW_SAVED_ON_MAIN message from master
+- 15:39:35.766 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) Clear (type 64)
+- 15:39:43.734 INFO1  :Command: (@ShowCommandExecutor::doPush:359) set Snapshot properties (type ffffffffbcfff332)
+- 15:39:56.109 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 15:39:56.125 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 15:39:56.125 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 15:39:56.125 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 15:39:56.125 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 15:39:56.125 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 15:39:56.141 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 15:39:56.141 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 15:39:56.141 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+*** Message repeated 265 more times ***
+- 15:41:28.859 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) Clear (type 64)
+- 15:41:33.000 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 15:41:33.016 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 15:41:33.031 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 15:41:33.031 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 15:41:33.063 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 15:41:33.063 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 15:41:33.078 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 15:41:33.078 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 15:41:33.094 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+*** Message repeated 534 more times ***
+- 15:44:27.859 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) Create Item (type 64)
+- 15:44:28.109 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 15:44:28.109 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 15:44:39.781 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) Create Item (type 64)
+- 15:44:40.766 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 15:44:40.781 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 15:44:50.547 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) Create Item (type 64)
+- 15:44:52.469 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 15:44:52.094 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 15:44:53.297 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 15:44:55.688 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 15:45:12.984 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 15:45:12.984 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 15:45:38.453 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) Create Item (type 64)
+- 15:45:43.844 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 15:45:43.844 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 15:45:48.109 INFO1  :Command: (@ShowCommandExecutor::doPush:359) update preset (type 38372621)
+- 15:45:48.125 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 15:45:48.141 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 15:45:51.844 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 15:45:51.844 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 15:45:51.250 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 15:45:51.250 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 15:45:56.422 INFO1  :Command: (@ShowCommandExecutor::doPush:359) update preset (type 38372621)
+- 15:45:56.438 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 15:45:56.453 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 15:45:57.688 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 15:45:58.891 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 15:45:58.891 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 15:46:12.500 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) Create Item (type 64)
+- 15:46:16.266 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 15:46:16.266 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 15:46:28.734 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) Create Item (type 64)
+- 15:46:30.484 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 15:46:30.484 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 15:46:36.156 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) Create Item (type 64)
+- 15:46:48.219 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) Create Item (type 64)
+- 15:46:50.359 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 15:46:50.359 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 15:46:57.234 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) Create Item (type 64)
+- 15:46:59.125 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 15:46:59.125 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 15:47:06.938 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) Create Item (type 64)
+- 15:47:08.797 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 15:47:08.797 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 15:47:20.375 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) Create Item (type 64)
+- 15:47:21.688 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 15:47:21.688 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 15:47:29.828 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) Create Item (type 64)
+- 15:47:30.984 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 15:47:30.984 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 15:47:38.719 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) Create Item (type 64)
+- 15:47:39.297 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 15:47:39.297 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 15:47:47.984 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) Create Item (type 64)
+- 15:47:50.203 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 15:47:50.203 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 15:48:04.531 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) Create Item (type 64)
+- 15:48:05.141 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 15:48:05.141 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 15:48:24.625 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) Create Item (type 64)
+- 15:48:27.500 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 15:48:27.500 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 15:48:33.453 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) Create Item (type 64)
+- 15:48:36.234 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 15:48:36.234 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 15:48:46.141 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) Create Item (type 64)
+- 15:48:47.109 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 15:48:49.359 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 15:48:50.250 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 15:48:51.094 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 15:48:52.625 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 15:48:52.297 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 15:48:54.359 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 15:48:54.875 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 15:48:55.453 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+*** Message repeated 15 more times ***
+- 15:49:32.750 INFO1  :Command: (@ShowCommandExecutor::doPush:359) update preset (type 38372621)
+- 15:49:32.766 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 15:49:39.938 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 15:49:43.578 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 15:49:43.641 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 15:49:43.719 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 15:49:43.828 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 15:49:43.828 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 15:49:43.844 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 15:49:43.859 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 15:49:43.891 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 15:49:43.922 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 15:49:43.922 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+*** Message repeated 49 more times ***
+- 15:49:54.531 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 15:49:54.156 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 15:49:55.250 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 15:49:59.406 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 15:50:00.828 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 15:50:01.734 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 15:50:05.375 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 15:50:11.547 INFO1  :Command: (@ShowCommandExecutor::doPush:359) update preset (type 38372621)
+- 15:50:11.563 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 15:50:11.578 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 15:50:12.484 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 15:50:12.984 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 15:50:13.906 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 15:50:14.203 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 15:50:14.203 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 15:50:14.219 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 15:50:14.219 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 15:50:14.234 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 15:50:14.234 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 15:50:14.234 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 15:50:14.234 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 15:50:14.250 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 15:50:14.250 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+*** Message repeated 408 more times ***
+- 15:50:25.109 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 15:50:26.828 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 15:50:27.453 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 15:50:28.531 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 15:50:28.250 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 15:50:30.188 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 15:50:31.969 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 15:50:35.469 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 15:50:38.547 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 15:50:38.125 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 15:50:40.438 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 15:50:40.031 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 15:50:41.203 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 15:50:42.813 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 15:50:43.969 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 15:50:44.656 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 15:50:44.313 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+*** Message repeated 2 more times ***
+- 15:51:03.391 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 15:51:03.391 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 15:51:03.391 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 15:51:03.391 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 15:51:03.406 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 15:51:03.406 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 15:51:03.406 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 15:51:03.406 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 15:51:03.422 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 15:51:03.422 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+*** Message repeated 402 more times ***
+- 15:51:55.422 INFO   : (@ClipPlayerManager::logPlaybackState:899) 19:Smoke [cue 0,0ms,Playing]
+- 15:51:56.094 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 15:51:56.109 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 15:52:00.828 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 15:52:00.875 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 15:52:00.891 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 15:52:00.906 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 15:52:00.906 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 15:52:00.938 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 15:52:00.953 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+*** Message repeated 263 more times ***
+- 15:53:10.422 INFO   : (@ClipPlayerManager::logPlaybackState:899) 19:Smoke [cue 0,0ms,Playing]
+- 15:53:11.766 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 15:53:12.328 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 15:53:14.859 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 15:53:41.688 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 15:53:41.703 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 15:53:41.703 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 15:53:41.719 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 15:53:41.734 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 15:53:41.734 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+*** Message repeated 658 more times ***
+- 15:54:25.422 INFO   : (@ClipPlayerManager::logPlaybackState:899) 19:Smoke [cue 0,0ms,Playing]
+- 15:54:31.031 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 15:54:31.063 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 15:54:31.125 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 15:54:31.203 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 15:54:32.391 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 15:54:32.406 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 15:54:32.484 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 15:54:32.563 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 15:54:32.625 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+*** Message repeated 15 more times ***
+- 15:54:47.359 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 15:54:49.609 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 15:54:50.984 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 15:54:51.391 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 15:54:51.063 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 15:54:52.656 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 15:54:53.125 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 15:54:58.063 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 15:55:00.813 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 15:55:03.375 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+*** Message repeated 10 more times ***
+- 15:55:15.938 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 15:55:15.953 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 15:55:15.953 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 15:55:15.969 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 15:55:15.969 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 15:55:15.984 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 15:55:15.984 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 15:55:15.000 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 15:55:15.000 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 15:55:15.016 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+*** Message repeated 2 more times ***
+- 15:55:17.359 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 15:55:19.375 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 15:55:19.375 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 15:55:19.375 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 15:55:19.391 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 15:55:19.391 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 15:55:19.406 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 15:55:19.406 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 15:55:19.422 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 15:55:19.422 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+*** Message repeated 105 more times ***
+- 15:55:23.516 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 15:55:24.359 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 15:55:24.391 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 15:55:24.391 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 15:55:24.406 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 15:55:24.406 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 15:55:24.422 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 15:55:24.422 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 15:55:24.438 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 15:55:24.438 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+*** Message repeated 5 more times ***
+- 15:55:25.078 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 15:55:27.625 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 15:55:28.531 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 15:55:30.344 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 15:55:40.422 INFO   : (@ClipPlayerManager::logPlaybackState:899) 19:Smoke [cue 0,0ms,Playing]
+- 15:56:02.359 INFO1  :Command: (@ShowCommandExecutor::doPush:359) update preset (type 38372621)
+- 15:56:02.375 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 15:56:02.375 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 15:56:03.719 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 15:56:04.672 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 15:56:04.688 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 15:56:04.703 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 15:56:04.703 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 15:56:04.719 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 15:56:04.719 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 15:56:04.734 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 15:56:04.734 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 15:56:04.750 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 15:56:04.750 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+*** Message repeated 5 more times ***
+- 15:56:05.797 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 15:56:06.859 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 15:56:07.359 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 15:56:07.156 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 15:56:24.734 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 15:56:25.328 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 15:56:28.953 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 15:56:30.234 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 15:56:33.500 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 15:56:35.641 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 15:56:37.063 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 15:56:40.891 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 15:56:43.094 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 15:56:45.297 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+*** Message repeated 3 more times ***
+- 15:56:55.422 INFO   : (@ClipPlayerManager::logPlaybackState:899) 19:Smoke [cue 0,0ms,Playing]
+- 15:56:55.672 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 15:56:57.828 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 15:56:59.875 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 15:57:02.031 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 15:57:02.047 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 15:57:02.047 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 15:57:02.063 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 15:57:02.063 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 15:57:02.078 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 15:57:02.078 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 15:57:02.094 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 15:57:02.094 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 15:57:02.109 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+*** Message repeated 2 more times ***
+- 15:57:03.203 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 15:57:05.266 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 15:57:08.375 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 15:57:09.500 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 15:57:10.375 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 15:57:10.391 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 15:57:10.391 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 15:57:10.391 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 15:57:10.406 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 15:57:10.406 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 15:57:10.422 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 15:57:10.422 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 15:57:10.438 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 15:57:10.438 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+*** Message repeated 10 more times ***
+- 15:57:11.500 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 15:57:12.328 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 15:57:14.141 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 15:57:25.969 INFO1  :Command: (@ShowCommandExecutor::doPush:359) update preset (type 38372621)
+- 15:57:25.984 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 15:57:25.000 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 15:57:26.219 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 15:57:27.797 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 15:57:28.500 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 15:57:28.313 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 15:57:38.031 INFO1  :Command: (@ShowCommandExecutor::doPush:359) update preset (type 38372621)
+- 15:57:38.047 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 15:57:38.063 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 15:57:40.313 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 15:57:42.609 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 15:57:49.313 INFO1  :Command: (@ShowCommandExecutor::doPush:359) update preset (type 38372621)
+- 15:57:49.328 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 15:57:50.344 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 15:57:51.953 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 15:57:52.563 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 15:57:52.953 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 15:58:00.375 INFO1  :Command: (@ShowCommandExecutor::doPush:359) update preset (type 38372621)
+- 15:58:00.391 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 15:58:00.406 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 15:58:00.219 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 15:58:10.422 INFO   : (@ClipPlayerManager::logPlaybackState:899) 19:Smoke [cue 0,0ms,Playing]
+- 15:58:11.344 INFO1  :Command: (@ShowCommandExecutor::doPush:359) update preset (type 38372621)
+- 15:58:11.359 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 15:58:11.375 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 15:58:11.141 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 15:58:14.688 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 15:58:20.938 INFO1  :Command: (@ShowCommandExecutor::doPush:359) update preset (type 38372621)
+- 15:58:20.953 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 15:58:20.969 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 15:58:22.438 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 15:58:22.453 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 15:58:22.469 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 15:58:22.469 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 15:58:22.484 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 15:58:22.500 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 15:58:22.500 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 15:58:22.516 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 15:58:22.578 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 15:58:22.656 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+*** Message repeated 17 more times ***
+- 15:58:23.219 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 15:58:25.547 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 15:58:27.406 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 15:58:33.313 INFO1  :Command: (@ShowCommandExecutor::doPush:359) update preset (type 38372621)
+- 15:58:33.328 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 15:58:33.344 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 15:58:37.375 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 15:58:37.078 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 15:58:46.188 INFO1  :Command: (@ShowCommandExecutor::doPush:359) update preset (type 38372621)
+- 15:58:46.203 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 15:58:46.219 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 15:58:47.031 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 15:58:48.719 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 15:58:57.547 INFO1  :Command: (@ShowCommandExecutor::doPush:359) update preset (type 38372621)
+- 15:58:57.563 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 15:58:57.578 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 15:58:58.609 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 15:58:59.422 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 15:59:06.953 INFO1  :Command: (@ShowCommandExecutor::doPush:359) update preset (type 38372621)
+- 15:59:06.969 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 15:59:06.984 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 15:59:07.953 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 15:59:08.703 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 15:59:15.984 INFO1  :Command: (@ShowCommandExecutor::doPush:359) update preset (type 38372621)
+- 15:59:15.000 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 15:59:15.000 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 15:59:18.703 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 15:59:19.656 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 15:59:20.281 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 15:59:21.125 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 15:59:23.359 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 15:59:23.375 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 15:59:23.375 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 15:59:23.391 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 15:59:23.406 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 15:59:23.406 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 15:59:23.422 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 15:59:23.453 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 15:59:23.484 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 15:59:23.500 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+*** Message repeated 9 more times ***
+- 15:59:24.891 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 15:59:25.422 INFO   : (@ClipPlayerManager::logPlaybackState:899) 19:Smoke [cue 0,0ms,Playing]
+- 15:59:25.688 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 15:59:25.984 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 15:59:25.172 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 15:59:25.328 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 15:59:26.469 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 15:59:26.641 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 15:59:26.109 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 15:59:27.125 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 15:59:29.422 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 15:59:29.422 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 15:59:29.438 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 15:59:29.453 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 15:59:29.453 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 15:59:29.469 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 15:59:29.469 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 15:59:29.484 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 15:59:29.484 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 15:59:29.516 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+*** Message repeated 11 more times ***
+- 15:59:30.453 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 15:59:30.234 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 15:59:30.234 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 15:59:30.250 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 15:59:30.250 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 15:59:30.266 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 15:59:30.266 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 15:59:30.281 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 15:59:30.297 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 15:59:30.297 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+*** Message repeated 7 more times ***
+- 15:59:31.234 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 15:59:33.906 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 15:59:42.859 INFO1  :Command: (@ShowCommandExecutor::doPush:359) update preset (type 38372621)
+- 15:59:42.875 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 15:59:42.891 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 15:59:44.906 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 15:59:45.703 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 15:59:46.797 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 15:59:47.094 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 15:59:56.219 INFO1  :Command: (@ShowCommandExecutor::doPush:359) update preset (type 38372621)
+- 15:59:56.234 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 15:59:56.250 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 15:59:57.141 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 16:00:06.641 INFO1  :Command: (@ShowCommandExecutor::doPush:359) update preset (type 38372621)
+- 16:00:06.641 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 16:00:06.656 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 16:00:07.578 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 16:00:17.484 INFO1  :Command: (@ShowCommandExecutor::doPush:359) update preset (type 38372621)
+- 16:00:17.500 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 16:00:17.516 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 16:00:18.422 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 16:00:18.094 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 16:00:27.531 INFO1  :Command: (@ShowCommandExecutor::doPush:359) update preset (type 38372621)
+- 16:00:27.547 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 16:00:27.563 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 16:00:27.297 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 16:00:29.469 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 16:00:29.484 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 16:00:29.484 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 16:00:29.500 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 16:00:29.500 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 16:00:29.516 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 16:00:29.516 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 16:00:29.531 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 16:00:29.547 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 16:00:29.578 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+*** Message repeated 5 more times ***
+- 16:00:30.547 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 16:00:31.453 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 16:00:31.125 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 16:00:31.141 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 16:00:31.141 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 16:00:31.141 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 16:00:31.156 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 16:00:31.172 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 16:00:31.172 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 16:00:31.188 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 16:00:31.188 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 16:00:31.203 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+*** Message repeated 10 more times ***
+- 16:00:32.125 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 16:00:33.844 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 16:00:40.422 INFO   : (@ClipPlayerManager::logPlaybackState:899) 19:Smoke [cue 0,0ms,Playing]
+- 16:00:43.234 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 16:00:51.516 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 16:00:55.781 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 16:00:55.797 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 16:00:57.219 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 16:01:00.984 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 16:01:00.984 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 16:01:08.672 INFO1  :Command: (@ShowCommandExecutor::doPush:359) update preset (type 38372621)
+- 16:01:08.672 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 16:01:08.688 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 16:01:09.672 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 16:01:10.250 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 16:01:11.313 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 16:01:13.453 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 16:01:13.000 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 16:01:14.797 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 16:01:15.484 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 16:01:15.953 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+*** Message repeated 10 more times ***
+- 16:01:26.609 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 16:01:26.609 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 16:01:28.781 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 16:01:28.781 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 16:01:30.781 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 16:01:31.656 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 16:01:33.844 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 16:01:35.781 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 16:01:35.781 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 16:01:40.391 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 16:01:40.766 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 16:01:40.766 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 16:01:40.828 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 16:01:40.875 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 16:01:40.891 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 16:01:40.906 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 16:01:40.922 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+*** Message repeated 77 more times ***
+- 16:01:55.422 INFO   : (@ClipPlayerManager::logPlaybackState:899) 19:Smoke [cue 0,0ms,Playing]
+- 16:01:55.547 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 16:01:55.563 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 16:01:55.594 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 16:01:55.891 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 16:01:55.906 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 16:01:55.938 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 16:01:55.141 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 16:01:55.172 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 16:01:55.188 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+*** Message repeated 68 more times ***
+- 16:03:09.438 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) Create Item (type 64)
+- 16:03:10.422 INFO   : (@ClipPlayerManager::logPlaybackState:899) 19:Smoke [cue 0,0ms,Playing]
+- 16:03:10.219 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 16:03:19.625 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 16:03:27.359 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 16:03:27.359 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 16:03:27.359 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 16:03:27.359 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 16:03:27.359 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 16:03:27.359 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 16:03:27.359 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 16:03:27.359 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+*** Message repeated 34 more times ***
+- 16:04:18.875 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 16:04:22.578 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 16:04:22.578 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 16:04:25.422 INFO   : (@ClipPlayerManager::logPlaybackState:899) 19:Smoke [cue 0,0ms,Playing]
+- 16:04:33.734 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 16:04:33.734 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 16:04:40.250 INFO1  :Command: (@ShowCommandExecutor::doPush:359) update preset (type 38372621)
+- 16:04:40.266 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 16:04:40.266 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 16:04:42.391 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 16:04:42.391 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 16:05:03.516 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) Create Item (type 64)
+- 16:05:04.375 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 16:05:04.375 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 16:05:20.625 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) Create Item (type 64)
+- 16:05:21.719 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 16:05:21.719 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 16:05:39.031 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) Create Item (type 64)
+- 16:05:40.422 INFO   : (@ClipPlayerManager::logPlaybackState:899) 19:Smoke [cue 0,0ms,Playing]
+- 16:05:41.734 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 16:05:41.734 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 16:05:54.234 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) Create Item (type 64)
+- 16:05:56.469 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 16:05:56.469 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 16:06:10.828 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) Create Item (type 64)
+- 16:06:11.938 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 16:06:11.938 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 16:06:25.781 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) Create Item (type 64)
+- 16:06:26.250 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 16:06:26.250 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 16:06:40.031 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) Create Item (type 64)
+- 16:06:41.875 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 16:06:41.875 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 16:06:55.422 INFO   : (@ClipPlayerManager::logPlaybackState:899) 19:Smoke [cue 0,0ms,Playing]
+- 16:07:05.469 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) Create Item (type 64)
+- 16:07:06.922 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 16:07:07.594 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 16:07:08.391 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 16:07:08.172 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 16:07:10.875 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 16:07:11.703 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 16:07:14.844 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 16:07:16.703 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 16:07:17.297 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+*** Message repeated 4 more times ***
+- 16:07:31.563 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 16:07:32.453 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 16:07:33.891 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 16:07:36.938 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 16:07:39.094 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 16:07:47.203 INFO1  :Command: (@ShowCommandExecutor::doPush:359) set Snapshot properties (type ffffffffbcfff332)
+- 16:07:59.516 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 16:07:59.516 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 16:07:59.516 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 16:07:59.516 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+*** Message repeated 19 more times ***
+- 16:08:10.422 INFO   : (@ClipPlayerManager::logPlaybackState:899) 19:Smoke [cue 0,0ms,Playing]
+- 16:08:44.734 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Add Page (type ffffffffa311e543)
+- 16:08:53.844 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 16:08:56.547 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 16:08:57.719 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 16:08:58.828 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 16:08:59.094 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 16:09:06.656 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 16:09:07.719 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 16:09:07.719 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 16:09:07.734 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 16:09:07.750 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 16:09:07.750 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 16:09:07.750 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 16:09:07.766 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 16:09:07.766 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 16:09:07.766 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+*** Message repeated 8 more times ***
+- 16:09:19.984 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 16:09:25.422 INFO   : (@ClipPlayerManager::logPlaybackState:899) 19:Smoke [cue 0,0ms,Playing]
+- 16:09:31.750 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 16:09:36.156 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 16:09:41.656 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 16:09:41.672 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 16:09:41.688 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 16:09:41.781 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 16:09:41.781 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 16:09:41.797 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 16:09:45.375 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 16:09:45.516 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 16:09:45.531 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+*** Message repeated 119 more times ***
+- 16:10:05.531 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 16:10:05.547 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 16:10:08.531 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 16:10:08.547 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 16:10:08.547 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 16:10:08.563 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 16:10:08.563 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 16:10:08.578 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 16:10:08.578 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 16:10:08.594 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 16:10:08.656 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 16:10:08.672 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+*** Message repeated 29 more times ***
+- 16:10:20.813 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 16:10:20.828 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 16:10:34.578 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 16:10:36.672 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 16:10:40.422 INFO   : (@ClipPlayerManager::logPlaybackState:899) 19:Smoke [cue 0,0ms,Playing]
+- 16:10:41.641 INFO1  :Command: (@ShowCommandExecutor::doPush:359) update preset (type 38372621)
+- 16:10:41.656 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 16:10:41.672 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 16:10:54.375 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 16:11:00.969 INFO1  :Command: (@ShowCommandExecutor::doPush:359) update preset (type 38372621)
+- 16:11:00.969 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 16:11:00.984 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 16:11:07.250 INFO1  :Command: (@ShowCommandExecutor::doPush:359) update preset (type 38372621)
+- 16:11:07.266 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 16:11:07.266 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 16:11:11.000 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 16:11:15.688 INFO1  :Command: (@ShowCommandExecutor::doPush:359) update preset (type 38372621)
+- 16:11:15.703 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 16:11:15.703 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 16:11:16.156 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 16:11:18.906 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 16:11:19.625 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 16:11:19.297 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 16:11:21.766 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 16:11:22.094 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 16:11:23.891 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 16:11:24.750 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+*** Message repeated 11 more times ***
+- 16:11:38.250 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 16:11:39.750 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 16:11:39.891 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 16:11:39.906 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 16:11:39.922 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 16:11:39.969 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 16:11:39.281 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 16:11:39.297 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 16:11:39.328 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 16:11:40.391 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+*** Message repeated 105 more times ***
+- 16:11:55.422 INFO   : (@ClipPlayerManager::logPlaybackState:899) 19:Smoke [cue 0,0ms,Playing]
+- 16:11:55.453 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 16:11:55.469 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 16:11:55.500 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 16:11:55.531 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 16:11:55.781 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 16:11:55.797 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 16:11:55.813 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 16:11:55.828 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 16:11:55.844 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+*** Message repeated 267 more times ***
+- 16:12:22.313 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 16:12:24.688 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 16:12:26.016 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 16:12:29.953 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 16:12:35.281 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 16:12:36.953 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 16:12:38.828 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 16:12:40.359 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 16:12:40.109 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 16:12:42.797 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+*** Message repeated 5 more times ***
+- 16:12:56.344 INFO1  :Command: (@ShowCommandExecutor::doPush:359) update preset (type 38372621)
+- 16:12:57.359 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 16:12:57.359 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 16:12:58.750 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 16:12:59.219 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 16:13:00.844 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 16:13:01.125 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 16:13:06.234 INFO1  :Command: (@ShowCommandExecutor::doPush:359) update preset (type 38372621)
+- 16:13:06.234 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 16:13:06.250 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 16:13:08.359 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 16:13:10.422 INFO   : (@ClipPlayerManager::logPlaybackState:899) 19:Smoke [cue 0,0ms,Playing]
+- 16:13:11.063 INFO1  :Command: (@ShowCommandExecutor::doPush:359) update preset (type 38372621)
+- 16:13:11.078 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 16:13:11.094 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 16:13:16.297 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 16:13:24.156 INFO1  :Command: (@ShowCommandExecutor::doPush:359) update preset (type 38372621)
+- 16:13:24.172 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 16:13:24.188 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 16:13:26.516 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 16:13:26.141 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 16:13:29.172 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) Delete items (type 64)
+- 16:13:32.234 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 16:13:32.234 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 16:13:32.234 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 16:13:33.969 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 16:13:34.578 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 16:13:34.031 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 16:13:36.719 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 16:13:40.906 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 16:13:46.688 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 16:13:52.625 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 16:14:09.188 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) Create Item (type 64)
+- 16:14:10.234 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 16:14:10.234 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 16:14:10.250 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 16:14:10.250 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 16:14:10.266 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 16:14:10.266 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 16:14:10.281 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 16:14:10.281 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 16:14:10.297 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+*** Message repeated 18 more times ***
+- 16:14:24.250 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) Create Item (type 64)
+- 16:14:25.422 INFO   : (@ClipPlayerManager::logPlaybackState:899) 19:Smoke [cue 0,0ms,Playing]
+- 16:14:25.063 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 16:14:26.766 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 16:14:28.469 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 16:14:28.125 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 16:15:04.016 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 16:15:07.000 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 16:15:40.422 INFO   : (@ClipPlayerManager::logPlaybackState:899) 19:Smoke [cue 0,0ms,Playing]
+- 16:16:55.422 INFO   : (@ClipPlayerManager::logPlaybackState:899) 19:Smoke [cue 0,0ms,Playing]
+- 16:18:10.422 INFO   : (@ClipPlayerManager::logPlaybackState:899) 19:Smoke [cue 0,0ms,Playing]
+- 16:19:00.469 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 16:19:01.391 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 16:19:02.875 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 16:19:03.766 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 16:19:09.766 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 16:19:09.766 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 16:19:09.766 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 16:19:09.781 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 16:19:09.781 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 16:19:09.781 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 16:19:09.797 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 16:19:09.797 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 16:19:09.797 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 16:19:09.859 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+*** Message repeated 13 more times ***
+- 16:19:25.422 INFO   : (@ClipPlayerManager::logPlaybackState:899) 19:Smoke [cue 0,0ms,Playing]
+- 16:19:25.516 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 16:19:25.516 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 16:20:11.578 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 16:20:11.578 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 16:20:11.578 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 16:20:11.578 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 16:20:11.578 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 16:20:13.531 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 16:20:13.531 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+*** Message repeated 29 more times ***
+- 16:20:33.438 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 16:20:35.969 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 16:20:37.297 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 16:20:38.047 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 16:20:40.422 INFO   : (@ClipPlayerManager::logPlaybackState:899) 19:Smoke [cue 0,0ms,Playing]
+- 16:20:40.734 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 16:20:41.578 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 16:20:43.375 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 16:20:44.016 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 16:20:48.797 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 16:20:48.797 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 16:20:48.797 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 16:20:48.797 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 16:20:50.781 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 16:20:50.781 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 16:20:50.781 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 16:20:50.781 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 16:20:51.813 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 16:20:53.766 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 16:20:54.938 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 16:21:38.469 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 16:21:38.188 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 16:21:40.422 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 16:21:41.469 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 16:21:42.609 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 16:21:45.156 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 16:21:45.156 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 16:21:45.156 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 16:21:45.188 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 16:21:45.188 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 16:21:45.188 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 16:21:45.188 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 16:21:45.188 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 16:21:45.203 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 16:21:45.203 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+*** Message repeated 7 more times ***
+- 16:21:54.391 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 16:21:55.422 INFO   : (@ClipPlayerManager::logPlaybackState:899) 19:Smoke [cue 0,0ms,Playing]
+- 16:21:56.656 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 16:21:57.531 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 16:21:59.438 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 16:22:02.563 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 16:22:19.641 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 16:22:24.391 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 16:22:28.047 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 16:22:30.969 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 16:22:32.781 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+*** Message repeated 5 more times ***
+- 16:22:43.797 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 16:22:43.797 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 16:22:43.797 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 16:22:43.797 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 16:22:43.813 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 16:22:43.813 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 16:22:43.813 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 16:22:43.828 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 16:22:43.828 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 16:22:43.875 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+*** Message repeated 13 more times ***
+- 16:23:10.422 INFO   : (@ClipPlayerManager::logPlaybackState:899) 19:Smoke [cue 0,0ms,Playing]
+- 16:23:24.016 INFO1  :Command: (@ShowCommandExecutor::doPush:359) set Snapshot properties (type ffffffffbcfff332)
+- 16:23:36.578 INFO1  :Command: (@ShowCommandExecutor::doPush:359) set Snapshot properties (type ffffffffbcfff332)
+- 16:23:58.469 INFO1  :Command: (@ShowCommandExecutor::doPush:359) set Snapshot properties (type ffffffffbcfff332)
+- 16:24:00.125 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 16:24:03.391 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 16:24:04.531 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 16:24:06.359 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 16:24:08.313 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 16:24:10.891 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 16:24:12.453 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 16:24:13.281 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 16:24:15.391 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 16:24:15.078 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 16:24:19.641 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 16:24:19.641 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 16:24:19.641 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 16:24:19.641 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 16:24:19.641 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 16:24:19.641 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 16:24:19.641 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 16:24:19.641 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 16:24:20.641 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 16:24:21.438 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 16:24:22.500 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 16:24:23.453 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 16:24:25.422 INFO   : (@ClipPlayerManager::logPlaybackState:899) 19:Smoke [cue 0,0ms,Playing]
+- 16:25:11.625 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Add Page (type ffffffffa311e543)
+- 16:25:22.563 INFO1  :Command: (@ShowCommandExecutor::doPush:359) set Snapshot properties (type ffffffffbcfff332)
+- 16:25:23.500 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 16:25:23.500 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 16:25:23.516 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 16:25:23.516 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 16:25:23.516 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 16:25:23.531 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 16:25:23.531 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 16:25:23.547 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+*** Message repeated 232 more times ***
+- 16:25:40.422 INFO   : (@ClipPlayerManager::logPlaybackState:899) 19:Smoke [cue 0,0ms,Playing]
+- 16:25:43.375 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 16:25:43.391 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 16:25:43.391 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 16:25:43.391 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 16:25:43.391 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 16:25:43.406 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 16:25:43.406 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 16:25:43.422 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 16:25:43.422 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+*** Message repeated 151 more times ***
+- 16:26:55.422 INFO   : (@ClipPlayerManager::logPlaybackState:899) 19:Smoke [cue 0,0ms,Playing]
+- 16:26:57.359 INFO1  :Command: (@ShowCommandExecutor::doPush:359) set Snapshot properties (type ffffffffbcfff332)
+- 16:26:57.313 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 16:26:57.313 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 16:26:57.328 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 16:26:57.328 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 16:26:57.328 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 16:26:57.344 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 16:26:58.344 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 16:26:58.359 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+*** Message repeated 73 more times ***
+- 16:28:10.422 INFO   : (@ClipPlayerManager::logPlaybackState:899) 19:Smoke [cue 0,0ms,Playing]
+- 16:28:38.094 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 16:28:38.094 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 16:28:40.391 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 16:28:40.391 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 16:28:42.625 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 16:28:42.625 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 16:28:45.672 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 16:28:45.672 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 16:28:46.484 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+*** Message repeated 7 more times ***
+- 16:29:15.984 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) Create Item (type 64)
+- 16:29:17.719 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 16:29:17.719 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 16:29:19.953 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 16:29:19.953 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 16:29:20.078 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 16:29:20.078 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 16:29:25.422 INFO   : (@ClipPlayerManager::logPlaybackState:899) 19:Smoke [cue 0,0ms,Playing]
+- 16:29:43.781 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) Create Item (type 64)
+- 16:29:45.500 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 16:29:45.313 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 16:29:47.750 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 16:29:50.484 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 16:29:50.484 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 16:29:51.641 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 16:29:53.391 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 16:29:54.438 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 16:29:55.859 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 16:29:59.406 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 16:29:59.406 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 16:30:00.844 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 16:30:00.844 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 16:30:01.938 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 16:30:01.938 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 16:30:02.828 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 16:30:02.828 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 16:30:03.547 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 16:30:03.547 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+*** Message repeated 11 more times ***
+- 16:30:11.984 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 16:30:40.422 INFO   : (@ClipPlayerManager::logPlaybackState:899) 19:Smoke [cue 0,0ms,Playing]
+- 16:30:43.094 INFO1  :Command: (@ShowCommandExecutor::doPush:359) update preset (type 38372621)
+- 16:30:46.516 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 16:30:55.500 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 16:30:59.266 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 16:30:59.266 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 16:31:27.141 INFO1  :Command: (@ShowCommandExecutor::doPush:359) update preset (type 38372621)
+- 16:31:27.156 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 16:31:27.172 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 16:31:28.094 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 16:31:29.203 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 16:31:30.281 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 16:31:31.891 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 16:31:31.328 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 16:31:32.797 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 16:31:33.359 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 16:31:33.797 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 16:31:37.203 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 16:31:37.203 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 16:31:38.188 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 16:31:38.188 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 16:31:39.969 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 16:31:39.969 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 16:31:40.047 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 16:31:40.063 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 16:31:43.641 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 16:31:43.641 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+*** Message repeated 16 more times ***
+- 16:31:55.422 INFO   : (@ClipPlayerManager::logPlaybackState:899) 19:Smoke [cue 0,0ms,Playing]
+- 16:31:55.578 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 16:31:55.578 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 16:31:55.188 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 16:31:55.188 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 16:31:56.641 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 16:31:56.641 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 16:31:56.203 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 16:31:56.203 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 16:31:57.703 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+*** Message repeated 870 more times ***
+- 16:33:10.422 INFO   : (@ClipPlayerManager::logPlaybackState:899) 19:Smoke [cue 0,0ms,Playing]
+- 16:33:11.703 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 16:33:11.703 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 16:33:11.734 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 16:33:11.750 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 16:33:11.750 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 16:33:11.766 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 16:33:11.781 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 16:33:11.813 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 16:33:11.828 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+*** Message repeated 553 more times ***
+- 16:34:05.500 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 16:34:06.453 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 16:34:10.891 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 16:34:10.328 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 16:34:11.250 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 16:34:11.250 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 16:34:12.797 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 16:34:12.797 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 16:34:12.281 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 16:34:12.281 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 16:34:13.813 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 16:34:13.813 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 16:34:13.203 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 16:34:13.203 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+*** Message repeated 30 more times ***
+- 16:34:25.422 INFO   : (@ClipPlayerManager::logPlaybackState:899) 19:Smoke [cue 0,0ms,Playing]
+- 16:34:26.500 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 16:34:27.891 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 16:34:29.641 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 16:34:58.953 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) Delete items (type 64)
+- 16:35:07.516 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 16:35:07.516 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 16:35:08.891 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 16:35:08.891 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 16:35:09.188 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 16:35:09.188 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 16:35:10.172 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 16:35:10.172 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 16:35:11.891 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 16:35:11.891 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+*** Message repeated 432 more times ***
+- 16:35:40.422 INFO   : (@ClipPlayerManager::logPlaybackState:899) 19:Smoke [cue 0,0ms,Playing]
+- 16:35:45.031 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 16:35:45.047 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 16:35:48.531 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 16:35:48.531 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 16:35:51.156 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 16:35:51.156 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 16:35:52.969 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 16:35:52.969 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 16:35:53.969 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+*** Message repeated 233 more times ***
+- 16:36:55.422 INFO   : (@ClipPlayerManager::logPlaybackState:899) 19:Smoke [cue 0,0ms,Playing]
+- 16:37:29.938 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) Create Item (type 64)
+- 16:37:31.516 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 16:37:31.516 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 16:37:31.563 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 16:37:31.578 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 16:37:31.594 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 16:37:31.609 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 16:37:31.766 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 16:37:32.656 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 16:37:32.250 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 16:37:33.406 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 16:37:33.547 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 16:37:33.688 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 16:37:33.828 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 16:37:34.156 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 16:37:34.172 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 16:37:34.172 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 16:37:34.188 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 16:37:34.203 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 16:37:34.219 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 16:37:34.234 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 16:37:34.250 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 16:37:34.266 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 16:37:34.281 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+*** Message repeated 5 more times ***
+- 16:37:37.859 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 16:37:50.844 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 16:37:50.313 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) paste events (type 64)
+- 16:38:00.828 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 16:38:06.172 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 16:38:09.797 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 16:38:09.797 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 16:38:10.422 INFO   : (@ClipPlayerManager::logPlaybackState:899) 19:Smoke [cue 0,0ms,Playing]
+- 16:38:10.422 INFO   : (@ClipPlayerManager::logPlaybackState:899) Preset [cue 0,2000ms,Playing]
+- 16:38:14.156 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 16:38:17.688 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 16:38:21.594 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 16:38:26.984 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 16:38:31.359 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 16:38:43.938 INFO1  :Command: (@ShowCommandExecutor::doPush:359) update preset (type 38372621)
+- 16:38:43.953 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 16:38:43.969 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 16:38:46.125 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 16:39:12.063 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) Create Item (type 64)
+- 16:39:15.344 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 16:39:25.422 INFO   : (@ClipPlayerManager::logPlaybackState:899) 19:Smoke [cue 0,0ms,Playing]
+- 16:39:25.422 INFO   : (@ClipPlayerManager::logPlaybackState:899) Preset [cue 0,2000ms,Playing]
+- 16:39:37.547 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) Create Item (type 64)
+- 16:39:40.891 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 16:39:52.859 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) Create Item (type 64)
+- 16:39:58.734 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 16:40:11.438 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) Create Item (type 64)
+- 16:40:12.672 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 16:40:12.188 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 16:40:13.203 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 16:40:14.828 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 16:40:15.313 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 16:40:20.172 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 16:40:40.422 INFO   : (@ClipPlayerManager::logPlaybackState:899) 19:Smoke [cue 0,0ms,Playing]
+- 16:40:40.422 INFO   : (@ClipPlayerManager::logPlaybackState:899) Preset [cue 0,2000ms,Playing]
+- 16:40:40.328 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) Create Item (type 64)
+- 16:40:48.484 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 16:41:02.156 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) Create Item (type 64)
+- 16:41:05.469 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 16:41:17.188 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) Create Item (type 64)
+- 16:41:21.406 INFO1  :Command: (@ShowCommandExecutor::doPush:359) change values (type ffffffff88888221)
+- 16:41:34.359 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) Create Item (type 64)
+- 16:41:35.750 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 16:41:36.641 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 16:41:37.922 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 16:41:38.656 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+*** Message repeated 4 more times ***
+- 16:41:45.047 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 16:41:45.063 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 16:41:45.063 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 16:41:45.063 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 16:41:45.063 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 16:41:45.078 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 16:41:45.078 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 16:41:45.078 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 16:41:45.078 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 16:41:45.141 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+*** Message repeated 14 more times ***
+- 16:41:55.422 INFO   : (@ClipPlayerManager::logPlaybackState:899) 19:Smoke [cue 0,0ms,Playing]
+- 16:41:55.422 INFO   : (@ClipPlayerManager::logPlaybackState:899) Preset [cue 0,2000ms,Playing]
+- 16:42:05.547 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 16:42:05.547 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 16:42:05.547 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 16:42:07.828 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 16:42:07.828 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 16:42:07.828 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 16:42:07.828 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 16:42:09.797 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 16:42:09.797 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 16:42:09.797 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+*** Message repeated 5 more times ***
+- 16:42:11.828 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 16:42:13.438 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 16:42:14.688 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 16:42:15.781 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 16:42:16.656 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 16:42:16.266 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 16:42:20.703 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 16:42:21.250 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 16:42:23.156 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 16:42:25.813 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+*** Message repeated 2 more times ***
+- 16:43:10.422 INFO   : (@ClipPlayerManager::logPlaybackState:899) 19:Smoke [cue 0,0ms,Playing]
+- 16:43:10.422 INFO   : (@ClipPlayerManager::logPlaybackState:899) Preset [cue 0,2000ms,Playing]
+- 16:43:19.609 INFO1  :Command: (@ShowCommandExecutor::doPush:359) set Snapshot properties (type ffffffffbcfff332)
+- 16:43:20.422 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 16:43:20.438 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 16:43:20.438 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 16:43:20.438 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 16:43:20.438 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 16:43:20.453 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 16:43:20.453 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 16:43:20.469 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 16:43:20.469 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+*** Message repeated 208 more times ***
+- 16:44:28.250 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) Clear (type 64)
+- 16:44:33.266 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 16:44:33.266 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 16:44:33.266 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 16:44:33.281 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 16:44:33.281 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 16:44:33.297 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 16:44:33.297 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 16:44:33.313 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 16:44:33.313 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+*** Message repeated 17 more times ***
+- 16:45:03.234 INFO   : (@CuePlayer::playMacro:450) Playing macro -> Jump, Cue - step: 1
+- 16:45:03.234 INFO   : (@PlaybackFunctions::jumpToStep:855) 1 DJSpotINT MasterFX QList [cue 0,0ms,Released]1
+- 16:45:03.234 INFO   : (@PlaybackFunctions::jumpToStep:868) 1 DJSpotINT MasterFX QList [cue 1,0ms,Playing][at exit]
+- 16:45:04.703 INFO   : (@CuePlayer::playMacro:450) Playing macro -> Jump, Cue - step: 1
+- 16:45:04.703 INFO   : (@PlaybackFunctions::jumpToStep:855) 8 MFSpotINT MasterFX QList [cue 0,0ms,Released]1
+- 16:45:04.719 INFO   : (@PlaybackFunctions::jumpToStep:868) 8 MFSpotINT MasterFX QList [cue 1,0ms,Playing][at exit]
+- 16:45:04.203 INFO   : (@CuePlayer::playMacro:450) Playing macro -> Jump, Cue - step: 0
+- 16:45:04.203 INFO   : (@PlaybackFunctions::jumpToStep:855) 7 DJSpotPOS MasterFX QList [cue 0,0ms,Released]0
+- 16:45:04.203 INFO   : (@PlaybackFunctions::jumpToStep:868) 7 DJSpotPOS MasterFX QList [cue 0,0ms,Playing][at exit]
+- 16:45:05.656 INFO   : (@CuePlayer::playMacro:450) Playing macro -> Jump, Cue - step: 0
+- 16:45:05.656 INFO   : (@PlaybackFunctions::jumpToStep:855) 28 MFSpotPOS MasterFX QList [cue 0,0ms,Released]0
+- 16:45:05.656 INFO   : (@PlaybackFunctions::jumpToStep:868) 28 MFSpotPOS MasterFX QList [cue 0,0ms,Playing][at exit]
+- 16:45:06.672 INFO   : (@CuePlayer::playMacro:450) Playing macro -> Jump, Cue - step: 3
+- 16:45:06.672 INFO   : (@PlaybackFunctions::jumpToStep:855) 1 DJSpotINT MasterFX QList [cue 1,0ms,Playing]3
+- 16:45:06.672 INFO   : (@PlaybackFunctions::jumpToStep:868) 1 DJSpotINT MasterFX QList [cue 3,0ms,Playing][at exit]
+- 16:45:06.125 INFO   : (@CuePlayer::playMacro:450) Playing macro -> Jump, Cue - step: 3
+- 16:45:06.125 INFO   : (@PlaybackFunctions::jumpToStep:855) 8 MFSpotINT MasterFX QList [cue 1,0ms,Playing]3
+- 16:45:06.125 INFO   : (@PlaybackFunctions::jumpToStep:868) 8 MFSpotINT MasterFX QList [cue 3,0ms,Playing][at exit]
+- 16:45:09.969 INFO   : (@CuePlayer::playMacro:450) Playing macro -> Jump, Cue - step: 3
+- 16:45:09.969 INFO   : (@PlaybackFunctions::jumpToStep:855) 20 ParINT MasterFX QList [cue 0,0ms,Released]3
+- 16:45:09.969 INFO   : (@PlaybackFunctions::jumpToStep:868) 20 ParINT MasterFX QList [cue 3,0ms,Playing][at exit]
+- 16:45:18.547 INFO1  :Command: (@ShowCommandExecutor::doPush:359) set Snapshot properties (type ffffffffbcfff332)
+- 16:45:21.172 INFO   : (@CuePlayer::playMacro:450) Playing macro -> Jump, Cue - step: 1
+- 16:45:21.172 INFO   : (@PlaybackFunctions::jumpToStep:855) 7 DJSpotPOS MasterFX QList [cue 0,0ms,Playing]1
+- 16:45:21.172 INFO   : (@PlaybackFunctions::jumpToStep:868) 7 DJSpotPOS MasterFX QList [cue 1,0ms,Playing][at exit]
+- 16:45:22.172 INFO   : (@CuePlayer::playMacro:450) Playing macro -> Jump, Cue - step: 1
+- 16:45:22.172 INFO   : (@PlaybackFunctions::jumpToStep:855) 28 MFSpotPOS MasterFX QList [cue 0,0ms,Playing]1
+- 16:45:22.172 INFO   : (@PlaybackFunctions::jumpToStep:868) 28 MFSpotPOS MasterFX QList [cue 1,0ms,Playing][at exit]
+- 16:45:25.734 INFO   : (@CuePlayer::playMacro:450) Playing macro -> Jump, Cue - step: 0
+- 16:45:25.734 INFO   : (@PlaybackFunctions::jumpToStep:855) 28 MFSpotPOS MasterFX QList [cue 1,0ms,Playing]0
+- 16:45:25.734 INFO   : (@PlaybackFunctions::jumpToStep:868) 28 MFSpotPOS MasterFX QList [cue 0,0ms,Playing][at exit]
+- 16:45:36.391 INFO   : (@CuePlayer::playMacro:450) Playing macro -> Jump, Cue - step: 5
+- 16:45:36.391 INFO   : (@PlaybackFunctions::jumpToStep:855) 34 AllColor MasterFX QList [cue 0,0ms,Released]5
+- 16:45:36.391 INFO   : (@PlaybackFunctions::jumpToStep:868) 34 AllColor MasterFX QList [cue 5,0ms,Playing][at exit]
+- 16:45:39.141 INFO   : (@CuePlayer::playMacro:450) Playing macro -> Jump, Cue - step: 6
+- 16:45:39.141 INFO   : (@PlaybackFunctions::jumpToStep:855) 34 AllColor MasterFX QList [cue 5,0ms,Playing]6
+- 16:45:39.141 INFO   : (@PlaybackFunctions::jumpToStep:868) 34 AllColor MasterFX QList [cue 6,0ms,Playing][at exit]
+- 16:45:40.422 INFO   : (@ClipPlayerManager::logPlaybackState:899) 1:DJSpotINT MasterFX QList [cue 3,0ms,Playing]
+- 16:45:40.422 INFO   : (@ClipPlayerManager::logPlaybackState:899) 7:DJSpotPOS MasterFX QList [cue 1,0ms,Playing]
+- 16:45:40.422 INFO   : (@ClipPlayerManager::logPlaybackState:899) 8:MFSpotINT MasterFX QList [cue 3,0ms,Playing]
+- 16:45:40.422 INFO   : (@ClipPlayerManager::logPlaybackState:899) 20:ParINT MasterFX QList [cue 3,0ms,Playing]
+- 16:45:40.422 INFO   : (@ClipPlayerManager::logPlaybackState:899) 28:MFSpotPOS MasterFX QList [cue 0,0ms,Playing]
+- 16:45:40.422 INFO   : (@ClipPlayerManager::logPlaybackState:899) 34:AllColor MasterFX QList [cue 6,0ms,Playing]
+- 16:45:40.422 INFO   : (@ClipPlayerManager::logPlaybackState:899) 41:Reds [cue 0,0ms,Releasing]
+- 16:45:47.563 INFO   : (@CuePlayer::playMacro:450) Playing macro -> Jump, Cue - step: 2
+- 16:45:47.563 INFO   : (@PlaybackFunctions::jumpToStep:855) 1 DJSpotINT MasterFX QList [cue 3,0ms,Playing]2
+- 16:45:47.563 INFO   : (@PlaybackFunctions::jumpToStep:868) 1 DJSpotINT MasterFX QList [cue 2,0ms,Playing][at exit]
+- 16:45:53.484 INFO   : (@CuePlayer::playMacro:450) Playing macro -> Jump, Cue - step: 3
+- 16:45:53.484 INFO   : (@PlaybackFunctions::jumpToStep:855) 1 DJSpotINT MasterFX QList [cue 2,0ms,Playing]3
+- 16:45:53.484 INFO   : (@PlaybackFunctions::jumpToStep:868) 1 DJSpotINT MasterFX QList [cue 3,0ms,Playing][at exit]
+- 16:45:54.234 INFO   : (@CuePlayer::playMacro:450) Playing macro -> Jump, Cue - step: 1
+- 16:45:54.234 INFO   : (@PlaybackFunctions::jumpToStep:855) 1 DJSpotINT MasterFX QList [cue 3,0ms,Playing]1
+- 16:45:54.234 INFO   : (@PlaybackFunctions::jumpToStep:868) 1 DJSpotINT MasterFX QList [cue 1,0ms,Playing][at exit]
+- 16:45:58.031 INFO   : (@CuePlayer::playMacro:450) Playing macro -> Jump, Cue - step: 3
+- 16:45:58.031 INFO   : (@PlaybackFunctions::jumpToStep:855) 1 DJSpotINT MasterFX QList [cue 1,0ms,Playing]3
+- 16:45:58.031 INFO   : (@PlaybackFunctions::jumpToStep:868) 1 DJSpotINT MasterFX QList [cue 3,0ms,Playing][at exit]
+- 16:46:09.078 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 16:46:09.078 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 16:46:09.094 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 16:46:09.094 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 16:46:09.094 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 16:46:09.109 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 16:46:09.109 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 16:46:09.109 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 16:46:09.109 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 16:46:09.141 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+*** Message repeated 13 more times ***
+- 16:46:11.297 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 16:46:22.516 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 16:46:26.734 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 16:46:31.688 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 16:46:36.703 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 16:46:36.203 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 16:46:37.688 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 16:46:40.688 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 16:46:46.484 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 16:46:55.422 INFO   : (@ClipPlayerManager::logPlaybackState:899) 1:DJSpotINT MasterFX QList [cue 3,0ms,Playing]
+- 16:46:55.422 INFO   : (@ClipPlayerManager::logPlaybackState:899) 7:DJSpotPOS MasterFX QList [cue 1,0ms,Playing]
+- 16:46:55.422 INFO   : (@ClipPlayerManager::logPlaybackState:899) 8:MFSpotINT MasterFX QList [cue 3,0ms,Playing]
+- 16:46:55.422 INFO   : (@ClipPlayerManager::logPlaybackState:899) 20:ParINT MasterFX QList [cue 3,0ms,Playing]
+- 16:46:55.422 INFO   : (@ClipPlayerManager::logPlaybackState:899) 28:MFSpotPOS MasterFX QList [cue 0,0ms,Playing]
+- 16:46:55.422 INFO   : (@ClipPlayerManager::logPlaybackState:899) 34:AllColor MasterFX QList [cue 6,0ms,Playing]
+- 16:46:56.391 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 16:47:02.703 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 16:47:02.703 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 16:47:02.703 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 16:47:02.719 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 16:47:02.719 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 16:47:02.719 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 16:47:02.734 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 16:47:02.750 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 16:47:02.750 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 16:47:02.750 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+*** Message repeated 11 more times ***
+- 16:47:03.250 INFO   : (@CuePlayer::playMacro:450) Playing macro -> Jump, Cue - step: 3
+- 16:47:03.250 INFO   : (@PlaybackFunctions::jumpToStep:855) 8 MFSpotINT MasterFX QList [cue 3,0ms,Playing]3
+- 16:47:03.250 INFO   : (@PlaybackFunctions::jumpToStep:868) 8 MFSpotINT MasterFX QList [cue 3,0ms,Playing][at exit]
+- 16:47:10.328 INFO   : (@CuePlayer::playMacro:450) Playing macro -> Jump, Cue - step: 5
+- 16:47:10.328 INFO   : (@PlaybackFunctions::jumpToStep:855) 34 AllColor MasterFX QList [cue 6,0ms,Playing]5
+- 16:47:10.328 INFO   : (@PlaybackFunctions::jumpToStep:868) 34 AllColor MasterFX QList [cue 5,0ms,Playing][at exit]
+- 16:47:20.078 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 16:47:20.078 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 16:47:20.078 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 16:47:20.094 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 16:47:20.094 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 16:47:20.094 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 16:47:20.109 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 16:47:20.109 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 16:47:20.109 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 16:47:20.141 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+*** Message repeated 36 more times ***
+- 16:47:23.828 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 16:48:10.422 INFO   : (@ClipPlayerManager::logPlaybackState:899) 1:DJSpotINT MasterFX QList [cue 3,0ms,Playing]
+- 16:48:10.422 INFO   : (@ClipPlayerManager::logPlaybackState:899) 7:DJSpotPOS MasterFX QList [cue 1,0ms,Playing]
+- 16:48:10.422 INFO   : (@ClipPlayerManager::logPlaybackState:899) 8:MFSpotINT MasterFX QList [cue 3,0ms,Playing]
+- 16:48:10.422 INFO   : (@ClipPlayerManager::logPlaybackState:899) 20:ParINT MasterFX QList [cue 3,0ms,Playing]
+- 16:48:10.422 INFO   : (@ClipPlayerManager::logPlaybackState:899) 28:MFSpotPOS MasterFX QList [cue 0,0ms,Playing]
+- 16:48:10.422 INFO   : (@ClipPlayerManager::logPlaybackState:899) 34:AllColor MasterFX QList [cue 5,0ms,Playing]
+- 16:49:25.422 INFO   : (@ClipPlayerManager::logPlaybackState:899) 1:DJSpotINT MasterFX QList [cue 3,0ms,Playing]
+- 16:49:25.422 INFO   : (@ClipPlayerManager::logPlaybackState:899) 7:DJSpotPOS MasterFX QList [cue 1,0ms,Playing]
+- 16:49:25.422 INFO   : (@ClipPlayerManager::logPlaybackState:899) 8:MFSpotINT MasterFX QList [cue 3,0ms,Playing]
+- 16:49:25.422 INFO   : (@ClipPlayerManager::logPlaybackState:899) 20:ParINT MasterFX QList [cue 3,0ms,Playing]
+*** Message repeated 2 more times ***
+- 16:50:38.938 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 16:50:39.703 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 16:50:40.453 INFO   : (@ClipPlayerManager::logPlaybackState:899) 1:DJSpotINT MasterFX QList [cue 3,0ms,Playing]
+- 16:50:40.453 INFO   : (@ClipPlayerManager::logPlaybackState:899) 7:DJSpotPOS MasterFX QList [cue 1,0ms,Playing]
+- 16:50:40.453 INFO   : (@ClipPlayerManager::logPlaybackState:899) 8:MFSpotINT MasterFX QList [cue 3,0ms,Playing]
+- 16:50:40.453 INFO   : (@ClipPlayerManager::logPlaybackState:899) 20:ParINT MasterFX QList [cue 3,0ms,Playing]
+- 16:50:40.453 INFO   : (@ClipPlayerManager::logPlaybackState:899) 28:MFSpotPOS MasterFX QList [cue 0,0ms,Playing]
+- 16:50:40.453 INFO   : (@ClipPlayerManager::logPlaybackState:899) 34:AllColor MasterFX QList [cue 5,0ms,Playing]
+- 16:50:40.672 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 16:50:42.922 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 16:50:42.922 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 16:50:51.625 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 16:50:51.625 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 16:51:55.453 INFO   : (@ClipPlayerManager::logPlaybackState:899) 1:DJSpotINT MasterFX QList [cue 3,0ms,Playing]
+- 16:51:55.453 INFO   : (@ClipPlayerManager::logPlaybackState:899) 7:DJSpotPOS MasterFX QList [cue 1,0ms,Playing]
+- 16:51:55.453 INFO   : (@ClipPlayerManager::logPlaybackState:899) 8:MFSpotINT MasterFX QList [cue 3,0ms,Playing]
+- 16:51:55.453 INFO   : (@ClipPlayerManager::logPlaybackState:899) 20:ParINT MasterFX QList [cue 3,0ms,Playing]
+- 16:51:55.453 INFO   : (@ClipPlayerManager::logPlaybackState:899) 28:MFSpotPOS MasterFX QList [cue 0,0ms,Playing]
+- 16:51:55.453 INFO   : (@ClipPlayerManager::logPlaybackState:899) 34:AllColor MasterFX QList [cue 5,0ms,Playing]
+- 16:53:10.453 INFO   : (@ClipPlayerManager::logPlaybackState:899) 1:DJSpotINT MasterFX QList [cue 3,0ms,Playing]
+- 16:53:10.453 INFO   : (@ClipPlayerManager::logPlaybackState:899) 7:DJSpotPOS MasterFX QList [cue 1,0ms,Playing]
+- 16:53:10.453 INFO   : (@ClipPlayerManager::logPlaybackState:899) 8:MFSpotINT MasterFX QList [cue 3,0ms,Playing]
+- 16:53:10.453 INFO   : (@ClipPlayerManager::logPlaybackState:899) 20:ParINT MasterFX QList [cue 3,0ms,Playing]
+*** Message repeated 26 more times ***
+- 16:59:08.125 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 16:59:09.781 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 16:59:13.781 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 16:59:13.297 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 16:59:16.844 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 16:59:21.625 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 16:59:25.453 INFO   : (@ClipPlayerManager::logPlaybackState:899) 1:DJSpotINT MasterFX QList [cue 3,0ms,Playing]
+- 16:59:25.453 INFO   : (@ClipPlayerManager::logPlaybackState:899) 7:DJSpotPOS MasterFX QList [cue 1,0ms,Playing]
+- 16:59:25.453 INFO   : (@ClipPlayerManager::logPlaybackState:899) 8:MFSpotINT MasterFX QList [cue 3,0ms,Playing]
+- 16:59:25.453 INFO   : (@ClipPlayerManager::logPlaybackState:899) 20:ParINT MasterFX QList [cue 3,0ms,Playing]
+- 16:59:25.453 INFO   : (@ClipPlayerManager::logPlaybackState:899) 28:MFSpotPOS MasterFX QList [cue 0,0ms,Playing]
+- 16:59:25.453 INFO   : (@ClipPlayerManager::logPlaybackState:899) 34:AllColor MasterFX QList [cue 5,0ms,Playing]
+- 16:59:41.906 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 16:59:48.875 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 16:59:55.375 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 16:59:56.531 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 17:00:06.953 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 17:00:09.938 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 17:00:15.828 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) apply preset (type 64)
+- 17:00:18.875 INFO   :NETWORK: (@PlaybackNodeManager::doShowSavedOnMain:742) VistaPlaybackNode_2: Received SHOW_SAVED_ON_MAIN message from master
+- 17:00:23.078 INFO   :Command: (@ShowCommandExecutor::doEndMacro:468) Clear (type 64)
+- 17:00:38.313 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 17:00:38.328 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 17:00:38.328 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 17:00:38.328 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 17:00:38.344 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 17:00:39.344 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 17:00:39.344 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 17:00:39.344 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 17:00:39.359 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 17:00:39.359 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+*** Message repeated 19 more times ***
+- 17:00:40.453 INFO   : (@ClipPlayerManager::logPlaybackState:899) 1:DJSpotINT MasterFX QList [cue 3,0ms,Playing]
+- 17:00:40.453 INFO   : (@ClipPlayerManager::logPlaybackState:899) 7:DJSpotPOS MasterFX QList [cue 1,0ms,Playing]
+- 17:00:40.453 INFO   : (@ClipPlayerManager::logPlaybackState:899) 8:MFSpotINT MasterFX QList [cue 3,0ms,Playing]
+- 17:00:40.453 INFO   : (@ClipPlayerManager::logPlaybackState:899) 20:ParINT MasterFX QList [cue 3,0ms,Playing]
+- 17:00:40.453 INFO   : (@ClipPlayerManager::logPlaybackState:899) 28:MFSpotPOS MasterFX QList [cue 0,0ms,Playing]
+- 17:00:40.453 INFO   : (@ClipPlayerManager::logPlaybackState:899) 34:AllColor MasterFX QList [cue 5,0ms,Playing]
+- 17:00:40.453 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 17:00:40.453 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 17:00:40.453 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 17:00:40.469 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 17:00:40.469 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 17:00:40.469 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 17:00:40.469 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 17:00:40.469 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 17:00:40.484 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 17:00:40.484 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+*** Message repeated 233 more times ***
+- 17:01:55.453 INFO   : (@ClipPlayerManager::logPlaybackState:899) 1:DJSpotINT MasterFX QList [cue 3,0ms,Playing]
+- 17:01:55.453 INFO   : (@ClipPlayerManager::logPlaybackState:899) 7:DJSpotPOS MasterFX QList [cue 1,0ms,Playing]
+- 17:01:55.453 INFO   : (@ClipPlayerManager::logPlaybackState:899) 8:MFSpotINT MasterFX QList [cue 3,0ms,Playing]
+- 17:01:55.453 INFO   : (@ClipPlayerManager::logPlaybackState:899) 20:ParINT MasterFX QList [cue 3,0ms,Playing]
+- 17:01:55.453 INFO   : (@ClipPlayerManager::logPlaybackState:899) 28:MFSpotPOS MasterFX QList [cue 0,0ms,Playing]
+- 17:01:55.453 INFO   : (@ClipPlayerManager::logPlaybackState:899) 34:AllColor MasterFX QList [cue 5,0ms,Playing]
+- 17:02:15.109 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 17:02:15.109 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 17:02:15.109 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 17:02:15.109 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 17:02:15.125 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 17:02:15.125 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 17:02:15.125 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 17:02:15.141 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 17:02:15.141 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 17:02:15.141 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+*** Message repeated 290 more times ***
+- 17:03:10.453 INFO   : (@ClipPlayerManager::logPlaybackState:899) 1:DJSpotINT MasterFX QList [cue 3,0ms,Playing]
+- 17:03:10.453 INFO   : (@ClipPlayerManager::logPlaybackState:899) 7:DJSpotPOS MasterFX QList [cue 1,0ms,Playing]
+- 17:03:10.453 INFO   : (@ClipPlayerManager::logPlaybackState:899) 8:MFSpotINT MasterFX QList [cue 3,0ms,Playing]
+- 17:03:10.453 INFO   : (@ClipPlayerManager::logPlaybackState:899) 20:ParINT MasterFX QList [cue 3,0ms,Playing]
+- 17:03:10.453 INFO   : (@ClipPlayerManager::logPlaybackState:899) 28:MFSpotPOS MasterFX QList [cue 0,0ms,Playing]
+- 17:03:10.453 INFO   : (@ClipPlayerManager::logPlaybackState:899) 34:AllColor MasterFX QList [cue 5,0ms,Playing]
+- 17:03:15.844 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 17:03:15.844 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 17:03:15.844 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 17:03:15.859 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 17:03:15.859 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 17:03:15.859 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 17:03:15.875 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 17:03:15.875 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 17:03:15.875 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 17:03:15.891 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+*** Message repeated 13 more times ***
+- 17:04:25.453 INFO   : (@ClipPlayerManager::logPlaybackState:899) 1:DJSpotINT MasterFX QList [cue 3,0ms,Playing]
+- 17:04:25.453 INFO   : (@ClipPlayerManager::logPlaybackState:899) 7:DJSpotPOS MasterFX QList [cue 1,0ms,Playing]
+- 17:04:25.453 INFO   : (@ClipPlayerManager::logPlaybackState:899) 8:MFSpotINT MasterFX QList [cue 3,0ms,Playing]
+- 17:04:25.453 INFO   : (@ClipPlayerManager::logPlaybackState:899) 20:ParINT MasterFX QList [cue 3,0ms,Playing]
+- 17:04:25.453 INFO   : (@ClipPlayerManager::logPlaybackState:899) 28:MFSpotPOS MasterFX QList [cue 0,0ms,Playing]
+- 17:04:25.453 INFO   : (@ClipPlayerManager::logPlaybackState:899) 34:AllColor MasterFX QList [cue 5,0ms,Playing]
+- 17:05:40.453 INFO   : (@ClipPlayerManager::logPlaybackState:899) 1:DJSpotINT MasterFX QList [cue 3,0ms,Playing]
+- 17:05:40.453 INFO   : (@ClipPlayerManager::logPlaybackState:899) 7:DJSpotPOS MasterFX QList [cue 1,0ms,Playing]
+- 17:05:40.453 INFO   : (@ClipPlayerManager::logPlaybackState:899) 8:MFSpotINT MasterFX QList [cue 3,0ms,Playing]
+- 17:05:40.453 INFO   : (@ClipPlayerManager::logPlaybackState:899) 20:ParINT MasterFX QList [cue 3,0ms,Playing]
+*** Message repeated 2 more times ***
+- 17:05:44.453 INFO1  :Command: (@ShowCommandExecutor::doPush:359) set Snapshot properties (type ffffffffbcfff332)
+- 17:06:00.469 INFO1  :Command: (@ShowCommandExecutor::doPush:359) set Snapshot properties (type ffffffffbcfff332)
+- 17:06:00.281 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 17:06:00.281 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 17:06:00.297 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 17:06:00.297 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 17:06:00.313 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 17:06:00.313 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 17:06:00.313 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 17:06:00.328 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+*** Message repeated 35 more times ***
+- 17:06:07.375 INFO   :NETWORK: (@PlaybackNodeManager::doShowSavedOnMain:742) VistaPlaybackNode_2: Received SHOW_SAVED_ON_MAIN message from master
+- 17:06:09.609 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 17:06:09.609 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 17:06:09.609 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 17:06:09.625 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 17:06:09.625 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 17:06:09.625 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 17:06:09.641 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 17:06:09.641 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 17:06:09.641 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+*** Message repeated 118 more times ***
+- 17:06:48.625 INFO   : (@CuePlayer::playMacro:450) Playing macro -> Jump, Cue - step: 1
+- 17:06:48.625 INFO   : (@PlaybackFunctions::jumpToStep:855) 20 ParINT MasterFX QList [cue 3,0ms,Playing]1
+- 17:06:48.625 INFO   : (@PlaybackFunctions::jumpToStep:868) 20 ParINT MasterFX QList [cue 1,0ms,Playing][at exit]
+- 17:06:48.219 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 17:06:49.281 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 17:06:50.313 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 17:06:51.844 INFO   : (@CuePlayer::playMacro:450) Playing macro -> Jump, Cue - step: 4
+- 17:06:51.844 INFO   : (@PlaybackFunctions::jumpToStep:855) 20 ParINT MasterFX QList [cue 1,0ms,Playing]4
+- 17:06:51.844 INFO   : (@PlaybackFunctions::jumpToStep:868) 20 ParINT MasterFX QList [cue 4,0ms,Playing][at exit]
+- 17:06:53.234 INFO   : (@CuePlayer::playMacro:450) Playing macro -> Jump, Cue - step: 1
+- 17:06:53.234 INFO   : (@PlaybackFunctions::jumpToStep:855) 8 MFSpotINT MasterFX QList [cue 3,0ms,Playing]1
+- 17:06:53.234 INFO   : (@PlaybackFunctions::jumpToStep:868) 8 MFSpotINT MasterFX QList [cue 1,0ms,Playing][at exit]
+- 17:06:54.625 INFO   : (@CuePlayer::playMacro:450) Playing macro -> Jump, Cue - step: 1
+- 17:06:54.625 INFO   : (@PlaybackFunctions::jumpToStep:855) 1 DJSpotINT MasterFX QList [cue 3,0ms,Playing]1
+- 17:06:54.625 INFO   : (@PlaybackFunctions::jumpToStep:868) 1 DJSpotINT MasterFX QList [cue 1,0ms,Playing][at exit]
+- 17:06:55.453 INFO   : (@ClipPlayerManager::logPlaybackState:899) 1:DJSpotINT MasterFX QList [cue 1,0ms,Playing]
+- 17:06:55.453 INFO   : (@ClipPlayerManager::logPlaybackState:899) 2:DJ LTR [cue 0,100ms,Releasing]
+- 17:06:55.453 INFO   : (@ClipPlayerManager::logPlaybackState:899) 7:DJSpotPOS MasterFX QList [cue 1,0ms,Playing]
+- 17:06:55.453 INFO   : (@ClipPlayerManager::logPlaybackState:899) 8:MFSpotINT MasterFX QList [cue 1,0ms,Playing]
+- 17:06:55.453 INFO   : (@ClipPlayerManager::logPlaybackState:899) 9:MF LTR [cue 0,100ms,Releasing]
+- 17:06:55.453 INFO   : (@ClipPlayerManager::logPlaybackState:899) 20:ParINT MasterFX QList [cue 4,0ms,Playing]
+- 17:06:55.453 INFO   : (@ClipPlayerManager::logPlaybackState:899) 21:Par Circle [cue 0,0ms,Playing]
+- 17:06:55.453 INFO   : (@ClipPlayerManager::logPlaybackState:899) 28:MFSpotPOS MasterFX QList [cue 0,0ms,Playing]
+- 17:06:55.453 INFO   : (@ClipPlayerManager::logPlaybackState:899) 34:AllColor MasterFX QList [cue 5,0ms,Playing]
+- 17:06:59.625 INFO   : (@CuePlayer::playMacro:450) Playing macro -> Jump, Cue - step: 2
+- 17:06:59.625 INFO   : (@PlaybackFunctions::jumpToStep:855) 1 DJSpotINT MasterFX QList [cue 1,0ms,Playing]2
+- 17:06:59.625 INFO   : (@PlaybackFunctions::jumpToStep:868) 1 DJSpotINT MasterFX QList [cue 2,0ms,Playing][at exit]
+- 17:06:59.047 INFO   : (@CuePlayer::playMacro:450) Playing macro -> Jump, Cue - step: 2
+- 17:06:59.047 INFO   : (@PlaybackFunctions::jumpToStep:855) 8 MFSpotINT MasterFX QList [cue 1,0ms,Playing]2
+- 17:06:59.047 INFO   : (@PlaybackFunctions::jumpToStep:868) 8 MFSpotINT MasterFX QList [cue 2,0ms,Playing][at exit]
+- 17:07:00.391 INFO   : (@CuePlayer::playMacro:450) Playing macro -> Jump, Cue - step: 2
+- 17:07:00.391 INFO   : (@PlaybackFunctions::jumpToStep:855) 20 ParINT MasterFX QList [cue 4,0ms,Playing]2
+- 17:07:00.406 INFO   : (@PlaybackFunctions::jumpToStep:868) 20 ParINT MasterFX QList [cue 2,0ms,Playing][at exit]
+- 17:07:04.156 INFO   : (@CuePlayer::playMacro:450) Playing macro -> Jump, Cue - step: 3
+- 17:07:04.156 INFO   : (@PlaybackFunctions::jumpToStep:855) 1 DJSpotINT MasterFX QList [cue 2,0ms,Playing]3
+- 17:07:04.156 INFO   : (@PlaybackFunctions::jumpToStep:868) 1 DJSpotINT MasterFX QList [cue 3,0ms,Playing][at exit]
+- 17:07:05.516 INFO   : (@CuePlayer::playMacro:450) Playing macro -> Jump, Cue - step: 3
+- 17:07:05.516 INFO   : (@PlaybackFunctions::jumpToStep:855) 8 MFSpotINT MasterFX QList [cue 2,0ms,Playing]3
+- 17:07:05.516 INFO   : (@PlaybackFunctions::jumpToStep:868) 8 MFSpotINT MasterFX QList [cue 3,0ms,Playing][at exit]
+- 17:07:05.906 INFO   : (@CuePlayer::playMacro:450) Playing macro -> Jump, Cue - step: 3
+- 17:07:05.906 INFO   : (@PlaybackFunctions::jumpToStep:855) 20 ParINT MasterFX QList [cue 2,0ms,Playing]3
+- 17:07:05.906 INFO   : (@PlaybackFunctions::jumpToStep:868) 20 ParINT MasterFX QList [cue 3,0ms,Playing][at exit]
+- 17:07:55.813 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 17:07:55.813 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 17:08:10.453 INFO   : (@ClipPlayerManager::logPlaybackState:899) 1:DJSpotINT MasterFX QList [cue 3,0ms,Playing]
+- 17:08:10.453 INFO   : (@ClipPlayerManager::logPlaybackState:899) 7:DJSpotPOS MasterFX QList [cue 1,0ms,Playing]
+- 17:08:10.453 INFO   : (@ClipPlayerManager::logPlaybackState:899) 8:MFSpotINT MasterFX QList [cue 3,0ms,Playing]
+- 17:08:10.453 INFO   : (@ClipPlayerManager::logPlaybackState:899) 20:ParINT MasterFX QList [cue 3,0ms,Playing]
+- 17:08:10.453 INFO   : (@ClipPlayerManager::logPlaybackState:899) 21:Par Circle [cue 0,0ms,Playing]
+- 17:08:10.453 INFO   : (@ClipPlayerManager::logPlaybackState:899) 28:MFSpotPOS MasterFX QList [cue 0,0ms,Playing]
+- 17:08:10.453 INFO   : (@ClipPlayerManager::logPlaybackState:899) 34:AllColor MasterFX QList [cue 5,0ms,Playing]
+- 17:08:26.406 INFO   :NETWORK: (@PlaybackNodeManager::doShowSavedOnMain:742) VistaPlaybackNode_2: Received SHOW_SAVED_ON_MAIN message from master
+- 17:09:25.453 INFO   : (@ClipPlayerManager::logPlaybackState:899) 1:DJSpotINT MasterFX QList [cue 3,0ms,Playing]
+- 17:09:25.453 INFO   : (@ClipPlayerManager::logPlaybackState:899) 7:DJSpotPOS MasterFX QList [cue 1,0ms,Playing]
+- 17:09:25.453 INFO   : (@ClipPlayerManager::logPlaybackState:899) 8:MFSpotINT MasterFX QList [cue 3,0ms,Playing]
+- 17:09:25.453 INFO   : (@ClipPlayerManager::logPlaybackState:899) 20:ParINT MasterFX QList [cue 3,0ms,Playing]
+- 17:09:25.453 INFO   : (@ClipPlayerManager::logPlaybackState:899) 21:Par Circle [cue 0,0ms,Playing]
+- 17:09:25.453 INFO   : (@ClipPlayerManager::logPlaybackState:899) 28:MFSpotPOS MasterFX QList [cue 0,0ms,Playing]
+- 17:09:25.453 INFO   : (@ClipPlayerManager::logPlaybackState:899) 34:AllColor MasterFX QList [cue 5,0ms,Playing]
+- 17:10:40.453 INFO   : (@ClipPlayerManager::logPlaybackState:899) 1:DJSpotINT MasterFX QList [cue 3,0ms,Playing]
+- 17:10:40.453 INFO   : (@ClipPlayerManager::logPlaybackState:899) 7:DJSpotPOS MasterFX QList [cue 1,0ms,Playing]
+*** Message repeated 222 more times ***
+- 18:43:21.219 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 18:43:21.234 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 18:43:21.234 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 18:43:21.250 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 18:43:21.250 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 18:43:21.266 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 18:43:21.266 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 18:43:21.266 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 18:43:21.266 INFO1  :Command: (@ShowCommandExecutor::doPush:359) Quick Picker Change (type b448efe)
+- 18:43:23.391 INFO1  :NETWORK: (@PlaybackNodeManager::checkTimeControllerFailover:2039) VistaPlaybackNode_2: Playback failover state changed to: 1
+- 18:43:26.672 INFO   : (@PlaybackEngine::doRefresh:280) PlaybackEngine: Elapsed time between refreshes was: 4053ms
+- 18:43:26.813 WARNING:NETWORK: (@BoostTcpNetwork::outputNetworkError:395 ##1be3a30) VistaPlaybackNode_2: A socket error has occurred.. local: 127.0.0.1:53584, remote: 127.0.0.1:22125 - An existing connection was forcibly closed by the remote host
+- 18:43:26.813 INFO2  :NETWORK: (@BoostTcpNetwork::removeConnection:223 ##1be3a30) VistaPlaybackNode_2: (-)Connection removed
+- 18:43:26.813 INFO   :NETWORK: (@BoostTcpConnection::close:116 ##1be3a30) VistaPlaybackNode_2: Connection closed.. local: 127.0.0.1:53584, remote: 127.0.0.1:22125
+- 18:43:26.813 INFO   :NETWORK: (@BoostTcpConnection::close:116 ##1be3a30) VistaPlaybackNode_2: Connection closed.. local: 127.0.0.1:53584, remote: 127.0.0.1:22125
+- 18:43:26.891 INFO   :NETWORK: (@PlaybackNodeManager::checkParentProcessSlot:2125) VistaPlaybackNode_2: Parent process has disconnected, exiting now.
+- 18:43:26.922 INFO   : (@main:188) Playback Node stopping
+- 18:43:26.953 INFO   : (@DestroyAudioLibrary:22) DestroyAudioLibrary
+- 18:43:26.969 INFO   : (@UsbManager::~UsbManager:170) Finish USB Manager
+- 18:43:26.969 INFO   : (@UsbManager::Impl::~Impl:81) Exit libusb
+- 18:43:26.984 INFO   :NETWORK: (@BoostTcpConnection::close:116) VistaPlaybackNode_2: Connection closed.. local: 127.0.0.1:53585, remote: 127.0.0.1:22002
+- 18:43:26.984 WARNING:NETWORK: (@BoostTcpNetwork::outputNetworkError:395 ##1bd2480) VistaPlaybackNode_2: A socket error has occurred.. local: 127.0.0.1:53585, remote: 127.0.0.1:22002 - The network connection was aborted by the local system
+- 18:43:26.984 INFO   :NETWORK: (@BoostTcpConnection::close:116 ##1bd2480) VistaPlaybackNode_2: Connection closed.. local: 127.0.0.1:53585, remote: 127.0.0.1:22002
+- 18:43:26.984 INFO   :NETWORK: (@BoostTcpConnection::close:116 ##1bd2480) VistaPlaybackNode_2: Connection closed.. local: 127.0.0.1:53585, remote: 127.0.0.1:22002
+- 18:43:26.984 INFO   : (@DestroyKernelLibrary:34) 
+
+
+############### Logging ended at 2022-Feb-16 18:43:26.645264 ###############
+
+
+

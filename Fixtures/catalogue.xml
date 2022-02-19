@@ -76,7 +76,7 @@
     <name>User</name>
     <path>C:/Vista 3/Fixtures</path>
     <items>
-      <size>3</size>
+      <size>5</size>
       <I>
         <x>1282378305</x>
         <y ver="3">
@@ -194,9 +194,87 @@
           <isCustomType>1</isCustomType>
         </y>
       </I>
+      <I>
+        <x>3810263848</x>
+        <y ver="3">
+          <uuid>3810263848</uuid>
+          <manufacturer>
+            <uuid>3516469446</uuid>
+            <name>Antari</name>
+          </manufacturer>
+          <fullName>M-9 RGBAW Stage Fog Machine</fullName>
+          <shortName>M-9 RGBAW</shortName>
+          <physicalType>Luminaire</physicalType>
+          <lightGeneration>LED</lightGeneration>
+          <colourMixing></colourMixing>
+          <frameType>No Frame</frameType>
+          <movementType>None</movementType>
+          <beamType>Wash</beamType>
+          <maximumPanDegrees>0</maximumPanDegrees>
+          <maximumTiltDegrees>0</maximumTiltDegrees>
+          <isScroller>0</isScroller>
+          <compatibilityId>3810263848</compatibilityId>
+          <version>
+            <revision>1</revision>
+            <factoryVersion>0</factoryVersion>
+            <carallonVersion>0</carallonVersion>
+          </version>
+          <patchPartCount>1</patchPartCount>
+          <lastAskedAboutVersion>
+            <revision>0</revision>
+            <factoryVersion>0</factoryVersion>
+            <carallonVersion>0</carallonVersion>
+          </lastAskedAboutVersion>
+          <channelCount>25</channelCount>
+          <status>1</status>
+          <technology>1</technology>
+          <isFactoryType>0</isFactoryType>
+          <carallonUuid></carallonUuid>
+          <isCustomType>1</isCustomType>
+        </y>
+      </I>
+      <I>
+        <x>3987656644</x>
+        <y ver="3">
+          <uuid>3987656644</uuid>
+          <manufacturer>
+            <uuid>3583579922</uuid>
+            <name>Chauvet</name>
+          </manufacturer>
+          <fullName>Hurricane Bubble Haze X2 Q6</fullName>
+          <shortName>Bubble Haze</shortName>
+          <physicalType>Luminaire</physicalType>
+          <lightGeneration>LED</lightGeneration>
+          <colourMixing></colourMixing>
+          <frameType>No Frame</frameType>
+          <movementType>None</movementType>
+          <beamType>Wash</beamType>
+          <maximumPanDegrees>0</maximumPanDegrees>
+          <maximumTiltDegrees>0</maximumTiltDegrees>
+          <isScroller>0</isScroller>
+          <compatibilityId>3987656644</compatibilityId>
+          <version>
+            <revision>1</revision>
+            <factoryVersion>0</factoryVersion>
+            <carallonVersion>0</carallonVersion>
+          </version>
+          <patchPartCount>1</patchPartCount>
+          <lastAskedAboutVersion>
+            <revision>0</revision>
+            <factoryVersion>0</factoryVersion>
+            <carallonVersion>0</carallonVersion>
+          </lastAskedAboutVersion>
+          <channelCount>12</channelCount>
+          <status>1</status>
+          <technology>1</technology>
+          <isFactoryType>0</isFactoryType>
+          <carallonUuid></carallonUuid>
+          <isCustomType>1</isCustomType>
+        </y>
+      </I>
     </items>
     <formatVersion>0.1</formatVersion>
-    <libraryVersion>17</libraryVersion>
+    <libraryVersion>33</libraryVersion>
     <carallonVersion>9.1</carallonVersion>
     <carallonImportTimestamp>
       <date>2456363</date>

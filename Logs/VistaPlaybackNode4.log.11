@@ -1,0 +1,89 @@
+- 17:27:09.000 INFO   : (@main:150) Fri Feb 11 17:27:09 2022
+- 17:27:09.000 INFO   : (@main:151) OS: Windows 10 (10.0), CPU: x86_64, Logical Cores: 4
+- 17:27:09.000 INFO   : (@`anonymous-namespace'::getThisExecutableDirPath:86) Path to executable: C:/Program Files (x86)/Chroma-Q/Vista3/VistaPlaybackNode.exe
+- 17:27:09.000 INFO   : (@Directory::getPath:848) QtPlugins path = C:/Program Files (x86)/Chroma-Q/Vista3/plugins
+- 17:27:09.016 INFO   : (@main:161) Starting C:/Program Files (x86)/Chroma-Q/Vista3/VistaPlaybackNode.exe
+- 17:27:09.016 INFO   : (@main:164) default plugin path: c:/Qt/Qt5.8.0/plugins
+- 17:27:09.016 INFO   : (@InitialiseHardwareInterfaceLibrary:10) Initializing Hardware Interface
+- 17:27:09.031 INFO   : (@BoostNetworkThread::run:54 ##2192280) starting
+- 17:27:09.031 INFO   : (@BoostNetworkThread::run:54 ##2192340) starting
+- 17:27:09.109 INFO   : (@USB::libusbInit:143) Initializing libusb...
+- 17:27:09.125 INFO   : (@UsbManager::UsbManager:154) Initializing USB Manager
+- 17:27:09.125 INFO   : (@DpuManager::initialiseLocalConfiguration:80) initializing
+- 17:27:09.141 INFO   : (@BoostNetworkThread::run:54 ##2190d20) starting
+- 17:27:09.172 INFO   : (@getLocalHostUuid:41) Local hostID: fc656419
+- 17:27:09.172 INFO   : (@getLocalHostUuid:49) Local hostID: fc656419
+- 17:27:10.313 INFO   : (@DpuManager::initialiseLocalConfiguration:117) Available CPU capability: 4 host type: 34753592
+- 17:27:10.313 INFO   : (@TimecodeManager::TimecodeManager:71) 
+- 17:27:10.313 INFO   : (@InitialiseShowLibrary:163) Initializing show Library
+- 17:27:10.313 INFO   : (@Console::Console:71) (props) type 100 (Art-Net) vcID: b44d6a80 hwID: b44d6a80
+- 17:27:10.313 INFO   : (@Console::Console:71) (props) type 102 (sACN) vcID: 669aa062 hwID: 669aa062
+- 17:27:10.313 INFO   : (@Console::Console:71) (props) type 101 (Pathport) vcID: 4e55c8af hwID: 4e55c8af
+- 17:27:10.313 INFO   : (@Directory::getPath:858) Preferences path = C:\Vista 3
+- 17:27:10.313 INFO   : (@ShowManager::ShowManager:128) 
+- 17:27:10.328 INFO   :NETWORK: (@PlaybackNodeManager::PlaybackNodeManager:252) VistaPlaybackNode_4: new instance
+- 17:27:10.328 INFO   : (@Directory::getPath:746) Factory Resources path = C:/Program Files (x86)/Chroma-Q/Vista3
+- 17:27:10.328 INFO   : (@Directory::getPath:784) FactoryEffectLibrary path = C:/Program Files (x86)/Chroma-Q/Vista3/EffectLibrary
+- 17:27:10.344 INFO   : (@BoostNetworkThread::run:54 ##21c10b0) starting
+- 17:27:10.344 INFO   : (@BoostNetworkThread::run:54 ##21c1170) starting
+- 17:27:10.344 INFO   : (@BoostNetworkThread::run:54 ##21c11d0) starting
+- 17:27:10.359 INFO   : (@BoostNetworkThread::run:54 ##21c1098) starting
+- 17:27:10.359 INFO   : (@BoostNetworkThread::run:54 ##21c1320) starting
+- 17:27:10.359 INFO   : (@BoostNetworkThread::run:54 ##21da2c0) starting
+- 17:27:10.359 INFO   : (@BoostNetworkThread::run:54 ##21da248) starting
+- 17:27:10.359 INFO   : (@BoostNetworkThread::run:54 ##21da278) starting
+- 17:27:10.438 INFO   : (@Directory::getPath:779) UserEffectLibrary path = C:\Vista 3/Effects
+- 17:27:10.453 INFO   : (@BoostTcpConnection::connectToServer:32) host: 127.0.0.1, port: 22125
+- 17:27:10.453 INFO2  :NETWORK: (@BoostTcpNetwork::socketConnected:191 ##21da278) VistaPlaybackNode_4: (+)Connection established.. local: 127.0.0.1:54128, remote: 127.0.0.1:22125
+- 17:27:10.453 INFO   : (@BoostTcpConnection::connectToServer:32) host: 127.0.0.1, port: 22004
+- 17:27:10.453 INFO2  :NETWORK: (@BoostTcpNetwork::socketConnected:191 ##2192340) VistaPlaybackNode_4: (+)Connection established.. local: 127.0.0.1:54129, remote: 127.0.0.1:22004
+- 17:27:10.453 INFO   :NETWORK: (@PlaybackNodeManager::nodeConnectedSlot:541) VistaPlaybackNode_4: 127.0.0.1 connected
+- 17:27:15.594 INFO   :NETWORK: (@PlaybackNodeManager::doAboutToSync:902) VistaPlaybackNode_4: Received ABOUT_TO_SYNC
+- 17:27:15.594 INFO   :NETWORK: (@PlaybackNodeManager::setSyncProgressState:2174) VistaPlaybackNode_4: Sync Progress State: AUX_ABOUT_TO_SYNC
+- 17:27:15.859 INFO   :NETWORK: (@PlaybackNodeManager::doDpuSync:789) VistaPlaybackNode_4: Received SHOW_SYNC
+- 17:27:15.859 INFO   :NETWORK: (@PlaybackNodeManager::setSyncProgressState:2174) VistaPlaybackNode_4: Sync Progress State: AUX_RECEIVED_SHOW_ABOUT_TO_DESERIALISE
+- 17:27:15.859 INFO   :NETWORK: (@ShowManager::prepareForShowReplacement:803) VistaPlaybackNode_4: prepareForShowReplacement: Auxiliary
+- 17:27:15.859 INFO   :NETWORK: (@ShowManager::prepareForShowReplacement:820) VistaPlaybackNode_4: Emitting disablePlayback()
+- 17:27:15.859 INFO   :NETWORK: (@ShowManager::prepareForShowReplacement:823) VistaPlaybackNode_4: Emitting showAboutToLoad()
+- 17:27:15.859 INFO1  :NETWORK: (@PlaybackNodeManager::showAboutToLoadSlot:497) VistaPlaybackNode_4: Emitting stateChangedSignal()
+- 17:27:15.938 INFO   : (@Console::Console:65) serialised
+- 17:27:15.938 INFO   : (@Console::Console:65) serialised
+- 17:27:15.938 INFO   : (@Console::Console:65) serialised
+- 17:27:15.938 INFO   : (@Console::Console:65) serialised
+- 17:27:15.953 INFO   : (@Console::Console:65) serialised
+- 17:27:15.953 INFO   : (@ScopedTimeLogger::~ScopedTimeLogger:26) Serialise a show took 107 ms.
+- 17:27:15.953 INFO   : (@Directory::getPath:751) UserFixtureLibrary path = C:\Vista 3/Fixtures
+- 17:27:15.953 INFO   : (@Directory::getPath:863) UserFixtureArrangementLibrary path = C:\Vista 3/Fixtures/CustomArrangements
+- 17:27:15.969 INFO   :NETWORK: (@PlaybackNodeManager::setSyncProgressState:2174) VistaPlaybackNode_4: Sync Progress State: AUX_SHOW_DESERIALISED
+- 17:27:15.969 INFO   :NETWORK: (@PlaybackNodeManager::dpuSyncAck:658) VistaPlaybackNode_4: Sending SHOW_SYNC_ACK from: fc65641d (DESKTOP-6RVQOQ4-4)
+- 17:27:15.969 INFO   :NETWORK: (@PlaybackNodeManager::setSyncProgressState:2174) VistaPlaybackNode_4: Sync Progress State: AUX_SENDING_SYNC_ACKNOWLEDGEMENT
+- 17:27:15.969 INFO   :NETWORK: (@PlaybackNodeManager::doDpuSyncAck:874) VistaPlaybackNode_4: Received SHOW_SYNC_ACK from: fc65641d (DESKTOP-6RVQOQ4-4)
+- 17:27:15.969 INFO   :NETWORK: (@PlaybackNodeManager::doDpuSyncAck:874) VistaPlaybackNode_4: Received SHOW_SYNC_ACK from: fc656419 (DESKTOP-6RVQOQ4-UI)
+- 17:27:17.984 INFO   : (@PlaybackNodeManager::processMessage_SetConfiguration:1164) (role:0)- empty universes
+- 17:27:17.984 INFO   : (@logIntSet:489) PlaybackEngineCoordinator::setPlaybackUniverses: set contains 0 items: []
+- 17:27:18.391 INFO   :NETWORK: (@PlaybackNodeManager::doDpuSyncComplete:710) VistaPlaybackNode_4: Received SHOW_SYNC_COMPLETE message from master
+- 17:27:18.391 INFO   :NETWORK: (@PlaybackNodeManager::setSyncProgressState:2174) VistaPlaybackNode_4: Sync Progress State: AUX_PERFORMING_POST_SYNC_TASKS
+- 17:27:18.406 INFO   :NETWORK: (@ShowManager::performPostShowSynchronisationTasks:1051) VistaPlaybackNode_4: Emitting initialisePlayback()
+- 17:27:18.422 INFO   :NETWORK: (@ShowManager::performPostShowSynchronisationTasks:1055) VistaPlaybackNode_4: Emitting showLoaded()
+- 17:27:18.422 INFO   :NETWORK: (@ShowManager::performPostShowSynchronisationTasks:1058) VistaPlaybackNode_4: Emitting showLoadedNotificationCompleted()
+- 17:27:18.422 INFO1  :NETWORK: (@PlaybackNodeManager::showLoadedNotificationCompletedSlot:516) VistaPlaybackNode_4: Emitting stateChangedSignal()
+- 17:27:18.422 INFO   :NETWORK: (@ShowManager::performPostShowSynchronisationTasks:1062) VistaPlaybackNode_4: Emitting enablePlayback()
+- 17:27:18.422 INFO   : (@logIntSet:489) PlaybackEngineCoordinator::setPlaybackUniverses: set contains 0 items: []
+- 17:27:18.422 INFO   :NETWORK: (@PlaybackNodeManager::setSyncProgressState:2174) VistaPlaybackNode_4: Sync Progress State: NO_SYNC_IN_PROGRESS
+- 17:27:18.422 WARNING: (@EffectRateController::resetAllPhasesToZero:105) current playback time 00:00:00
+- 17:27:18.422 INFO   : (@PlaybackEngine::doRefresh:266) New set of assigned fixtures follows:
+- 17:27:18.422 INFO   : (@PlaybackEngine::doRefresh:280) PlaybackEngine: Elapsed time between refreshes was: 0ms
+- 17:27:18.453 INFO1  :NETWORK: (@PlaybackNodeManager::checkTimeControllerFailover:2049) VistaPlaybackNode_4: isSynchronised changed to: 1
+- 17:27:18.484 INFO   : (@PlaybackNodeManager::processMessage_SetConfiguration:1164) (role:0)- empty universes
+- 17:27:18.484 INFO   : (@logIntSet:489) PlaybackEngineCoordinator::setPlaybackUniverses: set contains 0 items: []
+- 17:27:18.500 INFO   : (@PlaybackEngine::doRefresh:266) New set of assigned fixtures follows:
+- 17:27:18.984 INFO   : (@PlaybackNodeManager::processMessage_SetConfiguration:1164) (role:0)- empty universes
+- 17:27:18.984 INFO   : (@logIntSet:489) PlaybackEngineCoordinator::setPlaybackUniverses: set contains 0 items: []
+- 17:27:18.000 INFO   : (@PlaybackEngine::doRefresh:266) New set of assigned fixtures follows:
+- 17:28:01.125 INFO1  :Command: (@ShowCommandExecutor::doPush:359) set LiveClip properties (type 3971b727)
+- 17:28:01.125 INFO1  :Command: (@ShowCommandExecutor::doPush:359) set LiveClip properties (type 3971b727)
+- 17:28:26.453 INFO1  :NETWORK: (@PlaybackNodeManager::checkTimeControllerFailover:2039) VistaPlaybackNode_4: Playback failover state changed to: 1
+- 17:28:27.438 WARNING:NETWORK: (@BoostTcpNetwork::outputNetworkError:395 ##21da278) VistaPlaybackNode_4: A socket error has occurred.. local: 127.0.0.1:54128, remote: 127.0.0.1:22125 - An existing connection was forcibly closed by the remote host
+- 17:28:27.438 INFO2  :NETWORK: (@BoostTcpNetwork::removeConnection:223 ##21da278) VistaPlaybackNode_4: (-)Connection removed
+- 17:28:27.438 INFO   :NETWORK: (@BoostTcpConnection::close:116 ##21da278) VistaPlaybackNode_4: Connection closed.. local: 127.0.0.1:54128, remote: 127.0.0.1:22125
+- 17:28:27.438 INFO   :NETWORK: (@BoostTcpConnection::close:116 ##21da278) VistaPlaybackNode_4: Connection closed.. local: 127.0.0.1:54128, remote: 127.0.0.1:22125
