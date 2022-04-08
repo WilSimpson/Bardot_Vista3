@@ -1,155 +1,129 @@
-- 17:27:09.000 INFO   : (@main:150) Fri Feb 11 17:27:09 2022
-- 17:27:09.000 INFO   : (@main:151) OS: Windows 10 (10.0), CPU: x86_64, Logical Cores: 4
-- 17:27:09.000 INFO   : (@`anonymous-namespace'::getThisExecutableDirPath:86) Path to executable: C:/Program Files (x86)/Chroma-Q/Vista3/VistaPlaybackNode.exe
-- 17:27:09.000 INFO   : (@Directory::getPath:848) QtPlugins path = C:/Program Files (x86)/Chroma-Q/Vista3/plugins
-- 17:27:09.000 INFO   : (@main:161) Starting C:/Program Files (x86)/Chroma-Q/Vista3/VistaPlaybackNode.exe
-- 17:27:09.000 INFO   : (@main:164) default plugin path: c:/Qt/Qt5.8.0/plugins
-- 17:27:09.000 INFO   : (@InitialiseHardwareInterfaceLibrary:10) Initializing Hardware Interface
-- 17:27:09.015 INFO   : (@BoostNetworkThread::run:54 ##2301950) starting
-- 17:27:09.015 INFO   : (@BoostNetworkThread::run:54 ##2301bf0) starting
-- 17:27:09.031 INFO   : (@USB::libusbInit:143) Initializing libusb...
-- 17:27:09.078 INFO   : (@UsbManager::UsbManager:154) Initializing USB Manager
-- 17:27:09.078 INFO   : (@DpuManager::initialiseLocalConfiguration:80) initializing
-- 17:27:09.094 INFO   : (@BoostNetworkThread::run:54 ##2300378) starting
-- 17:27:09.172 INFO   : (@getLocalHostUuid:41) Local hostID: fc656419
-- 17:27:09.172 INFO   : (@getLocalHostUuid:49) Local hostID: fc656419
-- 17:27:09.375 INFO   : (@DpuManager::initialiseLocalConfiguration:117) Available CPU capability: 4 host type: 16245760
-- 17:27:09.375 INFO   : (@TimecodeManager::TimecodeManager:71) 
-- 17:27:09.375 INFO   : (@InitialiseShowLibrary:163) Initializing show Library
-- 17:27:09.375 INFO   : (@Console::Console:71) (props) type 100 (Art-Net) vcID: b44d6a80 hwID: b44d6a80
-- 17:27:09.375 INFO   : (@Console::Console:71) (props) type 102 (sACN) vcID: 669aa062 hwID: 669aa062
-- 17:27:09.375 INFO   : (@Console::Console:71) (props) type 101 (Pathport) vcID: 4e55c8af hwID: 4e55c8af
-- 17:27:09.375 INFO   : (@Directory::getPath:858) Preferences path = C:\Vista 3
-- 17:27:09.375 INFO   : (@ShowManager::ShowManager:128) 
-- 17:27:09.375 INFO   :NETWORK: (@PlaybackNodeManager::PlaybackNodeManager:252) VistaPlaybackNode_1: new instance
-- 17:27:09.375 INFO   : (@Directory::getPath:746) Factory Resources path = C:/Program Files (x86)/Chroma-Q/Vista3
-- 17:27:09.375 INFO   : (@Directory::getPath:784) FactoryEffectLibrary path = C:/Program Files (x86)/Chroma-Q/Vista3/EffectLibrary
-- 17:27:09.390 INFO   : (@BoostNetworkThread::run:54 ##2332298) starting
-- 17:27:09.390 INFO   : (@BoostNetworkThread::run:54 ##2332538) starting
-- 17:27:09.390 INFO   : (@BoostNetworkThread::run:54 ##2332418) starting
-- 17:27:09.390 INFO   : (@BoostNetworkThread::run:54 ##23323a0) starting
-- 17:27:09.390 INFO   : (@BoostNetworkThread::run:54 ##23323d0) starting
-- 17:27:09.390 INFO   : (@BoostNetworkThread::run:54 ##2318ef0) starting
-- 17:27:09.390 INFO   : (@BoostNetworkThread::run:54 ##2318f50) starting
-- 17:27:09.390 INFO   : (@BoostNetworkThread::run:54 ##2318f08) starting
-- 17:27:10.500 INFO   : (@Directory::getPath:779) UserEffectLibrary path = C:\Vista 3/Effects
-- 17:27:10.515 INFO   : (@BoostTcpConnection::connectToServer:32) host: 127.0.0.1, port: 22125
-- 17:27:10.515 INFO2  :NETWORK: (@BoostTcpNetwork::socketConnected:191 ##2318f08) VistaPlaybackNode_1: (+)Connection established.. local: 127.0.0.1:54124, remote: 127.0.0.1:22125
-- 17:27:10.515 INFO   : (@BoostTcpConnection::connectToServer:32) host: 127.0.0.1, port: 22001
-- 17:27:10.515 INFO2  :NETWORK: (@BoostTcpNetwork::socketConnected:191 ##2301bf0) VistaPlaybackNode_1: (+)Connection established.. local: 127.0.0.1:54125, remote: 127.0.0.1:22001
-- 17:27:10.547 INFO   :NETWORK: (@PlaybackNodeManager::nodeConnectedSlot:541) VistaPlaybackNode_1: 127.0.0.1 connected
-- 17:27:15.750 INFO   :NETWORK: (@PlaybackNodeManager::doAboutToSync:902) VistaPlaybackNode_1: Received ABOUT_TO_SYNC
-- 17:27:15.750 INFO   :NETWORK: (@PlaybackNodeManager::setSyncProgressState:2174) VistaPlaybackNode_1: Sync Progress State: AUX_ABOUT_TO_SYNC
-- 17:27:15.015 INFO   :NETWORK: (@PlaybackNodeManager::doDpuSync:789) VistaPlaybackNode_1: Received SHOW_SYNC
-- 17:27:15.015 INFO   :NETWORK: (@PlaybackNodeManager::setSyncProgressState:2174) VistaPlaybackNode_1: Sync Progress State: AUX_RECEIVED_SHOW_ABOUT_TO_DESERIALISE
-- 17:27:15.015 INFO   :NETWORK: (@ShowManager::prepareForShowReplacement:803) VistaPlaybackNode_1: prepareForShowReplacement: Auxiliary
-- 17:27:15.015 INFO   :NETWORK: (@ShowManager::prepareForShowReplacement:820) VistaPlaybackNode_1: Emitting disablePlayback()
-- 17:27:15.015 INFO   :NETWORK: (@ShowManager::prepareForShowReplacement:823) VistaPlaybackNode_1: Emitting showAboutToLoad()
-- 17:27:15.015 INFO1  :NETWORK: (@PlaybackNodeManager::showAboutToLoadSlot:497) VistaPlaybackNode_1: Emitting stateChangedSignal()
-- 17:27:15.094 INFO   : (@Console::Console:65) serialised
-- 17:27:15.094 INFO   : (@Console::Console:65) serialised
-- 17:27:15.094 INFO   : (@Console::Console:65) serialised
-- 17:27:15.094 INFO   : (@Console::Console:65) serialised
-- 17:27:15.125 INFO   : (@Console::Console:65) serialised
-- 17:27:15.125 INFO   : (@ScopedTimeLogger::~ScopedTimeLogger:26) Serialise a show took 119 ms.
-- 17:27:15.125 INFO   : (@Directory::getPath:751) UserFixtureLibrary path = C:\Vista 3/Fixtures
-- 17:27:15.125 INFO   : (@Directory::getPath:863) UserFixtureArrangementLibrary path = C:\Vista 3/Fixtures/CustomArrangements
-- 17:27:15.125 INFO   :NETWORK: (@PlaybackNodeManager::setSyncProgressState:2174) VistaPlaybackNode_1: Sync Progress State: AUX_SHOW_DESERIALISED
-- 17:27:15.125 INFO   :NETWORK: (@PlaybackNodeManager::dpuSyncAck:658) VistaPlaybackNode_1: Sending SHOW_SYNC_ACK from: fc65641a (DESKTOP-6RVQOQ4-1)
-- 17:27:15.125 INFO   :NETWORK: (@PlaybackNodeManager::setSyncProgressState:2174) VistaPlaybackNode_1: Sync Progress State: AUX_SENDING_SYNC_ACKNOWLEDGEMENT
-- 17:27:15.125 INFO   :NETWORK: (@PlaybackNodeManager::doDpuSyncAck:874) VistaPlaybackNode_1: Received SHOW_SYNC_ACK from: fc65641a (DESKTOP-6RVQOQ4-1)
-- 17:27:15.125 INFO   :NETWORK: (@PlaybackNodeManager::doDpuSyncAck:874) VistaPlaybackNode_1: Received SHOW_SYNC_ACK from: fc656419 (DESKTOP-6RVQOQ4-UI)
-- 17:27:17.140 INFO   : (@logIntSet:489) PlaybackEngineCoordinator::setPlaybackUniverses: set contains 1 items: [0]
-- 17:27:18.547 INFO   :NETWORK: (@PlaybackNodeManager::doDpuSyncComplete:710) VistaPlaybackNode_1: Received SHOW_SYNC_COMPLETE message from master
-- 17:27:18.547 INFO   :NETWORK: (@PlaybackNodeManager::setSyncProgressState:2174) VistaPlaybackNode_1: Sync Progress State: AUX_PERFORMING_POST_SYNC_TASKS
-- 17:27:18.562 INFO   :NETWORK: (@ShowManager::performPostShowSynchronisationTasks:1051) VistaPlaybackNode_1: Emitting initialisePlayback()
-- 17:27:18.578 INFO   :NETWORK: (@ShowManager::performPostShowSynchronisationTasks:1055) VistaPlaybackNode_1: Emitting showLoaded()
-- 17:27:18.578 INFO   :NETWORK: (@ShowManager::performPostShowSynchronisationTasks:1058) VistaPlaybackNode_1: Emitting showLoadedNotificationCompleted()
-- 17:27:18.578 INFO1  :NETWORK: (@PlaybackNodeManager::showLoadedNotificationCompletedSlot:516) VistaPlaybackNode_1: Emitting stateChangedSignal()
-- 17:27:18.578 INFO   :NETWORK: (@ShowManager::performPostShowSynchronisationTasks:1062) VistaPlaybackNode_1: Emitting enablePlayback()
-- 17:27:18.578 INFO   : (@logIntSet:489) PlaybackEngineCoordinator::setPlaybackUniverses: set contains 1 items: [0]
-- 17:27:18.578 INFO   :NETWORK: (@PlaybackNodeManager::setSyncProgressState:2174) VistaPlaybackNode_1: Sync Progress State: NO_SYNC_IN_PROGRESS
-- 17:27:18.578 WARNING: (@EffectRateController::resetAllPhasesToZero:105) current playback time 00:00:00
-- 17:27:18.578 INFO   : (@PlaybackEngine::doRefresh:266) New set of assigned fixtures follows:
-- 17:27:18.578 INFO   : (@PlaybackEngine::doRefresh:268) id:1:IH140SR9
-- 17:27:18.578 INFO   : (@PlaybackEngine::doRefresh:268) id:2:IH140SR9
-- 17:27:18.578 INFO   : (@PlaybackEngine::doRefresh:268) id:3:IH140SR9
-- 17:27:18.578 INFO   : (@PlaybackEngine::doRefresh:268) id:4:IH140SR9
-- 17:27:18.578 INFO   : (@PlaybackEngine::doRefresh:268) id:5:UberPar 12
-- 17:27:18.578 INFO   : (@PlaybackEngine::doRefresh:268) id:6:UberPar 12
-- 17:27:18.578 INFO   : (@PlaybackEngine::doRefresh:268) id:7:UberPar 12
-- 17:27:18.578 INFO   : (@PlaybackEngine::doRefresh:268) id:8:UberPar 12
-- 17:27:18.578 INFO   : (@PlaybackEngine::doRefresh:268) id:9:UberPar 12
-- 17:27:18.578 INFO   : (@PlaybackEngine::doRefresh:268) id:10:UberPar 12
-- 17:27:18.578 INFO   : (@PlaybackEngine::doRefresh:268) id:11:UberPar 12
-- 17:27:18.578 INFO   : (@PlaybackEngine::doRefresh:268) id:12:UberPar 12
-- 17:27:18.578 INFO   : (@PlaybackEngine::doRefresh:268) id:13:UberPar 12
-- 17:27:18.578 INFO   : (@PlaybackEngine::doRefresh:268) id:14:UberPar 12
-- 17:27:18.578 INFO   : (@PlaybackEngine::doRefresh:268) id:30:WonderBar
-- 17:27:18.578 INFO   : (@PlaybackEngine::doRefresh:268) id:31:WonderBar
-- 17:27:18.578 INFO   : (@PlaybackEngine::doRefresh:268) id:32:SwritHPX
-- 17:27:18.578 INFO   : (@PlaybackEngine::doRefresh:268) id:34:HZ-350
-- 17:27:18.578 INFO   : (@PlaybackEngine::doRefresh:268) id:35:A360IEx
-- 17:27:18.578 INFO   : (@PlaybackEngine::doRefresh:268) id:36:A360IEx
-- 17:27:18.578 INFO   : (@PlaybackEngine::doRefresh:268) id:37:A360IEx
-- 17:27:18.578 INFO   : (@PlaybackEngine::doRefresh:268) id:38:A360IEx
-- 17:27:18.578 INFO   : (@PlaybackEngine::doRefresh:268) id:39:A360IEx
-- 17:27:18.578 INFO   : (@PlaybackEngine::doRefresh:268) id:41:M-9 RGBAW
-- 17:27:18.578 INFO   : (@PlaybackEngine::doRefresh:268) id:42:Bubble Haze
-- 17:27:18.578 INFO   : (@PlaybackEngine::doRefresh:280) PlaybackEngine: Elapsed time between refreshes was: 0ms
-- 17:27:18.656 INFO   : (@PlaybackEngine::doRefresh:266) New set of assigned fixtures follows:
-- 17:27:18.656 INFO   : (@PlaybackEngine::doRefresh:268) id:1:IH140SR9
-- 17:27:18.656 INFO   : (@PlaybackEngine::doRefresh:268) id:2:IH140SR9
-- 17:27:18.656 INFO   : (@PlaybackEngine::doRefresh:268) id:3:IH140SR9
-- 17:27:18.656 INFO   : (@PlaybackEngine::doRefresh:268) id:4:IH140SR9
-- 17:27:18.656 INFO   : (@PlaybackEngine::doRefresh:268) id:5:UberPar 12
-- 17:27:18.656 INFO   : (@PlaybackEngine::doRefresh:268) id:6:UberPar 12
-- 17:27:18.656 INFO   : (@PlaybackEngine::doRefresh:268) id:7:UberPar 12
-- 17:27:18.656 INFO   : (@PlaybackEngine::doRefresh:268) id:8:UberPar 12
-- 17:27:18.656 INFO   : (@PlaybackEngine::doRefresh:268) id:9:UberPar 12
-- 17:27:18.656 INFO   : (@PlaybackEngine::doRefresh:268) id:10:UberPar 12
-- 17:27:18.656 INFO   : (@PlaybackEngine::doRefresh:268) id:11:UberPar 12
-- 17:27:18.656 INFO   : (@PlaybackEngine::doRefresh:268) id:12:UberPar 12
-- 17:27:18.656 INFO   : (@PlaybackEngine::doRefresh:268) id:13:UberPar 12
-- 17:27:18.656 INFO   : (@PlaybackEngine::doRefresh:268) id:14:UberPar 12
-- 17:27:18.656 INFO   : (@PlaybackEngine::doRefresh:268) id:30:WonderBar
-- 17:27:18.656 INFO   : (@PlaybackEngine::doRefresh:268) id:31:WonderBar
-- 17:27:18.656 INFO   : (@PlaybackEngine::doRefresh:268) id:32:SwritHPX
-- 17:27:18.656 INFO   : (@PlaybackEngine::doRefresh:268) id:34:HZ-350
-- 17:27:18.656 INFO   : (@PlaybackEngine::doRefresh:268) id:35:A360IEx
-- 17:27:18.656 INFO   : (@PlaybackEngine::doRefresh:268) id:36:A360IEx
-- 17:27:18.656 INFO   : (@PlaybackEngine::doRefresh:268) id:37:A360IEx
-- 17:27:18.656 INFO   : (@PlaybackEngine::doRefresh:268) id:38:A360IEx
-- 17:27:18.656 INFO   : (@PlaybackEngine::doRefresh:268) id:39:A360IEx
-- 17:27:18.656 INFO   : (@PlaybackEngine::doRefresh:268) id:41:M-9 RGBAW
-- 17:27:18.656 INFO   : (@PlaybackEngine::doRefresh:268) id:42:Bubble Haze
-- 17:27:18.047 INFO1  :NETWORK: (@PlaybackNodeManager::checkTimeControllerFailover:2049) VistaPlaybackNode_1: isSynchronised changed to: 1
-- 17:27:18.156 INFO   : (@PlaybackEngine::doRefresh:266) New set of assigned fixtures follows:
-- 17:27:18.156 INFO   : (@PlaybackEngine::doRefresh:268) id:1:IH140SR9
-- 17:27:18.156 INFO   : (@PlaybackEngine::doRefresh:268) id:2:IH140SR9
-- 17:27:18.156 INFO   : (@PlaybackEngine::doRefresh:268) id:3:IH140SR9
-- 17:27:18.156 INFO   : (@PlaybackEngine::doRefresh:268) id:4:IH140SR9
-- 17:27:18.156 INFO   : (@PlaybackEngine::doRefresh:268) id:5:UberPar 12
-- 17:27:18.156 INFO   : (@PlaybackEngine::doRefresh:268) id:6:UberPar 12
-- 17:27:18.156 INFO   : (@PlaybackEngine::doRefresh:268) id:7:UberPar 12
-- 17:27:18.156 INFO   : (@PlaybackEngine::doRefresh:268) id:8:UberPar 12
-- 17:27:18.156 INFO   : (@PlaybackEngine::doRefresh:268) id:9:UberPar 12
-- 17:27:18.156 INFO   : (@PlaybackEngine::doRefresh:268) id:10:UberPar 12
-- 17:27:18.156 INFO   : (@PlaybackEngine::doRefresh:268) id:11:UberPar 12
-- 17:27:18.156 INFO   : (@PlaybackEngine::doRefresh:268) id:12:UberPar 12
-- 17:27:18.156 INFO   : (@PlaybackEngine::doRefresh:268) id:13:UberPar 12
-- 17:27:18.156 INFO   : (@PlaybackEngine::doRefresh:268) id:14:UberPar 12
-- 17:27:18.156 INFO   : (@PlaybackEngine::doRefresh:268) id:30:WonderBar
-- 17:27:18.156 INFO   : (@PlaybackEngine::doRefresh:268) id:31:WonderBar
-- 17:27:18.156 INFO   : (@PlaybackEngine::doRefresh:268) id:32:SwritHPX
-- 17:27:18.156 INFO   : (@PlaybackEngine::doRefresh:268) id:34:HZ-350
-- 17:27:18.156 INFO   : (@PlaybackEngine::doRefresh:268) id:35:A360IEx
-- 17:27:18.156 INFO   : (@PlaybackEngine::doRefresh:268) id:36:A360IEx
-- 17:27:18.156 INFO   : (@PlaybackEngine::doRefresh:268) id:37:A360IEx
-- 17:27:18.156 INFO   : (@PlaybackEngine::doRefresh:268) id:38:A360IEx
-- 17:27:18.156 INFO   : (@PlaybackEngine::doRefresh:268) id:39:A360IEx
-- 17:27:18.156 INFO   : (@PlaybackEngine::doRefresh:268) id:41:M-9 RGBAW
-- 17:27:18.156 INFO   : (@PlaybackEngine::doRefresh:268) id:42:Bubble Haze
-- 17:28:01.281 INFO1  :Command: (@ShowCommandExecutor::doPush:359) set LiveClip properties (type 3971b727)
-- 17:28:01.281 INFO1  :Command: (@ShowCommandExecutor::doPush:359) set LiveClip properties (type 3971b727)
-- 17:28:26.547 INFO1  :NETWORK: (@PlaybackNodeManager::checkTimeControllerFailover:2039) VistaPlaybackNode_1: Playback failover state changed to: 1
+- 20:49:32.000 INFO   : (main) Sat Mar 5 20:49:32 2022
+- 20:49:32.000 INFO   : (main) OS: Windows 10 (10.0), CPU: x86_64, Logical Cores: 4
+- 20:49:32.000 INFO   : (`anonymous-namespace'::getThisExecutableDirPath) Path to executable: C:/Program Files (x86)/Chroma-Q/Vista3/VistaPlaybackNode.exe
+- 20:49:32.000 INFO   : (Directory::getPath) QtPlugins path = C:/Program Files (x86)/Chroma-Q/Vista3/plugins
+- 20:49:32.016 INFO   : (main) Starting C:/Program Files (x86)/Chroma-Q/Vista3/VistaPlaybackNode.exe
+- 20:49:32.016 INFO   : (main) default plugin path: c:/Qt/Qt5.8.0/plugins
+- 20:49:32.016 INFO   : (InitialiseHardwareInterfaceLibrary) Initializing Hardware Interface
+- 20:49:32.016 INFO   : (BoostNetworkThread::run ##19d17b8) starting
+- 20:49:32.016 INFO   : (BoostNetworkThread::run ##19d16b0) starting
+- 20:49:32.094 INFO   : (USB::libusbInit) Initializing libusb...
+- 20:49:32.125 INFO   : (UsbManager::UsbManager) Initializing USB Manager
+- 20:49:32.125 INFO   : (DpuManager::initialiseLocalConfiguration) initializing
+- 20:49:32.125 INFO   : (BoostNetworkThread::run ##19cfe50) starting
+- 20:49:32.250 INFO   : (getLocalHostUuid) Local hostID: 86b1b81c
+- 20:49:32.250 INFO   : (getLocalHostUuid) Local hostID: 86b1b81c
+- 20:49:32.422 INFO   : (DpuManager::initialiseLocalConfiguration) Available CPU capability: 4 host type: 7667810
+- 20:49:32.422 INFO   : (TimecodeManager::TimecodeManager) 
+- 20:49:32.422 INFO   : (InitialiseShowLibrary) Initializing show Library
+- 20:49:32.422 INFO   : (Console::Console) (props) type 100 (Art-Net) vcID: b44d6a80 hwID: b44d6a80
+- 20:49:32.422 INFO   : (Console::Console) (props) type 102 (sACN) vcID: 669aa062 hwID: 669aa062
+- 20:49:32.422 INFO   : (Console::Console) (props) type 101 (Pathport) vcID: 4e55c8af hwID: 4e55c8af
+- 20:49:32.422 INFO   : (Directory::getPath) Preferences path = C:\Vista 3
+- 20:49:32.422 INFO   : (ShowManager::ShowManager) 
+- 20:49:32.422 INFO   :[NETWORK]  (PlaybackNodeManager::PlaybackNodeManager) VistaPlaybackNode_1: new instance
+- 20:49:32.438 INFO   : (Directory::getPath) Factory Resources path = C:/Program Files (x86)/Chroma-Q/Vista3
+- 20:49:32.438 INFO   : (Directory::getPath) FactoryEffectLibrary path = C:/Program Files (x86)/Chroma-Q/Vista3/EffectLibrary
+- 20:49:32.438 INFO   : (BoostNetworkThread::run ##1a05488) starting
+- 20:49:32.438 INFO   : (BoostNetworkThread::run ##1a055f0) starting
+- 20:49:32.438 INFO   : (BoostNetworkThread::run ##1a05608) starting
+- 20:49:32.438 INFO   : (BoostNetworkThread::run ##1a055d8) starting
+- 20:49:32.438 INFO   : (BoostNetworkThread::run ##1a05530) starting
+- 20:49:32.438 INFO   : (BoostNetworkThread::run ##1a25460) starting
+- 20:49:32.438 INFO   : (BoostNetworkThread::run ##1a25430) starting
+- 20:49:32.438 INFO   : (BoostNetworkThread::run ##1a253e8) starting
+- 20:49:32.594 INFO   : (Directory::getPath) UserEffectLibrary path = C:\Vista 3/Effects
+- 20:49:32.625 INFO   : (BoostTcpConnection::connectToServer) host: 127.0.0.1, port: 22125
+- 20:49:32.625 INFO2  :[NETWORK]  (BoostTcpNetwork::socketConnected ##1a253e8) VistaPlaybackNode_1: (+)Connection established.. local: 127.0.0.1:56242, remote: 127.0.0.1:22125
+- 20:49:32.625 INFO   : (BoostTcpConnection::connectToServer) host: 127.0.0.1, port: 22001
+- 20:49:32.641 INFO2  :[NETWORK]  (BoostTcpNetwork::socketConnected ##19d16b0) VistaPlaybackNode_1: (+)Connection established.. local: 127.0.0.1:56243, remote: 127.0.0.1:22001
+- 20:49:32.641 INFO   :[NETWORK]  (PlaybackNodeManager::nodeConnectedSlot) VistaPlaybackNode_1: 127.0.0.1 connected
+- 20:49:36.938 INFO   :[NETWORK]  (PlaybackNodeManager::doAboutToSync) VistaPlaybackNode_1: Received ABOUT_TO_SYNC
+- 20:49:36.938 INFO   :[NETWORK]  (PlaybackNodeManager::setSyncProgressState) VistaPlaybackNode_1: Sync Progress State: AUX_ABOUT_TO_SYNC
+- 20:49:36.281 INFO   :[NETWORK]  (PlaybackNodeManager::doDpuSync) VistaPlaybackNode_1: Received SHOW_SYNC
+- 20:49:36.281 INFO   :[NETWORK]  (PlaybackNodeManager::setSyncProgressState) VistaPlaybackNode_1: Sync Progress State: AUX_RECEIVED_SHOW_ABOUT_TO_DESERIALISE
+- 20:49:36.281 INFO   :[NETWORK]  (ShowManager::prepareForShowReplacement) VistaPlaybackNode_1: prepareForShowReplacement: Auxiliary
+- 20:49:36.281 INFO   :[NETWORK]  (ShowManager::prepareForShowReplacement) VistaPlaybackNode_1: Emitting disablePlayback()
+- 20:49:36.281 INFO   :[NETWORK]  (ShowManager::prepareForShowReplacement) VistaPlaybackNode_1: Emitting showAboutToLoad()
+- 20:49:36.297 INFO1  :[NETWORK]  (PlaybackNodeManager::showAboutToLoadSlot) VistaPlaybackNode_1: Emitting stateChangedSignal()
+- 20:49:36.500 INFO   : (Console::Console) serialised
+- 20:49:36.500 INFO   : (Console::Console) serialised
+- 20:49:36.500 INFO   : (Console::Console) serialised
+- 20:49:36.500 INFO   : (Console::Console) serialised
+- 20:49:36.516 INFO   : (Console::Console) serialised
+- 20:49:36.516 INFO   : (Console::Console) serialised
+- 20:49:36.547 INFO   : (ScopedTimeLogger::~ScopedTimeLogger) Serialise a show took 250 ms.
+- 20:49:36.547 INFO   : (Directory::getPath) UserFixtureLibrary path = C:\Vista 3/Fixtures
+- 20:49:36.547 INFO   : (Directory::getPath) UserFixtureArrangementLibrary path = C:\Vista 3/Fixtures/CustomArrangements
+- 20:49:36.547 INFO   :[NETWORK]  (PlaybackNodeManager::setSyncProgressState) VistaPlaybackNode_1: Sync Progress State: AUX_SHOW_DESERIALISED
+- 20:49:36.547 INFO   :[NETWORK]  (PlaybackNodeManager::dpuSyncAck) VistaPlaybackNode_1: Sending SHOW_SYNC_ACK from: 86b1b81d
+- 20:49:36.547 INFO   :[NETWORK]  (PlaybackNodeManager::setSyncProgressState) VistaPlaybackNode_1: Sync Progress State: AUX_SENDING_SYNC_ACKNOWLEDGEMENT
+- 20:49:36.547 INFO   :[NETWORK]  (PlaybackNodeManager::doDpuSyncAck) VistaPlaybackNode_1: Received SHOW_SYNC_ACK from: 86b1b81d
+- 20:49:36.547 WARNING:[NETWORK]  (PlaybackNodeManager::doDpuSyncAck) VistaPlaybackNode_1: Received SHOW_SYNC_ACK from unknown playback node: 86b1b81d
+- 20:49:36.547 INFO   :[NETWORK]  (PlaybackNodeManager::doDpuSyncAck) VistaPlaybackNode_1: Received SHOW_SYNC_ACK from: 86b1b81c
+- 20:49:36.547 WARNING:[NETWORK]  (PlaybackNodeManager::doDpuSyncAck) VistaPlaybackNode_1: Received SHOW_SYNC_ACK from unknown playback node: 86b1b81c
+- 20:49:40.735 INFO   :[NETWORK]  (PlaybackNodeManager::doDpuSyncComplete) VistaPlaybackNode_1: Received SHOW_SYNC_COMPLETE message from master
+- 20:49:40.735 INFO   :[NETWORK]  (PlaybackNodeManager::setSyncProgressState) VistaPlaybackNode_1: Sync Progress State: AUX_PERFORMING_POST_SYNC_TASKS
+- 20:49:40.735 INFO   :[NETWORK]  (ShowManager::performPostShowSynchronisationTasks) VistaPlaybackNode_1: Emitting initialisePlayback()
+- 20:49:40.766 INFO   :[NETWORK]  (ShowManager::performPostShowSynchronisationTasks) VistaPlaybackNode_1: Emitting showLoaded()
+- 20:49:40.766 INFO   :[NETWORK]  (ShowManager::performPostShowSynchronisationTasks) VistaPlaybackNode_1: Emitting showLoadedNotificationCompleted()
+- 20:49:40.766 INFO1  :[NETWORK]  (PlaybackNodeManager::showLoadedNotificationCompletedSlot) VistaPlaybackNode_1: Emitting stateChangedSignal()
+- 20:49:40.766 INFO   :[NETWORK]  (ShowManager::performPostShowSynchronisationTasks) VistaPlaybackNode_1: Emitting enablePlayback()
+- 20:49:40.766 INFO   : (logIntSet) PlaybackEngineCoordinator::setPlaybackUniverses: set contains 0 items: []
+- 20:49:40.766 INFO   :[NETWORK]  (PlaybackNodeManager::setSyncProgressState) VistaPlaybackNode_1: Sync Progress State: NO_SYNC_IN_PROGRESS
+- 20:49:40.766 WARNING: (EffectRateController::resetAllPhasesToZero) current playback time 00:00:00
+- 20:49:40.766 INFO   : (PlaybackEngine::doRefresh) New set of assigned fixtures follows:
+- 20:49:40.766 INFO   : (PlaybackEngine::doRefresh) PlaybackEngine: Elapsed time between refreshes was: 0ms
+- 20:49:41.141 INFO1  :[NETWORK]  (PlaybackNodeManager::checkTimeControllerFailover) VistaPlaybackNode_1: isSynchronised changed to: 1
+- 20:49:44.797 INFO   : (logIntSet) PlaybackEngineCoordinator::setPlaybackUniverses: set contains 1 items: [0]
+- 20:49:44.813 INFO   : (PlaybackEngine::doRefresh) New set of assigned fixtures follows:
+- 20:49:44.813 INFO   : (PlaybackEngine::doRefresh) id:1:IH140SR9
+- 20:49:44.813 INFO   : (PlaybackEngine::doRefresh) id:2:IH140SR9
+- 20:49:44.813 INFO   : (PlaybackEngine::doRefresh) id:3:IH140SR9
+- 20:49:44.813 INFO   : (PlaybackEngine::doRefresh) id:4:IH140SR9
+- 20:49:44.813 INFO   : (PlaybackEngine::doRefresh) id:5:UberPar 12
+- 20:49:44.813 INFO   : (PlaybackEngine::doRefresh) id:6:UberPar 12
+- 20:49:44.813 INFO   : (PlaybackEngine::doRefresh) id:7:UberPar 12
+- 20:49:44.813 INFO   : (PlaybackEngine::doRefresh) id:8:UberPar 12
+- 20:49:44.813 INFO   : (PlaybackEngine::doRefresh) id:9:UberPar 12
+- 20:49:44.813 INFO   : (PlaybackEngine::doRefresh) id:10:UberPar 12
+- 20:49:44.813 INFO   : (PlaybackEngine::doRefresh) id:11:UberPar 12
+- 20:49:44.813 INFO   : (PlaybackEngine::doRefresh) id:12:UberPar 12
+- 20:49:44.813 INFO   : (PlaybackEngine::doRefresh) id:13:UberPar 12
+- 20:49:44.813 INFO   : (PlaybackEngine::doRefresh) id:14:UberPar 12
+- 20:49:44.813 INFO   : (PlaybackEngine::doRefresh) id:29:WonderBar
+- 20:49:44.813 INFO   : (PlaybackEngine::doRefresh) id:30:WonderBar
+- 20:49:44.813 INFO   : (PlaybackEngine::doRefresh) id:31:SwritHPX
+- 20:49:44.813 INFO   : (PlaybackEngine::doRefresh) id:32:A360IEx
+- 20:49:44.813 INFO   : (PlaybackEngine::doRefresh) id:33:A360IEx
+- 20:49:44.813 INFO   : (PlaybackEngine::doRefresh) id:34:A360IEx
+- 20:49:44.813 INFO   : (PlaybackEngine::doRefresh) id:35:A360IEx
+- 20:49:44.813 INFO   : (PlaybackEngine::doRefresh) id:36:A360IEx
+- 20:49:44.813 INFO   : (PlaybackEngine::doRefresh) id:38:M-9 RGBAW
+- 20:49:44.813 INFO   : (PlaybackEngine::doRefresh) id:39:HZ-350
+- 20:49:44.313 INFO   : (PlaybackEngine::doRefresh) New set of assigned fixtures follows:
+- 20:49:44.313 INFO   : (PlaybackEngine::doRefresh) id:1:IH140SR9
+- 20:49:44.313 INFO   : (PlaybackEngine::doRefresh) id:2:IH140SR9
+- 20:49:44.313 INFO   : (PlaybackEngine::doRefresh) id:3:IH140SR9
+- 20:49:44.313 INFO   : (PlaybackEngine::doRefresh) id:4:IH140SR9
+- 20:49:44.313 INFO   : (PlaybackEngine::doRefresh) id:5:UberPar 12
+- 20:49:44.313 INFO   : (PlaybackEngine::doRefresh) id:6:UberPar 12
+- 20:49:44.313 INFO   : (PlaybackEngine::doRefresh) id:7:UberPar 12
+- 20:49:44.313 INFO   : (PlaybackEngine::doRefresh) id:8:UberPar 12
+- 20:49:44.313 INFO   : (PlaybackEngine::doRefresh) id:9:UberPar 12
+- 20:49:44.313 INFO   : (PlaybackEngine::doRefresh) id:10:UberPar 12
+- 20:49:44.313 INFO   : (PlaybackEngine::doRefresh) id:11:UberPar 12
+- 20:49:44.313 INFO   : (PlaybackEngine::doRefresh) id:12:UberPar 12
+- 20:49:44.313 INFO   : (PlaybackEngine::doRefresh) id:13:UberPar 12
+- 20:49:44.313 INFO   : (PlaybackEngine::doRefresh) id:14:UberPar 12
+- 20:49:44.313 INFO   : (PlaybackEngine::doRefresh) id:29:WonderBar
+- 20:49:44.313 INFO   : (PlaybackEngine::doRefresh) id:30:WonderBar
+- 20:49:44.313 INFO   : (PlaybackEngine::doRefresh) id:31:SwritHPX
+- 20:49:44.313 INFO   : (PlaybackEngine::doRefresh) id:32:A360IEx
+- 20:49:44.313 INFO   : (PlaybackEngine::doRefresh) id:33:A360IEx
+- 20:49:44.313 INFO   : (PlaybackEngine::doRefresh) id:34:A360IEx
+- 20:49:44.313 INFO   : (PlaybackEngine::doRefresh) id:35:A360IEx
+- 20:49:44.313 INFO   : (PlaybackEngine::doRefresh) id:36:A360IEx
+- 20:49:44.313 INFO   : (PlaybackEngine::doRefresh) id:38:M-9 RGBAW
+- 20:49:44.313 INFO   : (PlaybackEngine::doRefresh) id:39:HZ-350
+- 20:49:56.141 INFO1  :[NETWORK]  (PlaybackNodeManager::checkTimeControllerFailover) VistaPlaybackNode_1: Playback failover state changed to: 1

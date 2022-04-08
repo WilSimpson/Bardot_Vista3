@@ -1,89 +1,1121 @@
-- 18:49:05.000 INFO   : (@main:150) Tue Feb 15 18:49:05 2022
-- 18:49:05.000 INFO   : (@main:151) OS: Windows 10 (10.0), CPU: x86_64, Logical Cores: 4
-- 18:49:05.000 INFO   : (@`anonymous-namespace'::getThisExecutableDirPath:86) Path to executable: C:/Program Files (x86)/Chroma-Q/Vista3/VistaPlaybackNode.exe
-- 18:49:05.000 INFO   : (@Directory::getPath:848) QtPlugins path = C:/Program Files (x86)/Chroma-Q/Vista3/plugins
-- 18:49:05.015 INFO   : (@main:161) Starting C:/Program Files (x86)/Chroma-Q/Vista3/VistaPlaybackNode.exe
-- 18:49:05.015 INFO   : (@main:164) default plugin path: c:/Qt/Qt5.8.0/plugins
-- 18:49:05.015 INFO   : (@InitialiseHardwareInterfaceLibrary:10) Initializing Hardware Interface
-- 18:49:05.031 INFO   : (@BoostNetworkThread::run:54 ##1b53918) starting
-- 18:49:05.031 INFO   : (@BoostNetworkThread::run:54 ##1b53dc8) starting
-- 18:49:05.094 INFO   : (@USB::libusbInit:143) Initializing libusb...
-- 18:49:05.109 INFO   : (@UsbManager::UsbManager:154) Initializing USB Manager
-- 18:49:05.109 INFO   : (@DpuManager::initialiseLocalConfiguration:80) initializing
-- 18:49:05.125 INFO   : (@BoostNetworkThread::run:54 ##1b54518) starting
-- 18:49:05.156 INFO   : (@getLocalHostUuid:41) Local hostID: 7171870b
-- 18:49:05.156 INFO   : (@getLocalHostUuid:49) Local hostID: 7171870b
-- 18:49:05.281 INFO   : (@DpuManager::initialiseLocalConfiguration:117) Available CPU capability: 4 host type: 0
-- 18:49:05.281 INFO   : (@TimecodeManager::TimecodeManager:71) 
-- 18:49:05.281 INFO   : (@InitialiseShowLibrary:163) Initializing show Library
-- 18:49:05.281 INFO   : (@Console::Console:71) (props) type 100 (Art-Net) vcID: b44d6a80 hwID: b44d6a80
-- 18:49:05.281 INFO   : (@Console::Console:71) (props) type 102 (sACN) vcID: 669aa062 hwID: 669aa062
-- 18:49:05.281 INFO   : (@Console::Console:71) (props) type 101 (Pathport) vcID: 4e55c8af hwID: 4e55c8af
-- 18:49:05.281 INFO   : (@Directory::getPath:858) Preferences path = C:\Vista 3
-- 18:49:05.281 INFO   : (@ShowManager::ShowManager:128) 
-- 18:49:05.281 INFO   :NETWORK: (@PlaybackNodeManager::PlaybackNodeManager:252) VistaPlaybackNode_2: new instance
-- 18:49:05.281 INFO   : (@BoostNetworkThread::run:54 ##1b87a98) starting
-- 18:49:05.281 INFO   : (@Directory::getPath:746) Factory Resources path = C:/Program Files (x86)/Chroma-Q/Vista3
-- 18:49:05.281 INFO   : (@BoostNetworkThread::run:54 ##1b87990) starting
-- 18:49:05.281 INFO   : (@BoostNetworkThread::run:54 ##1b87a08) starting
-- 18:49:05.281 INFO   : (@Directory::getPath:784) FactoryEffectLibrary path = C:/Program Files (x86)/Chroma-Q/Vista3/EffectLibrary
-- 18:49:05.281 INFO   : (@BoostNetworkThread::run:54 ##1b878d0) starting
-- 18:49:05.281 INFO   : (@BoostNetworkThread::run:54 ##1b87858) starting
-- 18:49:05.281 INFO   : (@BoostNetworkThread::run:54 ##1bbf330) starting
-- 18:49:05.281 INFO   : (@BoostNetworkThread::run:54 ##1bbf420) starting
-- 18:49:05.281 INFO   : (@BoostNetworkThread::run:54 ##1bbf348) starting
-- 18:49:05.375 INFO   : (@Directory::getPath:779) UserEffectLibrary path = C:\Vista 3/Effects
-- 18:49:05.375 INFO   : (@BoostTcpConnection::connectToServer:32) host: 127.0.0.1, port: 22125
-- 18:49:05.390 INFO2  :NETWORK: (@BoostTcpNetwork::socketConnected:191 ##1bbf348) VistaPlaybackNode_2: (+)Connection established.. local: 127.0.0.1:62503, remote: 127.0.0.1:22125
-- 18:49:05.390 INFO   :NETWORK: (@BoostTcpNetwork::socketConnected:32) host: 127.0.0.1, port: 22002
-- 18:49:05.390 INFO2  :NETWORK: (@BoostTcpNetwork::socketConnected:191 ##1b53dc8) VistaPlaybackNode_2: (+)Connection established.. local: 127.0.0.1:62504, remote: 127.0.0.1:22002
-- 18:49:05.390 INFO   :NETWORK: (@PlaybackNodeManager::nodeConnectedSlot:541) VistaPlaybackNode_2: 127.0.0.1 connected
-- 18:49:07.375 INFO   :NETWORK: (@PlaybackNodeManager::doAboutToSync:902) VistaPlaybackNode_2: Received ABOUT_TO_SYNC
-- 18:49:07.375 INFO   :NETWORK: (@PlaybackNodeManager::setSyncProgressState:2174) VistaPlaybackNode_2: Sync Progress State: AUX_ABOUT_TO_SYNC
-- 18:49:07.562 INFO   :NETWORK: (@PlaybackNodeManager::doDpuSync:789) VistaPlaybackNode_2: Received SHOW_SYNC
-- 18:49:07.562 INFO   :NETWORK: (@PlaybackNodeManager::setSyncProgressState:2174) VistaPlaybackNode_2: Sync Progress State: AUX_RECEIVED_SHOW_ABOUT_TO_DESERIALISE
-- 18:49:07.562 INFO   :NETWORK: (@ShowManager::prepareForShowReplacement:803) VistaPlaybackNode_2: prepareForShowReplacement: Auxiliary
-- 18:49:07.562 INFO   :NETWORK: (@ShowManager::prepareForShowReplacement:820) VistaPlaybackNode_2: Emitting disablePlayback()
-- 18:49:07.562 INFO   :NETWORK: (@ShowManager::prepareForShowReplacement:823) VistaPlaybackNode_2: Emitting showAboutToLoad()
-- 18:49:07.562 INFO1  :NETWORK: (@PlaybackNodeManager::showAboutToLoadSlot:497) VistaPlaybackNode_2: Emitting stateChangedSignal()
-- 18:49:07.640 INFO   : (@Console::Console:65) serialised
-- 18:49:07.640 INFO   : (@Console::Console:65) serialised
-- 18:49:07.640 INFO   : (@Console::Console:65) serialised
-- 18:49:07.640 INFO   : (@Console::Console:65) serialised
-- 18:49:07.672 INFO   : (@Console::Console:65) serialised
-- 18:49:07.672 INFO   : (@ScopedTimeLogger::~ScopedTimeLogger:26) Serialise a show took 106 ms.
-- 18:49:07.672 INFO   : (@Directory::getPath:751) UserFixtureLibrary path = C:\Vista 3/Fixtures
-- 18:49:07.672 INFO   : (@Directory::getPath:863) UserFixtureArrangementLibrary path = C:\Vista 3/Fixtures/CustomArrangements
-- 18:49:07.672 INFO   :NETWORK: (@PlaybackNodeManager::setSyncProgressState:2174) VistaPlaybackNode_2: Sync Progress State: AUX_SHOW_DESERIALISED
-- 18:49:07.672 INFO   :NETWORK: (@PlaybackNodeManager::dpuSyncAck:658) VistaPlaybackNode_2: Sending SHOW_SYNC_ACK from: 7171870d
-- 18:49:07.672 INFO   :NETWORK: (@PlaybackNodeManager::setSyncProgressState:2174) VistaPlaybackNode_2: Sync Progress State: AUX_SENDING_SYNC_ACKNOWLEDGEMENT
-- 18:49:07.672 INFO   :NETWORK: (@PlaybackNodeManager::doDpuSyncAck:874) VistaPlaybackNode_2: Received SHOW_SYNC_ACK from: 7171870d
-- 18:49:07.672 WARNING:NETWORK: (@PlaybackNodeManager::doDpuSyncAck:880) VistaPlaybackNode_2: Received SHOW_SYNC_ACK from unknown playback node: 7171870d
-- 18:49:07.672 INFO   :NETWORK: (@PlaybackNodeManager::doDpuSyncAck:874) VistaPlaybackNode_2: Received SHOW_SYNC_ACK from: 7171870b
-- 18:49:07.672 WARNING:NETWORK: (@PlaybackNodeManager::doDpuSyncAck:880) VistaPlaybackNode_2: Received SHOW_SYNC_ACK from unknown playback node: 7171870b
-- 18:49:10.062 INFO   :NETWORK: (@PlaybackNodeManager::doDpuSyncComplete:710) VistaPlaybackNode_2: Received SHOW_SYNC_COMPLETE message from master
-- 18:49:10.062 INFO   :NETWORK: (@PlaybackNodeManager::setSyncProgressState:2174) VistaPlaybackNode_2: Sync Progress State: AUX_PERFORMING_POST_SYNC_TASKS
-- 18:49:10.078 INFO   :NETWORK: (@ShowManager::performPostShowSynchronisationTasks:1051) VistaPlaybackNode_2: Emitting initialisePlayback()
-- 18:49:10.094 INFO   :NETWORK: (@ShowManager::performPostShowSynchronisationTasks:1055) VistaPlaybackNode_2: Emitting showLoaded()
-- 18:49:10.094 INFO   :NETWORK: (@ShowManager::performPostShowSynchronisationTasks:1058) VistaPlaybackNode_2: Emitting showLoadedNotificationCompleted()
-- 18:49:10.094 INFO1  :NETWORK: (@PlaybackNodeManager::showLoadedNotificationCompletedSlot:516) VistaPlaybackNode_2: Emitting stateChangedSignal()
-- 18:49:10.094 INFO   :NETWORK: (@ShowManager::performPostShowSynchronisationTasks:1062) VistaPlaybackNode_2: Emitting enablePlayback()
-- 18:49:10.094 INFO   : (@logIntSet:489) PlaybackEngineCoordinator::setPlaybackUniverses: set contains 0 items: []
-- 18:49:10.094 INFO   :NETWORK: (@PlaybackNodeManager::setSyncProgressState:2174) VistaPlaybackNode_2: Sync Progress State: NO_SYNC_IN_PROGRESS
-- 18:49:10.094 WARNING: (@EffectRateController::resetAllPhasesToZero:105) current playback time 00:00:00
-- 18:49:10.094 INFO   : (@PlaybackEngine::doRefresh:266) New set of assigned fixtures follows:
-- 18:49:10.094 INFO   : (@PlaybackEngine::doRefresh:280) PlaybackEngine: Elapsed time between refreshes was: 0ms
-- 18:49:10.390 INFO1  :NETWORK: (@PlaybackNodeManager::checkTimeControllerFailover:2049) VistaPlaybackNode_2: isSynchronised changed to: 1
-- 18:49:11.797 INFO1  :Command: (@ShowCommandExecutor::doPush:359) set LiveClip properties (type 3971b727)
-- 18:49:11.797 INFO1  :Command: (@ShowCommandExecutor::doPush:359) set LiveClip properties (type 3971b727)
-- 18:49:13.625 INFO   : (@PlaybackNodeManager::processMessage_SetConfiguration:1164) (role:0)- empty universes
-- 18:49:13.625 INFO   : (@logIntSet:489) PlaybackEngineCoordinator::setPlaybackUniverses: set contains 0 items: []
-- 18:49:13.640 INFO   : (@PlaybackEngine::doRefresh:266) New set of assigned fixtures follows:
-- 18:49:14.125 INFO   : (@PlaybackNodeManager::processMessage_SetConfiguration:1164) (role:0)- empty universes
-- 18:49:14.125 INFO   : (@logIntSet:489) PlaybackEngineCoordinator::setPlaybackUniverses: set contains 0 items: []
-- 18:49:14.140 INFO   : (@PlaybackEngine::doRefresh:266) New set of assigned fixtures follows:
-- 18:50:55.390 INFO1  :NETWORK: (@PlaybackNodeManager::checkTimeControllerFailover:2039) VistaPlaybackNode_2: Playback failover state changed to: 1
-- 18:50:56.000 WARNING:NETWORK: (@BoostTcpNetwork::outputNetworkError:395 ##1bbf348) VistaPlaybackNode_2: A socket error has occurred.. local: 127.0.0.1:62503, remote: 127.0.0.1:22125 - An existing connection was forcibly closed by the remote host
-- 18:50:56.015 INFO2  :NETWORK: (@BoostTcpNetwork::removeConnection:223 ##1bbf348) VistaPlaybackNode_2: (-)Connection removed
-- 18:50:56.015 INFO   :NETWORK: (@BoostTcpConnection::close:116 ##1bbf348) VistaPlaybackNode_2: Connection closed.. local: 127.0.0.1:62503, remote: 127.0.0.1:22125
-- 18:50:56.015 INFO   :NETWORK: (@BoostTcpConnection::close:116 ##1bbf348) VistaPlaybackNode_2: Connection closed.. local: 127.0.0.1:62503, remote: 127.0.0.1:22125
+- 19:59:53.000 INFO   : (main) Sat Mar 19 19:59:53 2022
+- 19:59:53.015 INFO   : (main) OS: Windows 10 (10.0), CPU: x86_64, Logical Cores: 4
+- 19:59:53.015 INFO   : (`anonymous-namespace'::getThisExecutableDirPath) Path to executable: C:/Program Files (x86)/Chroma-Q/Vista3/VistaPlaybackNode.exe
+- 19:59:53.015 INFO   : (Directory::getPath) QtPlugins path = C:/Program Files (x86)/Chroma-Q/Vista3/plugins
+- 19:59:53.031 INFO   : (main) Starting C:/Program Files (x86)/Chroma-Q/Vista3/VistaPlaybackNode.exe
+- 19:59:53.031 INFO   : (main) default plugin path: c:/Qt/Qt5.8.0/plugins
+- 19:59:53.046 INFO   : (InitialiseHardwareInterfaceLibrary) Initializing Hardware Interface
+- 19:59:53.046 INFO   : (BoostNetworkThread::run ##19d0f38) starting
+- 19:59:53.062 INFO   : (BoostNetworkThread::run ##19d1070) starting
+- 19:59:53.078 INFO   : (USB::libusbInit) Initializing libusb...
+- 19:59:53.109 INFO   : (UsbManager::UsbManager) Initializing USB Manager
+- 19:59:53.109 INFO   : (DpuManager::initialiseLocalConfiguration) initializing
+- 19:59:53.125 INFO   : (BoostNetworkThread::run ##19eee38) starting
+- 19:59:53.140 INFO   : (getLocalHostUuid) Local hostID: aaa0f2df
+- 19:59:53.140 INFO   : (getLocalHostUuid) Local hostID: aaa0f2df
+- 19:59:53.296 INFO   : (DpuManager::initialiseLocalConfiguration) Available CPU capability: 4 host type: 0
+- 19:59:53.296 INFO   : (TimecodeManager::TimecodeManager) 
+- 19:59:53.296 INFO   : (InitialiseShowLibrary) Initializing show Library
+- 19:59:53.296 INFO   : (Console::Console) (props) type 100 (Art-Net) vcID: b44d6a80 hwID: b44d6a80
+- 19:59:53.296 INFO   : (Console::Console) (props) type 102 (sACN) vcID: 669aa062 hwID: 669aa062
+- 19:59:53.296 INFO   : (Console::Console) (props) type 101 (Pathport) vcID: 4e55c8af hwID: 4e55c8af
+- 19:59:53.296 INFO   : (Directory::getPath) Preferences path = C:\Vista 3
+- 19:59:53.312 INFO   : (ShowManager::ShowManager) 
+- 19:59:53.312 INFO   :[NETWORK]  (PlaybackNodeManager::PlaybackNodeManager) VistaPlaybackNode_2: new instance
+- 19:59:53.328 INFO   : (Directory::getPath) Factory Resources path = C:/Program Files (x86)/Chroma-Q/Vista3
+- 19:59:53.328 INFO   : (Directory::getPath) FactoryEffectLibrary path = C:/Program Files (x86)/Chroma-Q/Vista3/EffectLibrary
+- 19:59:53.343 INFO   : (BoostNetworkThread::run ##3ef8b18) starting
+- 19:59:53.343 INFO   : (BoostNetworkThread::run ##3ef8740) starting
+- 19:59:53.343 INFO   : (BoostNetworkThread::run ##3ef87b8) starting
+- 19:59:53.343 INFO   : (BoostNetworkThread::run ##3ef8530) starting
+- 19:59:53.343 INFO   : (BoostNetworkThread::run ##3ef8620) starting
+- 19:59:53.343 INFO   : (BoostNetworkThread::run ##1a24d20) starting
+- 19:59:53.343 INFO   : (BoostNetworkThread::run ##1a24bd0) starting
+- 19:59:53.343 INFO   : (BoostNetworkThread::run ##1a24c30) starting
+- 19:59:53.468 INFO   : (Directory::getPath) UserEffectLibrary path = C:\Vista 3/Effects
+- 19:59:53.484 INFO   : (BoostTcpConnection::connectToServer) host: 127.0.0.1, port: 22125
+- 19:59:53.484 INFO2  :[NETWORK]  (BoostTcpNetwork::socketConnected ##1a24c30) VistaPlaybackNode_2: (+)Connection established.. local: 127.0.0.1:56364, remote: 127.0.0.1:22125
+- 19:59:53.484 INFO   : (BoostTcpConnection::connectToServer) host: 127.0.0.1, port: 22002
+- 19:59:53.484 INFO2  :[NETWORK]  (BoostTcpNetwork::socketConnected ##19d1070) VistaPlaybackNode_2: (+)Connection established.. local: 127.0.0.1:56365, remote: 127.0.0.1:22002
+- 19:59:53.500 INFO   :[NETWORK]  (PlaybackNodeManager::nodeConnectedSlot) VistaPlaybackNode_2: 127.0.0.1 connected
+- 19:59:58.531 INFO   :[NETWORK]  (PlaybackNodeManager::doAboutToSync) VistaPlaybackNode_2: Received ABOUT_TO_SYNC
+- 19:59:58.531 INFO   :[NETWORK]  (PlaybackNodeManager::setSyncProgressState) VistaPlaybackNode_2: Sync Progress State: AUX_ABOUT_TO_SYNC
+- 19:59:59.906 INFO   :[NETWORK]  (PlaybackNodeManager::doDpuSync) VistaPlaybackNode_2: Received SHOW_SYNC
+- 19:59:59.906 INFO   :[NETWORK]  (PlaybackNodeManager::setSyncProgressState) VistaPlaybackNode_2: Sync Progress State: AUX_RECEIVED_SHOW_ABOUT_TO_DESERIALISE
+- 19:59:59.906 INFO   :[NETWORK]  (ShowManager::prepareForShowReplacement) VistaPlaybackNode_2: prepareForShowReplacement: Auxiliary
+- 19:59:59.906 INFO   :[NETWORK]  (ShowManager::prepareForShowReplacement) VistaPlaybackNode_2: Emitting disablePlayback()
+- 19:59:59.906 INFO   :[NETWORK]  (ShowManager::prepareForShowReplacement) VistaPlaybackNode_2: Emitting showAboutToLoad()
+- 19:59:59.906 INFO1  :[NETWORK]  (PlaybackNodeManager::showAboutToLoadSlot) VistaPlaybackNode_2: Emitting stateChangedSignal()
+- 19:59:59.031 INFO   : (Console::Console) serialised
+- 19:59:59.031 INFO   : (Console::Console) serialised
+- 19:59:59.046 INFO   : (Console::Console) serialised
+- 19:59:59.046 INFO   : (Console::Console) serialised
+- 19:59:59.046 INFO   : (Console::Console) serialised
+- 19:59:59.046 INFO   : (Console::Console) serialised
+- 19:59:59.062 INFO   : (ScopedTimeLogger::~ScopedTimeLogger) Serialise a show took 148 ms.
+- 19:59:59.062 INFO   : (Directory::getPath) UserFixtureLibrary path = C:\Vista 3/Fixtures
+- 19:59:59.062 INFO   : (Directory::getPath) UserFixtureArrangementLibrary path = C:\Vista 3/Fixtures/CustomArrangements
+- 19:59:59.062 INFO   :[NETWORK]  (PlaybackNodeManager::setSyncProgressState) VistaPlaybackNode_2: Sync Progress State: AUX_SHOW_DESERIALISED
+- 19:59:59.062 INFO   :[NETWORK]  (PlaybackNodeManager::dpuSyncAck) VistaPlaybackNode_2: Sending SHOW_SYNC_ACK from: aaa0f2e1 (-2)
+- 19:59:59.062 INFO   :[NETWORK]  (PlaybackNodeManager::setSyncProgressState) VistaPlaybackNode_2: Sync Progress State: AUX_SENDING_SYNC_ACKNOWLEDGEMENT
+- 19:59:59.062 INFO   :[NETWORK]  (PlaybackNodeManager::doDpuSyncAck) VistaPlaybackNode_2: Received SHOW_SYNC_ACK from: aaa0f2e1 (-2)
+- 19:59:59.062 INFO   :[NETWORK]  (PlaybackNodeManager::doDpuSyncAck) VistaPlaybackNode_2: Received SHOW_SYNC_ACK from: aaa0f2df (-UI)
+- 20:00:05.578 INFO   : (PlaybackNodeManager::processMessage_SetConfiguration) (role:0)- empty universes
+- 20:00:05.578 INFO   : (logIntSet) PlaybackEngineCoordinator::setPlaybackUniverses: set contains 0 items: []
+- 20:00:05.359 INFO   :[NETWORK]  (PlaybackNodeManager::doDpuSyncComplete) VistaPlaybackNode_2: Received SHOW_SYNC_COMPLETE message from master
+- 20:00:05.359 INFO   :[NETWORK]  (PlaybackNodeManager::setSyncProgressState) VistaPlaybackNode_2: Sync Progress State: AUX_PERFORMING_POST_SYNC_TASKS
+- 20:00:05.359 INFO   :[NETWORK]  (ShowManager::performPostShowSynchronisationTasks) VistaPlaybackNode_2: Emitting initialisePlayback()
+- 20:00:05.375 INFO   :[NETWORK]  (ShowManager::performPostShowSynchronisationTasks) VistaPlaybackNode_2: Emitting showLoaded()
+- 20:00:05.375 INFO   :[NETWORK]  (ShowManager::performPostShowSynchronisationTasks) VistaPlaybackNode_2: Emitting showLoadedNotificationCompleted()
+- 20:00:05.375 INFO1  :[NETWORK]  (PlaybackNodeManager::showLoadedNotificationCompletedSlot) VistaPlaybackNode_2: Emitting stateChangedSignal()
+- 20:00:05.375 INFO   :[NETWORK]  (ShowManager::performPostShowSynchronisationTasks) VistaPlaybackNode_2: Emitting enablePlayback()
+- 20:00:05.375 INFO   : (logIntSet) PlaybackEngineCoordinator::setPlaybackUniverses: set contains 0 items: []
+- 20:00:05.375 INFO   :[NETWORK]  (PlaybackNodeManager::setSyncProgressState) VistaPlaybackNode_2: Sync Progress State: NO_SYNC_IN_PROGRESS
+- 20:00:05.390 WARNING: (EffectRateController::resetAllPhasesToZero) current playback time 00:00:00
+- 20:00:05.390 INFO   : (PlaybackEngine::doRefresh) New set of assigned fixtures follows:
+- 20:00:05.390 INFO   : (PlaybackEngine::doRefresh) PlaybackEngine: Elapsed time between refreshes was: 0ms
+- 20:00:05.421 INFO   : (PlaybackNodeManager::processMessage_SetConfiguration) (role:0)- empty universes
+- 20:00:05.421 INFO   : (logIntSet) PlaybackEngineCoordinator::setPlaybackUniverses: set contains 0 items: []
+- 20:00:05.453 INFO   : (PlaybackEngine::doRefresh) New set of assigned fixtures follows:
+- 20:00:05.500 INFO1  :[NETWORK]  (PlaybackNodeManager::checkTimeControllerFailover) VistaPlaybackNode_2: isSynchronised changed to: 1
+- 20:00:06.109 INFO   : (PlaybackNodeManager::processMessage_SetConfiguration) (role:0)- empty universes
+- 20:00:06.109 INFO   : (logIntSet) PlaybackEngineCoordinator::setPlaybackUniverses: set contains 0 items: []
+- 20:00:06.125 INFO   : (PlaybackEngine::doRefresh) New set of assigned fixtures follows:
+- 20:00:06.375 INFO   : (CuePlayer::playMacro) Playing macro -> Release
+- 20:00:06.390 INFO   : (PlaybackFunctions::release) 0 Snapshot clip [cue 0,0ms,Playing]0
+- 20:00:06.390 INFO   : (PlaybackFunctions::release) 0 Snapshot clip [cue 0,0ms,Releasing][at exit]
+- 20:00:06.390 INFO   : (CuePlayer::playMacro) Playing macro -> Release
+- 20:00:06.390 INFO   : (PlaybackFunctions::release) 0 Snapshot clip [cue 0,0ms,Releasing]0
+- 20:00:06.390 INFO   : (PlaybackFunctions::release) 0 Snapshot clip [cue 0,0ms,Released][at exit]
+- 20:00:07.593 INFO1  :[Command]  (ShowCommandExecutor::doPush) Quick Picker Change (type b448efe)
+- 20:00:07.593 INFO1  :[Command]  (ShowCommandExecutor::doPush) Quick Picker Change (type b448efe)
+- 20:00:07.609 INFO1  :[Command]  (ShowCommandExecutor::doPush) Quick Picker Change (type b448efe)
+- 20:00:07.609 INFO1  :[Command]  (ShowCommandExecutor::doPush) Quick Picker Change (type b448efe)
+- 20:00:07.625 INFO1  :[Command]  (ShowCommandExecutor::doPush) Quick Picker Change (type b448efe)
+- 20:00:07.625 INFO1  :[Command]  (ShowCommandExecutor::doPush) Quick Picker Change (type b448efe)
+- 20:00:07.640 INFO1  :[Command]  (ShowCommandExecutor::doPush) Quick Picker Change (type b448efe)
+- 20:00:07.640 INFO1  :[Command]  (ShowCommandExecutor::doPush) Quick Picker Change (type b448efe)
+- 20:00:07.656 INFO1  :[Command]  (ShowCommandExecutor::doPush) Quick Picker Change (type b448efe)
+- 20:00:07.656 INFO1  :[Command]  (ShowCommandExecutor::doPush) Quick Picker Change (type b448efe)
+*** Message repeated at least 10 times, ignoring further repeats! ***
+- 20:00:07.734 INFO   : (PlaybackNodeManager::processMessage_SetConfiguration) (role:0)- empty universes
+- 20:00:07.734 INFO   : (logIntSet) PlaybackEngineCoordinator::setPlaybackUniverses: set contains 0 items: []
+- 20:00:07.765 INFO   : (PlaybackEngine::doRefresh) New set of assigned fixtures follows:
+- 20:01:12.343 WARNING: (FixtureStatusManager::doPanelDataRequest) Playback status missing for fixture 31
+- 20:01:12.343 WARNING: (FixtureStatusManager::doPanelDataRequest) Playback status missing for fixture 39
+- 20:01:12.343 WARNING: (FixtureStatusManager::doPanelDataRequest) Playback status missing for fixture 14
+- 20:01:12.343 WARNING: (FixtureStatusManager::doPanelDataRequest) Playback status missing for fixture 30
+- 20:01:12.343 WARNING: (FixtureStatusManager::doPanelDataRequest) Playback status missing for fixture 8
+- 20:01:12.343 WARNING: (FixtureStatusManager::doPanelDataRequest) Playback status missing for fixture 35
+- 20:01:12.343 WARNING: (FixtureStatusManager::doPanelDataRequest) Playback status missing for fixture 38
+- 20:01:12.343 WARNING: (FixtureStatusManager::doPanelDataRequest) Playback status missing for fixture 3
+- 20:01:12.343 WARNING: (FixtureStatusManager::doPanelDataRequest) Playback status missing for fixture 9
+- 20:01:12.343 WARNING: (FixtureStatusManager::doPanelDataRequest) Playback status missing for fixture 2
+- 20:01:17.859 INFO   :[Command]  (ShowCommandExecutor::doEndMacro) apply preset (type 64)
+- 20:01:18.703 INFO   :[Command]  (ShowCommandExecutor::doEndMacro) apply preset (type 64)
+- 20:01:18.421 INFO   :[Command]  (ShowCommandExecutor::doEndMacro) apply preset (type 64)
+- 20:01:19.031 INFO   :[Command]  (ShowCommandExecutor::doEndMacro) apply preset (type 64)
+- 20:02:24.625 INFO   : (ClipPlayerManager::logPlaybackState) 19:Smoke [cue 0,0ms,Playing]
+- 20:03:39.625 INFO   : (ClipPlayerManager::logPlaybackState) 19:Smoke [cue 0,0ms,Playing]
+- 20:04:54.625 INFO   : (ClipPlayerManager::logPlaybackState) 19:Smoke [cue 0,0ms,Playing]
+- 20:06:09.625 INFO   : (ClipPlayerManager::logPlaybackState) 19:Smoke [cue 0,0ms,Playing]
+- 20:07:24.625 INFO   : (ClipPlayerManager::logPlaybackState) 19:Smoke [cue 0,0ms,Playing]
+- 20:08:39.625 INFO   : (ClipPlayerManager::logPlaybackState) 19:Smoke [cue 0,0ms,Playing]
+- 20:09:54.625 INFO   : (ClipPlayerManager::logPlaybackState) 19:Smoke [cue 0,0ms,Playing]
+- 20:11:09.625 INFO   : (ClipPlayerManager::logPlaybackState) 19:Smoke [cue 0,0ms,Playing]
+- 20:12:24.625 INFO   : (ClipPlayerManager::logPlaybackState) 19:Smoke [cue 0,0ms,Playing]
+- 20:13:39.625 INFO   : (ClipPlayerManager::logPlaybackState) 19:Smoke [cue 0,0ms,Playing]
+*** Message repeated at least 10 times, ignoring further repeats! ***
+- 20:35:39.000 INFO1  :[NETWORK]  (PlaybackNodeManager::checkTimeControllerFailover) VistaPlaybackNode_2: Playback failover state changed to: 1
+- 20:35:39.500 INFO1  :[NETWORK]  (PlaybackNodeManager::checkTimeControllerFailover) VistaPlaybackNode_2: Playback failover state changed to: 0
+- 20:43:48.156 INFO   :[Command]  (ShowCommandExecutor::doEndMacro) Clear (type 64)
+- 20:44:54.625 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 6,2000ms,Playing]
+- 20:46:09.625 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 0,4000ms,Playing]
+- 20:47:24.625 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 1,4000ms,Playing]
+- 20:48:39.625 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 2,1000ms,Playing]
+- 20:49:54.625 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 3,0ms,Playing]
+- 20:51:09.625 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 5,2000ms,Playing]
+- 20:51:21.203 INFO1  :[Command]  (ShowCommandExecutor::doPush) Quick Picker Change (type b448efe)
+- 20:51:21.218 INFO1  :[Command]  (ShowCommandExecutor::doPush) Quick Picker Change (type b448efe)
+- 20:51:21.218 INFO1  :[Command]  (ShowCommandExecutor::doPush) Quick Picker Change (type b448efe)
+- 20:51:21.281 INFO1  :[Command]  (ShowCommandExecutor::doPush) Quick Picker Change (type b448efe)
+- 20:51:21.296 INFO1  :[Command]  (ShowCommandExecutor::doPush) Quick Picker Change (type b448efe)
+- 20:51:21.296 INFO1  :[Command]  (ShowCommandExecutor::doPush) Quick Picker Change (type b448efe)
+- 20:51:21.296 INFO1  :[Command]  (ShowCommandExecutor::doPush) Quick Picker Change (type b448efe)
+- 20:51:21.296 INFO1  :[Command]  (ShowCommandExecutor::doPush) Quick Picker Change (type b448efe)
+- 20:51:21.312 INFO1  :[Command]  (ShowCommandExecutor::doPush) Quick Picker Change (type b448efe)
+- 20:51:21.328 INFO1  :[Command]  (ShowCommandExecutor::doPush) Quick Picker Change (type b448efe)
+*** Message repeated at least 10 times, ignoring further repeats! ***
+- 20:52:24.625 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 7,2000ms,Playing]
+- 20:53:39.625 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 0,4000ms,Playing]
+- 20:54:54.671 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 2,1000ms,Playing]
+- 20:56:09.671 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 3,0ms,Playing]
+- 20:57:24.671 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 5,827ms,Playing]
+- 20:58:39.671 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 7,2000ms,Playing]
+- 20:59:54.671 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 0,4000ms,Playing]
+- 21:01:09.671 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 1,4000ms,Playing]
+- 21:02:24.671 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 2,1000ms,Playing]
+- 21:03:39.671 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 4,2000ms,Playing]
+- 21:04:54.671 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 6,2000ms,Playing]
+- 21:06:09.671 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 7,2000ms,Playing]
+- 21:07:24.671 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 1,4000ms,Playing]
+- 21:08:39.671 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 2,1000ms,Playing]
+- 21:09:54.671 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 3,0ms,Playing]
+- 21:11:09.671 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 5,2000ms,Playing]
+- 21:12:24.671 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 7,2000ms,Playing]
+- 21:13:39.671 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 0,4000ms,Playing]
+- 21:14:54.671 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 1,4000ms,Playing]
+- 21:16:09.703 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 3,0ms,Playing]
+- 21:17:24.703 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 4,2000ms,Playing]
+- 21:18:39.796 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 6,2000ms,Playing]
+- 21:19:54.796 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 0,4000ms,Playing]
+- 21:21:09.796 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 1,4000ms,Playing]
+- 21:22:24.796 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 2,1000ms,Playing]
+- 21:23:39.953 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 3,0ms,Playing]
+- 21:24:54.171 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 5,2000ms,Playing]
+- 21:26:09.265 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 7,2000ms,Playing]
+- 21:27:24.390 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 0,4000ms,Playing]
+- 21:28:39.437 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 2,1000ms,Playing]
+- 21:29:54.484 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 3,0ms,Playing]
+- 21:31:09.484 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 5,1662ms,Playing]
+- 21:32:24.484 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 7,2000ms,Playing]
+- 21:33:39.484 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 0,4000ms,Playing]
+- 21:34:54.484 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 1,4000ms,Playing]
+- 21:36:09.484 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 2,1000ms,Playing]
+- 21:37:24.484 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 4,2000ms,Playing]
+- 21:38:39.484 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 6,2000ms,Playing]
+- 21:39:54.484 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 7,2000ms,Playing]
+- 21:41:09.484 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 1,4000ms,Playing]
+- 21:42:26.765 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 2,1000ms,Playing]
+- 21:43:42.640 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 3,0ms,Playing]
+- 21:44:03.234 INFO   :[NETWORK]  (PlaybackNodeManager::doShowSavedOnMain) VistaPlaybackNode_2: Received SHOW_SAVED_ON_MAIN message from master
+- 21:44:57.640 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 5,2000ms,Playing]
+- 21:46:12.640 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 7,2000ms,Playing]
+- 21:47:27.640 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 0,4000ms,Playing]
+- 21:48:42.640 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 1,4000ms,Playing]
+- 21:49:57.921 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 3,0ms,Playing]
+- 21:51:12.921 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 4,2000ms,Playing]
+- 21:52:27.921 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 7,100ms,Playing]
+- 21:53:42.921 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 0,4000ms,Playing]
+- 21:54:57.234 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 1,4000ms,Playing]
+- 21:56:12.234 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 2,1000ms,Playing]
+- 21:57:27.234 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 3,0ms,Playing]
+- 21:58:42.234 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 6,2000ms,Playing]
+- 21:59:57.234 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 7,2000ms,Playing]
+- 22:01:12.234 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 0,4000ms,Playing]
+- 22:02:27.234 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 2,1000ms,Playing]
+- 22:03:42.234 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 3,0ms,Playing]
+- 22:04:57.234 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 5,2000ms,Playing]
+- 22:06:12.234 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 7,2000ms,Playing]
+- 22:07:27.234 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 0,4000ms,Playing]
+- 22:08:42.234 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 1,4000ms,Playing]
+- 22:09:57.234 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 2,1000ms,Playing]
+- 22:11:12.234 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 4,2000ms,Playing]
+- 22:12:27.234 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 6,2000ms,Playing]
+- 22:13:42.281 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 0,466ms,Playing]
+- 22:14:57.296 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 1,4000ms,Playing]
+- 22:16:12.359 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 2,1000ms,Playing]
+- 22:17:27.359 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 3,0ms,Playing]
+- 22:18:42.359 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 5,2000ms,Playing]
+- 22:19:57.359 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 7,2000ms,Playing]
+- 22:21:13.734 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 0,4000ms,Playing]
+- 22:22:28.796 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 1,4000ms,Playing]
+- 22:23:43.937 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 3,0ms,Playing]
+- 22:24:58.937 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 4,2000ms,Playing]
+- 22:26:13.937 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 7,1098ms,Playing]
+- 22:27:28.937 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 0,4000ms,Playing]
+- 22:28:43.937 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 1,4000ms,Playing]
+- 22:29:58.937 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 2,1000ms,Playing]
+- 22:31:13.937 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 3,0ms,Playing]
+- 22:32:28.937 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 6,2000ms,Playing]
+- 22:33:43.937 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 7,2000ms,Playing]
+- 22:34:58.937 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 0,4000ms,Playing]
+- 22:36:13.218 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 2,1000ms,Playing]
+- 22:37:28.218 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 3,0ms,Playing]
+- 22:38:43.250 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 5,2000ms,Playing]
+- 22:39:59.000 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 7,2000ms,Playing]
+- 22:41:14.421 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 0,4000ms,Playing]
+- 22:42:29.421 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 1,4000ms,Playing]
+- 22:43:44.484 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 2,1000ms,Playing]
+- 22:44:59.484 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 4,2000ms,Playing]
+- 22:46:14.562 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 6,2000ms,Playing]
+- 22:47:29.562 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 0,2716ms,Playing]
+- 22:48:46.671 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 1,4000ms,Playing]
+- 22:50:01.671 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 2,1000ms,Playing]
+- 22:51:16.671 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 3,0ms,Playing]
+- 22:52:31.671 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 5,2000ms,Playing]
+- 22:53:46.671 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 7,2000ms,Playing]
+- 22:55:01.875 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 0,4000ms,Playing]
+- 22:56:16.875 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 1,4000ms,Playing]
+- 22:57:31.875 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 3,0ms,Playing]
+- 22:58:46.968 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 4,2000ms,Playing]
+- 23:00:01.968 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 7,2000ms,Playing]
+- 23:01:17.921 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 0,4000ms,Playing]
+- 23:01:17.375 INFO   : (PlaybackEngine::doRefresh) PlaybackEngine: Elapsed time between refreshes was: 1077ms
+- 23:02:32.281 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 1,4000ms,Playing]
+- 23:03:47.406 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 2,1000ms,Playing]
+- 23:05:02.406 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 3,0ms,Playing]
+- 23:06:17.406 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 6,2000ms,Playing]
+- 23:07:32.515 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 7,2000ms,Playing]
+- 23:08:47.515 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 1,1706ms,Playing]
+- 23:10:02.515 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 2,1000ms,Playing]
+- 23:11:17.515 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 3,0ms,Playing]
+- 23:12:32.515 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 5,2000ms,Playing]
+- 23:13:47.515 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 7,2000ms,Playing]
+- 23:15:03.828 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 0,4000ms,Playing]
+- 23:16:18.281 INFO   : (ClipPlayerManager::logPlaybackState) 19:Smoke [cue 1,0ms,Playing]
+- 23:16:18.281 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 1,4000ms,Playing]
+- 23:17:33.281 INFO   : (ClipPlayerManager::logPlaybackState) 19:Smoke [cue 1,0ms,Playing]
+- 23:17:33.281 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 2,1000ms,Playing]
+- 23:18:15.968 INFO1  :[Command]  (ShowCommandExecutor::doPush) Quick Picker Change (type b448efe)
+- 23:18:15.984 INFO1  :[Command]  (ShowCommandExecutor::doPush) Quick Picker Change (type b448efe)
+- 23:18:15.984 INFO1  :[Command]  (ShowCommandExecutor::doPush) Quick Picker Change (type b448efe)
+- 23:18:15.984 INFO1  :[Command]  (ShowCommandExecutor::doPush) Quick Picker Change (type b448efe)
+- 23:18:15.984 INFO1  :[Command]  (ShowCommandExecutor::doPush) Quick Picker Change (type b448efe)
+- 23:18:15.000 INFO1  :[Command]  (ShowCommandExecutor::doPush) Quick Picker Change (type b448efe)
+- 23:18:15.000 INFO1  :[Command]  (ShowCommandExecutor::doPush) Quick Picker Change (type b448efe)
+- 23:18:15.000 INFO1  :[Command]  (ShowCommandExecutor::doPush) Quick Picker Change (type b448efe)
+- 23:18:15.000 INFO1  :[Command]  (ShowCommandExecutor::doPush) Quick Picker Change (type b448efe)
+- 23:18:15.015 INFO1  :[Command]  (ShowCommandExecutor::doPush) Quick Picker Change (type b448efe)
+*** Message repeated at least 10 times, ignoring further repeats! ***
+- 23:18:48.343 INFO   : (ClipPlayerManager::logPlaybackState) 19:Smoke [cue 1,0ms,Playing]
+- 23:18:48.343 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 4,2000ms,Playing]
+- 23:20:03.343 INFO   : (ClipPlayerManager::logPlaybackState) 19:Smoke [cue 1,0ms,Playing]
+- 23:20:03.343 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 6,2000ms,Playing]
+- 23:21:18.343 INFO   : (ClipPlayerManager::logPlaybackState) 19:Smoke [cue 1,0ms,Playing]
+- 23:21:18.343 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 0,4000ms,Playing]
+- 23:22:33.343 INFO   : (ClipPlayerManager::logPlaybackState) 19:Smoke [cue 1,0ms,Playing]
+- 23:22:33.343 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 1,4000ms,Playing]
+- 23:23:48.343 INFO   : (ClipPlayerManager::logPlaybackState) 19:Smoke [cue 1,0ms,Playing]
+- 23:23:48.343 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 2,1000ms,Playing]
+- 23:25:03.343 INFO   : (ClipPlayerManager::logPlaybackState) 19:Smoke [cue 1,0ms,Playing]
+- 23:25:03.343 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 3,0ms,Playing]
+- 23:26:18.343 INFO   : (ClipPlayerManager::logPlaybackState) 19:Smoke [cue 1,0ms,Playing]
+- 23:26:18.343 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 5,2000ms,Playing]
+- 23:27:33.343 INFO   : (ClipPlayerManager::logPlaybackState) 19:Smoke [cue 1,0ms,Playing]
+- 23:27:33.343 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 7,2000ms,Playing]
+- 23:28:48.343 INFO   : (ClipPlayerManager::logPlaybackState) 19:Smoke [cue 1,0ms,Playing]
+- 23:28:48.343 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 0,4000ms,Playing]
+- 23:30:03.343 INFO   : (ClipPlayerManager::logPlaybackState) 19:Smoke [cue 1,0ms,Playing]
+- 23:30:03.343 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 1,4000ms,Playing]
+- 23:31:18.343 INFO   : (ClipPlayerManager::logPlaybackState) 19:Smoke [cue 1,0ms,Playing]
+- 23:31:18.343 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 3,0ms,Playing]
+- 23:32:33.343 INFO   : (ClipPlayerManager::logPlaybackState) 19:Smoke [cue 1,0ms,Playing]
+- 23:32:33.343 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 4,2000ms,Playing]
+- 23:33:48.343 INFO   : (ClipPlayerManager::logPlaybackState) 19:Smoke [cue 1,0ms,Playing]
+- 23:33:48.343 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 7,2000ms,Playing]
+- 23:35:03.343 INFO   : (ClipPlayerManager::logPlaybackState) 19:Smoke [cue 1,0ms,Playing]
+- 23:35:03.343 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 0,4000ms,Playing]
+- 23:36:18.343 INFO   : (ClipPlayerManager::logPlaybackState) 19:Smoke [cue 1,0ms,Playing]
+- 23:36:18.343 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 1,4000ms,Playing]
+- 23:37:33.343 INFO   : (ClipPlayerManager::logPlaybackState) 19:Smoke [cue 1,0ms,Playing]
+- 23:37:33.343 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 2,1000ms,Playing]
+- 23:38:48.343 INFO   : (ClipPlayerManager::logPlaybackState) 19:Smoke [cue 1,0ms,Playing]
+- 23:38:48.343 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 3,0ms,Playing]
+- 23:40:03.343 INFO   : (ClipPlayerManager::logPlaybackState) 19:Smoke [cue 1,0ms,Playing]
+- 23:40:03.343 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 6,2000ms,Playing]
+- 23:41:18.343 INFO   : (ClipPlayerManager::logPlaybackState) 19:Smoke [cue 1,0ms,Playing]
+- 23:41:18.343 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 7,2000ms,Playing]
+- 23:42:33.343 INFO   : (ClipPlayerManager::logPlaybackState) 19:Smoke [cue 1,0ms,Playing]
+- 23:42:33.343 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 1,2534ms,Playing]
+- 23:43:48.343 INFO   : (ClipPlayerManager::logPlaybackState) 19:Smoke [cue 1,0ms,Playing]
+- 23:43:48.343 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 2,1000ms,Playing]
+- 23:45:03.343 INFO   : (ClipPlayerManager::logPlaybackState) 19:Smoke [cue 1,0ms,Playing]
+- 23:45:03.343 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 3,0ms,Playing]
+- 23:46:18.343 INFO   : (ClipPlayerManager::logPlaybackState) 19:Smoke [cue 1,0ms,Playing]
+- 23:46:18.343 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 5,2000ms,Playing]
+- 23:47:33.343 INFO   : (ClipPlayerManager::logPlaybackState) 19:Smoke [cue 1,0ms,Playing]
+- 23:47:33.343 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 7,2000ms,Playing]
+- 23:48:48.531 INFO   : (ClipPlayerManager::logPlaybackState) 19:Smoke [cue 1,0ms,Playing]
+- 23:48:48.531 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 0,4000ms,Playing]
+- 23:50:03.531 INFO   : (ClipPlayerManager::logPlaybackState) 19:Smoke [cue 1,0ms,Playing]
+- 23:50:03.531 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 1,4000ms,Playing]
+- 23:51:18.531 INFO   : (ClipPlayerManager::logPlaybackState) 19:Smoke [cue 1,0ms,Playing]
+- 23:51:18.531 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 2,1000ms,Playing]
+- 23:52:33.531 INFO   : (ClipPlayerManager::logPlaybackState) 19:Smoke [cue 1,0ms,Playing]
+- 23:52:33.531 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 4,2000ms,Playing]
+- 23:53:48.531 INFO   : (ClipPlayerManager::logPlaybackState) 19:Smoke [cue 1,0ms,Playing]
+- 23:53:48.531 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 6,2000ms,Playing]
+- 23:55:03.531 INFO   : (ClipPlayerManager::logPlaybackState) 19:Smoke [cue 1,0ms,Playing]
+- 23:55:03.531 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 0,4000ms,Playing]
+- 23:56:18.531 INFO   : (ClipPlayerManager::logPlaybackState) 19:Smoke [cue 1,0ms,Playing]
+- 23:56:18.531 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 1,4000ms,Playing]
+- 23:57:33.531 INFO   : (ClipPlayerManager::logPlaybackState) 19:Smoke [cue 1,0ms,Playing]
+- 23:57:33.531 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 2,1000ms,Playing]
+- 23:58:48.531 INFO   : (ClipPlayerManager::logPlaybackState) 19:Smoke [cue 1,0ms,Playing]
+- 23:58:48.531 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 3,0ms,Playing]
+- 00:00:03.531 INFO   : (ClipPlayerManager::logPlaybackState) 19:Smoke [cue 1,0ms,Playing]
+- 00:00:03.531 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 5,2000ms,Playing]
+- 00:01:18.531 INFO   : (ClipPlayerManager::logPlaybackState) 19:Smoke [cue 1,0ms,Playing]
+- 00:01:18.531 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 7,2000ms,Playing]
+- 00:02:33.531 INFO   : (ClipPlayerManager::logPlaybackState) 19:Smoke [cue 1,0ms,Playing]
+- 00:02:33.531 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 0,4000ms,Playing]
+- 00:03:48.546 INFO   : (ClipPlayerManager::logPlaybackState) 19:Smoke [cue 1,0ms,Playing]
+- 00:03:48.546 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 1,4000ms,Playing]
+- 00:05:03.546 INFO   : (ClipPlayerManager::logPlaybackState) 19:Smoke [cue 1,0ms,Playing]
+- 00:05:03.546 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 3,0ms,Playing]
+- 00:06:18.546 INFO   : (ClipPlayerManager::logPlaybackState) 19:Smoke [cue 0,0ms,Playing]
+- 00:06:18.546 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 4,2000ms,Playing]
+- 00:07:33.546 INFO   : (ClipPlayerManager::logPlaybackState) 19:Smoke [cue 0,0ms,Playing]
+- 00:07:33.546 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 7,2000ms,Playing]
+- 00:08:48.546 INFO   : (ClipPlayerManager::logPlaybackState) 19:Smoke [cue 0,0ms,Playing]
+- 00:08:48.546 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 0,4000ms,Playing]
+- 00:10:03.546 INFO   : (ClipPlayerManager::logPlaybackState) 19:Smoke [cue 0,0ms,Playing]
+- 00:10:03.546 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 1,4000ms,Playing]
+- 00:11:18.546 INFO   : (ClipPlayerManager::logPlaybackState) 19:Smoke [cue 0,0ms,Playing]
+- 00:11:18.546 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 2,1000ms,Playing]
+- 00:12:33.546 INFO   : (ClipPlayerManager::logPlaybackState) 19:Smoke [cue 0,0ms,Playing]
+- 00:12:33.546 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 3,0ms,Playing]
+- 00:13:48.546 INFO   : (ClipPlayerManager::logPlaybackState) 19:Smoke [cue 0,0ms,Playing]
+- 00:13:48.546 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 6,2000ms,Playing]
+- 00:15:03.546 INFO   : (ClipPlayerManager::logPlaybackState) 19:Smoke [cue 0,0ms,Playing]
+- 00:15:03.546 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 7,2000ms,Playing]
+- 00:16:18.546 INFO   : (ClipPlayerManager::logPlaybackState) 19:Smoke [cue 0,0ms,Playing]
+- 00:16:18.546 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 1,2732ms,Playing]
+- 00:17:33.546 INFO   : (ClipPlayerManager::logPlaybackState) 19:Smoke [cue 0,0ms,Playing]
+- 00:17:33.546 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 2,1000ms,Playing]
+- 00:18:48.546 INFO   : (ClipPlayerManager::logPlaybackState) 19:Smoke [cue 0,0ms,Playing]
+- 00:18:48.546 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 3,0ms,Playing]
+- 00:20:03.546 INFO   : (ClipPlayerManager::logPlaybackState) 19:Smoke [cue 0,0ms,Playing]
+- 00:20:03.546 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 5,2000ms,Playing]
+- 00:21:18.546 INFO   : (ClipPlayerManager::logPlaybackState) 19:Smoke [cue 0,0ms,Playing]
+- 00:21:18.546 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 7,2000ms,Playing]
+- 00:22:33.546 INFO   : (ClipPlayerManager::logPlaybackState) 19:Smoke [cue 0,0ms,Playing]
+- 00:22:33.546 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 0,4000ms,Playing]
+- 00:23:48.546 INFO   : (ClipPlayerManager::logPlaybackState) 19:Smoke [cue 0,0ms,Playing]
+- 00:23:48.546 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 1,4000ms,Playing]
+- 00:25:03.546 INFO   : (ClipPlayerManager::logPlaybackState) 19:Smoke [cue 0,0ms,Playing]
+- 00:25:03.546 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 2,1000ms,Playing]
+- 00:26:18.546 INFO   : (ClipPlayerManager::logPlaybackState) 19:Smoke [cue 0,0ms,Playing]
+- 00:26:18.546 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 4,2000ms,Playing]
+- 00:27:33.546 INFO   : (ClipPlayerManager::logPlaybackState) 19:Smoke [cue 0,0ms,Playing]
+- 00:27:33.546 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 6,2000ms,Playing]
+- 00:28:48.546 INFO   : (ClipPlayerManager::logPlaybackState) 19:Smoke [cue 0,0ms,Playing]
+- 00:28:48.546 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 0,4000ms,Playing]
+- 00:30:03.546 INFO   : (ClipPlayerManager::logPlaybackState) 19:Smoke [cue 0,0ms,Playing]
+- 00:30:03.546 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 1,4000ms,Playing]
+- 00:31:18.546 INFO   : (ClipPlayerManager::logPlaybackState) 19:Smoke [cue 0,0ms,Playing]
+- 00:31:18.546 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 2,1000ms,Playing]
+- 00:32:33.546 INFO   : (ClipPlayerManager::logPlaybackState) 19:Smoke [cue 0,0ms,Playing]
+- 00:32:33.546 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 3,0ms,Playing]
+- 00:33:48.546 INFO   : (ClipPlayerManager::logPlaybackState) 19:Smoke [cue 0,0ms,Playing]
+- 00:33:48.546 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 5,2000ms,Playing]
+- 00:35:03.546 INFO   : (ClipPlayerManager::logPlaybackState) 19:Smoke [cue 0,0ms,Playing]
+- 00:35:03.546 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 7,2000ms,Playing]
+- 00:36:18.546 INFO   : (ClipPlayerManager::logPlaybackState) 19:Smoke [cue 0,0ms,Playing]
+- 00:36:18.546 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 0,4000ms,Playing]
+- 00:37:33.546 INFO   : (ClipPlayerManager::logPlaybackState) 19:Smoke [cue 0,0ms,Playing]
+- 00:37:33.546 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 1,4000ms,Playing]
+- 00:38:48.546 INFO   : (ClipPlayerManager::logPlaybackState) 19:Smoke [cue 0,0ms,Playing]
+- 00:38:48.546 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 3,0ms,Playing]
+- 00:40:03.546 INFO   : (ClipPlayerManager::logPlaybackState) 19:Smoke [cue 0,0ms,Playing]
+- 00:40:03.546 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 4,2000ms,Playing]
+- 00:41:18.546 INFO   : (ClipPlayerManager::logPlaybackState) 19:Smoke [cue 0,0ms,Playing]
+- 00:41:18.546 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 7,2000ms,Playing]
+- 00:42:23.515 INFO   : (CuePlayer::playMacro) Playing macro -> Jump, Cue - step: 2
+- 00:42:23.515 INFO   : (PlaybackFunctions::jumpToStep) 8 MFSpotINT MasterFX QList [cue 0,0ms,Released]2
+- 00:42:23.515 INFO   : (PlaybackFunctions::jumpToStep) 8 MFSpotINT MasterFX QList [cue 2,0ms,Playing][at exit]
+- 00:42:23.531 INFO   : (CuePlayer::playMacro) Playing macro -> Jump, Cue - step: 2
+- 00:42:23.531 INFO   : (PlaybackFunctions::jumpToStep) 8 MFSpotINT MasterFX QList [cue 2,0ms,Playing]2
+- 00:42:23.531 INFO   : (PlaybackFunctions::jumpToStep) 8 MFSpotINT MasterFX QList [cue 2,0ms,Playing][at exit]
+- 00:42:23.531 INFO   : (CuePlayer::playMacro) Playing macro -> Jump, Cue - step: 2
+- 00:42:23.531 INFO   : (PlaybackFunctions::jumpToStep) 1 DJSpotINT MasterFX QList [cue 0,0ms,Released]2
+- 00:42:23.531 INFO   : (PlaybackFunctions::jumpToStep) 1 DJSpotINT MasterFX QList [cue 2,0ms,Playing][at exit]
+- 00:42:23.531 INFO   : (CuePlayer::playMacro) Playing macro -> Jump, Cue - step: 2
+- 00:42:23.531 INFO   : (PlaybackFunctions::jumpToStep) 1 DJSpotINT MasterFX QList [cue 2,0ms,Playing]2
+- 00:42:23.531 INFO   : (PlaybackFunctions::jumpToStep) 1 DJSpotINT MasterFX QList [cue 2,0ms,Playing][at exit]
+- 00:42:23.531 INFO   : (CuePlayer::playMacro) Playing macro -> Jump, Cue - step: 2
+- 00:42:23.531 INFO   : (PlaybackFunctions::jumpToStep) 20 ParINT MasterFX QList [cue 0,0ms,Released]2
+- 00:42:23.531 INFO   : (PlaybackFunctions::jumpToStep) 20 ParINT MasterFX QList [cue 2,0ms,Playing][at exit]
+- 00:42:23.531 INFO   : (CuePlayer::playMacro) Playing macro -> Jump, Cue - step: 2
+- 00:42:23.531 INFO   : (PlaybackFunctions::jumpToStep) 20 ParINT MasterFX QList [cue 2,0ms,Playing]2
+- 00:42:23.531 INFO   : (PlaybackFunctions::jumpToStep) 20 ParINT MasterFX QList [cue 2,0ms,Playing][at exit]
+- 00:42:34.171 INFO   : (ClipPlayerManager::logPlaybackState) 1:DJSpotINT MasterFX QList [cue 2,0ms,Playing]
+- 00:42:34.171 INFO   : (ClipPlayerManager::logPlaybackState) 8:MFSpotINT MasterFX QList [cue 2,0ms,Playing]
+- 00:42:34.171 INFO   : (ClipPlayerManager::logPlaybackState) 19:Smoke [cue 0,0ms,Playing]
+- 00:42:34.171 INFO   : (ClipPlayerManager::logPlaybackState) 20:ParINT MasterFX QList [cue 2,0ms,Playing]
+- 00:42:34.171 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 0,4000ms,Playing]
+- 00:42:34.203 INFO1  :[Command]  (ShowCommandExecutor::doPush) set EffectRateController properties (type 1c748a0)
+- 00:42:35.687 INFO1  :[Command]  (ShowCommandExecutor::doPush) set EffectRateController properties (type 1c748a0)
+- 00:42:35.156 INFO1  :[Command]  (ShowCommandExecutor::doPush) set EffectRateController properties (type 1c748a0)
+- 00:42:39.890 INFO   : (CuePlayer::playMacro) Playing macro -> Jump, Cue - step: 1
+- 00:42:39.890 INFO   : (PlaybackFunctions::jumpToStep) 1 DJSpotINT MasterFX QList [cue 2,0ms,Playing]1
+- 00:42:39.890 INFO   : (PlaybackFunctions::jumpToStep) 1 DJSpotINT MasterFX QList [cue 1,0ms,Playing][at exit]
+- 00:42:39.890 INFO   : (CuePlayer::playMacro) Playing macro -> Jump, Cue - step: 1
+- 00:42:39.890 INFO   : (PlaybackFunctions::jumpToStep) 1 DJSpotINT MasterFX QList [cue 1,0ms,Playing]1
+- 00:42:39.890 INFO   : (PlaybackFunctions::jumpToStep) 1 DJSpotINT MasterFX QList [cue 1,0ms,Playing][at exit]
+- 00:42:39.890 INFO   : (CuePlayer::playMacro) Playing macro -> Jump, Cue - step: 1
+- 00:42:39.890 INFO   : (PlaybackFunctions::jumpToStep) 8 MFSpotINT MasterFX QList [cue 2,0ms,Playing]1
+- 00:42:39.890 INFO   : (PlaybackFunctions::jumpToStep) 8 MFSpotINT MasterFX QList [cue 1,0ms,Playing][at exit]
+- 00:42:39.906 INFO   : (CuePlayer::playMacro) Playing macro -> Jump, Cue - step: 1
+- 00:42:39.906 INFO   : (PlaybackFunctions::jumpToStep) 8 MFSpotINT MasterFX QList [cue 1,0ms,Playing]1
+- 00:42:39.906 INFO   : (PlaybackFunctions::jumpToStep) 8 MFSpotINT MasterFX QList [cue 1,0ms,Playing][at exit]
+- 00:42:39.906 INFO   : (CuePlayer::playMacro) Playing macro -> Jump, Cue - step: 4
+- 00:42:39.906 INFO   : (PlaybackFunctions::jumpToStep) 20 ParINT MasterFX QList [cue 2,0ms,Playing]4
+- 00:42:39.906 INFO   : (PlaybackFunctions::jumpToStep) 20 ParINT MasterFX QList [cue 4,0ms,Playing][at exit]
+- 00:42:39.906 INFO   : (CuePlayer::playMacro) Playing macro -> Jump, Cue - step: 4
+- 00:42:39.906 INFO   : (PlaybackFunctions::jumpToStep) 20 ParINT MasterFX QList [cue 4,0ms,Playing]4
+- 00:42:39.906 INFO   : (PlaybackFunctions::jumpToStep) 20 ParINT MasterFX QList [cue 4,0ms,Playing][at exit]
+- 00:43:46.062 INFO   : (CuePlayer::playMacro) Playing macro -> Jump, Cue - step: 2
+- 00:43:46.062 INFO   : (PlaybackFunctions::jumpToStep) 1 DJSpotINT MasterFX QList [cue 1,0ms,Playing]2
+- 00:43:46.062 INFO   : (PlaybackFunctions::jumpToStep) 1 DJSpotINT MasterFX QList [cue 2,0ms,Playing][at exit]
+- 00:43:46.062 INFO   : (CuePlayer::playMacro) Playing macro -> Jump, Cue - step: 2
+- 00:43:46.062 INFO   : (PlaybackFunctions::jumpToStep) 1 DJSpotINT MasterFX QList [cue 2,0ms,Playing]2
+- 00:43:46.062 INFO   : (PlaybackFunctions::jumpToStep) 1 DJSpotINT MasterFX QList [cue 2,0ms,Playing][at exit]
+- 00:43:46.062 INFO   : (CuePlayer::playMacro) Playing macro -> Jump, Cue - step: 2
+- 00:43:46.062 INFO   : (PlaybackFunctions::jumpToStep) 8 MFSpotINT MasterFX QList [cue 1,0ms,Playing]2
+- 00:43:46.062 INFO   : (PlaybackFunctions::jumpToStep) 8 MFSpotINT MasterFX QList [cue 2,0ms,Playing][at exit]
+- 00:43:46.062 INFO   : (CuePlayer::playMacro) Playing macro -> Jump, Cue - step: 2
+- 00:43:46.062 INFO   : (PlaybackFunctions::jumpToStep) 8 MFSpotINT MasterFX QList [cue 2,0ms,Playing]2
+- 00:43:46.062 INFO   : (PlaybackFunctions::jumpToStep) 8 MFSpotINT MasterFX QList [cue 2,0ms,Playing][at exit]
+- 00:43:46.062 INFO   : (CuePlayer::playMacro) Playing macro -> Jump, Cue - step: 2
+- 00:43:46.062 INFO   : (PlaybackFunctions::jumpToStep) 20 ParINT MasterFX QList [cue 4,0ms,Playing]2
+- 00:43:46.062 INFO   : (PlaybackFunctions::jumpToStep) 20 ParINT MasterFX QList [cue 2,0ms,Playing][at exit]
+- 00:43:46.062 INFO   : (CuePlayer::playMacro) Playing macro -> Jump, Cue - step: 2
+- 00:43:46.062 INFO   : (PlaybackFunctions::jumpToStep) 20 ParINT MasterFX QList [cue 2,0ms,Playing]2
+- 00:43:46.062 INFO   : (PlaybackFunctions::jumpToStep) 20 ParINT MasterFX QList [cue 2,0ms,Playing][at exit]
+- 00:43:49.171 INFO   : (ClipPlayerManager::logPlaybackState) 1:DJSpotINT MasterFX QList [cue 2,0ms,Playing]
+- 00:43:49.171 INFO   : (ClipPlayerManager::logPlaybackState) 8:MFSpotINT MasterFX QList [cue 2,0ms,Playing]
+- 00:43:49.171 INFO   : (ClipPlayerManager::logPlaybackState) 19:Smoke [cue 0,0ms,Playing]
+- 00:43:49.171 INFO   : (ClipPlayerManager::logPlaybackState) 20:ParINT MasterFX QList [cue 2,0ms,Playing]
+- 00:43:49.171 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 1,4000ms,Playing]
+- 00:44:32.687 INFO1  :[Command]  (ShowCommandExecutor::doPush) set EffectRateController properties (type 1c748a0)
+- 00:44:32.125 INFO1  :[Command]  (ShowCommandExecutor::doPush) set EffectRateController properties (type 1c748a0)
+- 00:44:33.593 INFO1  :[Command]  (ShowCommandExecutor::doPush) set EffectRateController properties (type 1c748a0)
+- 00:44:33.125 INFO   : (CuePlayer::playMacro) Playing macro -> Jump, Cue - step: 3
+- 00:44:33.125 INFO   : (PlaybackFunctions::jumpToStep) 20 ParINT MasterFX QList [cue 2,0ms,Playing]3
+- 00:44:33.125 INFO   : (PlaybackFunctions::jumpToStep) 20 ParINT MasterFX QList [cue 3,0ms,Playing][at exit]
+- 00:44:33.125 INFO   : (CuePlayer::playMacro) Playing macro -> Jump, Cue - step: 3
+- 00:44:33.125 INFO   : (PlaybackFunctions::jumpToStep) 20 ParINT MasterFX QList [cue 3,0ms,Playing]3
+- 00:44:33.125 INFO   : (PlaybackFunctions::jumpToStep) 20 ParINT MasterFX QList [cue 3,0ms,Playing][at exit]
+- 00:44:33.125 INFO   : (CuePlayer::playMacro) Playing macro -> Jump, Cue - step: 3
+- 00:44:33.125 INFO   : (PlaybackFunctions::jumpToStep) 1 DJSpotINT MasterFX QList [cue 2,0ms,Playing]3
+- 00:44:33.125 INFO   : (PlaybackFunctions::jumpToStep) 1 DJSpotINT MasterFX QList [cue 3,0ms,Playing][at exit]
+- 00:44:33.125 INFO   : (CuePlayer::playMacro) Playing macro -> Jump, Cue - step: 3
+- 00:44:33.125 INFO   : (PlaybackFunctions::jumpToStep) 1 DJSpotINT MasterFX QList [cue 3,0ms,Playing]3
+- 00:44:33.125 INFO   : (PlaybackFunctions::jumpToStep) 1 DJSpotINT MasterFX QList [cue 3,0ms,Playing][at exit]
+- 00:44:33.125 INFO   : (CuePlayer::playMacro) Playing macro -> Jump, Cue - step: 3
+- 00:44:33.140 INFO   : (PlaybackFunctions::jumpToStep) 8 MFSpotINT MasterFX QList [cue 2,0ms,Playing]3
+- 00:44:33.140 INFO   : (PlaybackFunctions::jumpToStep) 8 MFSpotINT MasterFX QList [cue 3,0ms,Playing][at exit]
+- 00:44:33.140 INFO   : (CuePlayer::playMacro) Playing macro -> Jump, Cue - step: 3
+- 00:44:33.140 INFO   : (PlaybackFunctions::jumpToStep) 8 MFSpotINT MasterFX QList [cue 3,0ms,Playing]3
+- 00:44:33.140 INFO   : (PlaybackFunctions::jumpToStep) 8 MFSpotINT MasterFX QList [cue 3,0ms,Playing][at exit]
+- 00:44:40.437 INFO   : (CuePlayer::playMacro) Playing macro -> Jump, Cue - step: 2
+- 00:44:40.437 INFO   : (PlaybackFunctions::jumpToStep) 1 DJSpotINT MasterFX QList [cue 3,0ms,Playing]2
+- 00:44:40.437 INFO   : (PlaybackFunctions::jumpToStep) 1 DJSpotINT MasterFX QList [cue 2,0ms,Playing][at exit]
+- 00:44:40.437 INFO   : (CuePlayer::playMacro) Playing macro -> Jump, Cue - step: 2
+- 00:44:40.437 INFO   : (PlaybackFunctions::jumpToStep) 1 DJSpotINT MasterFX QList [cue 2,0ms,Playing]2
+- 00:44:40.437 INFO   : (PlaybackFunctions::jumpToStep) 1 DJSpotINT MasterFX QList [cue 2,0ms,Playing][at exit]
+- 00:44:40.437 INFO   : (CuePlayer::playMacro) Playing macro -> Jump, Cue - step: 2
+- 00:44:40.437 INFO   : (PlaybackFunctions::jumpToStep) 8 MFSpotINT MasterFX QList [cue 3,0ms,Playing]2
+- 00:44:40.437 INFO   : (PlaybackFunctions::jumpToStep) 8 MFSpotINT MasterFX QList [cue 2,0ms,Playing][at exit]
+- 00:44:40.437 INFO   : (CuePlayer::playMacro) Playing macro -> Jump, Cue - step: 2
+- 00:44:40.437 INFO   : (PlaybackFunctions::jumpToStep) 8 MFSpotINT MasterFX QList [cue 2,0ms,Playing]2
+- 00:44:40.437 INFO   : (PlaybackFunctions::jumpToStep) 8 MFSpotINT MasterFX QList [cue 2,0ms,Playing][at exit]
+- 00:44:40.453 INFO   : (CuePlayer::playMacro) Playing macro -> Jump, Cue - step: 2
+- 00:44:40.453 INFO   : (PlaybackFunctions::jumpToStep) 20 ParINT MasterFX QList [cue 3,0ms,Playing]2
+- 00:44:40.453 INFO   : (PlaybackFunctions::jumpToStep) 20 ParINT MasterFX QList [cue 2,0ms,Playing][at exit]
+- 00:44:40.453 INFO   : (CuePlayer::playMacro) Playing macro -> Jump, Cue - step: 2
+- 00:44:40.453 INFO   : (PlaybackFunctions::jumpToStep) 20 ParINT MasterFX QList [cue 2,0ms,Playing]2
+- 00:44:40.453 INFO   : (PlaybackFunctions::jumpToStep) 20 ParINT MasterFX QList [cue 2,0ms,Playing][at exit]
+- 00:45:04.171 INFO   : (ClipPlayerManager::logPlaybackState) 1:DJSpotINT MasterFX QList [cue 2,0ms,Playing]
+- 00:45:04.171 INFO   : (ClipPlayerManager::logPlaybackState) 8:MFSpotINT MasterFX QList [cue 2,0ms,Playing]
+- 00:45:04.171 INFO   : (ClipPlayerManager::logPlaybackState) 19:Smoke [cue 0,0ms,Playing]
+- 00:45:04.171 INFO   : (ClipPlayerManager::logPlaybackState) 20:ParINT MasterFX QList [cue 2,0ms,Playing]
+- 00:45:04.171 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 2,1000ms,Playing]
+- 00:45:47.187 INFO   : (CuePlayer::playMacro) Playing macro -> Jump, Cue - step: 1
+- 00:45:47.187 INFO   : (PlaybackFunctions::jumpToStep) 1 DJSpotINT MasterFX QList [cue 2,0ms,Playing]1
+- 00:45:47.187 INFO   : (PlaybackFunctions::jumpToStep) 1 DJSpotINT MasterFX QList [cue 1,0ms,Playing][at exit]
+- 00:45:47.187 INFO   : (CuePlayer::playMacro) Playing macro -> Jump, Cue - step: 1
+- 00:45:47.187 INFO   : (PlaybackFunctions::jumpToStep) 1 DJSpotINT MasterFX QList [cue 1,0ms,Playing]1
+- 00:45:47.187 INFO   : (PlaybackFunctions::jumpToStep) 1 DJSpotINT MasterFX QList [cue 1,0ms,Playing][at exit]
+- 00:45:47.187 INFO   : (CuePlayer::playMacro) Playing macro -> Jump, Cue - step: 1
+- 00:45:47.187 INFO   : (PlaybackFunctions::jumpToStep) 8 MFSpotINT MasterFX QList [cue 2,0ms,Playing]1
+- 00:45:47.187 INFO   : (PlaybackFunctions::jumpToStep) 8 MFSpotINT MasterFX QList [cue 1,0ms,Playing][at exit]
+- 00:45:47.187 INFO   : (CuePlayer::playMacro) Playing macro -> Jump, Cue - step: 1
+- 00:45:47.187 INFO   : (PlaybackFunctions::jumpToStep) 8 MFSpotINT MasterFX QList [cue 1,0ms,Playing]1
+- 00:45:47.187 INFO   : (PlaybackFunctions::jumpToStep) 8 MFSpotINT MasterFX QList [cue 1,0ms,Playing][at exit]
+- 00:45:47.187 INFO   : (CuePlayer::playMacro) Playing macro -> Jump, Cue - step: 4
+- 00:45:47.187 INFO   : (PlaybackFunctions::jumpToStep) 20 ParINT MasterFX QList [cue 2,0ms,Playing]4
+- 00:45:47.187 INFO   : (PlaybackFunctions::jumpToStep) 20 ParINT MasterFX QList [cue 4,0ms,Playing][at exit]
+- 00:45:47.203 INFO   : (CuePlayer::playMacro) Playing macro -> Jump, Cue - step: 4
+- 00:45:47.203 INFO   : (PlaybackFunctions::jumpToStep) 20 ParINT MasterFX QList [cue 4,0ms,Playing]4
+- 00:45:47.203 INFO   : (PlaybackFunctions::jumpToStep) 20 ParINT MasterFX QList [cue 4,0ms,Playing][at exit]
+- 00:46:09.531 INFO   : (CuePlayer::playMacro) Playing macro -> Release
+- 00:46:09.531 INFO   : (PlaybackFunctions::release) 8 MFSpotINT MasterFX QList [cue 1,0ms,Playing]0
+- 00:46:09.531 INFO   : (PlaybackFunctions::release) 8 MFSpotINT MasterFX QList [cue 1,0ms,Releasing][at exit]
+- 00:46:09.531 INFO   : (CuePlayer::playMacro) Playing macro -> Release
+- 00:46:09.531 INFO   : (PlaybackFunctions::release) 8 MFSpotINT MasterFX QList [cue 1,0ms,Releasing]0
+- 00:46:09.531 INFO   : (PlaybackFunctions::release) 8 MFSpotINT MasterFX QList [cue 0,0ms,Released][at exit]
+- 00:46:09.531 INFO   : (CuePlayer::playMacro) Playing macro -> Release
+- 00:46:09.531 INFO   : (PlaybackFunctions::release) 1 DJSpotINT MasterFX QList [cue 1,0ms,Playing]0
+- 00:46:09.531 INFO   : (PlaybackFunctions::release) 1 DJSpotINT MasterFX QList [cue 1,0ms,Releasing][at exit]
+- 00:46:09.531 INFO   : (CuePlayer::playMacro) Playing macro -> Release
+- 00:46:09.531 INFO   : (PlaybackFunctions::release) 1 DJSpotINT MasterFX QList [cue 1,0ms,Releasing]0
+- 00:46:09.531 INFO   : (PlaybackFunctions::release) 1 DJSpotINT MasterFX QList [cue 0,0ms,Released][at exit]
+- 00:46:09.531 INFO   : (CuePlayer::playMacro) Playing macro -> Release
+- 00:46:09.531 INFO   : (PlaybackFunctions::release) 20 ParINT MasterFX QList [cue 4,0ms,Playing]0
+- 00:46:09.531 INFO   : (PlaybackFunctions::release) 20 ParINT MasterFX QList [cue 4,0ms,Releasing][at exit]
+- 00:46:09.531 INFO   : (CuePlayer::playMacro) Playing macro -> Release
+- 00:46:09.531 INFO   : (PlaybackFunctions::release) 20 ParINT MasterFX QList [cue 4,0ms,Releasing]0
+- 00:46:09.531 INFO   : (PlaybackFunctions::release) 20 ParINT MasterFX QList [cue 0,0ms,Released][at exit]
+- 00:46:15.687 INFO1  :[Command]  (ShowCommandExecutor::doPush) set EffectRateController properties (type 1c748a0)
+- 00:46:15.156 INFO1  :[Command]  (ShowCommandExecutor::doPush) set EffectRateController properties (type 1c748a0)
+- 00:46:16.625 INFO1  :[Command]  (ShowCommandExecutor::doPush) set EffectRateController properties (type 1c748a0)
+- 00:46:19.171 INFO   : (ClipPlayerManager::logPlaybackState) 19:Smoke [cue 0,0ms,Playing]
+- 00:46:19.171 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 3,0ms,Playing]
+- 00:46:23.953 INFO   : (CuePlayer::playMacro) Playing macro -> Jump, Cue - step: 0
+- 00:46:23.953 INFO   : (PlaybackFunctions::jumpToStep) 28 MFSpotPOS MasterFX QList [cue 0,0ms,Released]0
+- 00:46:23.953 INFO   : (PlaybackFunctions::jumpToStep) 28 MFSpotPOS MasterFX QList [cue 0,0ms,Playing][at exit]
+- 00:46:23.953 INFO   : (CuePlayer::playMacro) Playing macro -> Jump, Cue - step: 0
+- 00:46:23.953 INFO   : (PlaybackFunctions::jumpToStep) 28 MFSpotPOS MasterFX QList [cue 0,0ms,Playing]0
+- 00:46:23.953 INFO   : (PlaybackFunctions::jumpToStep) 28 MFSpotPOS MasterFX QList [cue 0,0ms,Playing][at exit]
+- 00:47:34.171 INFO   : (ClipPlayerManager::logPlaybackState) 19:Smoke [cue 0,0ms,Playing]
+- 00:47:34.171 INFO   : (ClipPlayerManager::logPlaybackState) 28:MFSpotPOS MasterFX QList [cue 0,0ms,Playing]
+- 00:47:34.171 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 6,2000ms,Playing]
+- 00:48:49.171 INFO   : (ClipPlayerManager::logPlaybackState) 19:Smoke [cue 0,0ms,Playing]
+- 00:48:49.171 INFO   : (ClipPlayerManager::logPlaybackState) 28:MFSpotPOS MasterFX QList [cue 0,0ms,Playing]
+- 00:48:49.171 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 7,2000ms,Playing]
+- 00:50:04.171 INFO   : (ClipPlayerManager::logPlaybackState) 19:Smoke [cue 0,0ms,Playing]
+- 00:50:04.171 INFO   : (ClipPlayerManager::logPlaybackState) 28:MFSpotPOS MasterFX QList [cue 0,0ms,Playing]
+- 00:50:04.171 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 1,3359ms,Playing]
+- 00:51:19.171 INFO   : (ClipPlayerManager::logPlaybackState) 19:Smoke [cue 0,0ms,Playing]
+- 00:51:19.171 INFO   : (ClipPlayerManager::logPlaybackState) 28:MFSpotPOS MasterFX QList [cue 0,0ms,Playing]
+- 00:51:19.171 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 2,1000ms,Playing]
+- 00:52:34.171 INFO   : (ClipPlayerManager::logPlaybackState) 19:Smoke [cue 0,0ms,Playing]
+- 00:52:34.171 INFO   : (ClipPlayerManager::logPlaybackState) 28:MFSpotPOS MasterFX QList [cue 0,0ms,Playing]
+- 00:52:34.171 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 3,0ms,Playing]
+- 00:53:49.171 INFO   : (ClipPlayerManager::logPlaybackState) 19:Smoke [cue 0,0ms,Playing]
+- 00:53:49.171 INFO   : (ClipPlayerManager::logPlaybackState) 28:MFSpotPOS MasterFX QList [cue 0,0ms,Playing]
+- 00:53:49.171 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 5,2000ms,Playing]
+- 00:55:04.171 INFO   : (ClipPlayerManager::logPlaybackState) 19:Smoke [cue 0,0ms,Playing]
+- 00:55:04.171 INFO   : (ClipPlayerManager::logPlaybackState) 28:MFSpotPOS MasterFX QList [cue 0,0ms,Playing]
+- 00:55:04.171 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 7,2000ms,Playing]
+- 00:56:19.171 INFO   : (ClipPlayerManager::logPlaybackState) 19:Smoke [cue 0,0ms,Playing]
+- 00:56:19.171 INFO   : (ClipPlayerManager::logPlaybackState) 28:MFSpotPOS MasterFX QList [cue 0,0ms,Playing]
+- 00:56:19.171 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 0,4000ms,Playing]
+- 00:57:34.171 INFO   : (ClipPlayerManager::logPlaybackState) 19:Smoke [cue 0,0ms,Playing]
+- 00:57:34.171 INFO   : (ClipPlayerManager::logPlaybackState) 28:MFSpotPOS MasterFX QList [cue 0,0ms,Playing]
+- 00:57:34.171 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 1,4000ms,Playing]
+- 00:58:49.171 INFO   : (ClipPlayerManager::logPlaybackState) 19:Smoke [cue 0,0ms,Playing]
+- 00:58:49.171 INFO   : (ClipPlayerManager::logPlaybackState) 28:MFSpotPOS MasterFX QList [cue 0,0ms,Playing]
+- 00:58:49.171 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 2,1000ms,Playing]
+- 00:59:56.671 INFO   : (CuePlayer::playMacro) Playing macro -> Jump, Cue - step: 1
+- 00:59:56.671 INFO   : (PlaybackFunctions::jumpToStep) 8 MFSpotINT MasterFX QList [cue 0,0ms,Released]1
+- 00:59:56.671 INFO   : (PlaybackFunctions::jumpToStep) 8 MFSpotINT MasterFX QList [cue 1,0ms,Playing][at exit]
+- 00:59:56.671 INFO   : (CuePlayer::playMacro) Playing macro -> Jump, Cue - step: 1
+- 00:59:56.671 INFO   : (PlaybackFunctions::jumpToStep) 8 MFSpotINT MasterFX QList [cue 1,0ms,Playing]1
+- 00:59:56.671 INFO   : (PlaybackFunctions::jumpToStep) 8 MFSpotINT MasterFX QList [cue 1,0ms,Playing][at exit]
+- 00:59:56.671 INFO   : (CuePlayer::playMacro) Playing macro -> Jump, Cue - step: 1
+- 00:59:56.671 INFO   : (PlaybackFunctions::jumpToStep) 1 DJSpotINT MasterFX QList [cue 0,0ms,Released]1
+- 00:59:56.671 INFO   : (PlaybackFunctions::jumpToStep) 1 DJSpotINT MasterFX QList [cue 1,0ms,Playing][at exit]
+- 00:59:56.671 INFO   : (CuePlayer::playMacro) Playing macro -> Jump, Cue - step: 1
+- 00:59:56.671 INFO   : (PlaybackFunctions::jumpToStep) 1 DJSpotINT MasterFX QList [cue 1,0ms,Playing]1
+- 00:59:56.671 INFO   : (PlaybackFunctions::jumpToStep) 1 DJSpotINT MasterFX QList [cue 1,0ms,Playing][at exit]
+- 00:59:56.671 INFO   : (CuePlayer::playMacro) Playing macro -> Jump, Cue - step: 4
+- 00:59:56.671 INFO   : (PlaybackFunctions::jumpToStep) 20 ParINT MasterFX QList [cue 0,0ms,Released]4
+- 00:59:56.671 INFO   : (PlaybackFunctions::jumpToStep) 20 ParINT MasterFX QList [cue 4,0ms,Playing][at exit]
+- 00:59:56.687 INFO   : (CuePlayer::playMacro) Playing macro -> Jump, Cue - step: 4
+- 00:59:56.687 INFO   : (PlaybackFunctions::jumpToStep) 20 ParINT MasterFX QList [cue 4,0ms,Playing]4
+- 00:59:56.687 INFO   : (PlaybackFunctions::jumpToStep) 20 ParINT MasterFX QList [cue 4,0ms,Playing][at exit]
+- 00:59:56.421 INFO   : (CuePlayer::playMacro) Playing macro -> Jump, Cue - step: 2
+- 00:59:56.421 INFO   : (PlaybackFunctions::jumpToStep) 1 DJSpotINT MasterFX QList [cue 1,0ms,Playing]2
+- 00:59:56.421 INFO   : (PlaybackFunctions::jumpToStep) 1 DJSpotINT MasterFX QList [cue 2,0ms,Playing][at exit]
+- 00:59:56.421 INFO   : (CuePlayer::playMacro) Playing macro -> Jump, Cue - step: 2
+- 00:59:56.421 INFO   : (PlaybackFunctions::jumpToStep) 1 DJSpotINT MasterFX QList [cue 2,0ms,Playing]2
+- 00:59:56.421 INFO   : (PlaybackFunctions::jumpToStep) 1 DJSpotINT MasterFX QList [cue 2,0ms,Playing][at exit]
+- 00:59:56.421 INFO   : (CuePlayer::playMacro) Playing macro -> Jump, Cue - step: 2
+- 00:59:56.421 INFO   : (PlaybackFunctions::jumpToStep) 20 ParINT MasterFX QList [cue 4,0ms,Playing]2
+- 00:59:56.421 INFO   : (PlaybackFunctions::jumpToStep) 20 ParINT MasterFX QList [cue 2,0ms,Playing][at exit]
+- 00:59:56.421 INFO   : (CuePlayer::playMacro) Playing macro -> Jump, Cue - step: 2
+- 00:59:56.421 INFO   : (PlaybackFunctions::jumpToStep) 20 ParINT MasterFX QList [cue 2,0ms,Playing]2
+- 00:59:56.421 INFO   : (PlaybackFunctions::jumpToStep) 20 ParINT MasterFX QList [cue 2,0ms,Playing][at exit]
+- 00:59:56.421 INFO   : (CuePlayer::playMacro) Playing macro -> Jump, Cue - step: 2
+- 00:59:56.421 INFO   : (PlaybackFunctions::jumpToStep) 8 MFSpotINT MasterFX QList [cue 1,0ms,Playing]2
+- 00:59:56.421 INFO   : (PlaybackFunctions::jumpToStep) 8 MFSpotINT MasterFX QList [cue 2,0ms,Playing][at exit]
+- 00:59:56.437 INFO   : (CuePlayer::playMacro) Playing macro -> Jump, Cue - step: 2
+- 00:59:56.437 INFO   : (PlaybackFunctions::jumpToStep) 8 MFSpotINT MasterFX QList [cue 2,0ms,Playing]2
+- 00:59:56.437 INFO   : (PlaybackFunctions::jumpToStep) 8 MFSpotINT MasterFX QList [cue 2,0ms,Playing][at exit]
+- 00:59:57.265 INFO   : (CuePlayer::playMacro) Playing macro -> Jump, Cue - step: 1
+- 00:59:57.265 INFO   : (PlaybackFunctions::jumpToStep) 8 MFSpotINT MasterFX QList [cue 2,0ms,Playing]1
+- 00:59:57.265 INFO   : (PlaybackFunctions::jumpToStep) 8 MFSpotINT MasterFX QList [cue 1,0ms,Playing][at exit]
+- 00:59:57.265 INFO   : (CuePlayer::playMacro) Playing macro -> Jump, Cue - step: 1
+- 00:59:57.265 INFO   : (PlaybackFunctions::jumpToStep) 8 MFSpotINT MasterFX QList [cue 1,0ms,Playing]1
+- 00:59:57.265 INFO   : (PlaybackFunctions::jumpToStep) 8 MFSpotINT MasterFX QList [cue 1,0ms,Playing][at exit]
+- 00:59:57.265 INFO   : (CuePlayer::playMacro) Playing macro -> Jump, Cue - step: 1
+- 00:59:57.265 INFO   : (PlaybackFunctions::jumpToStep) 8 MFSpotINT MasterFX QList [cue 1,0ms,Playing]1
+- 00:59:57.265 INFO   : (PlaybackFunctions::jumpToStep) 8 MFSpotINT MasterFX QList [cue 1,0ms,Playing][at exit]
+- 00:59:57.265 INFO   : (CuePlayer::playMacro) Playing macro -> Jump, Cue - step: 1
+- 00:59:57.265 INFO   : (PlaybackFunctions::jumpToStep) 1 DJSpotINT MasterFX QList [cue 2,0ms,Playing]1
+- 00:59:57.265 INFO   : (PlaybackFunctions::jumpToStep) 1 DJSpotINT MasterFX QList [cue 1,0ms,Playing][at exit]
+- 00:59:57.265 INFO   : (CuePlayer::playMacro) Playing macro -> Jump, Cue - step: 1
+- 00:59:57.281 INFO   : (PlaybackFunctions::jumpToStep) 1 DJSpotINT MasterFX QList [cue 1,0ms,Playing]1
+- 00:59:57.281 INFO   : (PlaybackFunctions::jumpToStep) 1 DJSpotINT MasterFX QList [cue 1,0ms,Playing][at exit]
+- 00:59:57.281 INFO   : (CuePlayer::playMacro) Playing macro -> Jump, Cue - step: 1
+- 00:59:57.281 INFO   : (PlaybackFunctions::jumpToStep) 1 DJSpotINT MasterFX QList [cue 1,0ms,Playing]1
+- 00:59:57.281 INFO   : (PlaybackFunctions::jumpToStep) 1 DJSpotINT MasterFX QList [cue 1,0ms,Playing][at exit]
+- 00:59:57.281 INFO   : (CuePlayer::playMacro) Playing macro -> Jump, Cue - step: 4
+- 00:59:57.281 INFO   : (PlaybackFunctions::jumpToStep) 20 ParINT MasterFX QList [cue 2,0ms,Playing]4
+- 00:59:57.281 INFO   : (PlaybackFunctions::jumpToStep) 20 ParINT MasterFX QList [cue 4,0ms,Playing][at exit]
+- 00:59:57.281 INFO   : (CuePlayer::playMacro) Playing macro -> Jump, Cue - step: 4
+- 00:59:57.281 INFO   : (PlaybackFunctions::jumpToStep) 20 ParINT MasterFX QList [cue 4,0ms,Playing]4
+- 00:59:57.281 INFO   : (PlaybackFunctions::jumpToStep) 20 ParINT MasterFX QList [cue 4,0ms,Playing][at exit]
+- 00:59:57.281 INFO   : (CuePlayer::playMacro) Playing macro -> Jump, Cue - step: 4
+- 00:59:57.281 INFO   : (PlaybackFunctions::jumpToStep) 20 ParINT MasterFX QList [cue 4,0ms,Playing]4
+- 00:59:57.281 INFO   : (PlaybackFunctions::jumpToStep) 20 ParINT MasterFX QList [cue 4,0ms,Playing][at exit]
+- 00:59:58.062 INFO   : (CuePlayer::playMacro) Playing macro -> Jump, Cue - step: 2
+- 00:59:58.062 INFO   : (PlaybackFunctions::jumpToStep) 1 DJSpotINT MasterFX QList [cue 1,0ms,Playing]2
+- 00:59:58.062 INFO   : (PlaybackFunctions::jumpToStep) 1 DJSpotINT MasterFX QList [cue 2,0ms,Playing][at exit]
+- 00:59:58.062 INFO   : (CuePlayer::playMacro) Playing macro -> Jump, Cue - step: 2
+- 00:59:58.062 INFO   : (PlaybackFunctions::jumpToStep) 1 DJSpotINT MasterFX QList [cue 2,0ms,Playing]2
+- 00:59:58.062 INFO   : (PlaybackFunctions::jumpToStep) 1 DJSpotINT MasterFX QList [cue 2,0ms,Playing][at exit]
+- 00:59:58.062 INFO   : (CuePlayer::playMacro) Playing macro -> Jump, Cue - step: 2
+- 00:59:58.062 INFO   : (PlaybackFunctions::jumpToStep) 1 DJSpotINT MasterFX QList [cue 2,0ms,Playing]2
+- 00:59:58.062 INFO   : (PlaybackFunctions::jumpToStep) 1 DJSpotINT MasterFX QList [cue 2,0ms,Playing][at exit]
+- 00:59:58.062 INFO   : (CuePlayer::playMacro) Playing macro -> Jump, Cue - step: 2
+- 00:59:58.062 INFO   : (PlaybackFunctions::jumpToStep) 8 MFSpotINT MasterFX QList [cue 1,0ms,Playing]2
+- 00:59:58.062 INFO   : (PlaybackFunctions::jumpToStep) 8 MFSpotINT MasterFX QList [cue 2,0ms,Playing][at exit]
+- 00:59:58.062 INFO   : (CuePlayer::playMacro) Playing macro -> Jump, Cue - step: 2
+- 00:59:58.062 INFO   : (PlaybackFunctions::jumpToStep) 8 MFSpotINT MasterFX QList [cue 2,0ms,Playing]2
+- 00:59:58.062 INFO   : (PlaybackFunctions::jumpToStep) 8 MFSpotINT MasterFX QList [cue 2,0ms,Playing][at exit]
+- 00:59:58.078 INFO   : (CuePlayer::playMacro) Playing macro -> Jump, Cue - step: 2
+- 00:59:58.078 INFO   : (PlaybackFunctions::jumpToStep) 8 MFSpotINT MasterFX QList [cue 2,0ms,Playing]2
+- 00:59:58.078 INFO   : (PlaybackFunctions::jumpToStep) 8 MFSpotINT MasterFX QList [cue 2,0ms,Playing][at exit]
+- 00:59:58.078 INFO   : (CuePlayer::playMacro) Playing macro -> Jump, Cue - step: 2
+- 00:59:58.078 INFO   : (PlaybackFunctions::jumpToStep) 20 ParINT MasterFX QList [cue 4,0ms,Playing]2
+- 00:59:58.078 INFO   : (PlaybackFunctions::jumpToStep) 20 ParINT MasterFX QList [cue 2,0ms,Playing][at exit]
+- 00:59:58.078 INFO   : (CuePlayer::playMacro) Playing macro -> Jump, Cue - step: 2
+- 00:59:58.078 INFO   : (PlaybackFunctions::jumpToStep) 20 ParINT MasterFX QList [cue 2,0ms,Playing]2
+- 00:59:58.078 INFO   : (PlaybackFunctions::jumpToStep) 20 ParINT MasterFX QList [cue 2,0ms,Playing][at exit]
+- 00:59:58.078 INFO   : (CuePlayer::playMacro) Playing macro -> Jump, Cue - step: 2
+- 00:59:58.078 INFO   : (PlaybackFunctions::jumpToStep) 20 ParINT MasterFX QList [cue 2,0ms,Playing]2
+- 00:59:58.078 INFO   : (PlaybackFunctions::jumpToStep) 20 ParINT MasterFX QList [cue 2,0ms,Playing][at exit]
+- 00:59:59.859 INFO   : (CuePlayer::playMacro) Playing macro -> Jump, Cue - step: 1
+- 00:59:59.859 INFO   : (PlaybackFunctions::jumpToStep) 1 DJSpotINT MasterFX QList [cue 2,0ms,Playing]1
+- 00:59:59.859 INFO   : (PlaybackFunctions::jumpToStep) 1 DJSpotINT MasterFX QList [cue 1,0ms,Playing][at exit]
+- 00:59:59.859 INFO   : (CuePlayer::playMacro) Playing macro -> Jump, Cue - step: 1
+- 00:59:59.859 INFO   : (PlaybackFunctions::jumpToStep) 1 DJSpotINT MasterFX QList [cue 1,0ms,Playing]1
+- 00:59:59.859 INFO   : (PlaybackFunctions::jumpToStep) 1 DJSpotINT MasterFX QList [cue 1,0ms,Playing][at exit]
+- 00:59:59.859 INFO   : (CuePlayer::playMacro) Playing macro -> Jump, Cue - step: 1
+- 00:59:59.859 INFO   : (PlaybackFunctions::jumpToStep) 1 DJSpotINT MasterFX QList [cue 1,0ms,Playing]1
+- 00:59:59.859 INFO   : (PlaybackFunctions::jumpToStep) 1 DJSpotINT MasterFX QList [cue 1,0ms,Playing][at exit]
+- 00:59:59.859 INFO   : (CuePlayer::playMacro) Playing macro -> Jump, Cue - step: 1
+- 00:59:59.859 INFO   : (PlaybackFunctions::jumpToStep) 8 MFSpotINT MasterFX QList [cue 2,0ms,Playing]1
+- 00:59:59.859 INFO   : (PlaybackFunctions::jumpToStep) 8 MFSpotINT MasterFX QList [cue 1,0ms,Playing][at exit]
+- 00:59:59.859 INFO   : (CuePlayer::playMacro) Playing macro -> Jump, Cue - step: 1
+- 00:59:59.859 INFO   : (PlaybackFunctions::jumpToStep) 8 MFSpotINT MasterFX QList [cue 1,0ms,Playing]1
+- 00:59:59.859 INFO   : (PlaybackFunctions::jumpToStep) 8 MFSpotINT MasterFX QList [cue 1,0ms,Playing][at exit]
+- 00:59:59.875 INFO   : (CuePlayer::playMacro) Playing macro -> Jump, Cue - step: 1
+- 00:59:59.875 INFO   : (PlaybackFunctions::jumpToStep) 8 MFSpotINT MasterFX QList [cue 1,0ms,Playing]1
+- 00:59:59.875 INFO   : (PlaybackFunctions::jumpToStep) 8 MFSpotINT MasterFX QList [cue 1,0ms,Playing][at exit]
+- 00:59:59.875 INFO   : (CuePlayer::playMacro) Playing macro -> Jump, Cue - step: 4
+- 00:59:59.875 INFO   : (PlaybackFunctions::jumpToStep) 20 ParINT MasterFX QList [cue 2,0ms,Playing]4
+- 00:59:59.875 INFO   : (PlaybackFunctions::jumpToStep) 20 ParINT MasterFX QList [cue 4,0ms,Playing][at exit]
+- 00:59:59.875 INFO   : (CuePlayer::playMacro) Playing macro -> Jump, Cue - step: 4
+- 00:59:59.875 INFO   : (PlaybackFunctions::jumpToStep) 20 ParINT MasterFX QList [cue 4,0ms,Playing]4
+- 00:59:59.875 INFO   : (PlaybackFunctions::jumpToStep) 20 ParINT MasterFX QList [cue 4,0ms,Playing][at exit]
+- 00:59:59.875 INFO   : (CuePlayer::playMacro) Playing macro -> Jump, Cue - step: 4
+- 00:59:59.875 INFO   : (PlaybackFunctions::jumpToStep) 20 ParINT MasterFX QList [cue 4,0ms,Playing]4
+- 00:59:59.875 INFO   : (PlaybackFunctions::jumpToStep) 20 ParINT MasterFX QList [cue 4,0ms,Playing][at exit]
+- 01:00:04.171 INFO   : (ClipPlayerManager::logPlaybackState) 1:DJSpotINT MasterFX QList [cue 1,0ms,Playing]
+- 01:00:04.171 INFO   : (ClipPlayerManager::logPlaybackState) 8:MFSpotINT MasterFX QList [cue 1,0ms,Playing]
+- 01:00:04.171 INFO   : (ClipPlayerManager::logPlaybackState) 19:Smoke [cue 0,0ms,Playing]
+- 01:00:04.171 INFO   : (ClipPlayerManager::logPlaybackState) 20:ParINT MasterFX QList [cue 4,0ms,Playing]
+- 01:00:04.171 INFO   : (ClipPlayerManager::logPlaybackState) 28:MFSpotPOS MasterFX QList [cue 0,0ms,Playing]
+- 01:00:04.171 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 4,2000ms,Playing]
+- 01:00:07.968 INFO   : (CuePlayer::playMacro) Playing macro -> Jump, Cue - step: 2
+- 01:00:07.968 INFO   : (PlaybackFunctions::jumpToStep) 1 DJSpotINT MasterFX QList [cue 1,0ms,Playing]2
+- 01:00:07.968 INFO   : (PlaybackFunctions::jumpToStep) 1 DJSpotINT MasterFX QList [cue 2,0ms,Playing][at exit]
+- 01:00:07.968 INFO   : (CuePlayer::playMacro) Playing macro -> Jump, Cue - step: 2
+- 01:00:07.968 INFO   : (PlaybackFunctions::jumpToStep) 1 DJSpotINT MasterFX QList [cue 2,0ms,Playing]2
+- 01:00:07.968 INFO   : (PlaybackFunctions::jumpToStep) 1 DJSpotINT MasterFX QList [cue 2,0ms,Playing][at exit]
+- 01:00:07.968 INFO   : (CuePlayer::playMacro) Playing macro -> Jump, Cue - step: 2
+- 01:00:07.968 INFO   : (PlaybackFunctions::jumpToStep) 8 MFSpotINT MasterFX QList [cue 1,0ms,Playing]2
+- 01:00:07.968 INFO   : (PlaybackFunctions::jumpToStep) 8 MFSpotINT MasterFX QList [cue 2,0ms,Playing][at exit]
+- 01:00:07.968 INFO   : (CuePlayer::playMacro) Playing macro -> Jump, Cue - step: 2
+- 01:00:07.968 INFO   : (PlaybackFunctions::jumpToStep) 8 MFSpotINT MasterFX QList [cue 2,0ms,Playing]2
+- 01:00:07.968 INFO   : (PlaybackFunctions::jumpToStep) 8 MFSpotINT MasterFX QList [cue 2,0ms,Playing][at exit]
+- 01:00:07.968 INFO   : (CuePlayer::playMacro) Playing macro -> Jump, Cue - step: 2
+- 01:00:07.968 INFO   : (PlaybackFunctions::jumpToStep) 20 ParINT MasterFX QList [cue 4,0ms,Playing]2
+- 01:00:07.984 INFO   : (PlaybackFunctions::jumpToStep) 20 ParINT MasterFX QList [cue 2,0ms,Playing][at exit]
+- 01:00:07.984 INFO   : (CuePlayer::playMacro) Playing macro -> Jump, Cue - step: 2
+- 01:00:07.984 INFO   : (PlaybackFunctions::jumpToStep) 20 ParINT MasterFX QList [cue 2,0ms,Playing]2
+- 01:00:07.984 INFO   : (PlaybackFunctions::jumpToStep) 20 ParINT MasterFX QList [cue 2,0ms,Playing][at exit]
+- 01:00:09.703 INFO   : (CuePlayer::playMacro) Playing macro -> Jump, Cue - step: 1
+- 01:00:09.703 INFO   : (PlaybackFunctions::jumpToStep) 8 MFSpotINT MasterFX QList [cue 2,0ms,Playing]1
+- 01:00:09.703 INFO   : (PlaybackFunctions::jumpToStep) 8 MFSpotINT MasterFX QList [cue 1,0ms,Playing][at exit]
+- 01:00:09.703 INFO   : (CuePlayer::playMacro) Playing macro -> Jump, Cue - step: 1
+- 01:00:09.703 INFO   : (PlaybackFunctions::jumpToStep) 8 MFSpotINT MasterFX QList [cue 1,0ms,Playing]1
+- 01:00:09.703 INFO   : (PlaybackFunctions::jumpToStep) 8 MFSpotINT MasterFX QList [cue 1,0ms,Playing][at exit]
+- 01:00:09.703 INFO   : (CuePlayer::playMacro) Playing macro -> Jump, Cue - step: 1
+- 01:00:09.703 INFO   : (PlaybackFunctions::jumpToStep) 1 DJSpotINT MasterFX QList [cue 2,0ms,Playing]1
+- 01:00:09.703 INFO   : (PlaybackFunctions::jumpToStep) 1 DJSpotINT MasterFX QList [cue 1,0ms,Playing][at exit]
+- 01:00:09.703 INFO   : (CuePlayer::playMacro) Playing macro -> Jump, Cue - step: 1
+- 01:00:09.703 INFO   : (PlaybackFunctions::jumpToStep) 1 DJSpotINT MasterFX QList [cue 1,0ms,Playing]1
+- 01:00:09.703 INFO   : (PlaybackFunctions::jumpToStep) 1 DJSpotINT MasterFX QList [cue 1,0ms,Playing][at exit]
+- 01:00:09.750 INFO   : (CuePlayer::playMacro) Playing macro -> Jump, Cue - step: 4
+- 01:00:09.750 INFO   : (PlaybackFunctions::jumpToStep) 20 ParINT MasterFX QList [cue 2,0ms,Playing]4
+- 01:00:09.750 INFO   : (PlaybackFunctions::jumpToStep) 20 ParINT MasterFX QList [cue 4,0ms,Playing][at exit]
+- 01:00:09.750 INFO   : (CuePlayer::playMacro) Playing macro -> Jump, Cue - step: 4
+- 01:00:09.750 INFO   : (PlaybackFunctions::jumpToStep) 20 ParINT MasterFX QList [cue 4,0ms,Playing]4
+- 01:00:09.750 INFO   : (PlaybackFunctions::jumpToStep) 20 ParINT MasterFX QList [cue 4,0ms,Playing][at exit]
+- 01:01:02.953 INFO   : (CuePlayer::playMacro) Playing macro -> Jump, Cue - step: 3
+- 01:01:02.953 INFO   : (PlaybackFunctions::jumpToStep) 1 DJSpotINT MasterFX QList [cue 1,0ms,Playing]3
+- 01:01:02.953 INFO   : (PlaybackFunctions::jumpToStep) 1 DJSpotINT MasterFX QList [cue 3,0ms,Playing][at exit]
+- 01:01:02.953 INFO   : (CuePlayer::playMacro) Playing macro -> Jump, Cue - step: 3
+- 01:01:02.953 INFO   : (PlaybackFunctions::jumpToStep) 1 DJSpotINT MasterFX QList [cue 3,0ms,Playing]3
+- 01:01:02.953 INFO   : (PlaybackFunctions::jumpToStep) 1 DJSpotINT MasterFX QList [cue 3,0ms,Playing][at exit]
+- 01:01:02.953 INFO   : (CuePlayer::playMacro) Playing macro -> Jump, Cue - step: 3
+- 01:01:02.953 INFO   : (PlaybackFunctions::jumpToStep) 8 MFSpotINT MasterFX QList [cue 1,0ms,Playing]3
+- 01:01:02.953 INFO   : (PlaybackFunctions::jumpToStep) 8 MFSpotINT MasterFX QList [cue 3,0ms,Playing][at exit]
+- 01:01:02.953 INFO   : (CuePlayer::playMacro) Playing macro -> Jump, Cue - step: 3
+- 01:01:02.953 INFO   : (PlaybackFunctions::jumpToStep) 8 MFSpotINT MasterFX QList [cue 3,0ms,Playing]3
+- 01:01:02.953 INFO   : (PlaybackFunctions::jumpToStep) 8 MFSpotINT MasterFX QList [cue 3,0ms,Playing][at exit]
+- 01:01:02.953 INFO   : (CuePlayer::playMacro) Playing macro -> Jump, Cue - step: 3
+- 01:01:02.953 INFO   : (PlaybackFunctions::jumpToStep) 20 ParINT MasterFX QList [cue 4,0ms,Playing]3
+- 01:01:02.953 INFO   : (PlaybackFunctions::jumpToStep) 20 ParINT MasterFX QList [cue 3,0ms,Playing][at exit]
+- 01:01:02.953 INFO   : (CuePlayer::playMacro) Playing macro -> Jump, Cue - step: 3
+- 01:01:02.953 INFO   : (PlaybackFunctions::jumpToStep) 20 ParINT MasterFX QList [cue 3,0ms,Playing]3
+- 01:01:02.953 INFO   : (PlaybackFunctions::jumpToStep) 20 ParINT MasterFX QList [cue 3,0ms,Playing][at exit]
+- 01:01:05.375 INFO   : (CuePlayer::playMacro) Playing macro -> Release
+- 01:01:05.375 INFO   : (PlaybackFunctions::release) 20 ParINT MasterFX QList [cue 3,0ms,Playing]0
+- 01:01:05.375 INFO   : (PlaybackFunctions::release) 20 ParINT MasterFX QList [cue 3,0ms,Releasing][at exit]
+- 01:01:05.375 INFO   : (CuePlayer::playMacro) Playing macro -> Release
+- 01:01:05.375 INFO   : (PlaybackFunctions::release) 20 ParINT MasterFX QList [cue 3,0ms,Releasing]0
+- 01:01:05.375 INFO   : (PlaybackFunctions::release) 20 ParINT MasterFX QList [cue 0,0ms,Released][at exit]
+- 01:01:05.375 INFO   : (CuePlayer::playMacro) Playing macro -> Release
+- 01:01:05.375 INFO   : (PlaybackFunctions::release) 8 MFSpotINT MasterFX QList [cue 3,0ms,Playing]0
+- 01:01:05.375 INFO   : (PlaybackFunctions::release) 8 MFSpotINT MasterFX QList [cue 3,0ms,Releasing][at exit]
+- 01:01:05.375 INFO   : (CuePlayer::playMacro) Playing macro -> Release
+- 01:01:05.375 INFO   : (PlaybackFunctions::release) 8 MFSpotINT MasterFX QList [cue 3,0ms,Releasing]0
+- 01:01:05.375 INFO   : (PlaybackFunctions::release) 8 MFSpotINT MasterFX QList [cue 0,0ms,Released][at exit]
+- 01:01:05.390 INFO   : (CuePlayer::playMacro) Playing macro -> Release
+- 01:01:05.390 INFO   : (PlaybackFunctions::release) 1 DJSpotINT MasterFX QList [cue 3,0ms,Playing]0
+- 01:01:05.390 INFO   : (PlaybackFunctions::release) 1 DJSpotINT MasterFX QList [cue 3,0ms,Releasing][at exit]
+- 01:01:05.390 INFO   : (CuePlayer::playMacro) Playing macro -> Release
+- 01:01:05.390 INFO   : (PlaybackFunctions::release) 1 DJSpotINT MasterFX QList [cue 3,0ms,Releasing]0
+- 01:01:05.390 INFO   : (PlaybackFunctions::release) 1 DJSpotINT MasterFX QList [cue 0,0ms,Released][at exit]
+- 01:01:19.171 INFO   : (ClipPlayerManager::logPlaybackState) 19:Smoke [cue 0,0ms,Playing]
+- 01:01:19.171 INFO   : (ClipPlayerManager::logPlaybackState) 28:MFSpotPOS MasterFX QList [cue 0,0ms,Playing]
+- 01:01:19.171 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 6,2000ms,Playing]
+- 01:02:34.171 INFO   : (ClipPlayerManager::logPlaybackState) 19:Smoke [cue 0,0ms,Playing]
+- 01:02:34.171 INFO   : (ClipPlayerManager::logPlaybackState) 28:MFSpotPOS MasterFX QList [cue 0,0ms,Playing]
+- 01:02:34.171 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 0,4000ms,Playing]
+- 01:03:49.171 INFO   : (ClipPlayerManager::logPlaybackState) 19:Smoke [cue 0,0ms,Playing]
+- 01:03:49.171 INFO   : (ClipPlayerManager::logPlaybackState) 28:MFSpotPOS MasterFX QList [cue 0,0ms,Playing]
+- 01:03:49.171 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 1,4000ms,Playing]
+- 01:04:20.750 INFO1  :[Command]  (ShowCommandExecutor::doPush) set EffectRateController properties (type 1c748a0)
+- 01:04:20.437 INFO1  :[Command]  (ShowCommandExecutor::doPush) set EffectRateController properties (type 1c748a0)
+- 01:04:21.265 INFO1  :[Command]  (ShowCommandExecutor::doPush) set EffectRateController properties (type 1c748a0)
+- 01:04:22.125 INFO1  :[Command]  (ShowCommandExecutor::doPush) set EffectRateController properties (type 1c748a0)
+- 01:04:23.953 INFO1  :[Command]  (ShowCommandExecutor::doPush) set EffectRateController properties (type 1c748a0)
+- 01:04:24.656 INFO1  :[Command]  (ShowCommandExecutor::doPush) set EffectRateController properties (type 1c748a0)
+- 01:04:24.437 INFO1  :[Command]  (ShowCommandExecutor::doPush) set EffectRateController properties (type 1c748a0)
+- 01:04:25.234 INFO1  :[Command]  (ShowCommandExecutor::doPush) set EffectRateController properties (type 1c748a0)
+- 01:04:26.890 INFO1  :[Command]  (ShowCommandExecutor::doPush) set EffectRateController properties (type 1c748a0)
+- 01:04:26.906 INFO   : (CuePlayer::playMacro) Playing macro -> Jump, Cue - step: 2
+- 01:04:26.906 INFO   : (PlaybackFunctions::jumpToStep) 1 DJSpotINT MasterFX QList [cue 0,0ms,Released]2
+- 01:04:26.906 INFO   : (PlaybackFunctions::jumpToStep) 1 DJSpotINT MasterFX QList [cue 2,0ms,Playing][at exit]
+- 01:04:26.906 INFO   : (CuePlayer::playMacro) Playing macro -> Jump, Cue - step: 2
+- 01:04:26.906 INFO   : (PlaybackFunctions::jumpToStep) 1 DJSpotINT MasterFX QList [cue 2,0ms,Playing]2
+- 01:04:26.906 INFO   : (PlaybackFunctions::jumpToStep) 1 DJSpotINT MasterFX QList [cue 2,0ms,Playing][at exit]
+- 01:04:26.906 INFO   : (CuePlayer::playMacro) Playing macro -> Jump, Cue - step: 2
+- 01:04:26.906 INFO   : (PlaybackFunctions::jumpToStep) 8 MFSpotINT MasterFX QList [cue 0,0ms,Released]2
+- 01:04:26.906 INFO   : (PlaybackFunctions::jumpToStep) 8 MFSpotINT MasterFX QList [cue 2,0ms,Playing][at exit]
+- 01:04:26.921 INFO   : (CuePlayer::playMacro) Playing macro -> Jump, Cue - step: 2
+- 01:04:26.921 INFO   : (PlaybackFunctions::jumpToStep) 8 MFSpotINT MasterFX QList [cue 2,0ms,Playing]2
+- 01:04:26.921 INFO   : (PlaybackFunctions::jumpToStep) 8 MFSpotINT MasterFX QList [cue 2,0ms,Playing][at exit]
+- 01:04:26.921 INFO   : (CuePlayer::playMacro) Playing macro -> Jump, Cue - step: 2
+- 01:04:26.921 INFO   : (PlaybackFunctions::jumpToStep) 20 ParINT MasterFX QList [cue 0,0ms,Released]2
+- 01:04:26.921 INFO   : (PlaybackFunctions::jumpToStep) 20 ParINT MasterFX QList [cue 2,0ms,Playing][at exit]
+- 01:04:26.921 INFO   : (CuePlayer::playMacro) Playing macro -> Jump, Cue - step: 2
+- 01:04:26.921 INFO   : (PlaybackFunctions::jumpToStep) 20 ParINT MasterFX QList [cue 2,0ms,Playing]2
+- 01:04:26.921 INFO   : (PlaybackFunctions::jumpToStep) 20 ParINT MasterFX QList [cue 2,0ms,Playing][at exit]
+- 01:04:27.609 INFO1  :[Command]  (ShowCommandExecutor::doPush) set EffectRateController properties (type 1c748a0)
+- 01:04:27.343 INFO1  :[Command]  (ShowCommandExecutor::doPush) set EffectRateController properties (type 1c748a0)
+- 01:04:28.109 INFO1  :[Command]  (ShowCommandExecutor::doPush) set EffectRateController properties (type 1c748a0)
+- 01:04:29.843 INFO1  :[Command]  (ShowCommandExecutor::doPush) set EffectRateController properties (type 1c748a0)
+- 01:05:04.171 INFO   : (ClipPlayerManager::logPlaybackState) 1:DJSpotINT MasterFX QList [cue 2,0ms,Playing]
+- 01:05:04.171 INFO   : (ClipPlayerManager::logPlaybackState) 8:MFSpotINT MasterFX QList [cue 2,0ms,Playing]
+- 01:05:04.171 INFO   : (ClipPlayerManager::logPlaybackState) 19:Smoke [cue 0,0ms,Playing]
+- 01:05:04.171 INFO   : (ClipPlayerManager::logPlaybackState) 20:ParINT MasterFX QList [cue 2,0ms,Playing]
+- 01:05:04.171 INFO   : (ClipPlayerManager::logPlaybackState) 28:MFSpotPOS MasterFX QList [cue 0,0ms,Playing]
+- 01:05:04.171 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 2,1000ms,Playing]
+- 01:05:17.734 INFO1  :[Command]  (ShowCommandExecutor::doPush) set EffectRateController properties (type 1c748a0)
+- 01:05:29.515 INFO   : (CuePlayer::playMacro) Playing macro -> Release
+- 01:05:29.515 INFO   : (PlaybackFunctions::release) 20 ParINT MasterFX QList [cue 2,0ms,Playing]0
+- 01:05:29.515 INFO   : (PlaybackFunctions::release) 20 ParINT MasterFX QList [cue 2,0ms,Releasing][at exit]
+- 01:05:29.515 INFO   : (CuePlayer::playMacro) Playing macro -> Release
+- 01:05:29.515 INFO   : (PlaybackFunctions::release) 20 ParINT MasterFX QList [cue 2,0ms,Releasing]0
+- 01:05:29.515 INFO   : (PlaybackFunctions::release) 20 ParINT MasterFX QList [cue 0,0ms,Released][at exit]
+- 01:06:19.171 INFO   : (ClipPlayerManager::logPlaybackState) 1:DJSpotINT MasterFX QList [cue 2,0ms,Playing]
+- 01:06:19.171 INFO   : (ClipPlayerManager::logPlaybackState) 8:MFSpotINT MasterFX QList [cue 2,0ms,Playing]
+- 01:06:19.171 INFO   : (ClipPlayerManager::logPlaybackState) 19:Smoke [cue 0,0ms,Playing]
+- 01:06:19.171 INFO   : (ClipPlayerManager::logPlaybackState) 28:MFSpotPOS MasterFX QList [cue 0,0ms,Playing]
+- 01:06:19.171 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 3,0ms,Playing]
+- 01:07:12.421 INFO1  :[Command]  (ShowCommandExecutor::doPush) set EffectRateController properties (type 1c748a0)
+- 01:07:13.796 INFO1  :[Command]  (ShowCommandExecutor::doPush) set EffectRateController properties (type 1c748a0)
+- 01:07:13.171 INFO1  :[Command]  (ShowCommandExecutor::doPush) set EffectRateController properties (type 1c748a0)
+- 01:07:14.578 INFO1  :[Command]  (ShowCommandExecutor::doPush) set EffectRateController properties (type 1c748a0)
+- 01:07:34.171 INFO   : (ClipPlayerManager::logPlaybackState) 1:DJSpotINT MasterFX QList [cue 2,0ms,Playing]
+- 01:07:34.171 INFO   : (ClipPlayerManager::logPlaybackState) 8:MFSpotINT MasterFX QList [cue 2,0ms,Playing]
+- 01:07:34.171 INFO   : (ClipPlayerManager::logPlaybackState) 19:Smoke [cue 0,0ms,Playing]
+- 01:07:34.171 INFO   : (ClipPlayerManager::logPlaybackState) 28:MFSpotPOS MasterFX QList [cue 0,0ms,Playing]
+- 01:07:34.171 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 5,2000ms,Playing]
+- 01:07:38.406 INFO   : (CuePlayer::playMacro) Playing macro -> Release
+- 01:07:38.406 INFO   : (PlaybackFunctions::release) 56 1ST Flicker FOut [cue 0,500ms,Playing]0
+- 01:07:38.406 INFO   : (PlaybackFunctions::release) 56 1ST Flicker FOut [cue 0,500ms,Releasing][at exit]
+- 01:08:49.171 INFO   : (ClipPlayerManager::logPlaybackState) 1:DJSpotINT MasterFX QList [cue 2,0ms,Playing]
+- 01:08:49.171 INFO   : (ClipPlayerManager::logPlaybackState) 8:MFSpotINT MasterFX QList [cue 2,0ms,Playing]
+- 01:08:49.171 INFO   : (ClipPlayerManager::logPlaybackState) 19:Smoke [cue 0,0ms,Playing]
+- 01:08:49.171 INFO   : (ClipPlayerManager::logPlaybackState) 28:MFSpotPOS MasterFX QList [cue 0,0ms,Playing]
+- 01:08:49.171 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 7,2000ms,Playing]
+- 01:10:04.171 INFO   : (ClipPlayerManager::logPlaybackState) 1:DJSpotINT MasterFX QList [cue 2,0ms,Playing]
+- 01:10:04.171 INFO   : (ClipPlayerManager::logPlaybackState) 8:MFSpotINT MasterFX QList [cue 2,0ms,Playing]
+- 01:10:04.171 INFO   : (ClipPlayerManager::logPlaybackState) 19:Smoke [cue 0,0ms,Playing]
+- 01:10:04.171 INFO   : (ClipPlayerManager::logPlaybackState) 28:MFSpotPOS MasterFX QList [cue 0,0ms,Playing]
+- 01:10:04.171 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 0,4000ms,Playing]
+- 01:11:19.171 INFO   : (ClipPlayerManager::logPlaybackState) 1:DJSpotINT MasterFX QList [cue 2,0ms,Playing]
+- 01:11:19.171 INFO   : (ClipPlayerManager::logPlaybackState) 8:MFSpotINT MasterFX QList [cue 2,0ms,Playing]
+- 01:11:19.171 INFO   : (ClipPlayerManager::logPlaybackState) 19:Smoke [cue 0,0ms,Playing]
+- 01:11:19.171 INFO   : (ClipPlayerManager::logPlaybackState) 28:MFSpotPOS MasterFX QList [cue 0,0ms,Playing]
+- 01:11:19.171 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 1,4000ms,Playing]
+- 01:12:34.171 INFO   : (ClipPlayerManager::logPlaybackState) 1:DJSpotINT MasterFX QList [cue 2,0ms,Playing]
+- 01:12:34.171 INFO   : (ClipPlayerManager::logPlaybackState) 8:MFSpotINT MasterFX QList [cue 2,0ms,Playing]
+- 01:12:34.171 INFO   : (ClipPlayerManager::logPlaybackState) 19:Smoke [cue 0,0ms,Playing]
+- 01:12:34.171 INFO   : (ClipPlayerManager::logPlaybackState) 28:MFSpotPOS MasterFX QList [cue 0,0ms,Playing]
+- 01:12:34.171 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 3,0ms,Playing]
+- 01:13:49.171 INFO   : (ClipPlayerManager::logPlaybackState) 1:DJSpotINT MasterFX QList [cue 2,0ms,Playing]
+- 01:13:49.171 INFO   : (ClipPlayerManager::logPlaybackState) 8:MFSpotINT MasterFX QList [cue 2,0ms,Playing]
+- 01:13:49.171 INFO   : (ClipPlayerManager::logPlaybackState) 19:Smoke [cue 0,0ms,Playing]
+- 01:13:49.171 INFO   : (ClipPlayerManager::logPlaybackState) 28:MFSpotPOS MasterFX QList [cue 0,0ms,Playing]
+- 01:13:49.171 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 4,2000ms,Playing]
+- 01:15:04.171 INFO   : (ClipPlayerManager::logPlaybackState) 1:DJSpotINT MasterFX QList [cue 2,0ms,Playing]
+- 01:15:04.171 INFO   : (ClipPlayerManager::logPlaybackState) 8:MFSpotINT MasterFX QList [cue 2,0ms,Playing]
+- 01:15:04.171 INFO   : (ClipPlayerManager::logPlaybackState) 19:Smoke [cue 0,0ms,Playing]
+- 01:15:04.171 INFO   : (ClipPlayerManager::logPlaybackState) 28:MFSpotPOS MasterFX QList [cue 0,0ms,Playing]
+- 01:15:04.171 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 7,2000ms,Playing]
+- 01:15:16.875 INFO1  :[Command]  (ShowCommandExecutor::doPush) set EffectRateController properties (type 1c748a0)
+- 01:16:19.171 INFO   : (ClipPlayerManager::logPlaybackState) 1:DJSpotINT MasterFX QList [cue 2,0ms,Playing]
+- 01:16:19.171 INFO   : (ClipPlayerManager::logPlaybackState) 8:MFSpotINT MasterFX QList [cue 2,0ms,Playing]
+- 01:16:19.171 INFO   : (ClipPlayerManager::logPlaybackState) 19:Smoke [cue 0,0ms,Playing]
+- 01:16:19.171 INFO   : (ClipPlayerManager::logPlaybackState) 28:MFSpotPOS MasterFX QList [cue 0,0ms,Playing]
+- 01:16:19.171 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 0,4000ms,Playing]
+- 01:17:14.281 INFO   : (CuePlayer::playMacro) Playing macro -> Jump, Cue - step: 1
+- 01:17:14.281 INFO   : (PlaybackFunctions::jumpToStep) 8 MFSpotINT MasterFX QList [cue 2,0ms,Playing]1
+- 01:17:14.281 INFO   : (PlaybackFunctions::jumpToStep) 8 MFSpotINT MasterFX QList [cue 1,0ms,Playing][at exit]
+- 01:17:14.281 INFO   : (CuePlayer::playMacro) Playing macro -> Jump, Cue - step: 1
+- 01:17:14.281 INFO   : (PlaybackFunctions::jumpToStep) 8 MFSpotINT MasterFX QList [cue 1,0ms,Playing]1
+- 01:17:14.281 INFO   : (PlaybackFunctions::jumpToStep) 8 MFSpotINT MasterFX QList [cue 1,0ms,Playing][at exit]
+- 01:17:14.296 INFO   : (CuePlayer::playMacro) Playing macro -> Jump, Cue - step: 1
+- 01:17:14.296 INFO   : (PlaybackFunctions::jumpToStep) 1 DJSpotINT MasterFX QList [cue 2,0ms,Playing]1
+- 01:17:14.296 INFO   : (PlaybackFunctions::jumpToStep) 1 DJSpotINT MasterFX QList [cue 1,0ms,Playing][at exit]
+- 01:17:14.296 INFO   : (CuePlayer::playMacro) Playing macro -> Jump, Cue - step: 1
+- 01:17:14.296 INFO   : (PlaybackFunctions::jumpToStep) 1 DJSpotINT MasterFX QList [cue 1,0ms,Playing]1
+- 01:17:14.296 INFO   : (PlaybackFunctions::jumpToStep) 1 DJSpotINT MasterFX QList [cue 1,0ms,Playing][at exit]
+- 01:17:14.375 INFO   : (CuePlayer::playMacro) Playing macro -> Jump, Cue - step: 4
+- 01:17:14.375 INFO   : (PlaybackFunctions::jumpToStep) 20 ParINT MasterFX QList [cue 0,0ms,Released]4
+- 01:17:14.375 INFO   : (PlaybackFunctions::jumpToStep) 20 ParINT MasterFX QList [cue 4,0ms,Playing][at exit]
+- 01:17:14.375 INFO   : (CuePlayer::playMacro) Playing macro -> Jump, Cue - step: 4
+- 01:17:14.375 INFO   : (PlaybackFunctions::jumpToStep) 20 ParINT MasterFX QList [cue 4,0ms,Playing]4
+- 01:17:14.375 INFO   : (PlaybackFunctions::jumpToStep) 20 ParINT MasterFX QList [cue 4,0ms,Playing][at exit]
+- 01:17:34.171 INFO   : (ClipPlayerManager::logPlaybackState) 1:DJSpotINT MasterFX QList [cue 1,0ms,Playing]
+- 01:17:34.171 INFO   : (ClipPlayerManager::logPlaybackState) 8:MFSpotINT MasterFX QList [cue 1,0ms,Playing]
+- 01:17:34.171 INFO   : (ClipPlayerManager::logPlaybackState) 19:Smoke [cue 0,0ms,Playing]
+- 01:17:34.171 INFO   : (ClipPlayerManager::logPlaybackState) 20:ParINT MasterFX QList [cue 4,0ms,Playing]
+- 01:17:34.171 INFO   : (ClipPlayerManager::logPlaybackState) 28:MFSpotPOS MasterFX QList [cue 0,0ms,Playing]
+- 01:17:34.171 INFO   : (ClipPlayerManager::logPlaybackState) 49:1SH Full Strobe [cue 0,0ms,Playing]
+- 01:17:34.171 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 1,4000ms,Playing]
+- 01:17:55.015 INFO1  :[Command]  (ShowCommandExecutor::doPush) set EffectRateController properties (type 1c748a0)
+- 01:17:56.703 INFO1  :[Command]  (ShowCommandExecutor::doPush) set EffectRateController properties (type 1c748a0)
+- 01:18:30.453 INFO   : (CuePlayer::playMacro) Playing macro -> Jump, Cue - step: 2
+- 01:18:30.453 INFO   : (PlaybackFunctions::jumpToStep) 1 DJSpotINT MasterFX QList [cue 1,0ms,Playing]2
+- 01:18:30.453 INFO   : (PlaybackFunctions::jumpToStep) 1 DJSpotINT MasterFX QList [cue 2,0ms,Playing][at exit]
+- 01:18:30.453 INFO   : (CuePlayer::playMacro) Playing macro -> Jump, Cue - step: 2
+- 01:18:30.453 INFO   : (PlaybackFunctions::jumpToStep) 1 DJSpotINT MasterFX QList [cue 2,0ms,Playing]2
+- 01:18:30.453 INFO   : (PlaybackFunctions::jumpToStep) 1 DJSpotINT MasterFX QList [cue 2,0ms,Playing][at exit]
+- 01:18:30.453 INFO   : (CuePlayer::playMacro) Playing macro -> Jump, Cue - step: 2
+- 01:18:30.453 INFO   : (PlaybackFunctions::jumpToStep) 8 MFSpotINT MasterFX QList [cue 1,0ms,Playing]2
+- 01:18:30.453 INFO   : (PlaybackFunctions::jumpToStep) 8 MFSpotINT MasterFX QList [cue 2,0ms,Playing][at exit]
+- 01:18:30.453 INFO   : (CuePlayer::playMacro) Playing macro -> Jump, Cue - step: 2
+- 01:18:30.453 INFO   : (PlaybackFunctions::jumpToStep) 8 MFSpotINT MasterFX QList [cue 2,0ms,Playing]2
+- 01:18:30.453 INFO   : (PlaybackFunctions::jumpToStep) 8 MFSpotINT MasterFX QList [cue 2,0ms,Playing][at exit]
+- 01:18:30.453 INFO   : (CuePlayer::playMacro) Playing macro -> Jump, Cue - step: 2
+- 01:18:30.468 INFO   : (PlaybackFunctions::jumpToStep) 20 ParINT MasterFX QList [cue 4,0ms,Playing]2
+- 01:18:30.468 INFO   : (PlaybackFunctions::jumpToStep) 20 ParINT MasterFX QList [cue 2,0ms,Playing][at exit]
+- 01:18:30.468 INFO   : (CuePlayer::playMacro) Playing macro -> Jump, Cue - step: 2
+- 01:18:30.468 INFO   : (PlaybackFunctions::jumpToStep) 20 ParINT MasterFX QList [cue 2,0ms,Playing]2
+- 01:18:30.468 INFO   : (PlaybackFunctions::jumpToStep) 20 ParINT MasterFX QList [cue 2,0ms,Playing][at exit]
+- 01:18:34.515 INFO1  :[Command]  (ShowCommandExecutor::doPush) set EffectRateController properties (type 1c748a0)
+- 01:18:35.171 INFO1  :[Command]  (ShowCommandExecutor::doPush) set EffectRateController properties (type 1c748a0)
+- 01:18:39.281 INFO1  :[Command]  (ShowCommandExecutor::doPush) set EffectRateController properties (type 1c748a0)
+- 01:18:40.953 INFO1  :[Command]  (ShowCommandExecutor::doPush) set EffectRateController properties (type 1c748a0)
+- 01:18:49.171 INFO   : (ClipPlayerManager::logPlaybackState) 1:DJSpotINT MasterFX QList [cue 2,0ms,Playing]
+- 01:18:49.171 INFO   : (ClipPlayerManager::logPlaybackState) 8:MFSpotINT MasterFX QList [cue 2,0ms,Playing]
+- 01:18:49.171 INFO   : (ClipPlayerManager::logPlaybackState) 19:Smoke [cue 0,0ms,Playing]
+- 01:18:49.171 INFO   : (ClipPlayerManager::logPlaybackState) 20:ParINT MasterFX QList [cue 2,0ms,Playing]
+- 01:18:49.171 INFO   : (ClipPlayerManager::logPlaybackState) 28:MFSpotPOS MasterFX QList [cue 0,0ms,Playing]
+- 01:18:49.171 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 2,1000ms,Playing]
+- 01:20:04.171 INFO   : (ClipPlayerManager::logPlaybackState) 1:DJSpotINT MasterFX QList [cue 2,0ms,Playing]
+- 01:20:04.171 INFO   : (ClipPlayerManager::logPlaybackState) 8:MFSpotINT MasterFX QList [cue 2,0ms,Playing]
+- 01:20:04.171 INFO   : (ClipPlayerManager::logPlaybackState) 19:Smoke [cue 0,0ms,Playing]
+- 01:20:04.171 INFO   : (ClipPlayerManager::logPlaybackState) 20:ParINT MasterFX QList [cue 2,0ms,Playing]
+- 01:20:04.171 INFO   : (ClipPlayerManager::logPlaybackState) 28:MFSpotPOS MasterFX QList [cue 0,0ms,Playing]
+- 01:20:04.171 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 3,0ms,Playing]
+- 01:21:19.171 INFO   : (ClipPlayerManager::logPlaybackState) 1:DJSpotINT MasterFX QList [cue 2,0ms,Playing]
+- 01:21:19.171 INFO   : (ClipPlayerManager::logPlaybackState) 8:MFSpotINT MasterFX QList [cue 2,0ms,Playing]
+- 01:21:19.171 INFO   : (ClipPlayerManager::logPlaybackState) 19:Smoke [cue 0,0ms,Playing]
+- 01:21:19.171 INFO   : (ClipPlayerManager::logPlaybackState) 20:ParINT MasterFX QList [cue 2,0ms,Playing]
+- 01:21:19.171 INFO   : (ClipPlayerManager::logPlaybackState) 28:MFSpotPOS MasterFX QList [cue 0,0ms,Playing]
+- 01:21:19.171 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 6,2000ms,Playing]
+- 01:22:34.171 INFO   : (ClipPlayerManager::logPlaybackState) 1:DJSpotINT MasterFX QList [cue 2,0ms,Playing]
+- 01:22:34.171 INFO   : (ClipPlayerManager::logPlaybackState) 8:MFSpotINT MasterFX QList [cue 2,0ms,Playing]
+- 01:22:34.171 INFO   : (ClipPlayerManager::logPlaybackState) 19:Smoke [cue 0,0ms,Playing]
+- 01:22:34.171 INFO   : (ClipPlayerManager::logPlaybackState) 20:ParINT MasterFX QList [cue 2,0ms,Playing]
+- 01:22:34.171 INFO   : (ClipPlayerManager::logPlaybackState) 28:MFSpotPOS MasterFX QList [cue 0,0ms,Playing]
+- 01:22:34.171 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 7,2000ms,Playing]
+- 01:23:19.671 INFO1  :[Command]  (ShowCommandExecutor::doPush) set EffectRateController properties (type 1c748a0)
+- 01:23:19.375 INFO1  :[Command]  (ShowCommandExecutor::doPush) set EffectRateController properties (type 1c748a0)
+- 01:23:26.031 INFO1  :[Command]  (ShowCommandExecutor::doPush) set EffectRateController properties (type 1c748a0)
+- 01:23:49.187 INFO   : (ClipPlayerManager::logPlaybackState) 1:DJSpotINT MasterFX QList [cue 2,0ms,Playing]
+- 01:23:49.187 INFO   : (ClipPlayerManager::logPlaybackState) 8:MFSpotINT MasterFX QList [cue 2,0ms,Playing]
+- 01:23:49.187 INFO   : (ClipPlayerManager::logPlaybackState) 19:Smoke [cue 0,0ms,Playing]
+- 01:23:49.187 INFO   : (ClipPlayerManager::logPlaybackState) 20:ParINT MasterFX QList [cue 2,0ms,Playing]
+- 01:23:49.187 INFO   : (ClipPlayerManager::logPlaybackState) 28:MFSpotPOS MasterFX QList [cue 0,0ms,Playing]
+- 01:23:49.187 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 1,3365ms,Playing]
+- 01:25:04.187 INFO   : (ClipPlayerManager::logPlaybackState) 1:DJSpotINT MasterFX QList [cue 2,0ms,Playing]
+- 01:25:04.187 INFO   : (ClipPlayerManager::logPlaybackState) 8:MFSpotINT MasterFX QList [cue 2,0ms,Playing]
+- 01:25:04.187 INFO   : (ClipPlayerManager::logPlaybackState) 19:Smoke [cue 0,0ms,Playing]
+- 01:25:04.187 INFO   : (ClipPlayerManager::logPlaybackState) 20:ParINT MasterFX QList [cue 2,0ms,Playing]
+- 01:25:04.187 INFO   : (ClipPlayerManager::logPlaybackState) 28:MFSpotPOS MasterFX QList [cue 0,0ms,Playing]
+- 01:25:04.187 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 2,1000ms,Playing]
+- 01:25:08.781 INFO1  :[Command]  (ShowCommandExecutor::doPush) set EffectRateController properties (type 1c748a0)
+- 01:25:08.140 INFO1  :[Command]  (ShowCommandExecutor::doPush) set EffectRateController properties (type 1c748a0)
+- 01:25:08.421 INFO1  :[Command]  (ShowCommandExecutor::doPush) set EffectRateController properties (type 1c748a0)
+- 01:25:09.765 INFO1  :[Command]  (ShowCommandExecutor::doPush) set EffectRateController properties (type 1c748a0)
+- 01:25:16.062 INFO1  :[Command]  (ShowCommandExecutor::doPush) set EffectRateController properties (type 1c748a0)
+- 01:25:17.750 INFO1  :[Command]  (ShowCommandExecutor::doPush) set EffectRateController properties (type 1c748a0)
+- 01:25:21.687 INFO1  :[Command]  (ShowCommandExecutor::doPush) set EffectRateController properties (type 1c748a0)
+- 01:25:42.656 INFO   : (CuePlayer::playMacro) Playing macro -> Release
+- 01:25:42.656 INFO   : (PlaybackFunctions::release) 1 DJSpotINT MasterFX QList [cue 2,0ms,Playing]0
+- 01:25:42.656 INFO   : (PlaybackFunctions::release) 1 DJSpotINT MasterFX QList [cue 2,0ms,Releasing][at exit]
+- 01:25:42.656 INFO   : (CuePlayer::playMacro) Playing macro -> Release
+- 01:25:42.656 INFO   : (PlaybackFunctions::release) 1 DJSpotINT MasterFX QList [cue 2,0ms,Releasing]0
+- 01:25:42.656 INFO   : (PlaybackFunctions::release) 1 DJSpotINT MasterFX QList [cue 0,0ms,Released][at exit]
+- 01:25:42.796 INFO   : (CuePlayer::playMacro) Playing macro -> Release
+- 01:25:42.796 INFO   : (PlaybackFunctions::release) 8 MFSpotINT MasterFX QList [cue 2,0ms,Playing]0
+- 01:25:42.796 INFO   : (PlaybackFunctions::release) 8 MFSpotINT MasterFX QList [cue 2,0ms,Releasing][at exit]
+- 01:25:42.796 INFO   : (CuePlayer::playMacro) Playing macro -> Release
+- 01:25:42.796 INFO   : (PlaybackFunctions::release) 8 MFSpotINT MasterFX QList [cue 2,0ms,Releasing]0
+- 01:25:42.796 INFO   : (PlaybackFunctions::release) 8 MFSpotINT MasterFX QList [cue 0,0ms,Released][at exit]
+- 01:25:42.937 INFO   : (CuePlayer::playMacro) Playing macro -> Release
+- 01:25:42.937 INFO   : (PlaybackFunctions::release) 20 ParINT MasterFX QList [cue 2,0ms,Playing]0
+- 01:25:42.937 INFO   : (PlaybackFunctions::release) 20 ParINT MasterFX QList [cue 2,0ms,Releasing][at exit]
+- 01:25:42.937 INFO   : (CuePlayer::playMacro) Playing macro -> Release
+- 01:25:42.937 INFO   : (PlaybackFunctions::release) 20 ParINT MasterFX QList [cue 2,0ms,Releasing]0
+- 01:25:42.937 INFO   : (PlaybackFunctions::release) 20 ParINT MasterFX QList [cue 0,0ms,Released][at exit]
+- 01:26:19.203 INFO   : (ClipPlayerManager::logPlaybackState) 19:Smoke [cue 0,0ms,Playing]
+- 01:26:19.203 INFO   : (ClipPlayerManager::logPlaybackState) 28:MFSpotPOS MasterFX QList [cue 0,0ms,Playing]
+- 01:26:19.203 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 3,0ms,Playing]
+- 01:27:34.203 INFO   : (ClipPlayerManager::logPlaybackState) 19:Smoke [cue 0,0ms,Playing]
+- 01:27:34.203 INFO   : (ClipPlayerManager::logPlaybackState) 28:MFSpotPOS MasterFX QList [cue 0,0ms,Playing]
+- 01:27:34.203 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 5,2000ms,Playing]
+- 01:28:49.203 INFO   : (ClipPlayerManager::logPlaybackState) 19:Smoke [cue 0,0ms,Playing]
+- 01:28:49.203 INFO   : (ClipPlayerManager::logPlaybackState) 28:MFSpotPOS MasterFX QList [cue 0,0ms,Playing]
+- 01:28:49.203 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 7,2000ms,Playing]
+- 01:30:04.203 INFO   : (ClipPlayerManager::logPlaybackState) 19:Smoke [cue 0,0ms,Playing]
+- 01:30:04.203 INFO   : (ClipPlayerManager::logPlaybackState) 28:MFSpotPOS MasterFX QList [cue 0,0ms,Playing]
+- 01:30:04.203 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 0,4000ms,Playing]
+- 01:31:19.203 INFO   : (ClipPlayerManager::logPlaybackState) 19:Smoke [cue 0,0ms,Playing]
+- 01:31:19.203 INFO   : (ClipPlayerManager::logPlaybackState) 28:MFSpotPOS MasterFX QList [cue 0,0ms,Playing]
+- 01:31:19.203 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 1,4000ms,Playing]
+- 01:32:34.203 INFO   : (ClipPlayerManager::logPlaybackState) 19:Smoke [cue 0,0ms,Playing]
+- 01:32:34.203 INFO   : (ClipPlayerManager::logPlaybackState) 28:MFSpotPOS MasterFX QList [cue 0,0ms,Playing]
+- 01:32:34.203 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 2,1000ms,Playing]
+- 01:33:49.203 INFO   : (ClipPlayerManager::logPlaybackState) 19:Smoke [cue 0,0ms,Playing]
+- 01:33:49.203 INFO   : (ClipPlayerManager::logPlaybackState) 28:MFSpotPOS MasterFX QList [cue 0,0ms,Playing]
+- 01:33:49.203 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 4,2000ms,Playing]
+- 01:35:04.203 INFO   : (ClipPlayerManager::logPlaybackState) 19:Smoke [cue 0,0ms,Playing]
+- 01:35:04.203 INFO   : (ClipPlayerManager::logPlaybackState) 28:MFSpotPOS MasterFX QList [cue 0,0ms,Playing]
+- 01:35:04.203 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 6,2000ms,Playing]
+- 01:36:19.203 INFO   : (ClipPlayerManager::logPlaybackState) 19:Smoke [cue 0,0ms,Playing]
+- 01:36:19.203 INFO   : (ClipPlayerManager::logPlaybackState) 28:MFSpotPOS MasterFX QList [cue 0,0ms,Playing]
+- 01:36:19.203 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 0,4000ms,Playing]
+- 01:37:34.203 INFO   : (ClipPlayerManager::logPlaybackState) 19:Smoke [cue 0,0ms,Playing]
+- 01:37:34.203 INFO   : (ClipPlayerManager::logPlaybackState) 28:MFSpotPOS MasterFX QList [cue 0,0ms,Playing]
+- 01:37:34.203 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 1,4000ms,Playing]
+- 01:38:49.203 INFO   : (ClipPlayerManager::logPlaybackState) 19:Smoke [cue 0,0ms,Playing]
+- 01:38:49.203 INFO   : (ClipPlayerManager::logPlaybackState) 28:MFSpotPOS MasterFX QList [cue 0,0ms,Playing]
+- 01:38:49.203 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 2,1000ms,Playing]
+- 01:40:04.203 INFO   : (ClipPlayerManager::logPlaybackState) 19:Smoke [cue 0,0ms,Playing]
+- 01:40:04.203 INFO   : (ClipPlayerManager::logPlaybackState) 28:MFSpotPOS MasterFX QList [cue 0,0ms,Playing]
+- 01:40:04.203 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 3,0ms,Playing]
+- 01:41:19.203 INFO   : (ClipPlayerManager::logPlaybackState) 19:Smoke [cue 0,0ms,Playing]
+- 01:41:19.203 INFO   : (ClipPlayerManager::logPlaybackState) 28:MFSpotPOS MasterFX QList [cue 0,0ms,Playing]
+- 01:41:19.203 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 5,2000ms,Playing]
+- 01:42:34.203 INFO   : (ClipPlayerManager::logPlaybackState) 19:Smoke [cue 0,0ms,Playing]
+- 01:42:34.203 INFO   : (ClipPlayerManager::logPlaybackState) 28:MFSpotPOS MasterFX QList [cue 0,0ms,Playing]
+- 01:42:34.203 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 7,2000ms,Playing]
+- 01:43:49.203 INFO   : (ClipPlayerManager::logPlaybackState) 19:Smoke [cue 0,0ms,Playing]
+- 01:43:49.203 INFO   : (ClipPlayerManager::logPlaybackState) 28:MFSpotPOS MasterFX QList [cue 0,0ms,Playing]
+- 01:43:49.203 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 0,4000ms,Playing]
+- 01:45:04.203 INFO   : (ClipPlayerManager::logPlaybackState) 19:Smoke [cue 0,0ms,Playing]
+- 01:45:04.203 INFO   : (ClipPlayerManager::logPlaybackState) 28:MFSpotPOS MasterFX QList [cue 0,0ms,Playing]
+- 01:45:04.203 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 1,4000ms,Playing]
+- 01:46:19.203 INFO   : (ClipPlayerManager::logPlaybackState) 19:Smoke [cue 0,0ms,Playing]
+- 01:46:19.203 INFO   : (ClipPlayerManager::logPlaybackState) 28:MFSpotPOS MasterFX QList [cue 0,0ms,Playing]
+- 01:46:19.203 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 3,0ms,Playing]
+- 01:47:34.203 INFO   : (ClipPlayerManager::logPlaybackState) 19:Smoke [cue 0,0ms,Playing]
+- 01:47:34.203 INFO   : (ClipPlayerManager::logPlaybackState) 28:MFSpotPOS MasterFX QList [cue 0,0ms,Playing]
+- 01:47:34.203 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 4,2000ms,Playing]
+- 01:48:49.203 INFO   : (ClipPlayerManager::logPlaybackState) 19:Smoke [cue 0,0ms,Playing]
+- 01:48:49.203 INFO   : (ClipPlayerManager::logPlaybackState) 28:MFSpotPOS MasterFX QList [cue 0,0ms,Playing]
+- 01:48:49.203 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 7,2000ms,Playing]
+- 01:50:04.203 INFO   : (ClipPlayerManager::logPlaybackState) 19:Smoke [cue 0,0ms,Playing]
+- 01:50:04.203 INFO   : (ClipPlayerManager::logPlaybackState) 28:MFSpotPOS MasterFX QList [cue 0,0ms,Playing]
+- 01:50:04.203 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 0,4000ms,Playing]
+- 01:51:19.203 INFO   : (ClipPlayerManager::logPlaybackState) 19:Smoke [cue 0,0ms,Playing]
+- 01:51:19.203 INFO   : (ClipPlayerManager::logPlaybackState) 28:MFSpotPOS MasterFX QList [cue 0,0ms,Playing]
+- 01:51:19.203 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 1,4000ms,Playing]
+- 01:52:34.203 INFO   : (ClipPlayerManager::logPlaybackState) 19:Smoke [cue 0,0ms,Playing]
+- 01:52:34.203 INFO   : (ClipPlayerManager::logPlaybackState) 28:MFSpotPOS MasterFX QList [cue 0,0ms,Playing]
+- 01:52:34.203 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 2,1000ms,Playing]
+- 01:53:49.203 INFO   : (ClipPlayerManager::logPlaybackState) 19:Smoke [cue 0,0ms,Playing]
+- 01:53:49.203 INFO   : (ClipPlayerManager::logPlaybackState) 28:MFSpotPOS MasterFX QList [cue 0,0ms,Playing]
+- 01:53:49.203 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 3,0ms,Playing]
+- 01:55:04.203 INFO   : (ClipPlayerManager::logPlaybackState) 19:Smoke [cue 0,0ms,Playing]
+- 01:55:04.203 INFO   : (ClipPlayerManager::logPlaybackState) 28:MFSpotPOS MasterFX QList [cue 0,0ms,Playing]
+- 01:55:04.203 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 6,2000ms,Playing]
+- 01:56:12.968 INFO   :[Command]  (ShowCommandExecutor::doEndMacro) activate preset (type 64)
+- 01:56:26.234 INFO   :[Command]  (ShowCommandExecutor::doEndMacro) apply preset (type 64)
+- 01:56:45.484 INFO1  :[Command]  (ShowCommandExecutor::doPush) Quick Picker Change (type b448efe)
+- 01:56:45.500 INFO1  :[Command]  (ShowCommandExecutor::doPush) Quick Picker Change (type b448efe)
+- 01:56:45.500 INFO1  :[Command]  (ShowCommandExecutor::doPush) Quick Picker Change (type b448efe)
+- 01:56:45.531 INFO1  :[Command]  (ShowCommandExecutor::doPush) Quick Picker Change (type b448efe)
+- 01:56:45.531 INFO1  :[Command]  (ShowCommandExecutor::doPush) Quick Picker Change (type b448efe)
+- 01:56:45.531 INFO1  :[Command]  (ShowCommandExecutor::doPush) Quick Picker Change (type b448efe)
+- 01:56:45.531 INFO1  :[Command]  (ShowCommandExecutor::doPush) Quick Picker Change (type b448efe)
+- 01:56:45.546 INFO1  :[Command]  (ShowCommandExecutor::doPush) Quick Picker Change (type b448efe)
+- 01:56:45.546 INFO1  :[Command]  (ShowCommandExecutor::doPush) Quick Picker Change (type b448efe)
+- 01:56:45.546 INFO1  :[Command]  (ShowCommandExecutor::doPush) Quick Picker Change (type b448efe)
+*** Message repeated at least 10 times, ignoring further repeats! ***
+- 01:56:48.437 INFO1  :[Command]  (ShowCommandExecutor::doPush) change values (type ffffffff88888221)
+- 01:56:48.437 INFO1  :[Command]  (ShowCommandExecutor::doPush) change values (type ffffffff88888221)
+- 01:56:48.453 INFO1  :[Command]  (ShowCommandExecutor::doPush) change values (type ffffffff88888221)
+- 01:56:48.453 INFO1  :[Command]  (ShowCommandExecutor::doPush) change values (type ffffffff88888221)
+- 01:56:48.468 INFO1  :[Command]  (ShowCommandExecutor::doPush) change values (type ffffffff88888221)
+- 01:56:48.468 INFO1  :[Command]  (ShowCommandExecutor::doPush) change values (type ffffffff88888221)
+- 01:56:48.484 INFO1  :[Command]  (ShowCommandExecutor::doPush) change values (type ffffffff88888221)
+- 01:56:48.484 INFO1  :[Command]  (ShowCommandExecutor::doPush) change values (type ffffffff88888221)
+- 01:56:48.484 INFO1  :[Command]  (ShowCommandExecutor::doPush) change values (type ffffffff88888221)
+- 01:56:48.500 INFO1  :[Command]  (ShowCommandExecutor::doPush) change values (type ffffffff88888221)
+*** Message repeated at least 10 times, ignoring further repeats! ***
+- 01:57:13.015 INFO1  :[Command]  (ShowCommandExecutor::doPush) update preset (type 38372621)
+- 01:57:13.031 INFO   :[Command]  (ShowCommandExecutor::doEndMacro) apply preset (type 64)
+- 01:57:13.046 INFO   :[Command]  (ShowCommandExecutor::doEndMacro) apply preset (type 64)
+- 02:38:20.531 INFO   :[Command]  (ShowCommandExecutor::doEndMacro) Clear (type 64)
+- 02:41:50.890 INFO1  :[NETWORK]  (PlaybackNodeManager::checkTimeControllerFailover) VistaPlaybackNode_2: Playback failover state changed to: 1
+- 02:41:51.562 WARNING:[NETWORK]  (BoostTcpNetwork::outputNetworkError ##1a24c30) VistaPlaybackNode_2: A socket error has occurred.. local: 127.0.0.1:56364, remote: 127.0.0.1:22125 - An existing connection was forcibly closed by the remote host
+- 02:41:51.562 INFO2  :[NETWORK]  (BoostTcpNetwork::removeConnection ##1a24c30) VistaPlaybackNode_2: (-)Connection removed
+- 02:41:51.562 INFO   :[NETWORK]  (BoostTcpConnection::close ##1a24c30) VistaPlaybackNode_2: Connection closed.. local: 127.0.0.1:56364, remote: 127.0.0.1:22125
+- 02:41:51.562 INFO   :[NETWORK]  (BoostTcpConnection::close ##1a24c30) VistaPlaybackNode_2: Connection closed.. local: 127.0.0.1:56364, remote: 127.0.0.1:22125

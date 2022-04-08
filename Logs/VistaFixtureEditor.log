@@ -1,45 +1,49 @@
-- 20:12:46.000 INFO   : (@`anonymous-namespace'::getThisExecutableDirPath:86) Path to executable: C:/Program Files (x86)/Chroma-Q/Vista3/VistaFixtureEditor.exe
-- 20:12:46.000 INFO   : (@Directory::getPath:848) QtPlugins path = C:/Program Files (x86)/Chroma-Q/Vista3/plugins
-- 20:12:46.047 INFO   : (@Directory::getPath:746) Factory Resources path = C:/Program Files (x86)/Chroma-Q/Vista3
-- 20:12:46.047 INFO   : (@Directory::getPath:764) FactoryFixtureLibrary path = C:/Program Files (x86)/Chroma-Q/Vista3/FixtureTypeLibrary
-- 20:12:46.047 INFO   : (@Directory::getPath:751) UserFixtureLibrary path = C:\Vista 3/Fixtures
-- 20:12:46.047 INFO   : (@BoostNetworkThread::run:54 ##4418598) starting
-- 20:12:46.047 INFO   : (@BoostNetworkThread::run:54 ##4418658) starting
-- 20:12:49.360 INFO   : (@FixtureTypeLibraryManager::addLibrary:165) Adding Fixture Library at C:/Program Files (x86)/Chroma-Q/Vista3/FixtureTypeLibrary
-- 20:12:49.422 INFO   : (@ImageInfo::registerDirectory:62) Registering Image directory: C:/Program Files (x86)/Chroma-Q/Vista3/FixtureTypeLibrary/Images
-- 20:12:49.422 INFO   : (@ImageInfo::registerDirectory:62) Registering Image directory: C:/Program Files (x86)/Chroma-Q/Vista3/FixtureTypeLibrary/Images/gobos
-- 20:12:49.422 INFO   : (@ImageInfo::registerDirectory:62) Registering Image directory: C:/Program Files (x86)/Chroma-Q/Vista3/FixtureTypeLibrary/Images/animations
-- 20:12:49.422 INFO   : (@ImageInfo::registerDirectory:62) Registering Image directory: 
-- 20:12:49.454 INFO   : (@ImageInfo::registerDirectory:62) Registering Image directory: C:/Program Files (x86)/Chroma-Q/Vista3/FixtureTypeLibrary/Images/effects
-- 20:12:49.563 INFO   : (@FixtureTypeLibraryManager::addLibrary:165) Adding Fixture Library at C:/Vista 3/Fixtures
-- 20:12:49.563 INFO   : (@ImageInfo::registerDirectory:62) Registering Image directory: C:/Vista 3/Fixtures/Images
-- 20:12:49.563 INFO   : (@ImageInfo::registerDirectory:62) Registering Image directory: 
-- 20:12:49.563 INFO   : (@ImageInfo::registerDirectory:62) Registering Image directory: 
-- 20:12:49.563 INFO   : (@ImageInfo::registerDirectory:62) Registering Image directory: 
-- 20:12:49.563 INFO   : (@ImageInfo::registerDirectory:62) Registering Image directory: 
-- 20:12:49.563 INFO   : (@InitialiseHardwareInterfaceLibrary:10) Initializing Hardware Interface
-- 20:12:49.579 INFO   : (@USB::libusbInit:143) Initializing libusb...
-- 20:12:49.594 INFO   : (@UsbManager::UsbManager:154) Initializing USB Manager
-- 20:12:49.594 INFO   : (@BoostNetworkThread::run:54 ##4418e98) starting
-- 20:12:49.594 INFO   : (@DpuManager::initialiseLocalConfiguration:80) initializing
-- 20:12:49.594 INFO   : (@getLocalHostUuid:41) Local hostID: 841cca3b
-- 20:12:49.594 INFO   : (@getLocalHostUuid:49) Local hostID: 841cca3b
-- 20:12:49.610 INFO   : (@DpuManager::initialiseLocalConfiguration:117) Available CPU capability: 12 host type: 0
-- 20:12:49.641 INFO   : (@TimecodeManager::TimecodeManager:71) 
-- 20:12:49.641 INFO   : (@InitialiseShowLibrary:163) Initializing show Library
-- 20:12:49.688 INFO   : (@Console::Console:71) (props) type 100 (Art-Net) vcID: b44d6a80 hwID: b44d6a80
-- 20:12:49.688 INFO   : (@Console::Console:71) (props) type 102 (sACN) vcID: 669aa062 hwID: 669aa062
-- 20:12:49.688 INFO   : (@Console::Console:71) (props) type 101 (Pathport) vcID: 4e55c8af hwID: 4e55c8af
-- 20:12:49.704 INFO   : (@Directory::getPath:858) Preferences path = C:\Vista 3
-- 20:12:49.704 INFO   : (@ShowManager::ShowManager:128) 
-- 20:12:49.704 INFO   :NETWORK: (@PlaybackNodeManager::PlaybackNodeManager:252) Vista Fixture Editor: new instance
-- 20:12:49.704 INFO   : (@BoostNetworkThread::run:54 ##12440d48) starting
-- 20:12:49.704 INFO   : (@BoostNetworkThread::run:54 ##12441000) starting
-- 20:12:49.704 INFO   : (@BoostNetworkThread::run:54 ##12441138) starting
-- 20:12:49.704 INFO   : (@BoostNetworkThread::run:54 ##124412e8) starting
-- 20:12:49.704 INFO   : (@BoostNetworkThread::run:54 ##12441180) starting
-- 20:12:49.704 INFO   : (@BoostNetworkThread::run:54 ##12444d20) starting
-- 20:12:49.704 INFO   : (@BoostNetworkThread::run:54 ##12444280) starting
-- 20:12:49.704 INFO   : (@BoostNetworkThread::run:54 ##1244ee90) starting
-- 20:12:49.719 INFO   : (@Directory::getPath:818) UserThemes path = C:\Vista 3/Themes
-- 20:12:49.719 INFO   : (@Directory::getPath:823) FactoryThemes path = C:/Program Files (x86)/Chroma-Q/Vista3/Themes
+- 20:28:02.000 INFO   : (`anonymous-namespace'::getThisExecutableDirPath) Path to executable: C:/Program Files (x86)/Chroma-Q/Vista3/VistaFixtureEditor.exe
+- 20:28:02.000 INFO   : (Directory::getPath) QtPlugins path = C:/Program Files (x86)/Chroma-Q/Vista3/plugins
+- 20:28:02.031 INFO   : (Directory::getPath) Factory Resources path = C:/Program Files (x86)/Chroma-Q/Vista3
+- 20:28:02.031 INFO   : (Directory::getPath) FactoryFixtureLibrary path = C:/Program Files (x86)/Chroma-Q/Vista3/FixtureTypeLibrary
+- 20:28:02.031 INFO   : (Directory::getPath) UserFixtureLibrary path = C:\Vista 3/Fixtures
+- 20:28:02.031 INFO   : (BoostNetworkThread::run ##78cc18) starting
+- 20:28:02.031 INFO   : (BoostNetworkThread::run ##276ade0) starting
+- 20:28:05.391 INFO   : (FixtureTypeLibraryManager::addLibrary) Adding Fixture Library at C:/Program Files (x86)/Chroma-Q/Vista3/FixtureTypeLibrary
+- 20:28:05.391 INFO   : (ImageInfo::registerDirectory) Registering Image directory: C:/Program Files (x86)/Chroma-Q/Vista3/FixtureTypeLibrary/Images
+- 20:28:05.391 INFO   : (ImageInfo::registerDirectory) Registering Image directory: C:/Program Files (x86)/Chroma-Q/Vista3/FixtureTypeLibrary/Images/gobos
+- 20:28:05.391 INFO   : (ImageInfo::registerDirectory) Registering Image directory: C:/Program Files (x86)/Chroma-Q/Vista3/FixtureTypeLibrary/Images/animations
+- 20:28:05.391 INFO   : (ImageInfo::registerDirectory) Registering Image directory: 
+- 20:28:05.391 INFO   : (ImageInfo::registerDirectory) Registering Image directory: C:/Program Files (x86)/Chroma-Q/Vista3/FixtureTypeLibrary/Images/effects
+- 20:28:05.391 INFO   : (FixtureTypeLibraryManager::addLibrary) Adding Fixture Library at C:/Vista 3/Fixtures
+- 20:28:05.391 INFO   : (ImageInfo::registerDirectory) Registering Image directory: C:/Vista 3/Fixtures/Images
+- 20:28:05.391 INFO   : (ImageInfo::registerDirectory) Registering Image directory: 
+- 20:28:05.391 INFO   : (ImageInfo::registerDirectory) Registering Image directory: 
+- 20:28:05.391 INFO   : (ImageInfo::registerDirectory) Registering Image directory: 
+- 20:28:05.391 INFO   : (ImageInfo::registerDirectory) Registering Image directory: 
+- 20:28:05.406 INFO   : (InitialiseHardwareInterfaceLibrary) Initializing Hardware Interface
+- 20:28:05.422 INFO   : (USB::libusbInit) Initializing libusb...
+- 20:28:05.422 INFO   : (UsbManager::UsbManager) Initializing USB Manager
+- 20:28:05.422 INFO   : (BoostNetworkThread::run ##276b440) starting
+- 20:28:05.438 INFO   : (DpuManager::initialiseLocalConfiguration) initializing
+- 20:28:05.438 INFO   : (getLocalHostUuid) Local hostID: a25b31ab
+- 20:28:05.438 INFO   : (getLocalHostUuid) Local hostID: a25b31ab
+- 20:28:05.500 INFO   : (DpuManager::initialiseLocalConfiguration) Available CPU capability: 4 host type: 0
+- 20:28:05.500 INFO   : (TimecodeManager::TimecodeManager) 
+- 20:28:05.500 INFO   : (InitialiseShowLibrary) Initializing show Library
+- 20:28:05.516 INFO   : (Console::Console) (props) type 100 (Art-Net) vcID: b44d6a80 hwID: b44d6a80
+- 20:28:05.516 INFO   : (Console::Console) (props) type 102 (sACN) vcID: 669aa062 hwID: 669aa062
+- 20:28:05.516 INFO   : (Console::Console) (props) type 101 (Pathport) vcID: 4e55c8af hwID: 4e55c8af
+- 20:28:05.516 INFO   : (Directory::getPath) Preferences path = C:\Vista 3
+- 20:28:05.516 INFO   : (ShowManager::ShowManager) 
+- 20:28:05.531 INFO   :[NETWORK]  (PlaybackNodeManager::PlaybackNodeManager) Vista Fixture Editor: new instance
+- 20:28:05.531 INFO   : (BoostNetworkThread::run ##19ad36a0) starting
+- 20:28:05.531 INFO   : (BoostNetworkThread::run ##19ad3880) starting
+- 20:28:05.531 INFO   : (BoostNetworkThread::run ##19ad3988) starting
+- 20:28:05.531 INFO   : (BoostNetworkThread::run ##19ad39e8) starting
+- 20:28:05.531 INFO   : (BoostNetworkThread::run ##19ad3c70) starting
+- 20:28:05.531 INFO   : (BoostNetworkThread::run ##19ad4798) starting
+- 20:28:05.531 INFO   : (BoostNetworkThread::run ##19ad46a8) starting
+- 20:28:05.531 INFO   : (BoostNetworkThread::run ##19ad49d8) starting
+- 20:28:05.547 INFO   : (Directory::getPath) UserThemes path = C:\Vista 3/Themes
+- 20:28:05.547 INFO   : (Directory::getPath) FactoryThemes path = C:/Program Files (x86)/Chroma-Q/Vista3/Themes
+- 20:39:52.766 INFO   : (JDialog::JDialog) Dialog created - Add DMX Channel
+- 20:40:09.563 INFO   : (JDialog::~JDialog) Dialog destroyed - Add DMX Channel
+- 20:43:20.453 INFO   : (UsbManager::~UsbManager) Finish USB Manager
+- 20:43:20.453 INFO   : (UsbManager::Impl::~Impl) Exit libusb

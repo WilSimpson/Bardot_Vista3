@@ -9,17 +9,18 @@
 
   <appMinor>3</appMinor>
 
-  <appRevision>21712</appRevision>
+  <appRevision>21910</appRevision>
 
   <compression>1</compression>
 
   <archiveRevisions>
-    <size>55</size>
+    <size>58</size>
     <x>381290</x>
     <x>392871</x>
     <x>2342646</x>
     <x>3876428</x>
     <x>8401247</x>
+    <x>8763241</x>
     <x>9893724</x>
     <x>13429243</x>
     <x>20938420</x>
@@ -27,6 +28,7 @@
     <x>27779797</x>
     <x>28670234</x>
     <x>29783875</x>
+    <x>29859584</x>
     <x>29939870</x>
     <x>32093939</x>
     <x>32468553</x>
@@ -41,6 +43,7 @@
     <x>63454231</x>
     <x>64532972</x>
     <x>64627098</x>
+    <x>64825746</x>
     <x>65562356</x>
     <x>76435281</x>
     <x>76456622</x>
@@ -91,7 +94,7 @@
           <lightGeneration>None</lightGeneration>
           <colourMixing></colourMixing>
           <frameType>No Frame</frameType>
-          <movementType>None</movementType>
+          <movementType></movementType>
           <beamType>None</beamType>
           <maximumPanDegrees>0</maximumPanDegrees>
           <maximumTiltDegrees>0</maximumTiltDegrees>
@@ -130,7 +133,7 @@
           <lightGeneration>LED</lightGeneration>
           <colourMixing></colourMixing>
           <frameType>No Frame</frameType>
-          <movementType>None</movementType>
+          <movementType></movementType>
           <beamType>Wash</beamType>
           <maximumPanDegrees>0</maximumPanDegrees>
           <maximumTiltDegrees>0</maximumTiltDegrees>
@@ -169,7 +172,7 @@
           <lightGeneration>LED</lightGeneration>
           <colourMixing></colourMixing>
           <frameType>No Frame</frameType>
-          <movementType>None</movementType>
+          <movementType></movementType>
           <beamType>Wash</beamType>
           <maximumPanDegrees>0</maximumPanDegrees>
           <maximumTiltDegrees>0</maximumTiltDegrees>
@@ -208,14 +211,14 @@
           <lightGeneration>LED</lightGeneration>
           <colourMixing></colourMixing>
           <frameType>No Frame</frameType>
-          <movementType>None</movementType>
+          <movementType></movementType>
           <beamType>Wash</beamType>
           <maximumPanDegrees>0</maximumPanDegrees>
           <maximumTiltDegrees>0</maximumTiltDegrees>
           <isScroller>0</isScroller>
           <compatibilityId>3810263848</compatibilityId>
           <version>
-            <revision>1</revision>
+            <revision>2</revision>
             <factoryVersion>0</factoryVersion>
             <carallonVersion>0</carallonVersion>
           </version>
@@ -247,7 +250,7 @@
           <lightGeneration>LED</lightGeneration>
           <colourMixing></colourMixing>
           <frameType>No Frame</frameType>
-          <movementType>None</movementType>
+          <movementType></movementType>
           <beamType>Wash</beamType>
           <maximumPanDegrees>0</maximumPanDegrees>
           <maximumTiltDegrees>0</maximumTiltDegrees>
@@ -274,7 +277,7 @@
       </I>
     </items>
     <formatVersion>0.1</formatVersion>
-    <libraryVersion>33</libraryVersion>
+    <libraryVersion>37</libraryVersion>
     <carallonVersion>9.1</carallonVersion>
     <carallonImportTimestamp>
       <date>2456363</date>
