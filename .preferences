@@ -135,12 +135,12 @@
       <muteAudioOnAuxiliary>0</muteAudioOnAuxiliary>
       <volume>1</volume>
       <keycapsBacklightColour>0</keycapsBacklightColour>
-      <autohideCommandLine>0</autohideCommandLine>
+      <autohideCommandLine>1</autohideCommandLine>
       <storeDefaultOutput>1</storeDefaultOutput>
       <storeDefaultSelection>1</storeDefaultSelection>
       <deleteDefaultMode>1</deleteDefaultMode>
       <applyExtractMode>3</applyExtractMode>
-      <stayInDesktopModeUponReboot>0</stayInDesktopModeUponReboot>
+      <stayInDesktopModeUponReboot>1</stayInDesktopModeUponReboot>
       <spacebarActsAsPlay>1</spacebarActsAsPlay>
       <universeLabels/>
       <fxborder/>

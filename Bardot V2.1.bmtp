@@ -321,8 +321,8 @@ Outgoing11=MID3<Outgoing Action="MIDI"><Raw>F0 7F 01 02 01 1B 35 35 F7&#10;F0 7F
 Outgoing12=MID3<Outgoing Action="MIDI"><Raw>F0 7F 01 02 01 1B 35 35 F7&#10;F0 7F 01 02 01 0B F7&#10;F0 7F 01 02 01 1C 35 35 F7</Raw></Outgoing>
 Outgoing13=MID3<Outgoing Action="MIDI"><Raw>F0 7F 01 02 01 1B 35 38 F7&#10;F0 7F 01 02 01 01 31 F7&#10;F0 7F 01 02 01 1C 35 38 F7</Raw></Outgoing>
 Outgoing14=MID3<Outgoing Action="MIDI"><Raw>F0 7F 01 02 01 1B 35 38 F7&#10;F0 7F 01 02 01 0B F7&#10;F0 7F 01 02 01 1C 35 38 F7</Raw></Outgoing>
-Outgoing15=MID3<Outgoing Action="MIDI"><Raw>F0 7F 01 02 01 1B 36 30 F7&#10;F0 7F 01 02 01 01 31 F7&#10;F0 7F 01 02 01 1C 36 30 F7</Raw></Outgoing>
-Outgoing16=MID3<Outgoing Action="MIDI"><Raw>F0 7F 01 02 01 1B 36 30 F7&#10;F0 7F 01 02 01 0B F7&#10;F0 7F 01 02 01 1C 36 30 F7</Raw></Outgoing>
+Outgoing15=MID3<Outgoing Action="MIDI"><Raw>F0 7F 01 02 01 1B 36 39 F7&#10;F0 7F 01 02 01 01 31 F7&#10;F0 7F 01 02 01 1C 36 39 F7</Raw></Outgoing>
+Outgoing16=MID3<Outgoing Action="MIDI"><Raw>F0 7F 01 02 01 1B 36 39 F7&#10;F0 7F 01 02 01 0B F7&#10;F0 7F 01 02 01 1C 36 39 F7</Raw></Outgoing>
 Outgoing17=MID3<Outgoing Action="MIDI"><Raw>F0 7F 01 02 01 1B 36 35 F7&#10;F0 7F 01 02 01 01 31 F7&#10;F0 7F 01 02 01 1C 36 35 F7</Raw></Outgoing>
 Outgoing18=MID3<Outgoing Action="MIDI"><Raw>F0 7F 01 02 01 1B 36 35 F7&#10;F0 7F 01 02 01 0B F7&#10;F0 7F 01 02 01 1C 36 35 F7</Raw></Outgoing>
 Outgoing19=MID3<Outgoing Action="MIDI"><Raw>F0 7F 01 02 01 1B 36 36 F7&#10;F0 7F 01 02 01 01 31 F7&#10;F0 7F 01 02 01 1C 36 36 F7</Raw></Outgoing>
@@ -799,8 +799,8 @@ Outgoing11=MID3<Outgoing Action="MIDI"><Raw>F0 7F 01 02 01 1B 35 35 F7&#10;F0 7F
 Outgoing12=MID3<Outgoing Action="MIDI"><Raw>F0 7F 01 02 01 1B 35 35 F7&#10;F0 7F 01 02 01 0B F7&#10;F0 7F 01 02 01 1C 35 35 F7</Raw></Outgoing>
 Outgoing13=MID3<Outgoing Action="MIDI"><Raw>F0 7F 01 02 01 1B 35 38 F7&#10;F0 7F 01 02 01 01 31 F7&#10;F0 7F 01 02 01 1C 35 38 F7</Raw></Outgoing>
 Outgoing14=MID3<Outgoing Action="MIDI"><Raw>F0 7F 01 02 01 1B 35 38 F7&#10;F0 7F 01 02 01 0B F7&#10;F0 7F 01 02 01 1C 35 38 F7</Raw></Outgoing>
-Outgoing15=MID3<Outgoing Action="MIDI"><Raw>F0 7F 01 02 01 1B 36 30 F7&#10;F0 7F 01 02 01 01 31 F7&#10;F0 7F 01 02 01 1C 36 30 F7</Raw></Outgoing>
-Outgoing16=MID3<Outgoing Action="MIDI"><Raw>F0 7F 01 02 01 1B 36 30 F7&#10;F0 7F 01 02 01 0B F7&#10;F0 7F 01 02 01 1C 36 30 F7</Raw></Outgoing>
+Outgoing15=MID3<Outgoing Action="MIDI"><Raw>F0 7F 01 02 01 1B 36 39 F7&#10;F0 7F 01 02 01 01 31 F7&#10;F0 7F 01 02 01 1C 36 39 F7</Raw></Outgoing>
+Outgoing16=MID3<Outgoing Action="MIDI"><Raw>F0 7F 01 02 01 1B 36 39 F7&#10;F0 7F 01 02 01 0B F7&#10;F0 7F 01 02 01 1C 36 39 F7</Raw></Outgoing>
 Outgoing17=MID3<Outgoing Action="MIDI"><Raw>F0 7F 01 02 01 1B 36 35 F7&#10;F0 7F 01 02 01 01 31 F7&#10;F0 7F 01 02 01 1C 36 35 F7</Raw></Outgoing>
 Outgoing18=MID3<Outgoing Action="MIDI"><Raw>F0 7F 01 02 01 1B 36 35 F7&#10;F0 7F 01 02 01 0B F7&#10;F0 7F 01 02 01 1C 36 35 F7</Raw></Outgoing>
 Outgoing19=MID3<Outgoing Action="MIDI"><Raw>F0 7F 01 02 01 1B 36 36 F7&#10;F0 7F 01 02 01 01 31 F7&#10;F0 7F 01 02 01 1C 36 36 F7</Raw></Outgoing>
@@ -861,6 +861,6 @@ Version=2
 
 [Signatures]
 SigName-1=[Midi Translator Pro Internal]
-Signature-1=RGaznR19C+YkPq30P/yjFQrcpoGOrYnmnl13t/aZdNAgTsfO8rzqOn6LBo4GlN9AgBH4aUlZNd10QDIphJzE8WB8kh/YIDJYIrnqbiGGKJwJK2Nu/YVrI9NkC2SNT7YnXAO10Un7Bz9dL/AaT2ZZU8C6CekZLShW2som4Ms2L+8=
+Signature-1=MRLsD8nktC+zuaIt2M+4tfzS6t7/o+3igZGSBmT2I8UqDlvaDiEz7SuJnOgvPF6NzW7o/T92vEJMNUhD9ZL/3ggQtbg6JZBcaNgi2Q4BDm89YEVMEnyY1v+0M8mENzu/hAI7SgP+uRoO3Iu5dnjfdwfmMYhiuB9tcqI1FtG7fHU=
 SignedBy-1=Jackson Zapata
 

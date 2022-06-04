@@ -1,350 +1,153 @@
-- 22:26:00.000 INFO   : (main) Fri Mar 18 22:26:00 2022
-- 22:26:00.016 INFO   : (main) OS: Windows 10 (10.0), CPU: x86_64, Logical Cores: 4
-- 22:26:00.016 INFO   : (`anonymous-namespace'::getThisExecutableDirPath) Path to executable: C:/Program Files (x86)/Chroma-Q/Vista3/VistaPlaybackNode.exe
-- 22:26:00.016 INFO   : (Directory::getPath) QtPlugins path = C:/Program Files (x86)/Chroma-Q/Vista3/plugins
-- 22:26:00.031 INFO   : (main) Starting C:/Program Files (x86)/Chroma-Q/Vista3/VistaPlaybackNode.exe
-- 22:26:00.031 INFO   : (main) default plugin path: c:/Qt/Qt5.8.0/plugins
-- 22:26:00.047 INFO   : (InitialiseHardwareInterfaceLibrary) Initializing Hardware Interface
-- 22:26:00.047 INFO   : (BoostNetworkThread::run ##902a28) starting
-- 22:26:00.047 INFO   : (BoostNetworkThread::run ##902bf0) starting
-- 22:26:00.078 INFO   : (USB::libusbInit) Initializing libusb...
-- 22:26:00.094 INFO   : (UsbManager::UsbManager) Initializing USB Manager
-- 22:26:00.094 INFO   : (DpuManager::initialiseLocalConfiguration) initializing
-- 22:26:00.125 INFO   : (BoostNetworkThread::run ##9012d0) starting
-- 22:26:00.141 INFO   : (getLocalHostUuid) Local hostID: 86b1b81c
-- 22:26:00.141 INFO   : (getLocalHostUuid) Local hostID: 86b1b81c
-- 22:26:01.250 INFO   : (DpuManager::initialiseLocalConfiguration) Available CPU capability: 4 host type: 7667810
-- 22:26:01.250 INFO   : (TimecodeManager::TimecodeManager) 
-- 22:26:01.250 INFO   : (InitialiseShowLibrary) Initializing show Library
-- 22:26:01.250 INFO   : (Console::Console) (props) type 100 (Art-Net) vcID: b44d6a80 hwID: b44d6a80
-- 22:26:01.250 INFO   : (Console::Console) (props) type 102 (sACN) vcID: 669aa062 hwID: 669aa062
-- 22:26:01.250 INFO   : (Console::Console) (props) type 101 (Pathport) vcID: 4e55c8af hwID: 4e55c8af
-- 22:26:01.250 INFO   : (Directory::getPath) Preferences path = C:\Vista 3
-- 22:26:01.266 INFO   : (ShowManager::ShowManager) 
-- 22:26:01.266 INFO   :[NETWORK]  (PlaybackNodeManager::PlaybackNodeManager) VistaPlaybackNode_1: new instance
-- 22:26:01.266 INFO   : (Directory::getPath) Factory Resources path = C:/Program Files (x86)/Chroma-Q/Vista3
-- 22:26:01.266 INFO   : (Directory::getPath) FactoryEffectLibrary path = C:/Program Files (x86)/Chroma-Q/Vista3/EffectLibrary
-- 22:26:01.297 INFO   : (BoostNetworkThread::run ##921618) starting
-- 22:26:01.297 INFO   : (BoostNetworkThread::run ##921828) starting
-- 22:26:01.297 INFO   : (BoostNetworkThread::run ##921840) starting
-- 22:26:01.297 INFO   : (BoostNetworkThread::run ##921888) starting
-- 22:26:01.297 INFO   : (BoostNetworkThread::run ##9217e0) starting
-- 22:26:01.297 INFO   : (BoostNetworkThread::run ##944030) starting
-- 22:26:01.297 INFO   : (BoostNetworkThread::run ##943f58) starting
-- 22:26:01.297 INFO   : (BoostNetworkThread::run ##944090) starting
-- 22:26:01.359 INFO   : (Directory::getPath) UserEffectLibrary path = C:\Vista 3/Effects
-- 22:26:01.375 INFO   : (BoostTcpConnection::connectToServer) host: 127.0.0.1, port: 22125
-- 22:26:01.375 INFO2  :[NETWORK]  (BoostTcpNetwork::socketConnected ##944090) VistaPlaybackNode_1: (+)Connection established.. local: 127.0.0.1:50198, remote: 127.0.0.1:22125
-- 22:26:01.375 INFO   : (BoostTcpConnection::connectToServer) host: 127.0.0.1, port: 22001
-- 22:26:01.375 INFO2  :[NETWORK]  (BoostTcpNetwork::socketConnected ##902bf0) VistaPlaybackNode_1: (+)Connection established.. local: 127.0.0.1:50199, remote: 127.0.0.1:22001
-- 22:26:01.391 INFO   :[NETWORK]  (PlaybackNodeManager::nodeConnectedSlot) VistaPlaybackNode_1: 127.0.0.1 connected
-- 22:26:03.016 INFO   :[NETWORK]  (PlaybackNodeManager::doAboutToSync) VistaPlaybackNode_1: Received ABOUT_TO_SYNC
-- 22:26:03.016 INFO   :[NETWORK]  (PlaybackNodeManager::setSyncProgressState) VistaPlaybackNode_1: Sync Progress State: AUX_ABOUT_TO_SYNC
-- 22:26:04.219 INFO   :[NETWORK]  (PlaybackNodeManager::doDpuSync) VistaPlaybackNode_1: Received SHOW_SYNC
-- 22:26:04.219 INFO   :[NETWORK]  (PlaybackNodeManager::setSyncProgressState) VistaPlaybackNode_1: Sync Progress State: AUX_RECEIVED_SHOW_ABOUT_TO_DESERIALISE
-- 22:26:04.219 INFO   :[NETWORK]  (ShowManager::prepareForShowReplacement) VistaPlaybackNode_1: prepareForShowReplacement: Auxiliary
-- 22:26:04.219 INFO   :[NETWORK]  (ShowManager::prepareForShowReplacement) VistaPlaybackNode_1: Emitting disablePlayback()
-- 22:26:04.219 INFO   :[NETWORK]  (ShowManager::prepareForShowReplacement) VistaPlaybackNode_1: Emitting showAboutToLoad()
-- 22:26:04.234 INFO1  :[NETWORK]  (PlaybackNodeManager::showAboutToLoadSlot) VistaPlaybackNode_1: Emitting stateChangedSignal()
-- 22:26:04.344 INFO   : (Console::Console) serialised
-- 22:26:04.344 INFO   : (Console::Console) serialised
-- 22:26:04.344 INFO   : (Console::Console) serialised
-- 22:26:04.344 INFO   : (Console::Console) serialised
-- 22:26:04.344 INFO   : (Console::Console) serialised
-- 22:26:04.344 INFO   : (Console::Console) serialised
-- 22:26:04.359 INFO   : (ScopedTimeLogger::~ScopedTimeLogger) Serialise a show took 131 ms.
-- 22:26:04.359 INFO   : (Directory::getPath) UserFixtureLibrary path = C:\Vista 3/Fixtures
-- 22:26:04.359 INFO   : (Directory::getPath) UserFixtureArrangementLibrary path = C:\Vista 3/Fixtures/CustomArrangements
-- 22:26:04.359 INFO   :[NETWORK]  (PlaybackNodeManager::setSyncProgressState) VistaPlaybackNode_1: Sync Progress State: AUX_SHOW_DESERIALISED
-- 22:26:04.359 INFO   :[NETWORK]  (PlaybackNodeManager::dpuSyncAck) VistaPlaybackNode_1: Sending SHOW_SYNC_ACK from: 86b1b81d
-- 22:26:04.359 INFO   :[NETWORK]  (PlaybackNodeManager::setSyncProgressState) VistaPlaybackNode_1: Sync Progress State: AUX_SENDING_SYNC_ACKNOWLEDGEMENT
-- 22:26:04.359 INFO   :[NETWORK]  (PlaybackNodeManager::doDpuSyncAck) VistaPlaybackNode_1: Received SHOW_SYNC_ACK from: 86b1b81d
-- 22:26:04.359 WARNING:[NETWORK]  (PlaybackNodeManager::doDpuSyncAck) VistaPlaybackNode_1: Received SHOW_SYNC_ACK from unknown playback node: 86b1b81d
-- 22:26:04.359 INFO   :[NETWORK]  (PlaybackNodeManager::doDpuSyncAck) VistaPlaybackNode_1: Received SHOW_SYNC_ACK from: 86b1b81c
-- 22:26:04.359 WARNING:[NETWORK]  (PlaybackNodeManager::doDpuSyncAck) VistaPlaybackNode_1: Received SHOW_SYNC_ACK from unknown playback node: 86b1b81c
-- 22:26:07.531 INFO   :[NETWORK]  (PlaybackNodeManager::doDpuSyncComplete) VistaPlaybackNode_1: Received SHOW_SYNC_COMPLETE message from master
-- 22:26:07.531 INFO   :[NETWORK]  (PlaybackNodeManager::setSyncProgressState) VistaPlaybackNode_1: Sync Progress State: AUX_PERFORMING_POST_SYNC_TASKS
-- 22:26:07.531 INFO   :[NETWORK]  (ShowManager::performPostShowSynchronisationTasks) VistaPlaybackNode_1: Emitting initialisePlayback()
-- 22:26:07.547 INFO   :[NETWORK]  (ShowManager::performPostShowSynchronisationTasks) VistaPlaybackNode_1: Emitting showLoaded()
-- 22:26:07.547 INFO   :[NETWORK]  (ShowManager::performPostShowSynchronisationTasks) VistaPlaybackNode_1: Emitting showLoadedNotificationCompleted()
-- 22:26:07.547 INFO1  :[NETWORK]  (PlaybackNodeManager::showLoadedNotificationCompletedSlot) VistaPlaybackNode_1: Emitting stateChangedSignal()
-- 22:26:07.547 INFO   :[NETWORK]  (ShowManager::performPostShowSynchronisationTasks) VistaPlaybackNode_1: Emitting enablePlayback()
-- 22:26:07.547 INFO   : (logIntSet) PlaybackEngineCoordinator::setPlaybackUniverses: set contains 0 items: []
-- 22:26:07.547 INFO   :[NETWORK]  (PlaybackNodeManager::setSyncProgressState) VistaPlaybackNode_1: Sync Progress State: NO_SYNC_IN_PROGRESS
-- 22:26:07.578 WARNING: (EffectRateController::resetAllPhasesToZero) current playback time 00:00:00
-- 22:26:07.578 INFO   : (PlaybackEngine::doRefresh) New set of assigned fixtures follows:
-- 22:26:07.578 INFO   : (PlaybackEngine::doRefresh) PlaybackEngine: Elapsed time between refreshes was: 0ms
-- 22:26:07.875 INFO1  :[NETWORK]  (PlaybackNodeManager::checkTimeControllerFailover) VistaPlaybackNode_1: isSynchronised changed to: 1
-- 22:26:12.687 INFO   : (logIntSet) PlaybackEngineCoordinator::setPlaybackUniverses: set contains 1 items: [0]
-- 22:26:12.703 INFO   : (PlaybackEngine::doRefresh) New set of assigned fixtures follows:
-- 22:26:12.703 INFO   : (PlaybackEngine::doRefresh) id:1:IH140SR9
-- 22:26:12.703 INFO   : (PlaybackEngine::doRefresh) id:2:IH140SR9
-- 22:26:12.703 INFO   : (PlaybackEngine::doRefresh) id:3:IH140SR9
-- 22:26:12.703 INFO   : (PlaybackEngine::doRefresh) id:4:IH140SR9
-- 22:26:12.703 INFO   : (PlaybackEngine::doRefresh) id:5:UberPar 12
-- 22:26:12.703 INFO   : (PlaybackEngine::doRefresh) id:6:UberPar 12
-- 22:26:12.703 INFO   : (PlaybackEngine::doRefresh) id:7:UberPar 12
-- 22:26:12.703 INFO   : (PlaybackEngine::doRefresh) id:8:UberPar 12
-- 22:26:12.703 INFO   : (PlaybackEngine::doRefresh) id:9:UberPar 12
-- 22:26:12.703 INFO   : (PlaybackEngine::doRefresh) id:10:UberPar 12
-- 22:26:12.703 INFO   : (PlaybackEngine::doRefresh) id:11:UberPar 12
-- 22:26:12.703 INFO   : (PlaybackEngine::doRefresh) id:12:UberPar 12
-- 22:26:12.703 INFO   : (PlaybackEngine::doRefresh) id:13:UberPar 12
-- 22:26:12.703 INFO   : (PlaybackEngine::doRefresh) id:14:UberPar 12
-- 22:26:12.703 INFO   : (PlaybackEngine::doRefresh) id:29:WonderBar
-- 22:26:12.703 INFO   : (PlaybackEngine::doRefresh) id:30:WonderBar
-- 22:26:12.703 INFO   : (PlaybackEngine::doRefresh) id:31:SwritHPX
-- 22:26:12.703 INFO   : (PlaybackEngine::doRefresh) id:32:A360IEx
-- 22:26:12.703 INFO   : (PlaybackEngine::doRefresh) id:33:A360IEx
-- 22:26:12.703 INFO   : (PlaybackEngine::doRefresh) id:34:A360IEx
-- 22:26:12.703 INFO   : (PlaybackEngine::doRefresh) id:35:A360IEx
-- 22:26:12.703 INFO   : (PlaybackEngine::doRefresh) id:36:A360IEx
-- 22:26:12.703 INFO   : (PlaybackEngine::doRefresh) id:38:M-9 RGBAW
-- 22:26:12.703 INFO   : (PlaybackEngine::doRefresh) id:39:HZ-350
-- 22:26:12.203 INFO   : (PlaybackEngine::doRefresh) New set of assigned fixtures follows:
-- 22:26:12.203 INFO   : (PlaybackEngine::doRefresh) id:1:IH140SR9
-- 22:26:12.203 INFO   : (PlaybackEngine::doRefresh) id:2:IH140SR9
-- 22:26:12.203 INFO   : (PlaybackEngine::doRefresh) id:3:IH140SR9
-- 22:26:12.203 INFO   : (PlaybackEngine::doRefresh) id:4:IH140SR9
-- 22:26:12.203 INFO   : (PlaybackEngine::doRefresh) id:5:UberPar 12
-- 22:26:12.219 INFO   : (PlaybackEngine::doRefresh) id:6:UberPar 12
-- 22:26:12.219 INFO   : (PlaybackEngine::doRefresh) id:7:UberPar 12
-- 22:26:12.219 INFO   : (PlaybackEngine::doRefresh) id:8:UberPar 12
-- 22:26:12.219 INFO   : (PlaybackEngine::doRefresh) id:9:UberPar 12
-- 22:26:12.219 INFO   : (PlaybackEngine::doRefresh) id:10:UberPar 12
-- 22:26:12.219 INFO   : (PlaybackEngine::doRefresh) id:11:UberPar 12
-- 22:26:12.219 INFO   : (PlaybackEngine::doRefresh) id:12:UberPar 12
-- 22:26:12.219 INFO   : (PlaybackEngine::doRefresh) id:13:UberPar 12
-- 22:26:12.219 INFO   : (PlaybackEngine::doRefresh) id:14:UberPar 12
-- 22:26:12.219 INFO   : (PlaybackEngine::doRefresh) id:29:WonderBar
-- 22:26:12.219 INFO   : (PlaybackEngine::doRefresh) id:30:WonderBar
-- 22:26:12.219 INFO   : (PlaybackEngine::doRefresh) id:31:SwritHPX
-- 22:26:12.219 INFO   : (PlaybackEngine::doRefresh) id:32:A360IEx
-- 22:26:12.219 INFO   : (PlaybackEngine::doRefresh) id:33:A360IEx
-- 22:26:12.219 INFO   : (PlaybackEngine::doRefresh) id:34:A360IEx
-- 22:26:12.219 INFO   : (PlaybackEngine::doRefresh) id:35:A360IEx
-- 22:26:12.219 INFO   : (PlaybackEngine::doRefresh) id:36:A360IEx
-- 22:26:12.219 INFO   : (PlaybackEngine::doRefresh) id:38:M-9 RGBAW
-- 22:26:12.219 INFO   : (PlaybackEngine::doRefresh) id:39:HZ-350
-- 22:26:28.500 INFO1  :[Command]  (ShowCommandExecutor::doPush) change values (type ffffffff88888221)
-- 22:26:28.516 INFO1  :[Command]  (ShowCommandExecutor::doPush) change values (type ffffffff88888221)
-- 22:26:28.531 INFO1  :[Command]  (ShowCommandExecutor::doPush) change values (type ffffffff88888221)
-- 22:26:28.547 INFO1  :[Command]  (ShowCommandExecutor::doPush) change values (type ffffffff88888221)
-- 22:26:28.562 INFO1  :[Command]  (ShowCommandExecutor::doPush) change values (type ffffffff88888221)
-- 22:26:28.734 INFO1  :[Command]  (ShowCommandExecutor::doPush) change values (type ffffffff88888221)
-- 22:26:28.734 INFO1  :[Command]  (ShowCommandExecutor::doPush) change values (type ffffffff88888221)
-- 22:26:28.750 INFO1  :[Command]  (ShowCommandExecutor::doPush) change values (type ffffffff88888221)
-- 22:26:28.750 INFO1  :[Command]  (ShowCommandExecutor::doPush) change values (type ffffffff88888221)
-- 22:26:28.750 INFO1  :[Command]  (ShowCommandExecutor::doPush) change values (type ffffffff88888221)
+- 18:53:19.000 INFO   : (main) Sat Apr 23 18:53:19 2022
+- 18:53:19.000 INFO   : (main) OS: Windows 10 (10.0), CPU: x86_64, Logical Cores: 4
+- 18:53:19.000 INFO   : (`anonymous-namespace'::getThisExecutableDirPath) Path to executable: C:/Program Files (x86)/Chroma-Q/Vista3/VistaPlaybackNode.exe
+- 18:53:19.000 INFO   : (Directory::getPath) QtPlugins path = C:/Program Files (x86)/Chroma-Q/Vista3/plugins
+- 18:53:19.032 INFO   : (main) Starting C:/Program Files (x86)/Chroma-Q/Vista3/VistaPlaybackNode.exe
+- 18:53:19.032 INFO   : (main) default plugin path: c:/Qt/Qt5.8.0/plugins
+- 18:53:19.047 INFO   : (InitialiseHardwareInterfaceLibrary) Initializing Hardware Interface
+- 18:53:19.078 INFO   : (BoostNetworkThread::run ##26545e0) starting
+- 18:53:19.078 INFO   : (BoostNetworkThread::run ##2654748) starting
+- 18:53:19.141 INFO   : (USB::libusbInit) Initializing libusb...
+- 18:53:19.157 INFO   : (UsbManager::UsbManager) Initializing USB Manager
+- 18:53:19.157 INFO   : (DpuManager::initialiseLocalConfiguration) initializing
+- 18:53:19.172 INFO   : (BoostNetworkThread::run ##2652ea0) starting
+- 18:53:19.203 INFO   : (getLocalHostUuid) Local hostID: bff8a761
+- 18:53:19.203 INFO   : (getLocalHostUuid) Local hostID: bff8a761
+- 18:53:19.313 INFO   : (DpuManager::initialiseLocalConfiguration) Available CPU capability: 4 host type: 7667810
+- 18:53:19.328 INFO   : (TimecodeManager::TimecodeManager) 
+- 18:53:19.328 INFO   : (InitialiseShowLibrary) Initializing show Library
+- 18:53:19.328 INFO   : (Console::Console) (props) type 100 (Art-Net) vcID: b44d6a80 hwID: b44d6a80
+- 18:53:19.328 INFO   : (Console::Console) (props) type 102 (sACN) vcID: 669aa062 hwID: 669aa062
+- 18:53:19.328 INFO   : (Console::Console) (props) type 101 (Pathport) vcID: 4e55c8af hwID: 4e55c8af
+- 18:53:19.328 INFO   : (Directory::getPath) Preferences path = C:\Vista 3
+- 18:53:19.328 INFO   : (ShowManager::ShowManager) 
+- 18:53:19.328 INFO   :[NETWORK]  (PlaybackNodeManager::PlaybackNodeManager) VistaPlaybackNode_1: new instance
+- 18:53:19.344 INFO   : (BoostNetworkThread::run ##2677c28) starting
+- 18:53:19.344 INFO   : (BoostNetworkThread::run ##2677c70) starting
+- 18:53:19.344 INFO   : (BoostNetworkThread::run ##2677cb8) starting
+- 18:53:19.344 INFO   : (BoostNetworkThread::run ##2677d48) starting
+- 18:53:19.344 INFO   : (BoostNetworkThread::run ##2677c10) starting
+- 18:53:19.344 INFO   : (Directory::getPath) Factory Resources path = C:/Program Files (x86)/Chroma-Q/Vista3
+- 18:53:19.344 INFO   : (Directory::getPath) FactoryEffectLibrary path = C:/Program Files (x86)/Chroma-Q/Vista3/EffectLibrary
+- 18:53:19.344 INFO   : (BoostNetworkThread::run ##269ffc8) starting
+- 18:53:19.344 INFO   : (BoostNetworkThread::run ##269fe18) starting
+- 18:53:19.360 INFO   : (BoostNetworkThread::run ##269fe00) starting
+- 18:53:20.453 INFO   : (Directory::getPath) UserEffectLibrary path = C:\Vista 3/Effects
+- 18:53:20.485 INFO   : (BoostTcpConnection::connectToServer) host: 127.0.0.1, port: 22125
+- 18:53:20.485 INFO2  :[NETWORK]  (BoostTcpNetwork::socketConnected ##269fe00) VistaPlaybackNode_1: (+)Connection established.. local: 127.0.0.1:50180, remote: 127.0.0.1:22125
+- 18:53:20.485 INFO   : (BoostTcpConnection::connectToServer) host: 127.0.0.1, port: 22001
+- 18:53:20.485 INFO2  :[NETWORK]  (BoostTcpNetwork::socketConnected ##2654748) VistaPlaybackNode_1: (+)Connection established.. local: 127.0.0.1:50181, remote: 127.0.0.1:22001
+- 18:53:20.485 INFO   :[NETWORK]  (PlaybackNodeManager::nodeConnectedSlot) VistaPlaybackNode_1: 127.0.0.1 connected
+- 18:53:22.422 INFO   :[NETWORK]  (PlaybackNodeManager::doAboutToSync) VistaPlaybackNode_1: Received ABOUT_TO_SYNC
+- 18:53:22.422 INFO   :[NETWORK]  (PlaybackNodeManager::setSyncProgressState) VistaPlaybackNode_1: Sync Progress State: AUX_ABOUT_TO_SYNC
+- 18:53:23.485 INFO   :[NETWORK]  (PlaybackNodeManager::resyncConnectedDpu) VistaPlaybackNode_1: Igoring newly connected node for now, as a show sync is already in progress
+- 18:53:23.875 INFO   :[NETWORK]  (PlaybackNodeManager::doDpuSync) VistaPlaybackNode_1: Received SHOW_SYNC
+- 18:53:23.875 INFO   :[NETWORK]  (PlaybackNodeManager::setSyncProgressState) VistaPlaybackNode_1: Sync Progress State: AUX_RECEIVED_SHOW_ABOUT_TO_DESERIALISE
+- 18:53:23.875 INFO   :[NETWORK]  (ShowManager::prepareForShowReplacement) VistaPlaybackNode_1: prepareForShowReplacement: Auxiliary
+- 18:53:23.875 INFO   :[NETWORK]  (ShowManager::prepareForShowReplacement) VistaPlaybackNode_1: Emitting disablePlayback()
+- 18:53:23.875 INFO   :[NETWORK]  (ShowManager::prepareForShowReplacement) VistaPlaybackNode_1: Emitting showAboutToLoad()
+- 18:53:23.875 INFO1  :[NETWORK]  (PlaybackNodeManager::showAboutToLoadSlot) VistaPlaybackNode_1: Emitting stateChangedSignal()
+- 18:53:23.063 INFO   : (Console::Console) serialised
+- 18:53:23.063 INFO   : (Console::Console) serialised
+- 18:53:23.063 INFO   : (Console::Console) serialised
+- 18:53:23.063 INFO   : (Console::Console) serialised
+- 18:53:23.078 INFO   : (Console::Console) serialised
+- 18:53:23.078 INFO   : (Console::Console) serialised
+- 18:53:23.094 INFO   : (ScopedTimeLogger::~ScopedTimeLogger) Serialise a show took 206 ms.
+- 18:53:23.094 INFO   : (Directory::getPath) UserFixtureLibrary path = C:\Vista 3/Fixtures
+- 18:53:23.094 INFO   : (Directory::getPath) UserFixtureArrangementLibrary path = C:\Vista 3/Fixtures/CustomArrangements
+- 18:53:23.094 INFO   :[NETWORK]  (PlaybackNodeManager::setSyncProgressState) VistaPlaybackNode_1: Sync Progress State: AUX_SHOW_DESERIALISED
+- 18:53:23.094 INFO   :[NETWORK]  (PlaybackNodeManager::dpuSyncAck) VistaPlaybackNode_1: Sending SHOW_SYNC_ACK from: bff8a762
+- 18:53:23.094 INFO   :[NETWORK]  (PlaybackNodeManager::setSyncProgressState) VistaPlaybackNode_1: Sync Progress State: AUX_SENDING_SYNC_ACKNOWLEDGEMENT
+- 18:53:23.094 INFO   :[NETWORK]  (PlaybackNodeManager::doDpuSyncAck) VistaPlaybackNode_1: Received SHOW_SYNC_ACK from: bff8a762
+- 18:53:23.094 WARNING:[NETWORK]  (PlaybackNodeManager::doDpuSyncAck) VistaPlaybackNode_1: Received SHOW_SYNC_ACK from unknown playback node: bff8a762
+- 18:53:23.094 INFO   :[NETWORK]  (PlaybackNodeManager::doDpuSyncAck) VistaPlaybackNode_1: Received SHOW_SYNC_ACK from: bff8a761
+- 18:53:23.094 WARNING:[NETWORK]  (PlaybackNodeManager::doDpuSyncAck) VistaPlaybackNode_1: Received SHOW_SYNC_ACK from unknown playback node: bff8a761
+- 18:53:28.860 INFO   :[NETWORK]  (PlaybackNodeManager::doDpuSyncComplete) VistaPlaybackNode_1: Received SHOW_SYNC_COMPLETE message from master
+- 18:53:28.860 INFO   :[NETWORK]  (PlaybackNodeManager::setSyncProgressState) VistaPlaybackNode_1: Sync Progress State: AUX_PERFORMING_POST_SYNC_TASKS
+- 18:53:28.860 INFO   :[NETWORK]  (ShowManager::performPostShowSynchronisationTasks) VistaPlaybackNode_1: Emitting initialisePlayback()
+- 18:53:28.860 INFO   :[NETWORK]  (ShowManager::performPostShowSynchronisationTasks) VistaPlaybackNode_1: Emitting showLoaded()
+- 18:53:28.860 INFO   :[NETWORK]  (ShowManager::performPostShowSynchronisationTasks) VistaPlaybackNode_1: Emitting showLoadedNotificationCompleted()
+- 18:53:28.860 INFO1  :[NETWORK]  (PlaybackNodeManager::showLoadedNotificationCompletedSlot) VistaPlaybackNode_1: Emitting stateChangedSignal()
+- 18:53:28.860 INFO   :[NETWORK]  (ShowManager::performPostShowSynchronisationTasks) VistaPlaybackNode_1: Emitting enablePlayback()
+- 18:53:28.860 INFO   : (logIntSet) PlaybackEngineCoordinator::setPlaybackUniverses: set contains 0 items: []
+- 18:53:28.860 INFO   :[NETWORK]  (PlaybackNodeManager::setSyncProgressState) VistaPlaybackNode_1: Sync Progress State: NO_SYNC_IN_PROGRESS
+- 18:53:28.907 WARNING: (EffectRateController::resetAllPhasesToZero) current playback time 00:00:00
+- 18:53:28.907 INFO   : (PlaybackEngine::doRefresh) New set of assigned fixtures follows:
+- 18:53:28.907 INFO   : (PlaybackEngine::doRefresh) PlaybackEngine: Elapsed time between refreshes was: 0ms
+- 18:53:28.985 INFO1  :[NETWORK]  (PlaybackNodeManager::checkTimeControllerFailover) VistaPlaybackNode_1: isSynchronised changed to: 1
+- 18:53:31.907 INFO   : (logIntSet) PlaybackEngineCoordinator::setPlaybackUniverses: set contains 1 items: [0]
+- 18:53:31.938 INFO   : (PlaybackEngine::doRefresh) New set of assigned fixtures follows:
+- 18:53:31.938 INFO   : (PlaybackEngine::doRefresh) id:1:IH140SR9
+- 18:53:31.938 INFO   : (PlaybackEngine::doRefresh) id:2:IH140SR9
+- 18:53:31.938 INFO   : (PlaybackEngine::doRefresh) id:3:IH140SR9
+- 18:53:31.938 INFO   : (PlaybackEngine::doRefresh) id:4:IH140SR9
+- 18:53:31.938 INFO   : (PlaybackEngine::doRefresh) id:5:UberPar 12
+- 18:53:31.938 INFO   : (PlaybackEngine::doRefresh) id:6:UberPar 12
+- 18:53:31.938 INFO   : (PlaybackEngine::doRefresh) id:7:UberPar 12
+- 18:53:31.938 INFO   : (PlaybackEngine::doRefresh) id:8:UberPar 12
+- 18:53:31.938 INFO   : (PlaybackEngine::doRefresh) id:9:UberPar 12
+- 18:53:31.938 INFO   : (PlaybackEngine::doRefresh) id:10:UberPar 12
+- 18:53:31.938 INFO   : (PlaybackEngine::doRefresh) id:11:UberPar 12
+- 18:53:31.938 INFO   : (PlaybackEngine::doRefresh) id:12:UberPar 12
+- 18:53:31.938 INFO   : (PlaybackEngine::doRefresh) id:13:UberPar 12
+- 18:53:31.938 INFO   : (PlaybackEngine::doRefresh) id:14:UberPar 12
+- 18:53:31.938 INFO   : (PlaybackEngine::doRefresh) id:29:WonderBar
+- 18:53:31.938 INFO   : (PlaybackEngine::doRefresh) id:30:WonderBar
+- 18:53:31.938 INFO   : (PlaybackEngine::doRefresh) id:31:SwritHPX
+- 18:53:31.938 INFO   : (PlaybackEngine::doRefresh) id:32:A360IEx
+- 18:53:31.938 INFO   : (PlaybackEngine::doRefresh) id:33:A360IEx
+- 18:53:31.938 INFO   : (PlaybackEngine::doRefresh) id:34:A360IEx
+- 18:53:31.938 INFO   : (PlaybackEngine::doRefresh) id:35:A360IEx
+- 18:53:31.938 INFO   : (PlaybackEngine::doRefresh) id:36:A360IEx
+- 18:53:31.938 INFO   : (PlaybackEngine::doRefresh) id:38.4:M-9 RGBAW
+- 18:53:31.938 INFO   : (PlaybackEngine::doRefresh) id:38.3:M-9 RGBAW
+- 18:53:31.938 INFO   : (PlaybackEngine::doRefresh) id:38.2:M-9 RGBAW
+- 18:53:31.938 INFO   : (PlaybackEngine::doRefresh) id:38.1:M-9 RGBAW
+- 18:53:31.938 INFO   : (PlaybackEngine::doRefresh) id:38:M-9 RGBAW
+- 18:53:31.938 INFO   : (PlaybackEngine::doRefresh) id:39:HZ-350
+- 18:53:31.422 INFO   : (PlaybackEngine::doRefresh) New set of assigned fixtures follows:
+- 18:53:31.422 INFO   : (PlaybackEngine::doRefresh) id:1:IH140SR9
+- 18:53:31.422 INFO   : (PlaybackEngine::doRefresh) id:2:IH140SR9
+- 18:53:31.422 INFO   : (PlaybackEngine::doRefresh) id:3:IH140SR9
+- 18:53:31.422 INFO   : (PlaybackEngine::doRefresh) id:4:IH140SR9
+- 18:53:31.422 INFO   : (PlaybackEngine::doRefresh) id:5:UberPar 12
+- 18:53:31.422 INFO   : (PlaybackEngine::doRefresh) id:6:UberPar 12
+- 18:53:31.422 INFO   : (PlaybackEngine::doRefresh) id:7:UberPar 12
+- 18:53:31.422 INFO   : (PlaybackEngine::doRefresh) id:8:UberPar 12
+- 18:53:31.422 INFO   : (PlaybackEngine::doRefresh) id:9:UberPar 12
+- 18:53:31.422 INFO   : (PlaybackEngine::doRefresh) id:10:UberPar 12
+- 18:53:31.422 INFO   : (PlaybackEngine::doRefresh) id:11:UberPar 12
+- 18:53:31.422 INFO   : (PlaybackEngine::doRefresh) id:12:UberPar 12
+- 18:53:31.422 INFO   : (PlaybackEngine::doRefresh) id:13:UberPar 12
+- 18:53:31.422 INFO   : (PlaybackEngine::doRefresh) id:14:UberPar 12
+- 18:53:31.422 INFO   : (PlaybackEngine::doRefresh) id:29:WonderBar
+- 18:53:31.422 INFO   : (PlaybackEngine::doRefresh) id:30:WonderBar
+- 18:53:31.422 INFO   : (PlaybackEngine::doRefresh) id:31:SwritHPX
+- 18:53:31.422 INFO   : (PlaybackEngine::doRefresh) id:32:A360IEx
+- 18:53:31.422 INFO   : (PlaybackEngine::doRefresh) id:33:A360IEx
+- 18:53:31.422 INFO   : (PlaybackEngine::doRefresh) id:34:A360IEx
+- 18:53:31.422 INFO   : (PlaybackEngine::doRefresh) id:35:A360IEx
+- 18:53:31.422 INFO   : (PlaybackEngine::doRefresh) id:36:A360IEx
+- 18:53:31.422 INFO   : (PlaybackEngine::doRefresh) id:38.4:M-9 RGBAW
+- 18:53:31.422 INFO   : (PlaybackEngine::doRefresh) id:38.3:M-9 RGBAW
+- 18:53:31.422 INFO   : (PlaybackEngine::doRefresh) id:38.2:M-9 RGBAW
+- 18:53:31.422 INFO   : (PlaybackEngine::doRefresh) id:38.1:M-9 RGBAW
+- 18:53:31.422 INFO   : (PlaybackEngine::doRefresh) id:38:M-9 RGBAW
+- 18:53:31.422 INFO   : (PlaybackEngine::doRefresh) id:39:HZ-350
+- 18:54:52.516 INFO1  :[Command]  (ShowCommandExecutor::doPush) Quick Picker Change (type b448efe)
+- 18:54:52.532 INFO1  :[Command]  (ShowCommandExecutor::doPush) Quick Picker Change (type b448efe)
+- 18:54:52.532 INFO1  :[Command]  (ShowCommandExecutor::doPush) Quick Picker Change (type b448efe)
+- 18:54:52.547 INFO1  :[Command]  (ShowCommandExecutor::doPush) Quick Picker Change (type b448efe)
+- 18:54:52.563 INFO1  :[Command]  (ShowCommandExecutor::doPush) Quick Picker Change (type b448efe)
+- 18:54:52.578 INFO1  :[Command]  (ShowCommandExecutor::doPush) Quick Picker Change (type b448efe)
+- 18:54:52.578 INFO1  :[Command]  (ShowCommandExecutor::doPush) Quick Picker Change (type b448efe)
+- 18:54:52.610 INFO1  :[Command]  (ShowCommandExecutor::doPush) Quick Picker Change (type b448efe)
+- 18:54:52.610 INFO1  :[Command]  (ShowCommandExecutor::doPush) Quick Picker Change (type b448efe)
+- 18:54:52.625 INFO1  :[Command]  (ShowCommandExecutor::doPush) Quick Picker Change (type b448efe)
 *** Message repeated at least 10 times, ignoring further repeats! ***
-- 22:26:33.906 INFO   :[Command]  (ShowCommandExecutor::doEndMacro) Clear (type 64)
-- 22:26:34.094 INFO1  :[Command]  (ShowCommandExecutor::doPush) Quick Picker Change (type b448efe)
-- 22:26:34.109 INFO1  :[Command]  (ShowCommandExecutor::doPush) Quick Picker Change (type b448efe)
-- 22:26:34.109 INFO1  :[Command]  (ShowCommandExecutor::doPush) Quick Picker Change (type b448efe)
-- 22:26:34.109 INFO1  :[Command]  (ShowCommandExecutor::doPush) Quick Picker Change (type b448efe)
-- 22:26:34.109 INFO1  :[Command]  (ShowCommandExecutor::doPush) Quick Picker Change (type b448efe)
-- 22:26:34.109 INFO1  :[Command]  (ShowCommandExecutor::doPush) Quick Picker Change (type b448efe)
-- 22:26:34.125 INFO1  :[Command]  (ShowCommandExecutor::doPush) Quick Picker Change (type b448efe)
-- 22:26:34.125 INFO1  :[Command]  (ShowCommandExecutor::doPush) Quick Picker Change (type b448efe)
-- 22:26:34.125 INFO1  :[Command]  (ShowCommandExecutor::doPush) Quick Picker Change (type b448efe)
-- 22:26:34.125 INFO1  :[Command]  (ShowCommandExecutor::doPush) Quick Picker Change (type b448efe)
-*** Message repeated at least 10 times, ignoring further repeats! ***
-- 22:26:51.312 INFO   :[Command]  (ShowCommandExecutor::doEndMacro) apply preset (type 64)
-- 22:26:53.031 INFO   :[Command]  (ShowCommandExecutor::doEndMacro) apply preset (type 64)
-- 22:26:54.141 INFO   :[Command]  (ShowCommandExecutor::doEndMacro) apply preset (type 64)
-- 22:26:55.984 INFO   :[Command]  (ShowCommandExecutor::doEndMacro) apply preset (type 64)
-- 22:27:04.812 INFO   :[Command]  (ShowCommandExecutor::doEndMacro) apply preset (type 64)
-- 22:27:05.547 INFO   :[Command]  (ShowCommandExecutor::doEndMacro) apply preset (type 64)
-- 22:27:05.094 INFO   :[Command]  (ShowCommandExecutor::doEndMacro) apply preset (type 64)
-- 22:28:31.437 INFO   : (ClipPlayerManager::logPlaybackState) 19:Smoke [cue 0,0ms,Playing]
-- 22:29:46.437 INFO   : (ClipPlayerManager::logPlaybackState) 19:Smoke [cue 0,0ms,Playing]
-- 22:31:01.500 INFO   : (ClipPlayerManager::logPlaybackState) 19:Smoke [cue 0,0ms,Playing]
-- 22:31:52.641 INFO   : (CuePlayer::playMacro) Playing macro -> Release
-- 22:31:52.641 INFO   : (CuePlayer::playMacro) Playing macro -> Release
-- 22:31:52.641 INFO   : (CuePlayer::playMacro) Playing macro -> Release
-- 22:31:52.641 INFO   : (CuePlayer::playMacro) Playing macro -> Release
-- 22:31:52.641 INFO   : (CuePlayer::playMacro) Playing macro -> Release
-- 22:31:52.641 INFO   : (CuePlayer::playMacro) Playing macro -> Release
-- 22:31:52.656 INFO   : (CuePlayer::playMacro) Playing macro -> Release
-- 22:31:52.656 INFO   : (CuePlayer::playMacro) Playing macro -> Release
-- 22:31:52.656 INFO   : (CuePlayer::playMacro) Playing macro -> Release
-- 22:31:52.656 INFO   : (CuePlayer::playMacro) Playing macro -> Release
-*** Message repeated at least 10 times, ignoring further repeats! ***
-- 22:32:16.500 INFO   : (ClipPlayerManager::logPlaybackState) 19:Smoke [cue 0,0ms,Playing]
-- 22:33:31.500 INFO   : (ClipPlayerManager::logPlaybackState) 19:Smoke [cue 0,0ms,Playing]
-- 22:34:46.500 INFO   : (ClipPlayerManager::logPlaybackState) 19:Smoke [cue 0,0ms,Playing]
-- 22:36:01.500 INFO   : (ClipPlayerManager::logPlaybackState) 19:Smoke [cue 0,0ms,Playing]
-- 22:37:16.500 INFO   : (ClipPlayerManager::logPlaybackState) 19:Smoke [cue 0,0ms,Playing]
-- 22:38:31.500 INFO   : (ClipPlayerManager::logPlaybackState) 19:Smoke [cue 0,0ms,Playing]
-- 22:39:46.500 INFO   : (ClipPlayerManager::logPlaybackState) 19:Smoke [cue 0,0ms,Playing]
-*** Message repeated at least 10 times, ignoring further repeats! ***
-- 23:21:29.594 INFO   : (PlaybackEngine::doRefresh) PlaybackEngine: Elapsed time between refreshes was: 1000ms
-- 23:21:30.828 INFO1  :[NETWORK]  (PlaybackNodeManager::checkTimeControllerFailover) VistaPlaybackNode_1: Playback failover state changed to: 1
-- 23:21:31.312 INFO   : (PlaybackEngine::doRefresh) PlaybackEngine: Elapsed time between refreshes was: 2956ms
-- 23:21:31.766 INFO1  :[NETWORK]  (PlaybackNodeManager::checkTimeControllerFailover) VistaPlaybackNode_1: Playback failover state changed to: 0
-- 23:21:51.562 INFO1  :[NETWORK]  (PlaybackNodeManager::checkTimeControllerFailover) VistaPlaybackNode_1: Playback failover state changed to: 1
-- 23:21:52.250 INFO   : (PlaybackEngine::doRefresh) PlaybackEngine: Elapsed time between refreshes was: 1003ms
-- 23:21:52.562 INFO1  :[NETWORK]  (PlaybackNodeManager::checkTimeControllerFailover) VistaPlaybackNode_1: Playback failover state changed to: 0
-- 23:22:26.391 INFO   : (ClipPlayerManager::logPlaybackState) 19:Smoke [cue 0,0ms,Playing]
-- 23:23:41.391 INFO   : (ClipPlayerManager::logPlaybackState) 19:Smoke [cue 0,0ms,Playing]
-- 23:24:56.391 INFO   : (ClipPlayerManager::logPlaybackState) 19:Smoke [cue 0,0ms,Playing]
-- 23:26:11.391 INFO   : (ClipPlayerManager::logPlaybackState) 19:Smoke [cue 0,0ms,Playing]
-- 23:27:26.391 INFO   : (ClipPlayerManager::logPlaybackState) 19:Smoke [cue 0,0ms,Playing]
-- 23:28:41.844 INFO   : (ClipPlayerManager::logPlaybackState) 19:Smoke [cue 0,0ms,Playing]
-- 23:29:56.844 INFO   : (ClipPlayerManager::logPlaybackState) 19:Smoke [cue 0,0ms,Playing]
-- 23:31:11.891 INFO   : (ClipPlayerManager::logPlaybackState) 19:Smoke [cue 0,0ms,Playing]
-- 23:32:26.891 INFO   : (ClipPlayerManager::logPlaybackState) 19:Smoke [cue 0,0ms,Playing]
-- 23:33:41.891 INFO   : (ClipPlayerManager::logPlaybackState) 19:Smoke [cue 0,0ms,Playing]
-*** Message repeated at least 10 times, ignoring further repeats! ***
-- 23:51:25.516 INFO   : (CuePlayer::playMacro) Playing macro -> Release
-- 23:51:25.516 INFO   : (CuePlayer::playMacro) Playing macro -> Release
-- 23:51:25.516 INFO   : (CuePlayer::playMacro) Playing macro -> Release
-- 23:51:25.516 INFO   : (CuePlayer::playMacro) Playing macro -> Release
-- 23:51:25.531 INFO   : (CuePlayer::playMacro) Playing macro -> Release
-- 23:51:25.531 INFO   : (CuePlayer::playMacro) Playing macro -> Release
-- 23:51:25.578 INFO   : (CuePlayer::playMacro) Playing macro -> Release
-- 23:51:25.578 INFO   : (CuePlayer::playMacro) Playing macro -> Release
-- 23:51:25.578 INFO   : (CuePlayer::playMacro) Playing macro -> Release
-- 23:51:25.578 INFO   : (CuePlayer::playMacro) Playing macro -> Release
-*** Message repeated at least 10 times, ignoring further repeats! ***
-- 23:51:29.312 INFO   :[Command]  (ShowCommandExecutor::doEndMacro) Clear (type 64)
-- 23:52:26.891 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 0,4000ms,Playing]
-- 23:53:41.891 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 2,1000ms,Playing]
-- 23:54:56.891 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 3,0ms,Playing]
-- 23:56:11.891 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 4,2000ms,Playing]
-- 23:57:26.891 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 7,2000ms,Playing]
-- 23:58:41.891 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 0,4000ms,Playing]
-- 23:59:56.891 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 1,4000ms,Playing]
-- 00:01:11.891 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 2,1000ms,Playing]
-- 00:02:26.891 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 4,1606ms,Playing]
-- 00:03:01.453 INFO   : (CuePlayer::playMacro) Playing macro -> Jump, Cue - step: 0
-- 00:03:01.453 INFO   : (PlaybackFunctions::jumpToStep) 34 AllColor MasterFX QList [cue 0,0ms,Released]0
-- 00:03:01.453 INFO   : (PlaybackFunctions::jumpToStep) 34 AllColor MasterFX QList [cue 0,0ms,Playing][at exit]
-- 00:03:01.469 INFO   : (CuePlayer::playMacro) Playing macro -> Jump, Cue - step: 0
-- 00:03:01.469 INFO   : (PlaybackFunctions::jumpToStep) 34 AllColor MasterFX QList [cue 0,0ms,Playing]0
-- 00:03:01.469 INFO   : (PlaybackFunctions::jumpToStep) 34 AllColor MasterFX QList [cue 0,0ms,Playing][at exit]
-- 00:03:03.703 INFO   : (CuePlayer::playMacro) Playing macro -> Release
-- 00:03:03.703 INFO   : (PlaybackFunctions::release) 34 AllColor MasterFX QList [cue 0,0ms,Playing]0
-- 00:03:03.703 INFO   : (PlaybackFunctions::release) 34 AllColor MasterFX QList [cue 0,0ms,Releasing][at exit]
-- 00:03:03.703 INFO   : (CuePlayer::playMacro) Playing macro -> Release
-- 00:03:03.703 INFO   : (PlaybackFunctions::release) 34 AllColor MasterFX QList [cue 0,0ms,Releasing]0
-- 00:03:03.703 INFO   : (PlaybackFunctions::release) 34 AllColor MasterFX QList [cue 0,0ms,Released][at exit]
-- 00:03:41.891 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 6,2000ms,Playing]
-- 00:04:56.891 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 7,2000ms,Playing]
-- 00:06:11.891 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 1,4000ms,Playing]
-- 00:07:26.891 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 2,1000ms,Playing]
-- 00:08:41.906 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 3,0ms,Playing]
-- 00:09:56.906 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 5,2000ms,Playing]
-- 00:11:11.906 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 7,2000ms,Playing]
-- 00:12:26.906 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 0,4000ms,Playing]
-- 00:13:41.906 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 1,4000ms,Playing]
-- 00:14:56.906 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 2,1000ms,Playing]
-- 00:16:11.906 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 4,2000ms,Playing]
-- 00:17:26.906 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 6,2000ms,Playing]
-- 00:18:41.906 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 0,4000ms,Playing]
-- 00:19:56.906 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 1,4000ms,Playing]
-- 00:21:11.906 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 2,1000ms,Playing]
-- 00:22:26.906 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 3,0ms,Playing]
-- 00:23:41.906 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 5,2000ms,Playing]
-- 00:24:56.906 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 7,2000ms,Playing]
-- 00:26:11.906 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 0,4000ms,Playing]
-- 00:27:26.906 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 2,682ms,Playing]
-- 00:28:41.906 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 3,0ms,Playing]
-- 00:29:56.906 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 4,2000ms,Playing]
-- 00:31:11.906 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 7,2000ms,Playing]
-- 00:32:26.906 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 0,4000ms,Playing]
-- 00:33:41.906 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 1,4000ms,Playing]
-- 00:34:56.906 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 2,1000ms,Playing]
-- 00:36:11.906 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 3,0ms,Playing]
-- 00:37:26.906 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 6,2000ms,Playing]
-- 00:38:41.906 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 7,2000ms,Playing]
-- 00:39:56.906 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 1,4000ms,Playing]
-- 00:41:12.578 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 2,1000ms,Playing]
-- 00:42:27.578 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 3,0ms,Playing]
-- 00:43:42.578 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 5,2000ms,Playing]
-- 00:44:57.578 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 7,2000ms,Playing]
-- 00:46:12.578 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 0,4000ms,Playing]
-- 00:47:27.578 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 1,4000ms,Playing]
-- 00:48:42.578 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 3,0ms,Playing]
-- 00:49:57.578 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 4,2000ms,Playing]
-- 00:51:12.578 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 6,2000ms,Playing]
-- 00:52:27.578 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 0,4000ms,Playing]
-- 00:53:42.578 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 1,4000ms,Playing]
-- 00:54:57.578 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 2,1000ms,Playing]
-- 00:56:12.125 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 3,0ms,Playing]
-- 00:57:27.125 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 5,2000ms,Playing]
-- 00:58:42.125 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 7,2000ms,Playing]
-- 00:59:57.125 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 0,4000ms,Playing]
-- 01:01:12.125 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 2,1000ms,Playing]
-- 01:02:27.125 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 3,0ms,Playing]
-- 01:03:42.125 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 4,2000ms,Playing]
-- 01:04:57.125 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 7,2000ms,Playing]
-- 01:06:12.125 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 0,4000ms,Playing]
-- 01:07:27.125 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 1,4000ms,Playing]
-- 01:08:42.125 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 2,1000ms,Playing]
-- 01:09:57.125 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 4,926ms,Playing]
-- 01:11:12.125 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 6,2000ms,Playing]
-- 01:12:27.125 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 7,2000ms,Playing]
-- 01:13:42.125 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 1,4000ms,Playing]
-- 01:14:57.125 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 2,1000ms,Playing]
-- 01:16:12.125 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 3,0ms,Playing]
-- 01:17:27.125 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 5,2000ms,Playing]
-- 01:18:42.125 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 7,2000ms,Playing]
-- 01:19:57.125 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 0,4000ms,Playing]
-- 01:21:12.125 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 1,4000ms,Playing]
-- 01:22:27.125 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 3,0ms,Playing]
-- 01:23:42.125 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 4,2000ms,Playing]
-- 01:24:57.125 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 6,2000ms,Playing]
-- 01:26:12.125 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 0,4000ms,Playing]
-- 01:27:27.125 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 1,4000ms,Playing]
-- 01:28:42.125 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 2,1000ms,Playing]
-- 01:29:57.125 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 3,0ms,Playing]
-- 01:31:12.125 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 5,2000ms,Playing]
-- 01:32:27.125 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 7,2000ms,Playing]
-- 01:33:42.125 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 0,4000ms,Playing]
-- 01:34:57.125 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 2,1000ms,Playing]
-- 01:36:12.125 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 3,0ms,Playing]
-- 01:37:27.125 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 4,2000ms,Playing]
-- 01:38:42.125 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 7,2000ms,Playing]
-- 01:39:57.125 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 0,4000ms,Playing]
-- 01:41:12.125 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 1,4000ms,Playing]
-- 01:42:27.125 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 2,1000ms,Playing]
-- 01:43:42.125 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 4,917ms,Playing]
-- 01:44:57.125 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 6,2000ms,Playing]
-- 01:46:12.125 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 7,2000ms,Playing]
-- 01:47:27.125 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 1,4000ms,Playing]
-- 01:48:42.125 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 2,1000ms,Playing]
-- 01:49:57.125 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 3,0ms,Playing]
-- 01:51:12.125 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 5,2000ms,Playing]
-- 01:52:27.125 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 7,2000ms,Playing]
-- 01:53:42.125 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 0,4000ms,Playing]
-- 01:54:57.125 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 1,4000ms,Playing]
-- 01:56:12.125 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 3,0ms,Playing]
-- 01:57:28.656 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 4,2000ms,Playing]
-- 01:58:43.656 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 6,2000ms,Playing]
-- 01:59:58.656 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 0,4000ms,Playing]
-- 02:01:13.656 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 1,4000ms,Playing]
-- 02:02:28.656 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 2,1000ms,Playing]
-- 02:03:43.656 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 3,0ms,Playing]
-- 02:04:58.656 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 5,2000ms,Playing]
-- 02:06:13.656 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 7,2000ms,Playing]
-- 02:07:28.656 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 0,4000ms,Playing]
-- 02:08:43.656 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 2,1000ms,Playing]
-- 02:09:58.656 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 3,0ms,Playing]
-- 02:11:13.656 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 4,2000ms,Playing]
-- 02:12:28.656 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 7,2000ms,Playing]
-- 02:13:43.656 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 0,4000ms,Playing]
-- 02:14:58.656 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 1,4000ms,Playing]
-- 02:16:13.656 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 2,1000ms,Playing]
-- 02:17:28.656 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 4,1457ms,Playing]
-- 02:18:43.656 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 6,2000ms,Playing]
-- 02:19:58.656 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 7,2000ms,Playing]
-- 02:21:13.656 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 1,4000ms,Playing]
-- 02:22:28.656 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 2,1000ms,Playing]
-- 02:23:43.656 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 3,0ms,Playing]
-- 02:24:58.656 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 5,2000ms,Playing]
-- 02:26:13.656 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 7,2000ms,Playing]
-- 02:27:28.656 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 0,4000ms,Playing]
-- 02:28:43.656 INFO   : (ClipPlayerManager::logPlaybackState) 51:Default A [cue 1,4000ms,Playing]
-- 02:29:00.406 INFO   :[NETWORK]  (PlaybackNodeManager::doShowSavedOnMain) VistaPlaybackNode_1: Received SHOW_SAVED_ON_MAIN message from master
-- 02:29:07.906 INFO1  :[NETWORK]  (PlaybackNodeManager::checkTimeControllerFailover) VistaPlaybackNode_1: Playback failover state changed to: 1
+- 18:57:01.047 INFO   :[NETWORK]  (PlaybackNodeManager::doShowSavedOnMain) VistaPlaybackNode_1: Received SHOW_SAVED_ON_MAIN message from master
+- 18:57:18.235 WARNING:[NETWORK]  (BoostTcpNetwork::outputNetworkError ##269fe18) VistaPlaybackNode_1: A socket error has occurred.. local: 127.0.0.1:50180, remote: 127.0.0.1:22125 - An existing connection was forcibly closed by the remote host
+- 18:57:18.235 INFO2  :[NETWORK]  (BoostTcpNetwork::removeConnection ##269fe18) VistaPlaybackNode_1: (-)Connection removed
+- 18:57:18.235 INFO   :[NETWORK]  (BoostTcpConnection::close ##269fe18) VistaPlaybackNode_1: Connection closed.. local: 127.0.0.1:50180, remote: 127.0.0.1:22125
+- 18:57:18.235 INFO   :[NETWORK]  (BoostTcpConnection::close ##269fe18) VistaPlaybackNode_1: Connection closed.. local: 127.0.0.1:50180, remote: 127.0.0.1:22125
