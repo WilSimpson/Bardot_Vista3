@@ -29,11 +29,11 @@ Name7=Mode: Preset Busking Right
 Name8=Mode: Off
 Name9=GLOBAL: Intensity 0
 Options0=Actv01Stop00OutO01StMa0025If enabled disalbe set ge=0 else ge=1000Eif(ge==0)goto000BSet Enabledgoto000CSet Disabledlabel0006__cmt>label000BSet Enabledge=1oo=126goto0003Endlabel0006__cmt>label000CSet Disabledge=0oo=1goto0003Endlabel0006__cmt>label0003End
-Options1=Actv01Stop00OutO00StMa0013User 1 or 2 pressed0020if(ge==0)noexecuteif(oo==106)goto0004Leftlabel0024__cmt>//if oo==107 then Goto "Right"if(oo==108)goto0007Sessionif(oo==109)goto0006User 1if(oo==110)goto0006User 2noexecutelabel0006__cmt>label0004Leftpp=123goto0003Endlabel0006__cmt>label0005Rightpp=124goto0003Endlabel0006__cmt>label0007Sessionlabel001D__cmt>// Go to one shots modepp=125goto0003Endlabel0006__cmt>label0006User 1label0028__cmt>// Go to mode FX Busking (default)pp=127goto0003Endlabel0006__cmt>label0006User 2label0021__cmt>// Go to mode Auto Cuelistspp=126goto0003Endlabel0006__cmt>label0003End
+Options1=Actv01Stop00OutO00StMa0013User 1 or 2 pressed0022if(ge==0)noexecutelabel0023__cmt>//if oo==106 then Goto "Left"label0024__cmt>//if oo==107 then Goto "Right"label0026__cmt>//if oo==108 then Goto "Session"if(oo==109)goto0006User 1if(oo==110)goto0006User 2noexecutelabel0006__cmt>label0004Leftpp=123goto0003Endlabel0006__cmt>label0005Rightpp=124goto0003Endlabel0006__cmt>label0007Sessionlabel001D__cmt>// Go to one shots modepp=125goto0003Endlabel0006__cmt>label0006User 1label0028__cmt>// Go to mode FX Busking (default)pp=127label0017__cmt>// Go to live mixpp=123goto0003Endlabel0006__cmt>label0006User 2label0021__cmt>// Go to mode Auto Cuelistspp=126goto0003Endlabel0006__cmt>label0003End
 Options10=Actv01Stop00OutO00
-Options2=Actv01Stop00OutO01StMa000BSet GE to 10001ge=1
+Options2=Actv00Stop00OutO01StMa000BSet GE to 10001ge=1
 Options3=Actv01Stop00OutO01StMa000BSet GE to 10001ge=2
-Options4=Actv01Stop00OutO01StMa000BSet GE to 10001ge=3
+Options4=Actv00Stop00OutO01StMa000BSet GE to 10001ge=3
 Options5=Actv01Stop00OutO01StMa000BSet GE to 10001ge=30
 Options6=Actv00Stop00OutO01StMa000BSet GE to 10001ge=4
 Options7=Actv00Stop00OutO01StMa000BSet GE to 10001ge=4
@@ -43,9 +43,9 @@ Outgoing0=MID3<Outgoing Action="MIDI"><Ports><Port>loopMIDI Port</Port></Ports><
 Outgoing1=MID3<Outgoing Action="MIDI"><Ports><Port>loopMIDI Port</Port></Ports><Simple Type="ControlChange"><Channel num="0"/><Value1 num="0x00"/><Value2 var="pp"/></Simple></Outgoing>
 Outgoing10=MID1MIDD000BRelease allF07F0102010AF7
 Outgoing2=MID3<Outgoing Action="MIDI"><Ports><Port>Launchpad S</Port></Ports><Raw>B0 00 00&#10;B0 00 01&#10;&#10;B0 68 0F&#10;B0 69 0E&#10;B0 6A 7B&#10;B0 6C 7B&#10;B0 6D 3C&#10;B0 6E 7B&#10;&#10;90 00 2C&#10;90 01 2C&#10;90 02 2C&#10;90 07 3C&#10;90 08 0D&#10;&#10;90 10 2C&#10;90 11 2C&#10;90 12 2C&#10;90 17 3C&#10;90 18 0D&#10;&#10;90 20 2C&#10;90 21 2C&#10;90 22 2C&#10;90 23 2C&#10;90 27 3C&#10;90 28 0D&#10;&#10;90 30 7B&#10;90 31 7B&#10;90 32 7B&#10;90 33 7B&#10;90 38 0D&#10;&#10;90 40 7B&#10;90 41 7B&#10;90 48 0D&#10;&#10;90 50 2C&#10;90 51 2C&#10;90 52 2C&#10;90 53 2C&#10;90 54 2C&#10;90 55 2C&#10;90 56 2C&#10;90 58 0D&#10;&#10;90 60 2C&#10;90 61 2C&#10;90 62 2C&#10;90 68 0D&#10;&#10;90 70 7B&#10;90 71 7B&#10;90 72 7B&#10;90 73 7B&#10;90 77 0E&#10;&#10;90 78 0F</Raw></Outgoing>
-Outgoing3=MID3<Outgoing Action="MIDI"><Description>Clear colors. Set to X-Y mode.Set all to keys brighest.</Description><Ports><Port>Launchpad S</Port></Ports><Raw>B0 00 00&#10;B0 00 01&#10;&#10;&#10;B0 68 0F&#10;B0 69 0E&#10;B0 6A 7B&#10;B0 6C 7B&#10;B0 6D 7B&#10;B0 6E 3C&#10;&#10;90 00 2C&#10;90 01 2C&#10;90 02 2C&#10;90 03 2C&#10;90 04 2C&#10;90 05 2C&#10;90 06 2C&#10;90 07 2C&#10;90 08 7D&#10;&#10;90 40 2F&#10;90 41 2F&#10;90 42 2F&#10;90 48 7D&#10;&#10;90 70 6D&#10;90 71 6D&#10;&#10;90 78 0F</Raw></Outgoing>
+Outgoing3=MID3<Outgoing Action="MIDI"><Description>Clear colors. Set to X-Y mode.Set all to keys brighest.</Description><Ports><Port>Launchpad S</Port></Ports><Raw>B0 00 00&#10;B0 00 01&#10;&#10;&#10;B0 68 0F&#10;B0 69 0E&#10;B0 6D 7B&#10;B0 6E 3C&#10;&#10;90 00 2C&#10;90 01 2C&#10;90 02 2C&#10;90 03 2C&#10;90 04 2C&#10;90 05 2C&#10;90 06 2C&#10;90 07 2C&#10;90 08 7D&#10;&#10;90 60 5E&#10;90 61 5E&#10;90 62 5E&#10;90 63 5E&#10;90 68 0E&#10;&#10;90 70 6D&#10;90 71 6D&#10;90 78 0F</Raw></Outgoing>
 Outgoing4=MID3<Outgoing Action="MIDI"><Description>Clear colors. Set to X-Y mode.Set all to keys brighest.</Description><Ports><Port>Launchpad S</Port></Ports><Raw>B0 00 00&#10;B0 00 01&#10;&#10;B0 68 0F&#10;B0 69 0E&#10;B0 6A 7B&#10;B0 6C 3C&#10;B0 6D 7B&#10;B0 6E 7B&#10;&#10;90 00 2C&#10;90 01 2C&#10;&#10;90 10 5B&#10;90 11 5B&#10;90 12 5B&#10;90 13 5B&#10;&#10;90 20 2C&#10;90 21 2C&#10;90 22 2C&#10;&#10;90 40 7B&#10;90 41 7B&#10;90 42 7B&#10;90 47 6B&#10;&#10;90 50 5B&#10;90 51 5B&#10;&#10;90 70 2C&#10;90 71 2C&#10;90 77 2C&#10;&#10;90 78 0F</Raw></Outgoing>
-Outgoing5=MID3<Outgoing Action="MIDI"><Description>Clear colors. Set to X-Y mode.Set all to keys brighest.</Description><Ports><Port>Launchpad S</Port></Ports><Raw>B0 00 00&#10;B0 00 01&#10;&#10;B0 68 0F&#10;B0 69 0E&#10;B0 6A 3C&#10;B0 6C 7B&#10;B0 6D 7B&#10;B0 6E 7B&#10;&#10;90 00 2C&#10;90 01 2C&#10;90 05 2C&#10;90 06 2C&#10;90 07 2C&#10;90 08 0E&#10;&#10;90 10 5B&#10;90 11 5B&#10;90 12 5B&#10;90 13 5B&#10;90 15 2C&#10;90 16 2C&#10;90 17 2C&#10;90 18 0E&#10;&#10;90 20 2C&#10;90 21 2C&#10;90 22 2C&#10;90 24 2C&#10;90 25 2C&#10;90 26 2C&#10;90 27 2C&#10;90 28 0E&#10;&#10;90 30 6B&#10;90 34 7B&#10;90 35 7B&#10;90 36 7B&#10;90 37 7B&#10;90 38 0E&#10;&#10;90 40 7B&#10;90 41 7B&#10;90 42 7B&#10;90 46 7B&#10;90 47 7B&#10;90 48 0E&#10;&#10;90 50 5B&#10;90 51 5B&#10;90 55 2C&#10;90 56 2C&#10;90 57 2C&#10;90 58 0E&#10;&#10;90 60 2C&#10;90 65 2C&#10;90 66 2C&#10;90 67 2C&#10;90 68 0E&#10;&#10;90 70 2C&#10;90 71 2C&#10;90 77 7B&#10;&#10;90 78 0F</Raw></Outgoing>
+Outgoing5=MID3<Outgoing Action="MIDI"><Description>Clear colors. Set to X-Y mode.Set all to keys brighest.</Description><Ports><Port>Launchpad S</Port></Ports><Raw>B0 00 00&#10;B0 00 01&#10;&#10;B0 68 0F&#10;B0 69 0E&#10;B0 6D 3C&#10;B0 6E 7B&#10;&#10;90 00 2C&#10;90 01 2C&#10;90 05 2C&#10;90 06 2C&#10;90 07 2C&#10;90 08 0E&#10;&#10;90 10 5B&#10;90 11 5B&#10;90 12 5B&#10;90 13 5B&#10;90 15 2C&#10;90 16 2C&#10;90 17 2C&#10;90 18 0E&#10;&#10;90 20 2C&#10;90 21 2C&#10;90 22 2C&#10;90 24 2C&#10;90 25 2C&#10;90 26 2C&#10;90 27 2C&#10;90 28 0E&#10;&#10;90 30 6B&#10;90 34 7B&#10;90 35 7B&#10;90 36 7B&#10;90 37 7B&#10;90 38 0E&#10;&#10;90 40 7B&#10;90 41 7B&#10;90 42 7B&#10;90 46 7B&#10;90 47 7B&#10;90 48 0E&#10;&#10;90 50 5B&#10;90 51 5B&#10;90 55 2C&#10;90 56 2C&#10;90 57 2C&#10;90 58 0E&#10;&#10;90 60 2C&#10;90 65 2C&#10;90 66 2C&#10;90 67 2C&#10;90 68 0E&#10;&#10;90 70 2C&#10;90 71 2C&#10;90 77 7B&#10;90 78 0F</Raw></Outgoing>
 Outgoing6=MID3<Outgoing Action="MIDI"><Description>Clear colors. Set to X-Y mode.Set all to keys brighest.</Description><Ports><Port>Launchpad S</Port></Ports><Raw>B0 00 00&#10;B0 00 01&#10;&#10;B0 68 0F&#10;B0 69 0E&#10;B0 6A 3C&#10;B0 6B 7B&#10;B0 6C 7B&#10;B0 6D 7B&#10;B0 6E 7B&#10;&#10;90 00 2C&#10;90 01 2C&#10;90 02 2C&#10;90 04 2C&#10;90 05 2C&#10;90 06 2C&#10;90 08 2C&#10;&#10;90 10 1D&#10;90 11 1D&#10;90 12 1D&#10;90 15 3F&#10;90 18 2F&#10;&#10;90 20 1D&#10;90 21 1D&#10;90 22 1D&#10;90 23 1D&#10;90 25 3F&#10;90 28 2F&#10;&#10;90 30 2C&#10;90 31 2C&#10;90 32 2C&#10;90 33 2C&#10;90 34 2C&#10;90 35 2C&#10;90 36 2C&#10;90 37 2C&#10;90 38 2C&#10;&#10;90 44 3F&#10;90 45 3E&#10;90 46 3D&#10;90 47 3C&#10;90 48 0D&#10;&#10;90 54 3F&#10;90 55 3E&#10;90 56 3D&#10;90 57 3C&#10;90 58 0D&#10;&#10;90 60 1C&#10;90 61 1C&#10;90 62 1D&#10;90 63 1D&#10;90 64 1E&#10;90 65 1E&#10;90 66 1F&#10;90 67 1F&#10;90 68 0D&#10;&#10;90 78 0F</Raw></Outgoing>
 Outgoing7=MID3<Outgoing Action="MIDI"><Description>Clear colors. Set to X-Y mode.Set all to keys brighest.</Description><Ports><Port>Launchpad S</Port></Ports><Raw>B0 00 00&#10;B0 00 01&#10;&#10;B0 68 0F&#10;B0 69 0E&#10;B0 6A 7B&#10;B0 6B 3C&#10;B0 6C 7B&#10;B0 6D 7B&#10;B0 6E 7B&#10;&#10;90 00 2C&#10;90 01 2C&#10;90 02 2C&#10;90 03 2C&#10;90 04 2C&#10;90 05 2C&#10;90 06 2C&#10;90 07 2C&#10;90 08 2C&#10;&#10;90 78 0F</Raw></Outgoing>
 Outgoing8=MID2MIDA0001000BLaunchpad SB00000
@@ -53,7 +53,7 @@ Outgoing9=MID1MIDD0019Global intensity 0 or 100F07F010201ooF7
 PresetSwitchIgnore=0
 
 [Preset.1]
-Active=1
+Active=0
 Comments=
 Incoming0=MID3<Incoming Action="MIDI"><Description>Down 0x68</Description><Simple Type="NoteOn"><Channel num="0"/><Value1 num="0x78"/><Value2 num="0x7F"/></Simple></Incoming>
 Incoming1=MID3<Incoming Action="MIDI"><Description>Down 0x00</Description><Simple Type="NoteOn"><Channel num="0"/><Value1 num="0x00"/><Value2 num="0x7F"/></Simple></Incoming>
@@ -227,7 +227,7 @@ Outgoing9=MID3<Outgoing Action="MIDI"><Raw>F0 7F 01 02 01 1B 31 32 F7&#10;F0 7F 
 PresetSwitchIgnore=0
 
 [Preset.2]
-Active=1
+Active=0
 Comments=
 Incoming0=MID3<Incoming Action="MIDI"><Simple Type="NoteOn"><Channel num="0"/><Value1 num="0x78"/><Value2 num="0x7F"/></Simple></Incoming>
 Incoming1=MID3<Incoming Action="MIDI"><Simple Type="NoteOn"><Channel num="0"/><Value1 num="0x00"/><Value2 num="0x7F"/></Simple></Incoming>
@@ -349,13 +349,21 @@ Active=1
 Comments=
 Incoming0=MID3<Incoming Action="MIDI"><Simple Type="NoteOn"><Channel num="0"/><Value1 num="0x78"/><Value2 num="0x00" Type="Any"/></Simple></Incoming>
 Incoming1=MID3<Incoming Action="MIDI"><Simple Type="NoteOn"><Channel num="0"/><Value1 num="0x00"/><Value2 num="0x00" Type="Any"/></Simple></Incoming>
-Incoming10=MID3<Incoming Action="MIDI"><Simple Type="NoteOn"><Channel num="0"/><Value1 num="0x40"/><Value2 num="0x00" Type="Any"/></Simple></Incoming>
-Incoming11=MID3<Incoming Action="MIDI"><Simple Type="NoteOn"><Channel num="0"/><Value1 num="0x41"/><Value2 num="0x00" Type="Any"/></Simple></Incoming>
-Incoming12=MID3<Incoming Action="MIDI"><Simple Type="NoteOn"><Channel num="0"/><Value1 num="0x42"/><Value2 num="0x00" Type="Any"/></Simple></Incoming>
-Incoming13=MID3<Incoming Action="MIDI"><Simple Type="NoteOn"><Channel num="0"/><Value1 num="0x48"/><Value2 num="0x00" Type="Any"/></Simple></Incoming>
-Incoming14=MID3<Incoming Action="MIDI"><Simple Type="NoteOn"><Channel num="0"/><Value1 num="0x70"/><Value2 num="0x00" Type="Any"/></Simple></Incoming>
-Incoming15=MID3<Incoming Action="MIDI"><Simple Type="NoteOn"><Channel num="0"/><Value1 num="0x71"/><Value2 num="0x00" Type="Any"/></Simple></Incoming>
+Incoming10=None
+Incoming11=MID3<Incoming Action="MIDI"><Simple Type="NoteOn"><Channel num="0"/><Value1 num="0x40"/><Value2 num="0x00" Type="Any"/></Simple></Incoming>
+Incoming12=MID3<Incoming Action="MIDI"><Simple Type="NoteOn"><Channel num="0"/><Value1 num="0x41"/><Value2 num="0x00" Type="Any"/></Simple></Incoming>
+Incoming13=MID3<Incoming Action="MIDI"><Simple Type="NoteOn"><Channel num="0"/><Value1 num="0x42"/><Value2 num="0x00" Type="Any"/></Simple></Incoming>
+Incoming14=MID3<Incoming Action="MIDI"><Simple Type="NoteOn"><Channel num="0"/><Value1 num="0x48"/><Value2 num="0x00" Type="Any"/></Simple></Incoming>
+Incoming15=None
+Incoming16=MID3<Incoming Action="MIDI"><Simple Type="NoteOn"><Channel num="0"/><Value1 num="0x70"/><Value2 num="0x00" Type="Any"/></Simple></Incoming>
+Incoming17=MID3<Incoming Action="MIDI"><Simple Type="NoteOn"><Channel num="0"/><Value1 num="0x71"/><Value2 num="0x00" Type="Any"/></Simple></Incoming>
+Incoming18=None
+Incoming19=MID3<Incoming Action="MIDI"><Description>Down 0x60</Description><Simple Type="NoteOn"><Channel num="0"/><Value1 num="0x00"/><Value2 num="0x7F"/></Simple></Incoming>
 Incoming2=MID3<Incoming Action="MIDI"><Simple Type="NoteOn"><Channel num="0"/><Value1 num="0x01"/><Value2 num="0x00" Type="Any"/></Simple></Incoming>
+Incoming20=MID3<Incoming Action="MIDI"><Description>Down 0x61</Description><Simple Type="NoteOn"><Channel num="0"/><Value1 num="0x61"/><Value2 num="0x7F"/></Simple></Incoming>
+Incoming21=MID3<Incoming Action="MIDI"><Description>Down 0x62</Description><Simple Type="NoteOn"><Channel num="0"/><Value1 num="0x62"/><Value2 num="0x7F"/></Simple></Incoming>
+Incoming22=MID3<Incoming Action="MIDI"><Description>Down 0x63</Description><Simple Type="NoteOn"><Channel num="0"/><Value1 num="0x63"/><Value2 num="0x7F"/></Simple></Incoming>
+Incoming23=MID3<Incoming Action="MIDI"><Description>Down 0x68</Description><Simple Type="NoteOn"><Channel num="0"/><Value1 num="0x68"/><Value2 num="0x00" Type="Any"/></Simple></Incoming>
 Incoming3=MID3<Incoming Action="MIDI"><Simple Type="NoteOn"><Channel num="0"/><Value1 num="0x02"/><Value2 num="0x00" Type="Any"/></Simple></Incoming>
 Incoming4=MID3<Incoming Action="MIDI"><Simple Type="NoteOn"><Channel num="0"/><Value1 num="0x03"/><Value2 num="0x00" Type="Any"/></Simple></Incoming>
 Incoming5=MID3<Incoming Action="MIDI"><Simple Type="NoteOn"><Channel num="0"/><Value1 num="0x04"/><Value2 num="0x00" Type="Any"/></Simple></Incoming>
@@ -366,13 +374,21 @@ Incoming9=MID3<Incoming Action="MIDI"><Simple Type="NoteOn"><Channel num="0"/><V
 Name=Mode: Default Cuelists
 Name0=Stop All
 Name1=Default A - 1
-Name10=Default Party A - 1
-Name11=Default Party A - 2
-Name12=Default Party A - 3
-Name13=Default Party A - Go Next
-Name14=Default Chill - 1
-Name15=Default Chill - 2
+Name10=---------------------------
+Name11=Default Party A - 1
+Name12=Default Party A - 2
+Name13=Default Party A - 3
+Name14=Default Party A - Go Next
+Name15=---------------------------
+Name16=Default Chill - 1
+Name17=Default Chill - 2
+Name18=---------------------------
+Name19=[SMOKE] Slow
 Name2=Default A - 2
+Name20=[SMOKE] Normal
+Name21=[SMOKE] Fast
+Name22=[SMOKE] Always
+Name23=[SMOKE] Kill
 Name3=Default A - 3
 Name4=Default A - 4
 Name5=Default A - 5
@@ -382,13 +398,21 @@ Name8=Default A - 8
 Name9=Default A - Go Next
 Options0=Actv01Stop00OutO00StMa00000001if(ge!=2)noexecute
 Options1=Actv01Stop00OutO00StMa00000001if(ge!=2)noexecute
-Options10=Actv01Stop00OutO00StMa00000001if(ge!=2)noexecute
-Options11=Actv01Stop00OutO00StMa00000001if(ge!=2)noexecute
-Options12=Actv01Stop00OutO00StMa00000001if(ge!=2)noexecute
-Options13=Actv01Stop00OutO00StMa00000001if(ge!=2)noexecute
-Options14=Actv01Stop00OutO00StMa00000001if(ge!=2)noexecute
-Options15=Actv01Stop00OutO00StMa00000001if(ge!=2)noexecute
+Options10=Actv00Stop00OutO00
+Options11=Actv00Stop00OutO00StMa00000001if(ge!=2)noexecute
+Options12=Actv00Stop00OutO00StMa00000001if(ge!=2)noexecute
+Options13=Actv00Stop00OutO00StMa00000001if(ge!=2)noexecute
+Options14=Actv00Stop00OutO00StMa00000001if(ge!=2)noexecute
+Options15=Actv00Stop00OutO00
+Options16=Actv01Stop00OutO00StMa00000001if(ge!=2)noexecute
+Options17=Actv01Stop00OutO00StMa00000001if(ge!=2)noexecute
+Options18=Actv00Stop00OutO00
+Options19=Actv01Stop00OutO00StMa0017In correct mode (ge==1)0001if(ge!=2)noexecute
 Options2=Actv01Stop00OutO00StMa00000001if(ge!=2)noexecute
+Options20=Actv01Stop00OutO00StMa0017In correct mode (ge==1)0001if(ge!=2)noexecute
+Options21=Actv01Stop00OutO00StMa0017In correct mode (ge==1)0001if(ge!=2)noexecute
+Options22=Actv01Stop00OutO00StMa0017In correct mode (ge==1)0001if(ge!=2)noexecute
+Options23=Actv01Stop00OutO00StMa00000001if(ge!=2)noexecute
 Options3=Actv01Stop00OutO00StMa00000001if(ge!=2)noexecute
 Options4=Actv01Stop00OutO00StMa00000001if(ge!=2)noexecute
 Options5=Actv01Stop00OutO00StMa00000001if(ge!=2)noexecute
@@ -398,13 +422,21 @@ Options8=Actv01Stop00OutO00StMa00000001if(ge!=2)noexecute
 Options9=Actv01Stop00OutO00StMa00000001if(ge!=2)noexecute
 Outgoing0=MID3<Outgoing Action="MIDI"><Raw>F0 7F 01 02 01 1B 35 32 F7&#10;F0 7F 01 02 01 01 31 F7&#10;F0 7F 01 02 01 0B F7&#10;F0 7F 01 02 01 1C 35 32 F7</Raw></Outgoing>
 Outgoing1=MID3<Outgoing Action="MIDI"><Raw>F0 7F 01 02 01 1B 35 31 F7&#10;F0 7F 01 02 01 01 31 F7&#10;F0 7F 01 02 01 1C 35 31 F7</Raw></Outgoing>
-Outgoing10=MID3<Outgoing Action="MIDI"><Raw>F0 7F 01 02 01 1B 36 38 F7&#10;F0 7F 01 02 01 01 31 F7&#10;F0 7F 01 02 01 1C 36 38 F7</Raw></Outgoing>
-Outgoing11=MID3<Outgoing Action="MIDI"><Raw>F0 7F 01 02 01 1B 36 38 F7&#10;F0 7F 01 02 01 01 32 F7&#10;F0 7F 01 02 01 1C 36 38 F7</Raw></Outgoing>
-Outgoing12=MID3<Outgoing Action="MIDI"><Raw>F0 7F 01 02 01 1B 36 38 F7&#10;F0 7F 01 02 01 01 33 F7&#10;F0 7F 01 02 01 1C 36 38 F7</Raw></Outgoing>
-Outgoing13=MID3<Outgoing Action="MIDI"><Raw>F0 7F 01 02 01 1B 36 38 F7&#10;F0 7F 01 02 01 01 F7&#10;F0 7F 01 02 01 1C 36 38 F7</Raw></Outgoing>
-Outgoing14=MID3<Outgoing Action="MIDI"><Raw>F0 7F 01 02 01 1B 36 37 F7&#10;F0 7F 01 02 01 01 31 F7&#10;F0 7F 01 02 01 1C 36 37 F7</Raw></Outgoing>
-Outgoing15=MID3<Outgoing Action="MIDI"><Raw>F0 7F 01 02 01 1B 36 37 F7&#10;F0 7F 01 02 01 01 32 F7&#10;F0 7F 01 02 01 1C 36 37 F7</Raw></Outgoing>
+Outgoing10=None
+Outgoing11=MID3<Outgoing Action="MIDI"><Raw>F0 7F 01 02 01 1B 36 38 F7&#10;F0 7F 01 02 01 01 31 F7&#10;F0 7F 01 02 01 1C 36 38 F7</Raw></Outgoing>
+Outgoing12=MID3<Outgoing Action="MIDI"><Raw>F0 7F 01 02 01 1B 36 38 F7&#10;F0 7F 01 02 01 01 32 F7&#10;F0 7F 01 02 01 1C 36 38 F7</Raw></Outgoing>
+Outgoing13=MID3<Outgoing Action="MIDI"><Raw>F0 7F 01 02 01 1B 36 38 F7&#10;F0 7F 01 02 01 01 33 F7&#10;F0 7F 01 02 01 1C 36 38 F7</Raw></Outgoing>
+Outgoing14=MID3<Outgoing Action="MIDI"><Raw>F0 7F 01 02 01 1B 36 38 F7&#10;F0 7F 01 02 01 01 F7&#10;F0 7F 01 02 01 1C 36 38 F7</Raw></Outgoing>
+Outgoing15=None
+Outgoing16=MID3<Outgoing Action="MIDI"><Raw>F0 7F 01 02 01 1B 36 37 F7&#10;F0 7F 01 02 01 01 31 F7&#10;F0 7F 01 02 01 1C 36 37 F7</Raw></Outgoing>
+Outgoing17=MID3<Outgoing Action="MIDI"><Raw>F0 7F 01 02 01 1B 36 37 F7&#10;F0 7F 01 02 01 01 32 F7&#10;F0 7F 01 02 01 1C 36 37 F7</Raw></Outgoing>
+Outgoing18=None
+Outgoing19=MID3<Outgoing Action="MIDI"><Raw>F0 7F 01 02 01 1B 31 39 F7&#10;F0 7F 01 02 01 01 31 F7&#10;F0 7F 01 02 01 1C 31 39 F7</Raw></Outgoing>
 Outgoing2=MID3<Outgoing Action="MIDI"><Raw>F0 7F 01 02 01 1B 35 31 F7&#10;F0 7F 01 02 01 01 32 F7&#10;F0 7F 01 02 01 1C 35 31 F7</Raw></Outgoing>
+Outgoing20=MID3<Outgoing Action="MIDI"><Raw>F0 7F 01 02 01 1B 31 39 F7&#10;F0 7F 01 02 01 01 32 F7&#10;F0 7F 01 02 01 1C 31 39 F7</Raw></Outgoing>
+Outgoing21=MID3<Outgoing Action="MIDI"><Raw>F0 7F 01 02 01 1B 31 39 F7&#10;F0 7F 01 02 01 01 33 F7&#10;F0 7F 01 02 01 1C 31 39 F7</Raw></Outgoing>
+Outgoing22=MID3<Outgoing Action="MIDI"><Raw>F0 7F 01 02 01 1B 31 39 F7&#10;F0 7F 01 02 01 01 34 F7&#10;F0 7F 01 02 01 1C 31 39 F7</Raw></Outgoing>
+Outgoing23=MID3<Outgoing Action="MIDI"><Raw>F0 7F 01 02 01 1B 31 39 F7&#10;F0 7F 01 02 01 0B F7&#10;F0 7F 01 02 01 1C 31 39 F7</Raw></Outgoing>
 Outgoing3=MID3<Outgoing Action="MIDI"><Raw>F0 7F 01 02 01 1B 35 31 F7&#10;F0 7F 01 02 01 01 33 F7&#10;F0 7F 01 02 01 1C 35 31 F7</Raw></Outgoing>
 Outgoing4=MID3<Outgoing Action="MIDI"><Raw>F0 7F 01 02 01 1B 35 31 F7&#10;F0 7F 01 02 01 01 34 F7&#10;F0 7F 01 02 01 1C 35 31 F7</Raw></Outgoing>
 Outgoing5=MID3<Outgoing Action="MIDI"><Raw>F0 7F 01 02 01 1B 35 31 F7&#10;F0 7F 01 02 01 01 35 F7&#10;F0 7F 01 02 01 1C 35 31 F7</Raw></Outgoing>
@@ -415,7 +447,7 @@ Outgoing9=MID3<Outgoing Action="MIDI"><Raw>F0 7F 01 02 01 1B 35 31 F7&#10;F0 7F 
 PresetSwitchIgnore=0
 
 [Preset.4]
-Active=1
+Active=0
 Comments=
 Incoming0=MID3<Incoming Action="MIDI"><Simple Type="NoteOn"><Channel num="0"/><Value1 num="0x00"/><Value2 num="0x00" Type="Any"/></Simple></Incoming>
 Incoming1=MID3<Incoming Action="MIDI"><Simple Type="NoteOn"><Channel num="0"/><Value1 num="0x01"/><Value2 num="0x00" Type="Any"/></Simple></Incoming>
@@ -861,6 +893,6 @@ Version=2
 
 [Signatures]
 SigName-1=[Midi Translator Pro Internal]
-Signature-1=MRLsD8nktC+zuaIt2M+4tfzS6t7/o+3igZGSBmT2I8UqDlvaDiEz7SuJnOgvPF6NzW7o/T92vEJMNUhD9ZL/3ggQtbg6JZBcaNgi2Q4BDm89YEVMEnyY1v+0M8mENzu/hAI7SgP+uRoO3Iu5dnjfdwfmMYhiuB9tcqI1FtG7fHU=
+Signature-1=DW07vh/4IPL8dUwmfLyIVeP+9hUzwCTNMZmT9/fGxTtr84vOZtkIRnujuctyXy/JVXa3D6sYbjqLGRU1QMnVt/B98h3tSHnBqFMq+kCVV/EPxETsL4l4mu8/Jg8F1cDgsKBCwg9RQmZPUSMOkLaiUAqAGiaD6Y5kdodvOf6Rj8E=
 SignedBy-1=Jackson Zapata
 
